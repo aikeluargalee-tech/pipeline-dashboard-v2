@@ -1,6 +1,6 @@
 {
   "_comment": "Confidence Calibration Tracker. Updated quarterly. Auto-downgrade triggers when HIGH label drops below 65% for 30 days. Calibration: HIGH >=70% hit rate + >=30 trades, MEDIUM 50-70% + >=15 trades, LOW <50% or <15 trades.",
-  "last_updated": "2026-06-20T11:16:16.544152+00:00",
+  "last_updated": "2026-06-20T15:40:19.625762+00:00",
   "period_days": 90,
   "summary": {
     "HIGH": {
@@ -9,9 +9,9 @@
       "status": "NO_DATA"
     },
     "MEDIUM": {
-      "hit_rate": null,
-      "sample_size": 0,
-      "status": "NO_DATA"
+      "hit_rate": 0.0,
+      "sample_size": 1,
+      "status": "INSUFFICIENT_SAMPLE"
     },
     "LOW": {
       "hit_rate": null,
@@ -20,5 +20,5 @@
     }
   },
   "alerts": [],
-  "status": "NO_DATA \u2014 awaiting trade history. Requires minimum 15 trades per label over 90 days."
+  "status": "Active calibration check. HIGH rate: N/A (0 trades), MEDIUM rate: 0.0% (1 trades)."
 }

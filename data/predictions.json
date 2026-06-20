@@ -139,11 +139,12 @@
         "regime_label": "CAUTIOUS NEUTRAL"
       },
       "outcomes": {
-        "1d": null,
-        "7d": null,
-        "30d": null
+        "outcome": "loss",
+        "exit_price": 63261.0,
+        "resolved_at": "2026-06-20T14:00:00+00:00",
+        "price_change_pct": -1.0
       },
-      "resolved": false
+      "resolved": true
     },
     {
       "id": "regime_1212eb37",

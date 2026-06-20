@@ -1,319 +1,319 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/dashboard/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/dashboard/</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>always</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/methodology/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/methodology/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/glossary/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/glossary/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/verdicts/</loc>
-    <lastmod>2026-06-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/track-record/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/verdicts/</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/events-and-disruptions/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/track-record/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/events-and-disruptions/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/compare/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/compare/</loc>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/compare/gate0-vs-glassnode/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/compare/gate0-vs-glassnode/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/compare/gate0-vs-cryptoquant/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/compare/gate0-vs-coinglass/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/compare/gate0-vs-cryptoquant/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/faq/</loc>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/compare/gate0-vs-coinglass/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/faq/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/about/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/about/</loc>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/contact/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/contact/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/privacy/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/privacy/</loc>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/terms/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/terms/</loc>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/mvrv-z-score/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/mvrv-z-score/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/liquidation-magnets/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/liquidation-magnets/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/gate0-framework/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/gate0-framework/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/derivatives-positioning/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/derivatives-positioning/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-macro-correlation/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/bitcoin-macro-correlation/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/trading-sessions/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/trading-sessions/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/sopr-spending-behavior/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/sopr-spending-behavior/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/puell-multiple-miner-revenue/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/puell-multiple-miner-revenue/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/exchange-netflow-interpretation/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/exchange-netflow-interpretation/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-cycle-phases/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/bitcoin-cycle-phases/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/composite-cycle-score-methodology/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/composite-cycle-score-methodology/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/volume-profile-poc-vah-val/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/volume-profile-poc-vah-val/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/atr-weighted-support-resistance/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/atr-weighted-support-resistance/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/vice-grip-trapped-between-magnets/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/vice-grip-trapped-between-magnets/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/squeeze-vs-sweep-regimes/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/squeeze-vs-sweep-regimes/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/val-absorption-smart-money-detection/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/val-absorption-smart-money-detection/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/black-swan-detection-scoring/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/black-swan-detection-scoring/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/position-sizing-proceed-to-abort/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/position-sizing-proceed-to-abort/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/vix-bitcoin-spillover/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/vix-bitcoin-spillover/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/stablecoin-health-monitoring/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/stablecoin-health-monitoring/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/l1-manual-gate-human-override/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/l1-manual-gate-human-override/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/funding-rate-sentiment-gauge/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/funding-rate-sentiment-gauge/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/open-interest-accumulation-unwinding/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/open-interest-accumulation-unwinding/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/cvd-cumulative-volume-delta/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/cvd-cumulative-volume-delta/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/long-short-ratio-top-traders/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/long-short-ratio-top-traders/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/taker-buy-sell-ratio/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/taker-buy-sell-ratio/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/dxy-bitcoin-inverse-correlation/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/dxy-bitcoin-inverse-correlation/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/treasury-yields-risk-free-pressure/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/treasury-yields-risk-free-pressure/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-etf-flow-tracking/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/bitcoin-etf-flow-tracking/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/m2-money-supply-liquidity/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/m2-money-supply-liquidity/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/risk-asset-correlation-spy-qqq/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/risk-asset-correlation-spy-qqq/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/breakout-retest-lifecycle/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/breakout-retest-lifecycle/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/breakdown-retest-bearish-mirror/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/breakdown-retest-bearish-mirror/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/weekend-trading-noisier-signals/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/weekend-trading-noisier-signals/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/signal-tracking-win-loss-expired/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/signal-tracking-win-loss-expired/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard/research/golden-window-ny-open/</loc>
+    <loc>https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/research/golden-window-ny-open/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
