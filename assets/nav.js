@@ -3,7 +3,9 @@
 // Falls back to static HTML in <noscript> for crawlers.
 
 (function() {
-  const BASE = '/pipeline-dashboard';
+  const BASE = window.location.pathname.startsWith('/pipeline-dashboard-v2') 
+    ? '/pipeline-dashboard-v2' 
+    : (window.location.pathname.startsWith('/pipeline-dashboard') ? '/pipeline-dashboard' : '');
 
   // Inject Google Fonts if not already present
   if (!document.querySelector('link[href*="fonts.googleapis.com"]')) {

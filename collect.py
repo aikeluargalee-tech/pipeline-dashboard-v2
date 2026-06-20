@@ -237,7 +237,15 @@ def write_sitemap():
     """Regenerate sitemap.xml with current timestamp for AI crawler freshness signals."""
     from datetime import datetime, timezone
     today_iso = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    
     base = "https://aikeluargalee-tech.github.io/pipeline-dashboard"
+    try:
+        remote_url = subprocess.check_output(["git", "remote", "get-url", "origin"], text=True, stderr=subprocess.DEVNULL).strip()
+        match = re.search(r'/([^/]+?)(?:\.git)?$', remote_url)
+        if match:
+            base = f"https://aikeluargalee-tech.github.io/{match.group(1)}"
+    except Exception:
+        pass
 
     # Static pages with their relative paths and priorities
     pages = [
