@@ -1,0 +1,42 @@
+{
+  "ma50": 72450.36,
+  "ma60": 73279.09,
+  "rsi_14": 60.5,
+  "bb_upper": 68717.02,
+  "bb_lower": 59472.0,
+  "bb_width": 14.42,
+  "bb_mid": 64094.51,
+  "atr_14": 2010.82,
+  "atr_pct": 3.16,
+  "change_7d": -1.23,
+  "change_30d": -17.97,
+  "price": 63666.05,
+  "options_skew": {
+    "timestamp": "2026-06-20 11:05 UTC",
+    "spot": 63628.42,
+    "skew_25d": -7.3,
+    "put_25d_iv": 41.8,
+    "call_25d_iv": 34.4,
+    "put_name": "BTC-10JUL26-60000-P",
+    "call_name": "BTC-10JUL26-67000-C",
+    "label": "Elevated hedging \u2014 institutions buying downside protection",
+    "emoji": "\ud83d\udfe1",
+    "display": "\ud83d\udfe1 Options skew (25\u0394): -7.3% \u2014 elevated hedging \u2014 institutions buying downside protection"
+  },
+  "gamma": {
+    "timestamp": "2026-06-20 10:06 UTC",
+    "spot": 63701.77,
+    "call_wall": 70000,
+    "call_wall_oi": 11025.1,
+    "put_wall": 60000,
+    "put_wall_oi": 19919.600000000002,
+    "call_wall_pct": 9.89,
+    "put_wall_pct": -5.81,
+    "gamma_bias": "SHORT",
+    "gamma_effect": "AMPLIFIED (breakout-prone)",
+    "call_oi_total": 52109.5,
+    "put_oi_total": 85489.8,
+    "options_scanned": 420
+  },
+  "_collected": "2026-06-20 11:16 UTC"
+}

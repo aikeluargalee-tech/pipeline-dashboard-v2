@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stablecoin Health: Why USDT/USDC Depeg Matters | Pipeline Dashboard</title>
+<meta name="description" content="Stablecoin depegs are a leading indicator of crypto-specific systemic risk. Learn how Gate0 monitors USDT and USDC and why deviation > 2% triggers ABORT.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/stablecoin-health-monitoring/">
+<meta property="og:title" content="Stablecoin Health: Why USDT/USDC Depeg Matters">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Stablecoin Health: Why USDT/USDC Depeg Matters","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/stablecoin-health-monitoring/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/stablecoin-health-monitoring/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Stablecoin Health</div>
+  <article class="article-body">
+    <h1>Stablecoin Health: Why USDT/USDC Depeg Matters</h1>
+    <div class="article-meta">Risk Frameworks · 5 min read</div>
+
+    <p>Stablecoins are the plumbing of crypto. When USDT or USDC loses its dollar peg, it's like the pipes bursting — everything connected gets damaged. Gate0's stablecoin module monitors peg stability as a crypto-specific systemic risk indicator.</p>
+
+    <h2>Why Stablecoins Matter for BTC</h2>
+    <p>Most Bitcoin trading pairs are quoted in stablecoins (BTCUSDT, BTCUSDC). If the stablecoin depegs, the BTC price you see is distorted — a USDT at $0.95 makes BTC appear 5% cheaper than it is. More importantly, depeg events trigger panic selling across the entire crypto market, including BTC.</p>
+
+    <h2>Historical Depeg Events</h2>
+    <ul>
+      <li><strong>UST collapse (May 2022):</strong> Terra's algorithmic stablecoin depegged from $1 to $0.01. BTC dropped 30% in a week as the contagion spread.</li>
+      <li><strong>USDC depeg (March 2023):</strong> SVB bankruptcy caused USDC to drop to $0.87. BTC temporarily spiked on USDC pairs (distorted price) before correcting.</li>
+      <li><strong>USDT brief depeg (June 2022):</strong> USDT dropped to $0.95 during the Celsius crisis. Brief but alarming.</li>
+    </ul>
+
+    <h2>Gate0 Thresholds</h2>
+    <p>The stablecoin module monitors each major stablecoin's deviation from $1:</p>
+    <ul>
+      <li><strong>Deviation > 2% → ABORT:</strong> Severe depeg. The dollar backing crypto trades is broken. Flatten everything.</li>
+      <li><strong>Deviation > 0.5% → PAUSE:</strong> Significant stress. No new positions.</li>
+      <li><strong>Deviation < 0.5% → PROCEED:</strong> Normal.</li>
+    </ul>
+
+    <h2>How It's Monitored</h2>
+    <p>The dashboard reads stablecoin state from <code>/tmp/btc_stablecoin_state.json</code>, which tracks USDT and USDC market cap trends and price deviations. The Gate0 module iterates through all tracked stablecoins and uses the most restrictive state.</p>
+
+    <div class="callout info">
+      <strong>Early warning:</strong>
+      Stablecoin depegs often precede broader crypto market stress. If USDT starts drifting even 0.3% from $1, it's worth paying attention — the 0.5% PAUSE threshold may not be far behind.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../gate0-framework/">Gate0 Framework pillar</a></li>
+      <li><a href="../black-swan-detection-scoring/">Black Swan Detection</a></li>
+      <li><a href="../../glossary/#gate0">Gate0 glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

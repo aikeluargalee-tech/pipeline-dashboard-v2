@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golden Window: The NY Open Trading Session | Pipeline Dashboard</title>
+<meta name="description" content="The NY open at 9:30 AM ET is the highest-impact session for Bitcoin. Learn why the 3 hours after NY open are the golden window for execution.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/golden-window-ny-open/">
+<meta property="og:title" content="Golden Window: The NY Open Trading Session">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Golden Window: The NY Open Trading Session","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/golden-window-ny-open/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/golden-window-ny-open/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Golden Window</div>
+  <article class="article-body">
+    <h1>Golden Window: The NY Open Trading Session</h1>
+    <div class="article-meta">Trading Execution · 6 min read</div>
+
+    <p>The New York stock market open at 9:30 AM ET is the single most important time for Bitcoin trading. Institutional flows, ETF trading, and macro data releases all converge at this moment. The 3 hours following NY open are the "golden window" — the highest-probability execution time.</p>
+
+    <h2>Why NY Open Matters for BTC</h2>
+    <ul>
+      <li><strong>ETF trading begins:</strong> Spot ETFs (IBIT, FBTC, etc.) start trading — the largest source of institutional BTC demand</li>
+      <li><strong>Macro data releases:</strong> CPI, FOMC, jobless claims, GDP — all released near NY open</li>
+      <li><strong>Institutional flows:</strong> US-based funds, corporate treasuries, and family offices execute at NY open</li>
+      <li><strong>True trend established:</strong> The direction set during NY session typically holds for the day</li>
+    </ul>
+
+    <h2>The Golden Window</h2>
+    <p>The 3 hours after NY open (9:30 AM - 12:30 PM ET) are the golden window. During this time:</p>
+    <ul>
+      <li>Liquidity is at its highest — tighter spreads, less slippage</li>
+      <li>Signals have higher confidence — volume confirmation is easier to achieve</li>
+      <li>Trend direction is established — less chop, more follow-through</li>
+    </ul>
+
+    <h2>The Trap Zone</h2>
+    <p>The 2 hours <em>before</em> NY open are the "trap zone." Liquidity is thin, moves are often fakeouts designed to trap early entrants. The dashboard's signal monitors enforce a thin-hours filter: during 00:00-06:00 UTC, signals require minimum volume (50 BTC per 15m candle) to be valid.</p>
+
+    <h2>DST Handling</h2>
+    <p>The dashboard correctly handles US Daylight Saving Time for NY open computation:</p>
+    <ul>
+      <li><strong>EDT (summer):</strong> NY open = 13:30 UTC (2nd Sunday March to 1st Sunday November)</li>
+      <li><strong>EST (winter):</strong> NY open = 14:30 UTC</li>
+    </ul>
+    <p>The DST formula in <code>collect_gate0()</code> finds the 2nd Sunday of March and 1st Sunday of November automatically, using weekday arithmetic.</p>
+
+    <h2>Session Clocks on the Dashboard</h2>
+    <p>The dashboard displays live clocks for five trading centers: NY, London, Dubai, Singapore, and Tokyo. The active session is highlighted. When NY is active, you know the golden window is open.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../trading-sessions/">Trading Sessions pillar</a></li>
+      <li><a href="../weekend-trading-noisier-signals/">Weekend Trading</a></li>
+      <li><a href="../breakout-retest-lifecycle/">Breakout-Retest lifecycle</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trading Sessions: When Bitcoin Moves Most | Pipeline Dashboard</title>
+<meta name="description" content="NY, London, and Asia trading sessions — when Bitcoin liquidity is highest, when signals are noisier, and why the golden window matters for execution.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/trading-sessions/">
+<meta property="og:title" content="Trading Sessions: When Bitcoin Moves Most">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Trading Sessions: When Bitcoin Moves Most","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/trading-sessions/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/trading-sessions/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Trading Sessions</div>
+  <article class="article-body">
+    <h1>Trading Sessions: When Bitcoin Moves Most</h1>
+    <div class="article-meta">Pillar article · Trading Execution cluster · 7 min read</div>
+
+    <p>Bitcoin trades 24/7, but not all hours are equal. Liquidity, volatility, and signal quality vary dramatically by session. The Pipeline Dashboard's <a href="../gate0-framework/">Gate0 session module</a> tracks five global trading centers and adjusts risk based on when you're trading.</p>
+
+    <h2>The Five Sessions</h2>
+    <p>The dashboard displays live clocks for five major trading centers:</p>
+    <ul>
+      <li><strong>New York (NY):</strong> 9:30 AM - 4:00 PM ET. The highest-impact session for BTC — institutional flows, ETF trading, and macro data releases.</li>
+      <li><strong>London:</strong> 8:00 AM - 4:30 PM GMT. The "Judas Swing" session — stop-runs and fake breaks are common at London open.</li>
+      <li><strong>Dubai:</strong> 10:00 AM - 2:00 PM GST. Bridge between Asia and Europe.</li>
+      <li><strong>Singapore:</strong> 9:00 AM - 5:00 PM SGT. Asian institutional hub.</li>
+      <li><strong>Tokyo:</strong> 9:00 AM - 3:00 PM JST. Retail-heavy, lower follow-through.</li>
+    </ul>
+
+    <h2>The Golden Window</h2>
+    <p>The NY open (9:30 AM ET) is the single most important time for Bitcoin. This is when:</p>
+    <ul>
+      <li>US institutional flows begin (ETF trading, corporate treasury moves)</li>
+      <li>Macro data is released (CPI, FOMC, jobless claims)</li>
+      <li>The true trend for the day is established</li>
+    </ul>
+    <p>The 3 hours following NY open are the "golden window" — the highest-probability execution time. Signals generated during this window have higher confidence.</p>
+
+    <h2>The Trap Zone</h2>
+    <p>The 2 hours <em>before</em> NY open are the "trap zone." Liquidity is thin, moves are often fakeouts designed to trap early entrants. The dashboard's signal detection includes a thin-hours filter: during 00:00-06:00 UTC, signals require minimum volume (50 BTC per 15m candle) to be considered valid.</p>
+
+    <h2>Weekend Trading</h2>
+    <p>Weekend trading is structurally different:</p>
+    <ul>
+      <li>Lower liquidity — thinner order books</li>
+      <li>No institutional flows — ETFs don't trade</li>
+      <li>No macro data — weekend moves are crypto-internal</li>
+      <li>Noisier derivatives signals — funding rates and OI are less reliable</li>
+    </ul>
+    <p>The Gate0 session module automatically downgrades to TIGHTENED on weekends. Treat weekend signals with extra skepticism.</p>
+
+    <h2>Session-Aware Signal Detection</h2>
+    <p>The dashboard's signal monitors (VAL Absorption, Breakout-Retest, Breakdown-Retest) are session-aware:</p>
+    <ul>
+      <li>During thin hours (00:00-06:00 UTC), minimum volume thresholds are enforced</li>
+      <li>Breakout/breakdown detection requires volume confirmation (taker ratio + CVD)</li>
+      <li>Space requirements (0.5x ATR) prevent entries in compressed ranges</li>
+    </ul>
+
+    <h2>DST Handling</h2>
+    <p>The dashboard correctly handles US Daylight Saving Time for NY open computation. NY open is 13:30 UTC during EDT (summer) and 14:30 UTC during EST (winter). The DST formula finds the 2nd Sunday of March and 1st Sunday of November automatically.</p>
+
+    <div style="margin-top:32px;display:flex;gap:12px;justify-content:center">
+      <a href="../../dashboard/" class="cta-button primary">View Live Session Clocks →</a>
+      <a href="../mvrv-z-score/" class="cta-button secondary">Back to MVRV Z-Score →</a>
+    </div>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

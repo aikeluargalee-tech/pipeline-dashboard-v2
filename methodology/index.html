@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology — 6-Layer Bitcoin Analysis Framework | Pipeline Dashboard</title>
+<meta name="description" content="The Gate0 methodology: a 6-layer Bitcoin analysis framework where macro sets the wind, structure provides the physics, derivatives show positioning, and cycle context reveals where we are in time. Each layer can only override layers above it.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/methodology/">
+<meta property="og:title" content="Methodology — 6-Layer Bitcoin Analysis Framework">
+<meta property="og:type" content="article">
+<meta property="og:description" content="The Gate0 methodology: macro-first, multi-layer Bitcoin analysis with verdict ceiling logic and position sizing rules.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Methodology — 6-Layer Bitcoin Analysis Framework",
+  "description": "The Gate0 methodology: a 6-layer Bitcoin analysis framework with verdict ceiling logic.",
+  "url": "https://aikeluargalee-tech.github.io/pipeline-dashboard/methodology/"
+}
+</script>
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<main class="page-container">
+  <div class="breadcrumb"><a href="../">Home</a><span>›</span> Methodology</div>
+
+  <article class="article-body">
+    <h1>Methodology — The 6-Layer Framework</h1>
+    <div class="article-meta">How the Pipeline Dashboard synthesizes Bitcoin market intelligence</div>
+
+    <p>Most BTC dashboards lead with price, then layer on indicators as decoration. This one leads with <strong>structure</strong> and treats price as the last variable, not the first. The pipeline runs in strict order, and each layer can only override the layers above it — never the layers below.</p>
+
+    <blockquote>TA is intentionally last and de-emphasized. It cannot generate a signal on its own — it can only confirm or contradict the layers above it. If your read on BTC starts with the chart, you're already wrong about what matters.</blockquote>
+
+    <h2>The Layer Stack</h2>
+
+    <div style="display:flex;flex-direction:column;gap:12px;margin:24px 0">
+      <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px;border-left:3px solid var(--red)">
+        <span style="background:linear-gradient(135deg,var(--red),#dc2626);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L0</span>
+        <div><strong>Gatekeeper</strong> — Can veto EVERYTHING. Five independent risk modules.</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px;border-left:3px solid var(--blue)">
+        <span style="background:linear-gradient(135deg,var(--blue),#6366f1);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L1</span>
+        <div><strong>Macro & Speculation</strong> — Sets the wind. DXY, yields, M2, VIX, ETF flows.</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px;border-left:3px solid var(--blue)">
+        <span style="background:linear-gradient(135deg,var(--blue),#6366f1);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L2</span>
+        <div><strong>Structural Liquidity</strong> — Physics, not opinion. Where will price be forced to go?</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px;border-left:3px solid var(--blue)">
+        <span style="background:linear-gradient(135deg,var(--blue),#6366f1);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L3</span>
+        <div><strong>Derivatives</strong> — Who's positioned which way, and how stretched.</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px;border-left:3px solid var(--blue)">
+        <span style="background:linear-gradient(135deg,var(--blue),#6366f1);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L4</span>
+        <div><strong>Cycle Context</strong> — Where are we in the 4-year cycle?</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px;border-left:3px solid var(--muted);opacity:0.7">
+        <span style="background:var(--muted);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">TA</span>
+        <div><strong>Technical Analysis</strong> — Context only, last priority. Lagging indicators.</div>
+      </div>
+    </div>
+
+    <h2>L0 — Gatekeeper</h2>
+    <p>The Gatekeeper is a pre-trade risk filter. Five independent modules each monitor a different category of systemic risk. Each module can push the gate to one of four states:</p>
+    <ul>
+      <li><strong>🟢 PROCEED</strong> — Full size, normal rules</li>
+      <li><strong>🟡 TIGHTENED</strong> — Max 10x, half size, tight stops</li>
+      <li><strong>🟠 PAUSE</strong> — Close only, no new entries</li>
+      <li><strong>🔴 ABORT</strong> — Flatten everything, do not open the app</li>
+    </ul>
+
+    <h3>The Five Modules</h3>
+    <ul>
+      <li><strong>Black Swan</strong> — Composite tail-risk score (0–17): VIX term inversion, DXY spike, funding extremes, stablecoin depeg, exchange anomalies. Score ≥ 12 → ABORT, ≥ 8 → PAUSE, ≥ 5 → TIGHTENED.</li>
+      <li><strong>VIX/SPX</strong> — VIX level + SPX/RSI divergence. VIX > 40 → ABORT, > 30 → PAUSE, > 22 → TIGHTENED.</li>
+      <li><strong>AI-3 Wave</strong> — Hyperscaler capex / capex-to-revenue divergence (the "AI bubble" proxy). Active → TIGHTENED.</li>
+      <li><strong>Stablecoins</strong> — USDT + USDC market cap trend and velocity. Deviation > 2% → ABORT, > 0.5% → PAUSE.</li>
+      <li><strong>Session</strong> — Time-of-day / day-of-week liquidity regime. Weekend → TIGHTENED.</li>
+    </ul>
+
+    <div class="callout warning">
+      <strong>Trigger order matters.</strong>
+      If Black Swan scores ≥ 4 or AI-3 wave flips active, the gate moves to TIGHTENED regardless of other modules. PAUSE/ABORT requires two or more modules in escalation.
+    </div>
+
+    <h2>L1 — Macro & Speculation</h2>
+    <p>The wind, not the sail. This layer tracks the macroeconomic environment that all risk assets — including Bitcoin — operate within.</p>
+    <ul>
+      <li><strong>DXY (US Dollar Index)</strong> — DXY < 100 = BTC tailwind, > 105 = headwind</li>
+      <li><strong>US 10Y Treasury Yield</strong> — < 4.0% = risk-on, > 5.0% = risk-off</li>
+      <li><strong>M2 Money Supply</strong> — Liquidity expansion/contraction</li>
+      <li><strong>VIX</strong> — Equity volatility spillover. < 18 = risk-on, > 25 = risk-off</li>
+      <li><strong>Risk Assets</strong> — SPY, QQQ, GLD correlation</li>
+      <li><strong>ETF Flows</strong> — Daily/weekly net inflows/outflows</li>
+      <li><strong>News Feed</strong> — Last 5 macro-relevant headlines, deduplicated</li>
+    </ul>
+    <p>The macro regime is classified as <strong>risk-on</strong>, <strong>risk-off</strong>, <strong>mild-risk-on</strong>, <strong>mild-risk-off</strong>, or <strong>mixed</strong> based on how many signals lean bullish vs bearish.</p>
+
+    <h2>L2 — Structural Liquidity</h2>
+    <p>"Physics, not opinion." This layer answers: <em>where will price be forced to go?</em></p>
+
+    <h3>Liquidation Magnets</h3>
+    <p>Leverage clusters act as price magnets — price gets pulled toward areas where liquidations will cascade. We track the nearest above and below clusters and compute "sandwich geometry":</p>
+    <ul>
+      <li><strong>Vice Grip ⚡</strong> — Price compressed within $500 of both magnets. High volatility imminent.</li>
+      <li><strong>Upside Squeeze</strong> — Above magnet is much closer. Short squeeze likely.</li>
+      <li><strong>Downside Sweep</strong> — Below magnet is much closer. Long liquidation likely.</li>
+      <li><strong>Balanced</strong> — Magnets equidistant. No clear directional pull.</li>
+    </ul>
+
+    <h3>Volume Profile</h3>
+    <p>Built from 7 days of 1-hour Binance klines. Identifies the <strong>Point of Control (POC)</strong> — the price level with highest volume — and the <strong>Value Area</strong> containing 70% of volume (VAH = Value Area High, VAL = Value Area Low).</p>
+
+    <h3>Signal Monitors</h3>
+    <p>Three active setup detectors run continuously:</p>
+    <ul>
+      <li><strong>VAL Absorption</strong> — Detects when price tests the Value Area Low with declining volume and CVD holding. Signals institutional accumulation.</li>
+      <li><strong>Breakout-Retest</strong> — Tracks resistance breaks through full lifecycle: breakout detected → retest in progress → bounce confirmed → entry signal.</li>
+      <li><strong>Breakdown-Retest</strong> — Bearish mirror: support break → retest from below → rejection confirmed → short entry.</li>
+    </ul>
+    <p>Each monitor runs even when no signal is active, so you can see what the system is <em>looking for</em> — not just what it found.</p>
+
+    <h2>L3 — Derivatives</h2>
+    <p>Real-time positioning. Who's leaning which way, and how stretched.</p>
+    <ul>
+      <li><strong>Funding Rate</strong> — Perpetual futures sentiment. > 0.03% = longs crowded (OVERHEATED), < -0.03% = shorts paying (BULLISH).</li>
+      <li><strong>Open Interest</strong> — With accumulating/unwinding/stable badge based on 24h trend.</li>
+      <li><strong>CVD (Cumulative Volume Delta)</strong> — Net taker buy/sell volume over 24h. Trend: strengthening/weakening/flat.</li>
+      <li><strong>Long/Short Ratio</strong> — Top trader account positioning.</li>
+      <li><strong>Taker Buy/Sell Ratio</strong> — Real-time order flow pressure.</li>
+      <li><strong>Coinbase Premium</strong> — Spot price difference on Coinbase vs other exchanges.</li>
+    </ul>
+
+    <h2>L4 — Cycle Context</h2>
+    <p>Weekly and monthly view. Where are we in the 4-year cycle?</p>
+    <ul>
+      <li><strong>MVRV Z-Score</strong> — Market Value to Realized Value ratio. < 0 = accumulation, > 4 = cycle top.</li>
+      <li><strong>SOPR</strong> — Spent Output Profit Ratio. < 1 = holders selling at a loss (capitulation), > 1.05 = profit-taking.</li>
+      <li><strong>Puell Multiple</strong> — Miner revenue vs 365-day average. < 0.5 = capitulation, > 4 = overheated.</li>
+      <li><strong>Exchange Netflow (7d)</strong> — Net BTC flowing in/out of exchanges. Negative = outflow (bullish).</li>
+    </ul>
+    <p>These metrics are synthesized into a <strong>composite cycle score</strong> (0-100) and a cycle phase label: ACCUMULATION, EARLY BULL, MID BULL, OVERHEATED, or CYCLE TOP.</p>
+
+    <div class="callout info">
+      <strong>Timescale weighting.</strong>
+      Cycle data is monthly-scale and gets 0.5x weight in the synthesis. It cannot outvote live structural events. A bullish cycle reading doesn't override an active Downside Sweep.
+    </div>
+
+    <h2>Regime Synthesis</h2>
+    <p>All layers combine into a single verdict with position-sizing rules:</p>
+    <ol>
+      <li>Start with the gate verdict. If ABORT, synthesis is ABORT.</li>
+      <li>Tally layer verdicts: bullish (🟢), neutral (🟡), bearish (🔴).</li>
+      <li>Cycle layer gets 0.5x weight (months-scale can't outvote live events).</li>
+      <li>Active structural monitors cap the ceiling: bullish can't coexist with Downside Sweep.</li>
+      <li>Output: BULLISH, CAUTIOUS BULL, NEUTRAL, CAUTIOUS BEAR, BEARISH, STAND ASIDE, or DO NOT TRADE.</li>
+    </ol>
+
+    <h2>Confidence Calibration</h2>
+    <p>Every monitor and the gate itself emit a HIGH, MEDIUM, or LOW confidence label. Calibration is based on empirical hit rates:</p>
+    <ul>
+      <li><strong>HIGH</strong> — ≥ 70% hit rate over 90 days, ≥ 30 trades</li>
+      <li><strong>MEDIUM</strong> — 50-70% over 90 days, ≥ 15 trades</li>
+      <li><strong>LOW</strong> — < 50% or < 15 trades</li>
+    </ul>
+    <p>If a HIGH label drops below 65% for 30 days, it's auto-downgraded to MEDIUM.</p>
+
+    <h2>Known Failure Modes</h2>
+    <div class="callout danger">
+      <strong>This system will be wrong sometimes. Here's when:</strong>
+    </div>
+    <ul>
+      <li><strong>Sudden liquidity shocks</strong> (exchange hack, stable depeg) — Black Swan catches some, not all.</li>
+      <li><strong>Regime change at cycle boundary</strong> — The 4-year cycle model may not anticipate structural breaks (e.g., spot ETF era).</li>
+      <li><strong>Weekend illiquidity</strong> — Derivatives signals are noisier. Treat weekend signals with extra skepticism.</li>
+      <li><strong>Correlation breakdown</strong> — During acute risk-off (e.g., COVID March 2020), BTC can decouple from DXY for weeks.</li>
+    </ul>
+
+    <div style="margin-top:40px;padding:24px;background:var(--card);border:1px solid var(--border);border-radius:12px;text-align:center">
+      <p style="margin-bottom:16px">Ready to see it in action?</p>
+      <a href="../dashboard/" class="cta-button primary">View Live Dashboard →</a>
+    </div>
+  </article>
+</main>
+
+<div id="footer-placeholder"></div>
+<script src="../assets/nav.js"></script>
+</body>
+</html>

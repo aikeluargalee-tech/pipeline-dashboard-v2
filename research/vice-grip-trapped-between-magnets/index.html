@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vice Grip: When Bitcoin Is Trapped Between Magnets | Pipeline Dashboard</title>
+<meta name="description" content="The Vice Grip regime occurs when Bitcoin is compressed within $500 of both liquidation magnets. Learn why this signals imminent high volatility and how to trade it.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/vice-grip-trapped-between-magnets/">
+<meta property="og:title" content="Vice Grip: When Bitcoin Is Trapped Between Magnets">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Vice Grip: When Bitcoin Is Trapped Between Magnets","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/vice-grip-trapped-between-magnets/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/vice-grip-trapped-between-magnets/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Vice Grip</div>
+  <article class="article-body">
+    <h1>Vice Grip: When Bitcoin Is Trapped Between Magnets</h1>
+    <div class="article-meta">Structural Liquidity · 5 min read</div>
+
+    <p>The Vice Grip is the most volatile of the four liquidation magnet regimes. It occurs when Bitcoin's price is compressed within $500 of both the above and below liquidation clusters simultaneously. Something has to give — and it usually does, violently.</p>
+
+    <h2>What Causes a Vice Grip</h2>
+    <p>Liquidation clusters form where leveraged traders have their liquidation prices. When both the above cluster (short liquidations) and below cluster (long liquidations) are within $500 of current price, price is "trapped" — any move triggers cascading liquidations in one direction.</p>
+
+    <h2>How the Dashboard Detects It</h2>
+    <p>The <code>collect_structural()</code> function computes sandwich geometry from heatmap data. When <code>width_usd ≤ 500</code> (the distance between above and below magnets), the regime is classified as Vice Grip.</p>
+
+    <h2>Trading Implications</h2>
+    <div class="callout warning">
+      <strong>High risk:</strong>
+      A Vice Grip means a large move is imminent, but the direction is uncertain. This is not the time for large positions — it's the time to wait for direction confirmation.
+    </div>
+    <ul>
+      <li><strong>Reduce position size</strong> — volatility is about to spike</li>
+      <li><strong>Wait for breakout</strong> — let the cascade happen, then enter on retest</li>
+      <li><strong>Watch CVD</strong> — the direction of taker flow often predicts which way the cascade goes</li>
+    </ul>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../liquidation-magnets/">Liquidation Magnets pillar</a></li>
+      <li><a href="../squeeze-vs-sweep-regimes/">Squeeze vs Sweep regimes</a></li>
+      <li><a href="../../glossary/#liquidation-magnet">Liquidation Magnet glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

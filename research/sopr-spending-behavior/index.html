@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOPR: When Bitcoin Holders Spend at a Loss | Pipeline Dashboard</title>
+<meta name="description" content="SOPR (Spent Output Profit Ratio) shows whether Bitcoin holders are selling at profit or loss. Learn how to read SOPR as a cycle indicator and capitulation signal.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/sopr-spending-behavior/">
+<meta property="og:title" content="SOPR: When Bitcoin Holders Spend at a Loss">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"SOPR: When Bitcoin Holders Spend at a Loss","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/sopr-spending-behavior/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/sopr-spending-behavior/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> SOPR</div>
+  <article class="article-body">
+    <h1>SOPR: When Bitcoin Holders Spend at a Loss</h1>
+    <div class="article-meta">On-Chain Valuation · 6 min read · Part of the <a href="../mvrv-z-score/">on-chain valuation</a> cluster</div>
+
+    <p>SOPR (Spent Output Profit Ratio) answers a simple question: are Bitcoin holders selling their coins at a profit or a loss? It's one of three on-chain metrics feeding the Pipeline Dashboard's <a href="../../glossary/#composite-score">composite cycle score</a>, alongside <a href="../../glossary/#mvrv-z-score">MVRV Z-Score</a> and <a href="../../glossary/#puell-multiple">Puell Multiple</a>.</p>
+
+    <h2>What SOPR Measures</h2>
+    <p>SOPR is the ratio of realized value to spent value for all coins that moved on a given day. In plain terms: it divides the price at which coins were sold by the price at which they were last bought. A SOPR of 1.0 means holders are breaking even. Above 1.0 means they're selling at a profit. Below 1.0 means they're selling at a loss.</p>
+
+    <h2>Reading the Dashboard</h2>
+    <p>The Pipeline Dashboard classifies SOPR into four zones:</p>
+    <ul>
+      <li><strong>Below 0.95 (Capitulation):</strong> Holders are selling at significant losses. This historically marks cycle bottoms — the people who give up at a loss are the ones who fuel the recovery.</li>
+      <li><strong>0.95 to 1.0 (Neutral spending):</strong> Holders are roughly breaking even. Market is in equilibrium.</li>
+      <li><strong>1.0 to 1.05 (Normal profit-taking):</strong> Healthy bull market behavior. Some holders take profits, but not aggressively.</li>
+      <li><strong>Above 1.05 (Aggressive profit-taking):</strong> Holders are selling heavily into strength. This can signal a local top — too many sellers at once.</li>
+    </ul>
+
+    <h2>How SOPR Feeds the Composite Score</h2>
+    <p>In the dashboard's <code>compute_composite_score()</code> function, SOPR is normalized to a 0-100 scale:</p>
+    <ul>
+      <li>0.6-0.8 → 0-20 (deep capitulation, low score)</li>
+      <li>0.8-1.0 → 20-40 (near breakeven)</li>
+      <li>1.0-1.5 → 40-70 (normal to elevated profit-taking)</li>
+      <li>1.5-2.0 → 70-100 (aggressive profit-taking, high score)</li>
+    </ul>
+    <p>The composite score averages this with MVRV Z-Score and Puell Multiple to produce a single cycle positioning metric.</p>
+
+    <h2>The SOPR Reset Pattern</h2>
+    <p>During bull markets, SOPR typically oscillates above 1.0. When it dips to exactly 1.0 and bounces, it's called a "SOPR reset" — holders who were underwater have finished selling, and the market can resume its uptrend. Multiple SOPR resets during a bull market are healthy.</p>
+    <p>When SOPR drops below 1.0 and stays there, it signals a regime shift — the market has turned bearish and holders are consistently selling at a loss.</p>
+
+    <div class="callout info">
+      <strong>Relationship to MVRV:</strong>
+      While MVRV measures the <em>potential</em> for profit-taking (how far market cap is above realized cap), SOPR measures <em>actual</em> profit-taking (what holders are doing right now). Together they give a complete picture.
+    </div>
+
+    <h2>Limitations</h2>
+    <ul>
+      <li>SOPR is daily data — it lags intraday moves</li>
+      <li>It doesn't distinguish between small and large holders — a whale selling at a loss has different implications than retail</li>
+      <li>During extreme volatility, SOPR can spike or crash rapidly, making interpretation harder</li>
+    </ul>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../mvrv-z-score/">MVRV Z-Score: The Ultimate Bitcoin Valuation Metric</a></li>
+      <li><a href="../../glossary/#sopr">SOPR glossary entry</a></li>
+      <li><a href="../../dashboard/#card-onchain">Live SOPR data</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breakout-Retest: The Full Setup Lifecycle | Pipeline Dashboard</title>
+<meta name="description" content="The breakout-retest setup tracks resistance breaks through their full lifecycle: breakout detected, retest in progress, bounce confirmed, entry signal. Learn how the dashboard detects and tracks these setups.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/breakout-retest-lifecycle/">
+<meta property="og:title" content="Breakout-Retest: The Full Setup Lifecycle">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Breakout-Retest: The Full Setup Lifecycle","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/breakout-retest-lifecycle/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/breakout-retest-lifecycle/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Breakout-Retest</div>
+  <article class="article-body">
+    <h1>Breakout-Retest: The Full Setup Lifecycle</h1>
+    <div class="article-meta">Trading Execution · 8 min read · Part of the <a href="../trading-sessions/">execution</a> cluster</div>
+
+    <p>The breakout-retest is one of the highest-probability trading setups: price breaks above resistance, pulls back to test the broken level, and bounces. The Pipeline Dashboard doesn't just detect the breakout — it tracks the entire lifecycle from initial break to entry signal.</p>
+
+    <h2>The Four Stages</h2>
+
+    <h3>Stage 1: BREAKOUT_DETECTED</h3>
+    <p>Price breaks above 4H resistance with volume confirmation. The dashboard requires:</p>
+    <ul>
+      <li>Price above resistance in recent 15m candles</li>
+      <li>Taker buy ratio > 1.2 (aggressive buyers)</li>
+      <li>CVD > 0 (positive cumulative flow)</li>
+      <li>No magnet cluster within 0.5% above (would cause a sweep)</li>
+      <li>Minimum volume during thin hours (50 BTC per 15m candle)</li>
+      <li>At least 0.5x ATR of space above to the next magnet</li>
+    </ul>
+    <p>When all conditions are met, a retest zone is created with a 48-hour expiry window.</p>
+
+    <h3>Stage 2: RETEST_ACTIVE</h3>
+    <p>Price pulls back to within 0.3% of the broken resistance level. The zone is marked as "retested." The system now watches for bounce confirmation.</p>
+
+    <h3>Stage 3: ENTRY_SIGNAL</h3>
+    <p>Price bounces back above the level by 0.3%, and the 1-hour candle closes above the level. This confirms the retest held and the level is now support. Entry signal includes:</p>
+    <ul>
+      <li><strong>Direction:</strong> LONG</li>
+      <li><strong>Stop loss:</strong> 1% below the broken level</li>
+      <li><strong>Target:</strong> Next resistance above, or VAH, or 2% above level</li>
+      <li><strong>Confidence:</strong> HIGH if price is 1%+ above level, MEDIUM otherwise</li>
+    </ul>
+
+    <h3>Stage 4: Outcome Tracking</h3>
+    <p>Once an entry signal fires, it's logged to signal history with WIN/LOSS/EXPIRED tracking. The signal is evaluated over 48 hours — WIN if price reaches target, LOSS if price hits stop, EXPIRED if neither within 48h.</p>
+
+    <h2>Kill Conditions</h2>
+    <p>A retest zone can fail before producing an entry signal:</p>
+    <ul>
+      <li><strong>Failed:</strong> Price closes 0.5% below the level — the breakout was a fakeout</li>
+      <li><strong>Expired:</strong> 48 hours pass without a retest or bounce</li>
+    </ul>
+
+    <h2>Edge Case Filters</h2>
+    <p>The detector includes several filters to avoid false signals:</p>
+    <ul>
+      <li><strong>Magnet sweep filter:</strong> If a liquidation magnet is within 0.5% above resistance, the breakout may be a sweep — skip</li>
+      <li><strong>Thin hours filter:</strong> During 00:00-06:00 UTC, require minimum 50 BTC per 15m candle</li>
+      <li><strong>Space requirement:</strong> Need at least 0.5x ATR between the broken level and the next magnet</li>
+    </ul>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../trading-sessions/">Trading Sessions pillar</a></li>
+      <li><a href="../breakdown-retest-bearish-mirror/">Breakdown-Retest (bearish mirror)</a></li>
+      <li><a href="../signal-tracking-win-loss-expired/">Signal Tracking methodology</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gate0 vs CoinGlass — Free Regime Detection vs Liquidation Terminal</title>
+<meta name="description" content="Gate0 vs CoinGlass: free liquidation regime detection vs paid liquidation heatmap terminal. From heatmap image to tradeable thesis.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/compare/gate0-vs-coinglass/">
+<meta property="og:title" content="Gate0 vs CoinGlass — Bitcoin Analysis Comparison">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Compare</a><span>›</span> Gate0 vs CoinGlass</div>
+
+  <article class="article-body">
+    <h1>Gate0 vs CoinGlass</h1>
+    <div class="article-meta">Free regime detection vs paid liquidation terminal</div>
+
+    <h2>What CoinGlass Does Best</h2>
+    <p>CoinGlass is the best liquidation heatmap tool available. It shows you exactly where leveraged positions are concentrated, across multiple timeframes and exchanges. If you want to see the raw liquidation landscape — every cluster, every magnet, every leverage level — CoinGlass is the tool.</p>
+    <p>Fun fact: Gate0 actually <em>uses</em> Coinglass data. The heatmap capture job scrapes Coinglass liquidation heatmaps and feeds them into our structural analysis layer.</p>
+
+    <h2>What Gate0 Does Differently</h2>
+    <p>CoinGlass shows you a heatmap. Gate0 tells you what it means.</p>
+    <p>Raw heatmap data is just an image — bright spots showing where liquidations will cascade. Gate0 takes that data and computes <strong>sandwich geometry</strong>: how far is price from the nearest above and below clusters? Are they compressed (Vice Grip)? Is one side much closer (Squeeze/Sweep)?</p>
+    <p>This turns a heatmap image into a tradeable regime label. Instead of staring at colors, you get: "Downside Sweep active — below magnet is 3x closer than above. Long liquidations likely."</p>
+
+    <table class="comparison-table">
+      <thead><tr><th>Feature</th><th>Gate0</th><th>CoinGlass</th></tr></thead>
+      <tbody>
+        <tr><td>Liquidation heatmaps</td><td class="check">✓ (via Coinglass)</td><td class="check">✓ (native)</td></tr>
+        <tr><td>Regime detection (Vice Grip, Squeeze, Sweep)</td><td class="check">✓</td><td class="cross">✗</td></tr>
+        <tr><td>Sandwich geometry computation</td><td class="check">✓</td><td class="cross">✗</td></tr>
+        <tr><td>Multi-exchange liquidation data</td><td class="cross">✗</td><td class="check">✓</td></tr>
+        <tr><td>Multi-layer synthesis</td><td class="check">✓</td><td class="cross">✗</td></tr>
+        <tr><td>On-chain metrics</td><td class="check">✓</td><td class="cross">✗</td></tr>
+        <tr><td>Derivatives data</td><td class="check">✓</td><td class="check">✓</td></tr>
+        <tr><td>Price</td><td>Free</td><td>Free / $30mo+</td></tr>
+      </tbody>
+    </table>
+
+    <h2>When to Use Which</h2>
+    <div class="callout info"><strong>Use Gate0 when:</strong> You want to know what the liquidation landscape means for your trading — not just what it looks like.</div>
+    <div class="callout info"><strong>Use CoinGlass when:</strong> You need raw, multi-exchange liquidation data for manual analysis, or you want to see heatmaps across custom timeframes.</div>
+
+    <div style="margin-top:40px;text-align:center">
+      <a href="../../dashboard/" class="cta-button primary">Try Gate0 Free →</a>
+    </div>
+  </article>
+</main>
+
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

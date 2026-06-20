@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Composite Cycle Score: Synthesizing On-Chain Metrics | Pipeline Dashboard</title>
+<meta name="description" content="The composite cycle score combines MVRV Z-Score, SOPR, and Puell Multiple into a single 0-100 metric. Learn how the Pipeline Dashboard normalizes and synthesizes on-chain valuation.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/composite-cycle-score-methodology/">
+<meta property="og:title" content="Composite Cycle Score: Synthesizing On-Chain Metrics">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Composite Cycle Score: Synthesizing On-Chain Metrics","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/composite-cycle-score-methodology/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/composite-cycle-score-methodology/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Composite Cycle Score</div>
+  <article class="article-body">
+    <h1>Composite Cycle Score: Synthesizing On-Chain Metrics</h1>
+    <div class="article-meta">On-Chain Valuation · 6 min read</div>
+
+    <p>Three on-chain metrics — <a href="../../glossary/#mvrv-z-score">MVRV Z-Score</a>, <a href="../../glossary/#sopr">SOPR</a>, and <a href="../../glossary/#puell-multiple">Puell Multiple</a> — each tell part of the story. The composite cycle score combines them into a single 0-100 number that tells the whole story at a glance.</p>
+
+    <h2>How It Works</h2>
+    <p>The dashboard's <code>compute_composite_score()</code> function normalizes each metric to a 0-100 scale, then averages the available scores. If only one metric is available (e.g., MVRV but not SOPR), the composite uses just that one. If all three are available, it averages all three.</p>
+
+    <h2>Normalization Maps</h2>
+    <p>Each metric has its own normalization curve based on historical ranges:</p>
+
+    <h3>MVRV Z-Score (range: -1 to 7)</h3>
+    <ul>
+      <li>Negative → 0-20 (accumulation)</li>
+      <li>0-2 → 20-50 (fair value to moderate bull)</li>
+      <li>2-4 → 50-80 (overheating)</li>
+      <li>4+ → 80-100 (cycle top)</li>
+    </ul>
+
+    <h3>SOPR (range: 0.7 to 2.0)</h3>
+    <ul>
+      <li>0.6-0.8 → 0-20 (capitulation)</li>
+      <li>0.8-1.0 → 20-40 (near breakeven)</li>
+      <li>1.0-1.5 → 40-70 (normal profit-taking)</li>
+      <li>1.5+ → 70-100 (aggressive selling)</li>
+    </ul>
+
+    <h3>Puell Multiple (range: 0.2 to 6)</h3>
+    <ul>
+      <li>0-0.5 → 10-30 (miner capitulation)</li>
+      <li>0.5-2 → 30-60 (normal)</li>
+      <li>2-4 → 60-80 (elevated)</li>
+      <li>4+ → 80-100 (overheated)</li>
+    </ul>
+
+    <h2>Interpreting the Score</h2>
+    <ul>
+      <li><strong>0-30:</strong> Deep value / accumulation zone. Historically the best time to accumulate.</li>
+      <li><strong>30-50:</strong> Fair value. Normal market conditions.</li>
+      <li><strong>50-70:</strong> Elevated. Bull market in progress but approaching caution zone.</li>
+      <li><strong>70-100:</strong> Overheated. Historical sell zone — reduce exposure.</li>
+    </ul>
+
+    <div class="callout info">
+      <strong>0.5x weight in synthesis:</strong>
+      The composite score feeds into the regime synthesis at 0.5x weight because cycle data is monthly-scale. It provides context but cannot override live structural or derivatives signals.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../mvrv-z-score/">MVRV Z-Score pillar</a></li>
+      <li><a href="../sopr-spending-behavior/">SOPR article</a></li>
+      <li><a href="../puell-multiple-miner-revenue/">Puell Multiple article</a></li>
+      <li><a href="../bitcoin-cycle-phases/">Cycle Phases article</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

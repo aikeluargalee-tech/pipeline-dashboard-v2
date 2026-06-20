@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bitcoin ETF Flows: Tracking Institutional Capital | Pipeline Dashboard</title>
+<meta name="description" content="Bitcoin spot ETF flows track institutional capital entering and exiting BTC. Learn how daily and weekly net flows signal bullish or bearish institutional sentiment.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-etf-flow-tracking/">
+<meta property="og:title" content="Bitcoin ETF Flows: Tracking Institutional Capital">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Bitcoin ETF Flows: Tracking Institutional Capital","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-etf-flow-tracking/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-etf-flow-tracking/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> ETF Flows</div>
+  <article class="article-body">
+    <h1>Bitcoin ETF Flows: Tracking Institutional Capital</h1>
+    <div class="article-meta">Macro Context · 6 min read</div>
+
+    <p>Since the approval of Bitcoin spot ETFs in January 2024, ETF flows have become a primary driver of BTC price. Daily net inflows indicate institutional capital entering; sustained outflows indicate institutional exit. The dashboard tracks daily and weekly net flows.</p>
+
+    <h2>What ETF Flows Show</h2>
+    <p>Spot ETFs (IBIT, FBTC, GBTC, ARKB, BITB, and others) allow traditional investors to gain Bitcoin exposure through regulated stock market instruments. When these ETFs see net inflows, it means new institutional capital is entering Bitcoin. When they see net outflows, capital is leaving.</p>
+
+    <h2>Dashboard Tracking</h2>
+    <p>The dashboard tracks ETF flows from Farside.co.uk, parsing daily flow data for all major BTC ETFs. It computes:</p>
+    <ul>
+      <li><strong>Daily net flow:</strong> Net inflow or outflow for the most recent trading day</li>
+      <li><strong>Weekly net flow:</strong> Sum of the last 5 trading days</li>
+      <li><strong>Trend:</strong> inflow, mild outflow, or heavy outflow based on 3-day cumulative</li>
+    </ul>
+
+    <h2>Trend Classification</h2>
+    <ul>
+      <li><strong>Inflow:</strong> 3-day cumulative is positive — institutions are buying</li>
+      <li><strong>Heavy outflow:</strong> 3-day cumulative below -$200M — institutions are exiting aggressively</li>
+      <li><strong>Mild outflow:</strong> 3-day cumulative negative but above -$200M — modest selling</li>
+    </ul>
+
+    <h2>Why It Matters</h2>
+    <p>ETF flows represent the single largest source of new demand for Bitcoin since 2024. When flows are consistently positive, price tends to rise. When flows turn negative for multiple days, price pressure builds. The ETF flow trend is one of four signals in the macro regime classification.</p>
+
+    <div class="callout info">
+      <strong>Field mapping:</strong>
+      The dashboard's <code>map_etf_fields()</code> function handles multiple source formats — different data providers use different field names for the same data. This ensures the flow data is correctly parsed regardless of upstream format changes.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../bitcoin-macro-correlation/">Macro Correlation pillar</a></li>
+      <li><a href="../dxy-bitcoin-inverse-correlation/">DXY article</a></li>
+      <li><a href="../../glossary/#etf-flow">ETF Flow glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

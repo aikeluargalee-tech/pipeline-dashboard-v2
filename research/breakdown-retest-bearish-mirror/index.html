@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breakdown-Retest: The Bearish Mirror Setup | Pipeline Dashboard</title>
+<meta name="description" content="The breakdown-retest is the bearish mirror of the breakout-retest: support breaks, price retests from below, rejection confirmed, short entry. Learn the full lifecycle.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/breakdown-retest-bearish-mirror/">
+<meta property="og:title" content="Breakdown-Retest: The Bearish Mirror Setup">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Breakdown-Retest: The Bearish Mirror Setup","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/breakdown-retest-bearish-mirror/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/breakdown-retest-bearish-mirror/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Breakdown-Retest</div>
+  <article class="article-body">
+    <h1>Breakdown-Retest: The Bearish Mirror Setup</h1>
+    <div class="article-meta">Trading Execution · 7 min read</div>
+
+    <p>The breakdown-retest is the bearish mirror of the breakout-retest. Price breaks below support, pulls back up to test the broken level from below, and gets rejected. The dashboard tracks this setup through the same lifecycle — but with inverted logic and a critical CVD filter.</p>
+
+    <h2>The Four Stages</h2>
+
+    <h3>Stage 1: BREAKDOWN_DETECTED</h3>
+    <p>Price breaks below 4H support with seller confirmation:</p>
+    <ul>
+      <li>Taker buy ratio < 0.8 (aggressive sellers)</li>
+      <li>CVD < 0 (negative cumulative flow)</li>
+      <li>No magnet cluster within 0.5% below (would cause a bounce sweep)</li>
+      <li>Minimum volume during thin hours</li>
+      <li>At least 0.5x ATR of space below to next support</li>
+      <li>Support not within 1% of VAL (VAL Absorption handles that zone)</li>
+    </ul>
+
+    <h3>Stage 2: RETEST_ACTIVE</h3>
+    <p>Price pulls back up to within 0.3% of the broken support level from below. The system watches for rejection confirmation.</p>
+
+    <h3>Stage 3: ENTRY_SIGNAL</h3>
+    <p>Price drops 0.3% below the level, and the 1-hour candle closes below. Rejection confirmed. But there's a critical filter:</p>
+    <div class="callout warning">
+      <strong>CVD flip filter:</strong>
+      If CVD has turned positive during the retest, the signal is SKIPPED with status "cvd_flip_skip." Buyers have stepped in — this is VAL Absorption territory, not a breakdown. You don't short when buyers are absorbing.
+    </div>
+    <p>If CVD is still negative, the entry signal fires:</p>
+    <ul>
+      <li><strong>Direction:</strong> SHORT</li>
+      <li><strong>Stop loss:</strong> 1% above the broken level</li>
+      <li><strong>Target:</strong> Next support below, or below magnet</li>
+      <li><strong>Confidence:</strong> HIGH if price is 1%+ below level, MEDIUM otherwise</li>
+    </ul>
+
+    <h3>Stage 4: Outcome Tracking</h3>
+    <p>Same WIN/LOSS/EXPIRED tracking as breakout-retest, but with inverted logic: WIN = price <= target, LOSS = price >= stop.</p>
+
+    <h2>The VAL Exclusion Zone</h2>
+    <p>The breakdown-retest detector explicitly skips support levels within 1% of VAL. This prevents overlap with the <a href="../val-absorption-smart-money-detection/">VAL Absorption</a> monitor — if price is at VAL, the VAL Absorption detector handles it, not the breakdown detector.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../breakout-retest-lifecycle/">Breakout-Retest (bullish mirror)</a></li>
+      <li><a href="../trading-sessions/">Trading Sessions pillar</a></li>
+      <li><a href="../val-absorption-smart-money-detection/">VAL Absorption</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

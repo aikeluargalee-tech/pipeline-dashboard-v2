@@ -1,0 +1,13 @@
+[2026-06-18 08:39:32 UTC] ⚠ ALERT UPGRADE from UNKNOWN: STRC 11.0% below par (threshold: 10.0%)
+[2026-06-18 08:39:39 UTC] ALERT (no change) — STRC $89.0, coverage 32.3yr
+[2026-06-18 09:11:57 UTC] ALERT (no change) — STRC $89.00, coverage 32.2yr
+[2026-06-18 09:15:57 UTC] ALERT (no change) — STRC $89.00, coverage 32.2yr
+[2026-06-18 14:12:24 UTC] ALERT (no change) — STRC $86.19, coverage 31.9yr
+[2026-06-19 03:53:16 UTC] ALERT (no change) — STRC $88.59, coverage 31.4yr
+[2026-06-19 03:55:44 UTC] ALERT (no change) — STRC $88.59, coverage 31.4yr
+[2026-06-19 07:21:10 UTC] ⚠ FIRING UPGRADE from ALERT: STRC 39.47% below par (threshold: 15.0%); STRC 39.47% below par (threshold: 5.0%); Coverage 31.4yr (threshold: <40yr)
+[2026-06-19 07:55:11 UTC] FIRING (no change) — STRC $60.53, coverage 31.3yr
+[2026-06-19 11:55:20 UTC] FIRING (no change) — STRC $60.53, coverage 31.3yr
+[2026-06-19 15:55:47 UTC] FIRING (no change) — STRC $60.53, coverage 31.6yr
+[2026-06-20 07:03:18 UTC] FIRING (no change) — STRC $60.53, coverage 31.8yr
+[2026-06-20 11:03:52 UTC] FIRING (no change) — STRC $60.53, coverage 31.8yr

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gate0: A Multi-Layer Risk Framework for Bitcoin Trading | Pipeline Dashboard</title>
+<meta name="description" content="Gate0 is a five-module pre-trade risk filter that can veto every other layer. Learn how Black Swan, VIX/SPX, AI-3 Wave, Stablecoins, and Session modules produce PROCEED, TIGHTENED, PAUSE, or ABORT verdicts.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/gate0-framework/">
+<meta property="og:title" content="Gate0: A Multi-Layer Risk Framework for Bitcoin Trading">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Gate0: A Multi-Layer Risk Framework for Bitcoin Trading","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/gate0-framework/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/gate0-framework/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Gate0 Framework</div>
+  <article class="article-body">
+    <h1>Gate0: A Multi-Layer Risk Framework for Bitcoin Trading</h1>
+    <div class="article-meta">Pillar article · Risk Frameworks cluster · 12 min read</div>
+
+    <p>Most trading systems focus on when to enter. Gate0 focuses on whether you should be trading at all. It's a pre-trade risk filter that sits above every other analysis layer — and it can veto everything.</p>
+
+    <h2>The Philosophy</h2>
+    <p>Position sizing matters more than signal accuracy. A perfect entry signal is worthless if you're trading full size during a systemic risk event. Gate0 answers one question before any other analysis runs: <em>is it safe to trade right now?</em></p>
+
+    <h2>The Four States</h2>
+    <ul>
+      <li><strong>🟢 PROCEED</strong> — Full position size, normal rules. No systemic risk detected.</li>
+      <li><strong>🟡 TIGHTENED</strong> — Max 10x leverage, half position size, tight stops. Elevated risk — reduce exposure.</li>
+      <li><strong>🟠 PAUSE</strong> — Close existing positions only, no new entries. Significant risk — stand aside.</li>
+      <li><strong>🔴 ABORT</strong> — Flatten everything. Extreme systemic risk — do not open the app.</li>
+    </ul>
+
+    <h2>The Five Modules</h2>
+
+    <h3>1. Black Swan (0-17 Score)</h3>
+    <p>A composite tail-risk score aggregating multiple systemic signals: VIX term inversion, DXY spikes, funding rate extremes, stablecoin depeg, exchange anomalies, and geopolitical events. Each signal contributes to a score from 0 to 17.</p>
+    <p><strong>Thresholds:</strong> ≥ 12 → ABORT, ≥ 8 → PAUSE, ≥ 5 → TIGHTENED, < 5 → PROCEED.</p>
+
+    <h3>2. VIX/SPX</h3>
+    <p>Monitors equity market volatility and its spillover into Bitcoin. VIX > 40 signals panic that historically correlates with BTC sell-offs. The module also checks SPX/RSI divergence for early warning.</p>
+    <p><strong>Thresholds:</strong> VIX > 40 → ABORT, > 30 → PAUSE, > 22 → TIGHTENED.</p>
+
+    <h3>3. AI-3 Wave</h3>
+    <p>An experimental module tracking hyperscaler capex and capex-to-revenue divergence — a proxy for the "AI bubble" thesis. When active, it signals elevated risk of a tech-led risk-off event that would impact BTC.</p>
+    <p><strong>Threshold:</strong> Active → TIGHTENED.</p>
+
+    <h3>4. Stablecoins</h3>
+    <p>Monitors USDT and USDC for depeg events. Stablecoin instability is a leading indicator of crypto-specific systemic risk — if the dollars backing crypto trades are unstable, everything is unstable.</p>
+    <p><strong>Thresholds:</strong> Deviation > 2% → ABORT, > 0.5% → PAUSE.</p>
+
+    <h3>5. Session</h3>
+    <p>Time-of-day and day-of-week liquidity regime. Weekend trading is thinner and signals are noisier. The session module automatically downgrades to TIGHTENED on weekends.</p>
+
+    <h2>How the Verdict Is Computed</h2>
+    <p>The most restrictive module wins. If any module says ABORT, the gate is ABORT — regardless of what other modules say. The state priority is:</p>
+    <p><code>ABORT (4) > PAUSE (3) > TIGHTENED (2) > PROCEED (1)</code></p>
+
+    <div class="callout warning">
+      <strong>Trigger order matters.</strong>
+      If Black Swan scores ≥ 4 or AI-3 wave flips active, the gate moves to TIGHTENED regardless of other modules. PAUSE/ABORT requires two or more modules in escalation.
+    </div>
+
+    <h2>The L-1 Manual Override</h2>
+    <p>Some risks can't be detected by algorithms — wars, regulatory crackdowns, exchange hacks that haven't been announced yet. The L-1 Manual Macro Gate allows a human to override the entire system with a PAUSE or ABORT verdict. When active, it overrides all automated analysis.</p>
+    <p>The manual gate supports auto-expiry — you set a re-evaluation time and trigger condition, and the gate automatically deactivates when the condition is met or the expiry passes.</p>
+
+    <h2>Gate0 in the Synthesis</h2>
+    <p>Gate0 doesn't just produce a standalone verdict — it gates the entire synthesis:</p>
+    <ul>
+      <li>If Gate0 = ABORT → synthesis = "DO NOT TRADE"</li>
+      <li>If Gate0 = PAUSE → synthesis = "STAND ASIDE"</li>
+      <li>If Gate0 = TIGHTENED → synthesis is prefixed with "CAUTIOUS" and position rules are tightened</li>
+      <li>If Gate0 = PROCEED → normal synthesis rules apply</li>
+    </ul>
+
+    <h2>Known Failure Modes</h2>
+    <ul>
+      <li><strong>Sudden liquidity shocks</strong> not in the Black Swan score — manual override required</li>
+      <li><strong>AI-3 wave module</strong> is experimental — treat as MEDIUM confidence</li>
+      <li><strong>Weekend illiquidity</strong> — session module downgrades but doesn't fully neutralize noise</li>
+    </ul>
+
+    <div style="margin-top:32px;display:flex;gap:12px;justify-content:center">
+      <a href="../../dashboard/" class="cta-button primary">View Live Gate0 →</a>
+      <a href="../derivatives-positioning/" class="cta-button secondary">Next: Derivatives →</a>
+    </div>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

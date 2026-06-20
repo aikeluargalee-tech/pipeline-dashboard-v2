@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upside Squeeze vs Downside Sweep: Reading Liquidity Regimes | Pipeline Dashboard</title>
+<meta name="description" content="When one liquidation magnet is much closer than the other, Bitcoin is likely to be pulled toward it. Learn the difference between Upside Squeeze and Downside Sweep.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/squeeze-vs-sweep-regimes/">
+<meta property="og:title" content="Upside Squeeze vs Downside Sweep: Reading Liquidity Regimes">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Upside Squeeze vs Downside Sweep: Reading Liquidity Regimes","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/squeeze-vs-sweep-regimes/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/squeeze-vs-sweep-regimes/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Squeeze vs Sweep</div>
+  <article class="article-body">
+    <h1>Upside Squeeze vs Downside Sweep: Reading Liquidity Regimes</h1>
+    <div class="article-meta">Structural Liquidity · 6 min read</div>
+
+    <p>When liquidation magnets are asymmetric — one much closer than the other — price has a directional bias. The Pipeline Dashboard detects this and labels it as Upside Squeeze or Downside Sweep. These regimes directly cap the synthesis ceiling.</p>
+
+    <h2>Upside Squeeze</h2>
+    <p>The above magnet (short liquidations) is much closer than the below magnet. Specifically, the above distance is less than 50% of the below distance. Price is likely to be pulled upward as short positions get liquidated — a short squeeze.</p>
+    <p><strong>Trading bias:</strong> Favor long setups. Breakout-retest signals are higher probability.</p>
+
+    <h2>Downside Sweep</h2>
+    <p>The below magnet (long liquidations) is much closer. The below distance is less than 50% of the above distance. Price is likely to be pulled downward as long positions get liquidated — a long squeeze.</p>
+    <p><strong>Trading bias:</strong> Favor short setups. Breakdown-retest signals are higher probability. Avoid new longs.</p>
+
+    <h2>The Monitor Ceiling</h2>
+    <div class="callout warning">
+      <strong>Verdict ceiling enforcement:</strong>
+      Active Downside Sweep and Upside Squeeze regimes cap the synthesis ceiling. A bullish verdict cannot coexist with an active Downside Sweep — the monitor tells the truth, and synthesis listens. Similarly, a bearish verdict cannot coexist with an active Upside Squeeze.
+    </div>
+    <p>This is the most important design decision in the synthesis logic. It means live structural events override cycle and macro context. A bullish MVRV reading doesn't matter if longs are about to get liquidated.</p>
+
+    <h2>How the Dashboard Computes It</h2>
+    <p>The <code>collect_structural()</code> function compares <code>above_dist</code> and <code>below_dist</code>:</p>
+    <ul>
+      <li>If <code>above_dist &lt; below_dist * 0.5</code> → Upside Squeeze</li>
+      <li>If <code>below_dist &lt; above_dist * 0.5</code> → Downside Sweep</li>
+      <li>If <code>width_usd ≤ 500</code> → Vice Grip (overrides both)</li>
+      <li>Otherwise → Balanced</li>
+    </ul>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../liquidation-magnets/">Liquidation Magnets pillar</a></li>
+      <li><a href="../vice-grip-trapped-between-magnets/">Vice Grip article</a></li>
+      <li><a href="../../glossary/#liquidation-magnet">Liquidation Magnet glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bitcoin Derivatives: Reading the Futures Market | Pipeline Dashboard</title>
+<meta name="description" content="Funding rates, open interest, CVD, long/short ratios — learn how to read Bitcoin derivatives positioning and what it tells you about market direction.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/derivatives-positioning/">
+<meta property="og:title" content="Bitcoin Derivatives: Reading the Futures Market">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Bitcoin Derivatives: Reading the Futures Market","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/derivatives-positioning/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/derivatives-positioning/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Derivatives Positioning</div>
+  <article class="article-body">
+    <h1>Bitcoin Derivatives: Reading the Futures Market</h1>
+    <div class="article-meta">Pillar article · Derivatives cluster · 10 min read</div>
+
+    <p>Spot price tells you what Bitcoin costs right now. Derivatives tell you who's betting on where it's going — and how leveraged they are. The Pipeline Dashboard's <a href="../../methodology/">Layer 3</a> tracks six derivatives metrics in real-time from Binance Futures.</p>
+
+    <h2>Funding Rate</h2>
+    <p>The funding rate is the periodic fee paid between long and short perpetual futures traders to keep the contract price aligned with spot. Positive funding means longs pay shorts — the market is bullish and longs are willing to pay to maintain their positions. Negative funding means shorts pay longs — bearish sentiment.</p>
+    <p><strong>Dashboard thresholds:</strong> > 0.03% per 8h = longs crowded (OVERHEATED), < -0.03% = shorts paying (BULLISH). Between is neutral.</p>
+    <div class="callout info"><strong>Key insight:</strong> Extremely positive funding is bearish — it means longs are over-leveraged and vulnerable to a long squeeze. Extremely negative funding is bullish — shorts are over-leveraged and vulnerable to a short squeeze.</div>
+
+    <h2>Open Interest</h2>
+    <p>Open Interest (OI) is the total number of outstanding futures contracts. Rising OI means new money is entering the market; falling OI means positions are being closed.</p>
+    <p>The dashboard computes a 24h OI trend by comparing the last 6 hours to the first 6 hours of hourly data:</p>
+    <ul>
+      <li><strong>Accumulating:</strong> Late OI > 2% above early OI — new money entering</li>
+      <li><strong>Unwinding:</strong> Late OI < 2% below early OI — positions closing</li>
+      <li><strong>Stable:</strong> OI roughly unchanged</li>
+    </ul>
+
+    <h2>CVD (Cumulative Volume Delta)</h2>
+    <p>CVD is the cumulative sum of taker buy volume minus taker sell volume over 24 hours. It shows net aggressive buying or selling pressure. The dashboard computes both the absolute CVD and its trend (strengthening, weakening, or flat) by comparing recent vs earlier deltas.</p>
+    <p><strong>Reading:</strong> Positive & strengthening = aggressive buying. Negative & weakening = selling pressure easing. The trend matters more than the absolute value.</p>
+
+    <h2>Long/Short Ratio</h2>
+    <p>The ratio of long to short positions among top trader accounts on Binance Futures. This is a positioning metric — it shows how top traders are leaned. Extremely high ratios (> 2.0) signal crowded long positioning vulnerable to a squeeze.</p>
+
+    <h2>Taker Buy/Sell Ratio</h2>
+    <p>Real-time order flow: the ratio of aggressive market buys to market sells in the last hour. Above 1.2 = strong buy pressure, below 0.8 = strong sell pressure. This is the most immediate sentiment indicator.</p>
+
+    <h2>Coinbase Premium</h2>
+    <p>The price difference between Bitcoin on Coinbase and other exchanges. Since Coinbase is heavily used by US institutions, a positive premium suggests institutional buying pressure. A negative premium suggests institutional selling.</p>
+
+    <h2>How Derivatives Feed the Synthesis</h2>
+    <p>The derivatives layer produces a single verdict: BULLISH, NEUTRAL, or OVERHEATED. This verdict feeds into the regime synthesis with full weight (1.0x) — derivatives are real-time and reflect live positioning, so they're weighted equally with structure and macro.</p>
+
+    <h2>Liquidation Cascade Risk</h2>
+    <p>The dashboard computes a cascade risk level based on OI in USD and funding rate magnitude. When OI is high (> $8B) and funding is extreme (> 0.03%), the cascade risk is HIGH — a small price move could trigger cascading liquidations.</p>
+
+    <div style="margin-top:32px;display:flex;gap:12px;justify-content:center">
+      <a href="../../dashboard/" class="cta-button primary">View Live Derivatives →</a>
+      <a href="../bitcoin-macro-correlation/" class="cta-button secondary">Next: Macro Correlation →</a>
+    </div>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

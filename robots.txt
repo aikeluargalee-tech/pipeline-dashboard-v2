@@ -1,0 +1,35 @@
+# robots.txt — Pipeline Dashboard
+# Controls which crawlers can access this site
+
+# Default: allow all search crawlers
+User-agent: *
+Allow: /
+
+# Allow JSON data directory for crawlers that index structured data
+Allow: /data/
+
+# Google's AI training crawler — block to prevent data used for AI training
+# (Does NOT affect search ranking or AI Overviews citation eligibility)
+User-agent: Google-Extended
+Disallow: /
+
+# Explicitly allow AI answer engine crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://aikeluargalee-tech.github.io/pipeline-dashboard/sitemap.xml

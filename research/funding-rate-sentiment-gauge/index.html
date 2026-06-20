@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Funding Rates: The Perpetual Futures Sentiment Gauge | Pipeline Dashboard</title>
+<meta name="description" content="Funding rates show who pays whom in Bitcoin perpetual futures. Learn why extremely positive funding is bearish and extremely negative funding is bullish.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/funding-rate-sentiment-gauge/">
+<meta property="og:title" content="Funding Rates: The Perpetual Futures Sentiment Gauge">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Funding Rates: The Perpetual Futures Sentiment Gauge","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/funding-rate-sentiment-gauge/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/funding-rate-sentiment-gauge/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Funding Rates</div>
+  <article class="article-body">
+    <h1>Funding Rates: The Perpetual Futures Sentiment Gauge</h1>
+    <div class="article-meta">Derivatives · 6 min read · Part of the <a href="../derivatives-positioning/">derivatives</a> cluster</div>
+
+    <p>Funding rates are the heartbeat of Bitcoin's perpetual futures market. They tell you who's paying whom — and when the market is overcrowded on one side, funding rates signal the squeeze before it happens.</p>
+
+    <h2>What Funding Rates Are</h2>
+    <p>Perpetual futures don't expire — they need a mechanism to stay aligned with spot price. That mechanism is the funding rate: a periodic payment between longs and shorts. When the perp price is above spot, longs pay shorts (positive funding). When below, shorts pay longs (negative funding).</p>
+
+    <h2>The Counterintuitive Reading</h2>
+    <div class="callout info">
+      <strong>Key insight:</strong> Extremely positive funding is bearish, not bullish. It means longs are overcrowded and paying a premium to maintain positions — they're vulnerable to a long squeeze. Extremely negative funding is bullish — shorts are overcrowded and vulnerable to a short squeeze.
+    </div>
+
+    <h2>Dashboard Thresholds</h2>
+    <ul>
+      <li><strong>> 0.03% per 8h (OVERHEATED):</strong> Longs are crowded. A long squeeze is possible — any downward move could cascade as over-leveraged longs get liquidated.</li>
+      <li><strong>< -0.03% per 8h (BULLISH):</strong> Shorts are paying. They're overcrowded — a short squeeze could send price sharply higher.</li>
+      <li><strong>Between (NEUTRAL):</strong> Balanced positioning. No squeeze risk from funding alone.</li>
+    </ul>
+
+    <h2>How It Feeds the Synthesis</h2>
+    <p>The derivatives layer produces a verdict based on funding rate:</p>
+    <ul>
+      <li>FR < -0.03% → BULLISH (shorts paying)</li>
+      <li>FR > 0.03% → OVERHEATED (longs crowded)</li>
+      <li>Between → NEUTRAL</li>
+    </ul>
+    <p>This verdict feeds into the regime synthesis at full weight (1.0x) — derivatives are real-time and reflect live positioning.</p>
+
+    <h2>Cascade Risk</h2>
+    <p>The dashboard combines funding rate with open interest to compute cascade risk. When OI is high (> $8B) and funding is extreme (> 0.03%), the cascade risk is HIGH — a small price move could trigger cascading liquidations that amplify the move dramatically.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../derivatives-positioning/">Derivatives pillar</a></li>
+      <li><a href="../open-interest-accumulation-unwinding/">Open Interest article</a></li>
+      <li><a href="../../glossary/#funding-rate">Funding Rate glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

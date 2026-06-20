@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Bitcoin Intelligence Knowledge Base | Pipeline Dashboard</title>
+<meta name="description" content="36 in-depth articles on Bitcoin market structure, on-chain valuation, derivatives positioning, macro correlation, risk frameworks, and trading execution. Written from the actual codebase.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/">
+<meta property="og:title" content="Research — Bitcoin Intelligence Knowledge Base">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<main class="page-container-wide">
+  <div class="breadcrumb"><a href="../">Home</a><span>›</span> Research</div>
+
+  <h1 style="font-size:2em;font-weight:800;margin-bottom:8px">Research & Insights</h1>
+  <p style="color:var(--muted);margin-bottom:32px;max-width:600px">38 in-depth articles across seven content clusters. Each maps to a dashboard layer — written from the actual codebase, not generic analysis. Plus AI-assisted deep research reports on macro and positioning.</p>
+
+  <!-- Cluster 1: On-Chain -->
+  <h2 style="font-size:1.3em;font-weight:700;margin:40px 0 16px;color:var(--cyan)">⛓️ On-Chain Valuation</h2>
+  <div class="research-grid">
+    <a href="mvrv-z-score/" class="research-card">
+      <div class="cluster">Pillar</div>
+      <h3>MVRV Z-Score: The Ultimate Bitcoin Valuation Metric</h3>
+      <p>How market value vs realized value identifies cycle tops and bottoms.</p>
+      <div class="meta">8 min read</div>
+    </a>
+    <a href="sopr-spending-behavior/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>SOPR: When Bitcoin Holders Spend at a Loss</h3>
+      <p>Spent Output Profit Ratio as a cycle and capitulation indicator.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="puell-multiple-miner-revenue/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Puell Multiple: Miner Revenue as a Cycle Indicator</h3>
+      <p>How miner revenue relative to historical average signals buy/sell zones.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="exchange-netflow-interpretation/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Exchange Netflow: Reading Inflows and Outflows</h3>
+      <p>Why coins leaving exchanges is bullish and arriving is bearish.</p>
+      <div class="meta">5 min read</div>
+    </a>
+    <a href="bitcoin-cycle-phases/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Bitcoin Cycle Phases: Accumulation to Distribution</h3>
+      <p>The five cycle phases and how MVRV Z-Score maps to each.</p>
+      <div class="meta">7 min read</div>
+    </a>
+    <a href="composite-cycle-score-methodology/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Composite Cycle Score: Synthesizing On-Chain Metrics</h3>
+      <p>How MVRV, SOPR, and Puell combine into a single 0-100 score.</p>
+      <div class="meta">6 min read</div>
+    </a>
+  </div>
+
+  <!-- Cluster 2: Structural -->
+  <h2 style="font-size:1.3em;font-weight:700;margin:40px 0 16px;color:var(--cyan)">🧲 Structural Liquidity</h2>
+  <div class="research-grid">
+    <a href="liquidation-magnets/" class="research-card">
+      <div class="cluster">Pillar</div>
+      <h3>Liquidation Magnets: How Leverage Clusters Move Bitcoin</h3>
+      <p>Why price gets pulled toward liquidation clusters and how regimes work.</p>
+      <div class="meta">10 min read</div>
+    </a>
+    <a href="volume-profile-poc-vah-val/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Volume Profile: Finding POC, VAH, and VAL</h3>
+      <p>How volume distribution reveals price magnets and support/resistance.</p>
+      <div class="meta">7 min read</div>
+    </a>
+    <a href="atr-weighted-support-resistance/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Support and Resistance: ATR-Weighted Levels</h3>
+      <p>Multi-timeframe S/R bands with volatility-normalized strength labels.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="vice-grip-trapped-between-magnets/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Vice Grip: When Bitcoin Is Trapped Between Magnets</h3>
+      <p>The highest-volatility regime — compressed within $500 of both magnets.</p>
+      <div class="meta">5 min read</div>
+    </a>
+    <a href="squeeze-vs-sweep-regimes/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Upside Squeeze vs Downside Sweep</h3>
+      <p>How asymmetric magnet distance predicts directional bias and caps synthesis.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="val-absorption-smart-money-detection/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>VAL Absorption: Detecting Smart Money Accumulation</h3>
+      <p>Declining volume + CVD holding at VAL = institutional buying.</p>
+      <div class="meta">8 min read</div>
+    </a>
+  </div>
+
+  <!-- Cluster 3: Risk -->
+  <h2 style="font-size:1.3em;font-weight:700;margin:40px 0 16px;color:var(--cyan)">⚡ Risk Frameworks</h2>
+  <div class="research-grid">
+    <a href="gate0-framework/" class="research-card">
+      <div class="cluster">Pillar</div>
+      <h3>Gate0: A Multi-Layer Risk Framework for Bitcoin Trading</h3>
+      <p>The five-module pre-trade gate that can veto every other layer.</p>
+      <div class="meta">12 min read</div>
+    </a>
+    <a href="black-swan-detection-scoring/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Black Swan Detection: Scoring Tail Risk</h3>
+      <p>The 0-17 composite score and what triggers ABORT.</p>
+      <div class="meta">7 min read</div>
+    </a>
+    <a href="position-sizing-proceed-to-abort/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Position Sizing: From PROCEED to ABORT</h3>
+      <p>How the four verdicts map to actionable position sizing rules.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="vix-bitcoin-spillover/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>VIX and Bitcoin: Equity Volatility Spillover</h3>
+      <p>How equity market fear spills into BTC and why VIX > 30 triggers PAUSE.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="stablecoin-health-monitoring/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Stablecoin Health: Why USDT/USDC Depeg Matters</h3>
+      <p>Crypto-specific systemic risk and why > 2% deviation triggers ABORT.</p>
+      <div class="meta">5 min read</div>
+    </a>
+    <a href="l1-manual-gate-human-override/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>The L-1 Manual Gate: Human Override</h3>
+      <p>Geopolitical risk that algorithms can't detect — and the human override.</p>
+      <div class="meta">6 min read</div>
+    </a>
+  </div>
+
+  <!-- Cluster 4: Derivatives -->
+  <h2 style="font-size:1.3em;font-weight:700;margin:40px 0 16px;color:var(--cyan)">💰 Derivatives</h2>
+  <div class="research-grid">
+    <a href="derivatives-positioning/" class="research-card">
+      <div class="cluster">Pillar</div>
+      <h3>Bitcoin Derivatives: Reading the Futures Market</h3>
+      <p>Funding, OI, CVD, L/S ratios — who's positioned which way.</p>
+      <div class="meta">10 min read</div>
+    </a>
+    <a href="funding-rate-sentiment-gauge/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Funding Rates: The Perpetual Futures Sentiment Gauge</h3>
+      <p>Why extremely positive funding is bearish and negative is bullish.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="open-interest-accumulation-unwinding/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Open Interest: Accumulation vs Unwinding</h3>
+      <p>The four OI+price scenarios and what they reveal about market dynamics.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="cvd-cumulative-volume-delta/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>CVD: Cumulative Volume Delta Explained</h3>
+      <p>Net taker buy/sell pressure and why trend matters more than absolute value.</p>
+      <div class="meta">7 min read</div>
+    </a>
+    <a href="long-short-ratio-top-traders/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Long/Short Ratios: What Top Traders Are Doing</h3>
+      <p>Crowded positioning and squeeze risk from top trader accounts.</p>
+      <div class="meta">5 min read</div>
+    </a>
+    <a href="taker-buy-sell-ratio/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Taker Buy/Sell Ratio: Real-Time Order Flow</h3>
+      <p>The most immediate sentiment indicator and its role in signal confirmation.</p>
+      <div class="meta">5 min read</div>
+    </a>
+  </div>
+
+  <!-- Cluster 5: Macro -->
+  <h2 style="font-size:1.3em;font-weight:700;margin:40px 0 16px;color:var(--cyan)">🌐 Macro Context</h2>
+  <div class="research-grid">
+    <a href="bitcoin-macro-correlation/" class="research-card">
+      <div class="cluster">Pillar</div>
+      <h3>Bitcoin and Macro: How DXY, Yields, and VIX Move BTC</h3>
+      <p>The inverse dollar correlation, yield pressure, and volatility spillover.</p>
+      <div class="meta">9 min read</div>
+    </a>
+    <a href="dxy-bitcoin-inverse-correlation/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>DXY and Bitcoin: The Inverse Correlation</h3>
+      <p>Why a weak dollar is a BTC tailwind and strong dollar is a headwind.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="treasury-yields-risk-free-pressure/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Treasury Yields: Risk-Free Rate Pressure on Bitcoin</h3>
+      <p>How the 10-year yield signals risk-on and risk-off for BTC.</p>
+      <div class="meta">5 min read</div>
+    </a>
+    <a href="bitcoin-etf-flow-tracking/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Bitcoin ETF Flows: Tracking Institutional Capital</h3>
+      <p>Daily and weekly net flows as the primary institutional demand signal.</p>
+      <div class="meta">6 min read</div>
+    </a>
+    <a href="m2-money-supply-liquidity/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>M2 Money Supply: Liquidity and Bitcoin</h3>
+      <p>Why expanding M2 is bullish and contracting M2 is a headwind.</p>
+      <div class="meta">5 min read</div>
+    </a>
+    <a href="risk-asset-correlation-spy-qqq/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Risk Assets: SPY, QQQ, and Bitcoin Correlation</h3>
+      <p>How equity indices correlate with BTC and why correlation spikes in stress.</p>
+      <div class="meta">5 min read</div>
+    </a>
+  </div>
+
+  <!-- Cluster 6: Execution -->
+  <h2 style="font-size:1.3em;font-weight:700;margin:40px 0 16px;color:var(--cyan)">🎯 Trading Execution</h2>
+  <div class="research-grid">
+    <a href="trading-sessions/" class="research-card">
+      <div class="cluster">Pillar</div>
+      <h3>Trading Sessions: When Bitcoin Moves Most</h3>
+      <p>NY, London, Asia timing — when liquidity is highest and signals noisiest.</p>
+      <div class="meta">7 min read</div>
+    </a>
+    <a href="breakout-retest-lifecycle/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Breakout-Retest: The Full Setup Lifecycle</h3>
+      <p>From breakout detected to entry signal — all four stages with edge filters.</p>
+      <div class="meta">8 min read</div>
+    </a>
+    <a href="breakdown-retest-bearish-mirror/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Breakdown-Retest: The Bearish Mirror Setup</h3>
+      <p>Support break, retest from below, rejection — with the CVD flip filter.</p>
+      <div class="meta">7 min read</div>
+    </a>
+    <a href="weekend-trading-noisier-signals/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Weekend Trading: Why Signals Are Noisier</h3>
+      <p>Lower liquidity, no ETFs, noisier derivatives — why Gate0 downgrades.</p>
+      <div class="meta">5 min read</div>
+    </a>
+    <a href="signal-tracking-win-loss-expired/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Signal Tracking: WIN, LOSS, EXPIRED Methodology</h3>
+      <p>The 48-hour evaluation window and confidence calibration system.</p>
+      <div class="meta">7 min read</div>
+    </a>
+    <a href="golden-window-ny-open/" class="research-card">
+      <div class="cluster">Supporting</div>
+      <h3>Golden Window: The NY Open Trading Session</h3>
+      <p>Why the 3 hours after NY open are the highest-probability execution time.</p>
+      <div class="meta">6 min read</div>
+    </a>
+  </div>
+
+  <!-- Cluster 7: Deep Research -->
+  <h2 style="font-size:1.3em;font-weight:700;margin:40px 0 16px;color:var(--orange)">🤖 Deep Research — AI-Assisted Market Intelligence</h2>
+  <div class="research-grid">
+    <a href="btc-positioning-outlook-june-2026/" class="research-card">
+      <div class="cluster">Deep Research</div>
+      <h3>BTC Positioning Outlook — Mid-June 2026</h3>
+      <p>Where capital, leverage, and liquidity sit now. ETF flows, derivatives positioning, on-chain supply, and liquidation clusters.</p>
+      <div class="meta">10 min read</div>
+    </a>
+    <a href="fed-rate-cut-q3-2026/" class="research-card">
+      <div class="cluster">Deep Research</div>
+      <h3>Fed Rate Cut Before Q3 2026?</h3>
+      <p>Full analysis of FOMC signals, SEP dot plot, Warsh posture, and meeting calendar — with trigger conditions.</p>
+      <div class="meta">8 min read</div>
+    </a>
+  </div>
+
+  <div class="newsletter-section">
+    <h3>📬 Get New Research in Your Inbox</h3>
+    <p>New articles published regularly. Subscribe for updates — no spam, unsubscribe anytime.</p>
+    <form class="newsletter-form" action="https://buttondown.email/api/emails/embed-subscribe/btcpipeline" method="post" target="popupwindow">
+      <input type="email" name="email" placeholder="your@email.com" required aria-label="Email address">
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</main>
+
+<div id="footer-placeholder"></div>
+<script src="../assets/nav.js"></script>
+</body>
+</html>

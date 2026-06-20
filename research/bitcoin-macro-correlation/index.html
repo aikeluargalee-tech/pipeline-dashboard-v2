@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bitcoin and Macro: How DXY, Yields, and VIX Move BTC | Pipeline Dashboard</title>
+<meta name="description" content="Bitcoin doesn't trade in isolation. Learn how DXY, treasury yields, VIX, ETF flows, and M2 money supply drive BTC — and how the Pipeline Dashboard's macro layer classifies the regime.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-macro-correlation/">
+<meta property="og:title" content="Bitcoin and Macro: How DXY, Yields, and VIX Move BTC">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Bitcoin and Macro: How DXY, Yields, and VIX Move BTC","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-macro-correlation/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-macro-correlation/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Bitcoin Macro Correlation</div>
+  <article class="article-body">
+    <h1>Bitcoin and Macro: How DXY, Yields, and VIX Move BTC</h1>
+    <div class="article-meta">Pillar article · Macro Context cluster · 9 min read</div>
+
+    <p>Bitcoin may be a decentralized currency, but it trades like a risk asset. When the dollar strengthens, BTC typically weakens. When equity volatility spikes, BTC sells off. The Pipeline Dashboard's <a href="../../methodology/">Layer 1</a> tracks the macroeconomic environment that all risk assets operate within.</p>
+
+    <h2>DXY (US Dollar Index)</h2>
+    <p>The most reliable macro correlation for Bitcoin is the inverse relationship with the US Dollar Index. DXY < 100 creates a BTC tailwind; DXY > 105 creates a headwind. The dashboard classifies DXY as bullish (< 100), bearish (> 104), or neutral.</p>
+
+    <h2>Treasury Yields</h2>
+    <p>The 10-year Treasury yield represents the "risk-free rate." When yields rise, risk assets face pressure as the opportunity cost of holding non-yielding assets like Bitcoin increases. The dashboard flags yields < 4.0% as risk-on and > 5.0% as risk-off.</p>
+
+    <h2>VIX (Volatility Index)</h2>
+    <p>The VIX measures expected 30-day volatility in the S&P 500. It's the "fear gauge" — when VIX spikes, equity markets are stressed, and that stress spills over to Bitcoin. The dashboard uses VIX both in the <a href="../gate0-framework/">Gate0</a> layer (> 30 = PAUSE, > 40 = ABORT) and in the macro layer (< 18 = risk-on, > 25 = risk-off).</p>
+
+    <h2>ETF Flows</h2>
+    <p>Since the approval of Bitcoin spot ETFs in January 2024, ETF flows have become a primary driver of BTC price. Daily net inflows indicate institutional capital entering; sustained outflows indicate institutional exit. The dashboard tracks daily and weekly net flows and classifies the trend as inflow, mild outflow, or heavy outflow.</p>
+
+    <h2>M2 Money Supply</h2>
+    <p>M2 measures broad money supply including cash, checking deposits, and savings. Expanding M2 is liquidity-positive for risk assets; contracting M2 is a headwind. The dashboard tracks M2 as a macro context indicator.</p>
+
+    <h2>Risk Asset Correlation</h2>
+    <p>The dashboard tracks SPY (S&P 500), QQQ (Nasdaq-100), and GLD (Gold) alongside BTC. During normal market conditions, BTC correlates positively with equities (especially QQQ). During acute risk-off events, correlations can break down — BTC may decouple for weeks.</p>
+
+    <h2>Macro Regime Classification</h2>
+    <p>The dashboard classifies the macro regime by counting bullish vs bearish signals across DXY, VIX, yields, and ETF flows:</p>
+    <ul>
+      <li><strong>Risk-on:</strong> ≥ 3 bullish signals (weak dollar, low VIX, low yields, ETF inflows)</li>
+      <li><strong>Risk-off:</strong> ≥ 3 bearish signals (strong dollar, high VIX, high yields, ETF outflows)</li>
+      <li><strong>Mild-risk-on/off:</strong> Lean in one direction but not extreme</li>
+      <li><strong>Mixed:</strong> Conflicting signals, no clear direction</li>
+    </ul>
+
+    <div class="callout info">
+      <strong>Correlation breakdown:</strong>
+      During acute risk-off events (e.g., COVID March 2020), BTC can decouple from DXY/liquidity for weeks. The macro layer assumes BTC eventually re-correlates — but during breakdowns, structural and derivatives layers matter more.
+    </div>
+
+    <div style="margin-top:32px;display:flex;gap:12px;justify-content:center">
+      <a href="../../dashboard/" class="cta-button primary">View Live Macro Data →</a>
+      <a href="../trading-sessions/" class="cta-button secondary">Next: Trading Sessions →</a>
+    </div>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

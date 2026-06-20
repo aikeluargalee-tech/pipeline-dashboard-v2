@@ -1,0 +1,251 @@
+{
+  "predictions": [
+    {
+      "id": "regime_af360ab3",
+      "type": "regime_change",
+      "created_at": "2026-06-20T03:43:39.414362+00:00",
+      "btc_price_at_call": 63482.53,
+      "direction": "bullish",
+      "gate0_status": "TIGHTENED",
+      "regime_label": "CAUTIOUS BULL",
+      "rationale_snapshot": {
+        "gate": {
+          "verdict": "TIGHTENED",
+          "sources": [
+            "ai3_wave"
+          ]
+        },
+        "macro": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "VIX 16.8 normal"
+        },
+        "structure": {
+          "verdict": "HOLDING",
+          "emoji": "\ud83d\udfe1",
+          "detail": "3/3 timeframes active"
+        },
+        "derivatives": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "FR 0.0024% neutral, L/S 1.84, CVD +3724"
+        },
+        "cycle": {
+          "verdict": "UNDERVALUED",
+          "emoji": "\ud83d\udfe2",
+          "detail": "MVRV-Z 0.33 undervalued, netflow -1,124 BTC"
+        },
+        "synthesis": {
+          "verdict": "CAUTIOUS BULL",
+          "detail": "Tightened rules active. 0.5 bullish / 0.0 bearish signals. | TA: Price 12.4% below MA50 \u2014 medium-term structure bearish",
+          "bull_count": 0.5,
+          "bear_count": 0.0,
+          "ta_warning": "Price 12.4% below MA50 \u2014 medium-term structure bearish"
+        },
+        "btc_price": 63482.53
+      },
+      "outcomes": {
+        "1d": null,
+        "7d": null,
+        "30d": null
+      },
+      "resolved": false
+    },
+    {
+      "id": "regime_8cfb9e5f",
+      "type": "regime_change",
+      "created_at": "2026-06-20T04:04:36.453317+00:00",
+      "btc_price_at_call": 63431.99,
+      "direction": "neutral",
+      "gate0_status": "TIGHTENED",
+      "regime_label": "CAUTIOUS NEUTRAL",
+      "rationale_snapshot": {
+        "gate": {
+          "verdict": "TIGHTENED",
+          "sources": [
+            "ai3_wave"
+          ]
+        },
+        "macro": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "VIX 16.8 normal"
+        },
+        "structure": {
+          "verdict": "Vice Grip \u26a1",
+          "emoji": "\ud83d\udfe1",
+          "detail": "3/3 timeframes active, sandwich $500.0"
+        },
+        "derivatives": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "FR 0.0017% neutral, L/S 1.84, CVD +5358"
+        },
+        "cycle": {
+          "verdict": "MID",
+          "emoji": "\ud83d\udfe1",
+          "detail": ""
+        },
+        "synthesis": {
+          "verdict": "CAUTIOUS NEUTRAL",
+          "detail": "Tightened rules active. Mixed signals. | TA: Price 12.5% below MA50 \u2014 medium-term structure bearish",
+          "bull_count": 0.0,
+          "bear_count": 0.0,
+          "ta_warning": "Price 12.5% below MA50 \u2014 medium-term structure bearish"
+        },
+        "btc_price": 63431.99
+      },
+      "outcomes": {
+        "1d": null,
+        "7d": null,
+        "30d": null
+      },
+      "resolved": false
+    },
+    {
+      "id": "signal_8a52625e",
+      "type": "trading_signal",
+      "signal_name": "VAL_ABSORPTION",
+      "created_at": "2026-06-20T04:04:37.341220+00:00",
+      "btc_price_at_call": 63431.99,
+      "direction": "bullish",
+      "entry": 63900.0,
+      "stop_loss": 63261.0,
+      "target": 66950.0,
+      "confidence": "MEDIUM",
+      "gate0_status": "TIGHTENED",
+      "regime_label": "CAUTIOUS NEUTRAL",
+      "rationale_snapshot": {
+        "timestamp": "2026-06-20 04:04 UTC",
+        "btc_price": 63431.99,
+        "val": 63900.0,
+        "vah": 66950.0,
+        "distance_pct": -0.73,
+        "position": "below_val",
+        "volume_declining": true,
+        "volume_expanding": false,
+        "cvd_holding": true,
+        "cvd_value": 5358.1,
+        "cvd_trend": "weakening",
+        "target": 66950.0,
+        "early_vol_4h": 2053.0,
+        "late_vol_4h": 989.0,
+        "signal": "VAL_ABSORPTION",
+        "action": "Watch for reclaim inside VA \u2192 Long entry",
+        "stop": "Below swing low",
+        "stop_loss": 63261.0,
+        "confidence": "MEDIUM",
+        "gate0_status": "TIGHTENED",
+        "regime_label": "CAUTIOUS NEUTRAL"
+      },
+      "outcomes": {
+        "1d": null,
+        "7d": null,
+        "30d": null
+      },
+      "resolved": false
+    },
+    {
+      "id": "regime_1212eb37",
+      "type": "regime_change",
+      "created_at": "2026-06-20T04:15:56.272658+00:00",
+      "btc_price_at_call": 63423.61,
+      "direction": "bullish",
+      "gate0_status": "TIGHTENED",
+      "regime_label": "CAUTIOUS BULL",
+      "rationale_snapshot": {
+        "gate": {
+          "verdict": "TIGHTENED",
+          "sources": [
+            "ai3_wave"
+          ]
+        },
+        "macro": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "VIX 16.8 normal"
+        },
+        "structure": {
+          "verdict": "Vice Grip \u26a1",
+          "emoji": "\ud83d\udfe1",
+          "detail": "3/3 timeframes active, sandwich $500.0"
+        },
+        "derivatives": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "FR 0.0016% neutral, L/S 1.84, CVD +5358"
+        },
+        "cycle": {
+          "verdict": "UNDERVALUED",
+          "emoji": "\ud83d\udfe2",
+          "detail": "MVRV-Z 0.33 undervalued, netflow -925 BTC"
+        },
+        "synthesis": {
+          "verdict": "CAUTIOUS BULL",
+          "detail": "Tightened rules active. 0.5 bullish / 0.0 bearish signals. | TA: Price 12.5% below MA50 \u2014 medium-term structure bearish",
+          "bull_count": 0.5,
+          "bear_count": 0.0,
+          "ta_warning": "Price 12.5% below MA50 \u2014 medium-term structure bearish"
+        },
+        "btc_price": 63423.61
+      },
+      "outcomes": {
+        "1d": null,
+        "7d": null,
+        "30d": null
+      },
+      "resolved": false
+    },
+    {
+      "id": "regime_444de799",
+      "type": "regime_change",
+      "created_at": "2026-06-20T05:33:45.085589+00:00",
+      "btc_price_at_call": 63719.98,
+      "direction": "neutral",
+      "gate0_status": "TIGHTENED",
+      "regime_label": "CAUTIOUS NEUTRAL",
+      "rationale_snapshot": {
+        "gate": {
+          "verdict": "TIGHTENED",
+          "sources": [
+            "ai3_wave"
+          ]
+        },
+        "macro": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "VIX 16.4 normal"
+        },
+        "structure": {
+          "verdict": "Vice Grip \u26a1",
+          "emoji": "\ud83d\udfe1",
+          "detail": "3/3 timeframes active, sandwich $500.0"
+        },
+        "derivatives": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "FR 0.0027% neutral, L/S 1.84, CVD +5583"
+        },
+        "cycle": {
+          "verdict": "UNDERVALUED",
+          "emoji": "\ud83d\udfe2",
+          "detail": "MVRV-Z 0.33 undervalued, netflow -925 BTC"
+        },
+        "synthesis": {
+          "verdict": "CAUTIOUS NEUTRAL",
+          "detail": "Tightened rules active. 0.5 bullish / 0.0 bearish signals. | TA: Price 12.0% below MA50 \u2014 medium-term structure bearish",
+          "bull_count": 0.5,
+          "bear_count": 0.0,
+          "ta_warning": "Price 12.0% below MA50 \u2014 medium-term structure bearish"
+        },
+        "btc_price": 63719.98
+      },
+      "outcomes": {
+        "1d": null,
+        "7d": null,
+        "30d": null
+      },
+      "resolved": false
+    }
+  ]
+}

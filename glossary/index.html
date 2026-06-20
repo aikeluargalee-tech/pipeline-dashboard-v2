@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bitcoin Metrics Glossary — Every Term Explained | Pipeline Dashboard</title>
+<meta name="description" content="Comprehensive glossary of Bitcoin market metrics: MVRV Z-Score, SOPR, Puell Multiple, funding rates, open interest, CVD, liquidation magnets, volume profile, and more. Every term explained with thresholds and interpretation.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/glossary/">
+<meta property="og:title" content="Bitcoin Metrics Glossary — Every Term Explained">
+<meta property="og:type" content="article">
+<meta property="og:description" content="Comprehensive glossary of Bitcoin market metrics with thresholds and interpretation guides.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bitcoin Metrics Glossary",
+  "description": "Comprehensive glossary of Bitcoin market metrics used in the Pipeline Dashboard.",
+  "url": "https://aikeluargalee-tech.github.io/pipeline-dashboard/glossary/"
+}
+</script>
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<main class="page-container">
+  <div class="breadcrumb"><a href="../">Home</a><span>›</span> Glossary</div>
+
+  <h1 style="font-size:2em;font-weight:800;margin-bottom:8px">Bitcoin Metrics Glossary</h1>
+  <p style="color:var(--muted);margin-bottom:32px">Every metric used in the Pipeline Dashboard, explained with thresholds and interpretation. Click any term to jump to its entry.</p>
+
+  <div class="glossary-nav">
+    <a href="#mvrv-z-score">MVRV Z-Score</a>
+    <a href="#sopr">SOPR</a>
+    <a href="#puell-multiple">Puell Multiple</a>
+    <a href="#exchange-netflow">Exchange Netflow</a>
+    <a href="#funding-rate">Funding Rate</a>
+    <a href="#open-interest">Open Interest</a>
+    <a href="#cvd">CVD</a>
+    <a href="#long-short-ratio">L/S Ratio</a>
+    <a href="#taker-ratio">Taker Ratio</a>
+    <a href="#liquidation-magnet">Liquidation Magnet</a>
+    <a href="#volume-profile">Volume Profile</a>
+    <a href="#poc">POC</a>
+    <a href="#vah-val">VAH / VAL</a>
+    <a href="#sr-bands">S/R Bands</a>
+    <a href="#atr">ATR</a>
+    <a href="#rsi">RSI</a>
+    <a href="#bollinger-bands">Bollinger Bands</a>
+    <a href="#options-skew">Options Skew</a>
+    <a href="#dxy">DXY</a>
+    <a href="#vix">VIX</a>
+    <a href="#etf-flow">ETF Flow</a>
+    <a href="#m2-supply">M2 Supply</a>
+    <a href="#gate0">Gate0</a>
+    <a href="#black-swan-score">Black Swan Score</a>
+    <a href="#composite-score">Composite Score</a>
+    <a href="#coinbase-premium">Coinbase Premium</a>
+  </div>
+
+  <div class="glossary-entry" id="mvrv-z-score">
+    <h2><a href="#mvrv-z-score">MVRV Z-Score</a></h2>
+    <p>Market Value to Realized Value Z-Score. Measures how far Bitcoin's market cap deviates from its realized cap (the value of all coins at the price they last moved). A high Z-score means market cap is far above realized cap — holders are in significant profit, historically a cycle top signal.</p>
+    <p><strong>Thresholds:</strong> < 0 = accumulation zone (undervalued), 0-1 = near fair value, 1-3 = mid-cycle, > 3 = sell zone (overvalued), > 4 = cycle top.</p>
+    <div class="glossary-meta"><a href="../research/mvrv-z-score/">Deep dive →</a><a href="../dashboard/#card-onchain">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="sopr">
+    <h2><a href="#sopr">SOPR</a></h2>
+    <p>Spent Output Profit Ratio. The ratio of realized value to spent value for all coins moved on a given day. SOPR > 1 means holders are selling at a profit; SOPR < 1 means they're selling at a loss (capitulation).</p>
+    <p><strong>Thresholds:</strong> < 0.95 = capitulation signals, 0.95-1.0 = neutral spending, 1.0-1.05 = normal profit-taking, > 1.05 = aggressive profit-taking.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-onchain">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="puell-multiple">
+    <h2><a href="#puell-multiple">Puell Multiple</a></h2>
+    <p>Miner revenue divided by the 365-day moving average of miner revenue. When miners are earning far more than usual, the Puell Multiple is high — historically a cycle top signal. When earnings are depressed, it signals miner capitulation.</p>
+    <p><strong>Thresholds:</strong> < 0.5 = miner capitulation (buy zone), 0.5-2.0 = normal, 2.0-4.0 = elevated, > 4.0 = overheated (sell zone).</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-onchain">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="exchange-netflow">
+    <h2><a href="#exchange-netflow">Exchange Netflow</a></h2>
+    <p>Net Bitcoin flowing into minus out of exchanges over 7 days. Negative netflow (outflows) is bullish — coins moving to cold storage suggest accumulation. Positive netflow (inflows) is bearish — coins moving to exchanges suggest impending selling.</p>
+    <p><strong>Reading:</strong> Negative = bullish (accumulation), Positive = bearish (distribution pressure).</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-onchain">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="funding-rate">
+    <h2><a href="#funding-rate">Funding Rate</a></h2>
+    <p>The periodic fee paid between long and short perpetual futures traders to keep the contract price aligned with spot. Positive funding means longs pay shorts (bullish sentiment, longs are willing to pay to maintain positions). Negative funding means shorts pay longs (bearish sentiment).</p>
+    <p><strong>Thresholds:</strong> > 0.03% per 8h = longs crowded (OVERHEATED), < -0.03% = shorts paying (BULLISH), between = neutral.</p>
+    <div class="glossary-meta"><a href="../research/derivatives-positioning/">Deep dive →</a><a href="../dashboard/#card-deriv">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="open-interest">
+    <h2><a href="#open-interest">Open Interest</a></h2>
+    <p>The total number of outstanding futures contracts that have not been settled. Rising OI with rising price = new money entering longs (accumulating). Falling OI with falling price = positions closing (unwinding). Rising OI with falling price = new shorts entering.</p>
+    <p><strong>Trends:</strong> Accumulating = bullish (new money), Unwinding = bearish (positions closing), Stable = neutral.</p>
+    <div class="glossary-meta"><a href="../research/derivatives-positioning/">Deep dive →</a><a href="../dashboard/#card-oi">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="cvd">
+    <h2><a href="#cvd">CVD (Cumulative Volume Delta)</a></h2>
+    <p>The cumulative sum of taker buy volume minus taker sell volume over 24 hours. Positive CVD = buyers dominating, negative CVD = sellers dominating. The trend (strengthening/weakening/flat) matters more than the absolute value.</p>
+    <p><strong>Reading:</strong> Positive & strengthening = aggressive buying, Negative & weakening = selling pressure easing, Flat = balanced.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-deriv">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="long-short-ratio">
+    <h2><a href="#long-short-ratio">Long/Short Ratio</a></h2>
+    <p>The ratio of long positions to short positions among top trader accounts on Binance Futures. A ratio above 2.0 means twice as many top traders are long as short. Extremely high ratios can signal crowded positioning vulnerable to a squeeze.</p>
+    <p><strong>Reading:</strong> > 2.0 = longs crowded, < 1.0 = shorts crowded, 1.5-2.0 = balanced bullish.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-deriv">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="taker-ratio">
+    <h2><a href="#taker-ratio">Taker Buy/Sell Ratio</a></h2>
+    <p>The ratio of taker buy volume to taker sell volume in the last hour. Above 1.0 = buyers are more aggressive (market buys exceeding market sells). Below 1.0 = sellers are more aggressive.</p>
+    <p><strong>Thresholds:</strong> > 1.2 = strong buy pressure, < 0.8 = strong sell pressure, 0.95-1.05 = balanced.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-deriv">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="liquidation-magnet">
+    <h2><a href="#liquidation-magnet">Liquidation Magnet</a></h2>
+    <p>A price level where leveraged positions are concentrated, creating a "magnet" effect — price tends to move toward these clusters because liquidations cascade once the level is reached. We track the nearest above (short liquidations) and below (long liquidations) clusters.</p>
+    <p><strong>Regimes:</strong> Vice Grip (both within $500), Upside Squeeze (above closer), Downside Sweep (below closer), Balanced.</p>
+    <div class="glossary-meta"><a href="../research/liquidation-magnets/">Deep dive →</a><a href="../dashboard/#card-magnets">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="volume-profile">
+    <h2><a href="#volume-profile">Volume Profile</a></h2>
+    <p>A histogram showing trading volume distributed across price levels over 7 days of 1-hour candles. Reveals where the most trading occurred — these price levels act as magnets and support/resistance.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-vol">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="poc">
+    <h2><a href="#poc">POC (Point of Control)</a></h2>
+    <p>The single price level with the highest trading volume in the volume profile. Price tends to revisit the POC — it's the market's "fair value" consensus. The POC acts as a magnet when price is away from it and as support/resistance when price is near it.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-vol">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="vah-val">
+    <h2><a href="#vah-val">VAH / VAL (Value Area High / Low)</a></h2>
+    <p>The upper and lower boundaries of the Value Area — the price range containing 70% of total volume. VAH acts as resistance, VAL acts as support. When price breaks below VAL with declining volume but CVD holds, it may signal VAL Absorption (institutional accumulation).</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-vol">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="sr-bands">
+    <h2><a href="#sr-bands">S/R Bands (Support/Resistance)</a></h2>
+    <p>ATR-weighted support and resistance levels computed on 1-hour, 4-hour, and 1-day timeframes. Each level has a strength label based on how many times price has reacted to it and the volume at that level.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-sr">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="atr">
+    <h2><a href="#atr">ATR (Average True Range)</a></h2>
+    <p>A measure of price volatility over 14 periods. The ATR percentage (ATR / price × 100) normalizes this across price levels. Used to set stop-loss distances and gauge whether the market is in a high-volatility or low-volatility regime.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-ma">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="rsi">
+    <h2><a href="#rsi">RSI (Relative Strength Index)</a></h2>
+    <p>A momentum oscillator measuring the speed and change of price movements, ranging 0-100. RSI is a lagging indicator — treated as context only in this framework, never as a primary signal.</p>
+    <p><strong>Thresholds:</strong> < 30 = oversold, > 70 = overbought, 40-60 = neutral.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-rsi">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="bollinger-bands">
+    <h2><a href="#bollinger-bands">Bollinger Bands</a></h2>
+    <p>Volatility bands placed above and below a 20-period moving average, set at 2 standard deviations. When bands narrow (squeeze), it signals low volatility and an impending breakout. Band width below 5% triggers a squeeze alert.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-bb">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="options-skew">
+    <h2><a href="#options-skew">Options Skew</a></h2>
+    <p>The difference in implied volatility between put options and call options at the 25-delta strike. Negative skew (puts more expensive) signals bearish hedging. Positive skew (calls more expensive) signals bullish speculation.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-options">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="dxy">
+    <h2><a href="#dxy">DXY (US Dollar Index)</a></h2>
+    <p>A measure of the US dollar's value against a basket of major currencies. Bitcoin historically has an inverse correlation with DXY — a weak dollar (DXY < 100) is a BTC tailwind, a strong dollar (DXY > 105) is a headwind.</p>
+    <div class="glossary-meta"><a href="../research/bitcoin-macro-correlation/">Deep dive →</a><a href="../dashboard/#card-macro">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="vix">
+    <h2><a href="#vix">VIX (Volatility Index)</a></h2>
+    <p>The CBOE Volatility Index, measuring expected 30-day volatility in the S&P 500. Often called the "fear gauge." VIX spikes correlate with risk-off events that also impact Bitcoin. VIX > 30 signals equity stress that typically spills over to BTC.</p>
+    <p><strong>Thresholds:</strong> < 18 = risk-on, 18-25 = normal, > 25 = risk-off, > 30 = stress, > 40 = panic.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-macro">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="etf-flow">
+    <h2><a href="#etf-flow">ETF Flow</a></h2>
+    <p>Daily net inflows or outflows from Bitcoin spot ETFs (IBIT, FBTC, GBTC, ARKB, BITB, etc.). Positive flows indicate institutional capital entering Bitcoin; sustained negative flows indicate institutional exit. Tracked daily and weekly.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-macro">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="m2-supply">
+    <h2><a href="#m2-supply">M2 Money Supply</a></h2>
+    <p>The broad measure of money supply including cash, checking deposits, and savings. Expanding M2 is liquidity-positive for risk assets including Bitcoin. Contracting M2 is a headwind. Tracked as a macro context indicator.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-macro">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="gate0">
+    <h2><a href="#gate0">Gate0</a></h2>
+    <p>The pre-trade risk filter that sits above all other layers. Five independent modules (Black Swan, VIX/SPX, AI-3 Wave, Stablecoins, Session) each monitor a different category of systemic risk. The most restrictive module wins. Gate0 can veto the entire pipeline — if it says ABORT, no other layer matters.</p>
+    <p><strong>States:</strong> PROCEED (full size), TIGHTENED (half size, tight stops), PAUSE (close only), ABORT (flatten all).</p>
+    <div class="glossary-meta"><a href="../research/gate0-framework/">Deep dive →</a><a href="../methodology/">Methodology →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="black-swan-score">
+    <h2><a href="#black-swan-score">Black Swan Score</a></h2>
+    <p>A composite tail-risk score (0-17) aggregating multiple systemic risk signals: VIX term inversion, DXY spikes, funding rate extremes, stablecoin depeg, exchange anomalies, and geopolitical events. Higher scores indicate elevated tail risk.</p>
+    <p><strong>Thresholds:</strong> ≥ 12 → ABORT, ≥ 8 → PAUSE, ≥ 5 → TIGHTENED, < 5 → PROCEED.</p>
+    <div class="glossary-meta"><a href="../dashboard/#gate-card">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="composite-score">
+    <h2><a href="#composite-score">Composite Cycle Score</a></h2>
+    <p>A 0-100 score synthesizing MVRV Z-Score, SOPR, and Puell Multiple into a single cycle positioning metric. Each metric is normalized to a 0-100 scale and averaged. The score maps to cycle phases: ACCUMULATION, EARLY BULL, MID BULL, OVERHEATED, CYCLE TOP.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-onchain">Live data →</a></div>
+  </div>
+
+  <div class="glossary-entry" id="coinbase-premium">
+    <h2><a href="#coinbase-premium">Coinbase Premium</a></h2>
+    <p>The price difference between Bitcoin on Coinbase and other exchanges. A positive premium suggests US institutional buying pressure (Coinbase is heavily used by US institutions). A negative premium suggests selling pressure from US institutions.</p>
+    <div class="glossary-meta"><a href="../dashboard/#card-deriv">Live data →</a></div>
+  </div>
+
+</main>
+
+<div id="footer-placeholder"></div>
+<script src="../assets/nav.js"></script>
+</body>
+</html>

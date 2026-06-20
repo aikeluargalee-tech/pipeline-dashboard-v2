@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekend Trading: Why Bitcoin Signals Are Noisier | Pipeline Dashboard</title>
+<meta name="description" content="Weekend Bitcoin trading is thinner, noisier, and less reliable. Learn why Gate0 automatically downgrades to TIGHTENED on weekends and how to handle weekend signals.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/weekend-trading-noisier-signals/">
+<meta property="og:title" content="Weekend Trading: Why Bitcoin Signals Are Noisier">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Weekend Trading: Why Bitcoin Signals Are Noisier","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/weekend-trading-noisier-signals/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/weekend-trading-noisier-signals/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Weekend Trading</div>
+  <article class="article-body">
+    <h1>Weekend Trading: Why Bitcoin Signals Are Noisier</h1>
+    <div class="article-meta">Trading Execution · 5 min read</div>
+
+    <p>Bitcoin trades 24/7, but weekends are structurally different. Lower liquidity, no institutional flows, no macro data — signals that work during the week can fail on weekends. Gate0 automatically accounts for this.</p>
+
+    <h2>Why Weekends Are Different</h2>
+    <ul>
+      <li><strong>Lower liquidity:</strong> Thinner order books mean larger price moves from smaller trades</li>
+      <li><strong>No ETF trading:</strong> Spot ETFs don't trade on weekends — the largest source of institutional demand is absent</li>
+      <li><strong>No macro data:</strong> Weekend moves are crypto-internal, driven by sentiment rather than fundamentals</li>
+      <li><strong>Noisier derivatives:</strong> Funding rates and OI are less reliable with fewer participants</li>
+    </ul>
+
+    <h2>Gate0 Weekend Handling</h2>
+    <p>The session module automatically sets the gate to TIGHTENED on weekends. This means:</p>
+    <ul>
+      <li>Maximum 10x leverage (down from your normal max)</li>
+      <li>Half position size</li>
+      <li>Tight stops required</li>
+      <li>Synthesis verdicts are prefixed with "CAUTIOUS"</li>
+    </ul>
+
+    <h2>Thin Hours Filter</h2>
+    <p>Even during weekdays, the 00:00-06:00 UTC window is thin. The signal monitors enforce a minimum volume threshold during these hours: 50 BTC per 15m candle. If volume is below this, signals are skipped to avoid noise.</p>
+
+    <div class="callout warning">
+      <strong>Treat weekend signals with extra skepticism.</strong>
+      The system downgrades risk, but it can't eliminate weekend noise. If a signal fires on Saturday, consider waiting for Sunday/Monday confirmation before entering at full size.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../trading-sessions/">Trading Sessions pillar</a></li>
+      <li><a href="../golden-window-ny-open/">Golden Window article</a></li>
+      <li><a href="../gate0-framework/">Gate0 Framework</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

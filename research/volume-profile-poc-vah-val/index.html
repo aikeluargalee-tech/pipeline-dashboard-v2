@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volume Profile: Finding POC, VAH, and VAL | Pipeline Dashboard</title>
+<meta name="description" content="Volume profile shows where Bitcoin trading volume is concentrated. Learn how POC, VAH, and VAL act as price magnets and support/resistance levels.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/volume-profile-poc-vah-val/">
+<meta property="og:title" content="Volume Profile: Finding POC, VAH, and VAL">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Volume Profile: Finding POC, VAH, and VAL","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/volume-profile-poc-vah-val/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/volume-profile-poc-vah-val/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Volume Profile</div>
+  <article class="article-body">
+    <h1>Volume Profile: Finding POC, VAH, and VAL</h1>
+    <div class="article-meta">Structural Liquidity · 7 min read · Part of the <a href="../liquidation-magnets/">structural liquidity</a> cluster</div>
+
+    <p>Price tells you what Bitcoin costs. Volume profile tells you where the market actually traded — and those price levels become magnets, support, and resistance. The Pipeline Dashboard builds volume profile from 7 days of 1-hour Binance klines.</p>
+
+    <h2>What Volume Profile Shows</h2>
+    <p>Instead of plotting volume against time (the familiar bar chart at the bottom), volume profile plots volume against <em>price</em>. The result is a horizontal histogram showing how much BTC traded at each price level. Price levels with high volume are "accepted" by the market — they act as magnets. Price levels with low volume are "rejected" — price passes through them quickly.</p>
+
+    <h2>The Three Key Levels</h2>
+
+    <h3>POC (Point of Control)</h3>
+    <p>The single price level with the highest trading volume. This is the market's consensus "fair value" — the price where the most buyers and sellers agreed. Price tends to revisit the POC when it's away from it, and the POC acts as strong support/resistance when price is near it.</p>
+
+    <h3>VAH (Value Area High)</h3>
+    <p>The upper boundary of the Value Area — the price range containing 70% of total volume. VAH acts as resistance. When price breaks above VAH, it signals acceptance of higher prices.</p>
+
+    <h3>VAL (Value Area Low)</h3>
+    <p>The lower boundary of the Value Area. VAL acts as support. When price breaks below VAL, it signals acceptance of lower prices — unless volume declines and CVD holds, which signals <a href="../liquidation-magnets/">VAL Absorption</a>.</p>
+
+    <h2>How the Dashboard Computes It</h2>
+    <p>The <code>generate_volume_profile()</code> function in collect.py:</p>
+    <ol>
+      <li>Fetches 168 hourly klines (7 days) from Binance</li>
+      <li>Distributes each candle's volume across $50 price bins</li>
+      <li>Identifies POC as the bin with highest volume</li>
+      <li>Expands outward from POC until 70% of volume is captured (Value Area)</li>
+      <li>Identifies HVNs (top 5 high-volume nodes) and LVNs (bottom 3 low-volume nodes)</li>
+    </ol>
+
+    <h2>Trading with Volume Profile</h2>
+    <ul>
+      <li><strong>Price at POC:</strong> Fair value — range-bound trading expected</li>
+      <li><strong>Price above VAH:</strong> Bullish — market accepting higher prices</li>
+      <li><strong>Price below VAL:</strong> Bearish — unless VAL Absorption detected</li>
+      <li><strong>Price at LVN:</strong> Fast moves expected — low volume means little resistance</li>
+    </ul>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../liquidation-magnets/">Liquidation Magnets pillar</a></li>
+      <li><a href="../../glossary/#volume-profile">Volume Profile glossary</a></li>
+      <li><a href="../../glossary/#poc">POC glossary</a></li>
+      <li><a href="../../dashboard/#card-vol">Live volume profile</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "last_updated": "2026-06-20T11:16:16.544152+00:00",
+  "signals": {
+    "all_time": {
+      "total": 1,
+      "wins": 0,
+      "losses": 0,
+      "expired": 0,
+      "open": 1
+    },
+    "trailing_90d": {
+      "total": 0,
+      "wins": 0,
+      "losses": 0,
+      "expired": 0
+    }
+  },
+  "regime_changes": {
+    "total_calls": 4,
+    "accuracy": {
+      "1d": {
+        "hit_rate": null,
+        "sample_size": 0
+      },
+      "7d": {
+        "hit_rate": null,
+        "sample_size": 0
+      },
+      "30d": {
+        "hit_rate": null,
+        "sample_size": 0
+      }
+    }
+  }
+}

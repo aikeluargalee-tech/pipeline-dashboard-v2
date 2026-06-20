@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIX and Bitcoin: Equity Volatility Spillover | Pipeline Dashboard</title>
+<meta name="description" content="The VIX (Volatility Index) measures equity market fear. Learn how VIX spikes spill over into Bitcoin and why Gate0 uses VIX > 30 as a PAUSE trigger.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/vix-bitcoin-spillover/">
+<meta property="og:title" content="VIX and Bitcoin: Equity Volatility Spillover">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"VIX and Bitcoin: Equity Volatility Spillover","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/vix-bitcoin-spillover/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/vix-bitcoin-spillover/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> VIX and Bitcoin</div>
+  <article class="article-body">
+    <h1>VIX and Bitcoin: Equity Volatility Spillover</h1>
+    <div class="article-meta">Risk Frameworks · 6 min read</div>
+
+    <p>Bitcoin trades like a risk asset — when equity markets panic, BTC sells off. The VIX (CBOE Volatility Index) is the "fear gauge" that measures expected 30-day volatility in the S&P 500. The Pipeline Dashboard uses VIX in two places: the Gate0 risk gate and the macro regime classification.</p>
+
+    <h2>VIX Thresholds in Gate0</h2>
+    <ul>
+      <li><strong>VIX > 40 → ABORT:</strong> Extreme equity panic. BTC will be hit hard. Flatten everything.</li>
+      <li><strong>VIX > 30 → PAUSE:</strong> Significant equity stress. No new BTC positions.</li>
+      <li><strong>VIX > 22 → TIGHTENED:</strong> Elevated volatility. Reduce size.</li>
+      <li><strong>VIX < 18 → Risk-on:</strong> Calm markets. Normal trading.</li>
+    </ul>
+
+    <h2>VIX in the Macro Layer</h2>
+    <p>In the macro regime classification, VIX contributes to the risk-on/risk-off assessment:</p>
+    <ul>
+      <li>VIX < 18 → bullish signal (risk-on)</li>
+      <li>VIX > 25 → bearish signal (risk-off)</li>
+      <li>18-25 → neutral</li>
+    </ul>
+
+    <h2>VIX Weekly Trend</h2>
+    <p>The dashboard also computes VIX weekly change from a 5-day chart. A rapidly rising VIX (e.g., +20% in a week) is an early warning that equity stress is building — even before VIX crosses the 30 threshold. This provides lead time to reduce positions.</p>
+
+    <h2>The Spillover Mechanism</h2>
+    <p>When VIX spikes, it typically means:</p>
+    <ol>
+      <li>Institutional risk managers are de-risking across all asset classes</li>
+      <li>Margin calls in equities force liquidation of other positions (including BTC)</li>
+      <li>Correlation between BTC and equities increases during stress (everything sells off together)</li>
+    </ol>
+
+    <div class="callout warning">
+      <strong>Correlation breakdown:</strong>
+      During acute risk-off (e.g., COVID March 2020), BTC can decouple from equities for weeks. The macro layer assumes BTC eventually re-correlates — but during breakdowns, structural and derivatives layers matter more.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../gate0-framework/">Gate0 Framework pillar</a></li>
+      <li><a href="../bitcoin-macro-correlation/">Bitcoin Macro Correlation pillar</a></li>
+      <li><a href="../../glossary/#vix">VIX glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exchange Netflow: Reading Bitcoin Inflows and Outflows | Pipeline Dashboard</title>
+<meta name="description" content="Bitcoin exchange netflow tracks coins moving to (bearish) or from (bullish) exchanges. Learn how to read 7-day netflow as a supply/demand indicator.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/exchange-netflow-interpretation/">
+<meta property="og:title" content="Exchange Netflow: Reading Bitcoin Inflows and Outflows">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Exchange Netflow: Reading Bitcoin Inflows and Outflows","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/exchange-netflow-interpretation/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/exchange-netflow-interpretation/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Exchange Netflow</div>
+  <article class="article-body">
+    <h1>Exchange Netflow: Reading Bitcoin Inflows and Outflows</h1>
+    <div class="article-meta">On-Chain Valuation · 5 min read</div>
+
+    <p>When Bitcoin moves to an exchange, it's usually about to be sold. When it moves off an exchange, someone is taking it to cold storage — accumulating for the long term. Exchange netflow tracks this supply/demand dynamic over 7 days.</p>
+
+    <h2>What Netflow Measures</h2>
+    <p>Netflow is the difference between Bitcoin flowing into exchanges (inflows) and flowing out (outflows) over a 7-day period. The Pipeline Dashboard tracks this as <code>exchange_netflow_7d_btc</code> in the <a href="../../glossary/#exchange-netflow">cycle layer</a>.</p>
+
+    <h2>Interpretation</h2>
+    <ul>
+      <li><strong>Negative netflow (outflows exceed inflows):</strong> Bullish. More coins leaving exchanges than arriving — holders are moving to cold storage, reducing available sell supply.</li>
+      <li><strong>Positive netflow (inflows exceed outflows):</strong> Bearish. More coins arriving at exchanges — holders are preparing to sell, increasing available supply.</li>
+    </ul>
+
+    <h2>On the Dashboard</h2>
+    <p>The dashboard displays netflow in the On-Chain Valuation card. Negative values are colored green (bullish), positive values red (bearish). The value is in BTC — for example, "-2,940 BTC" means 2,940 more BTC left exchanges than arrived over 7 days.</p>
+
+    <h2>Why 7 Days?</h2>
+    <p>Daily netflow is noisy — a single large transfer can skew the signal. The 7-day window smooths out daily volatility while remaining responsive enough to catch regime shifts within a week.</p>
+
+    <div class="callout info">
+      <strong>Context matters:</strong>
+      Large outflows during a price dump can signal capitulation (holders giving up and moving to cold storage in despair). Large inflows during a rally can signal profit-taking. Always read netflow alongside price action.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../mvrv-z-score/">MVRV Z-Score</a> — Cycle valuation</li>
+      <li><a href="../sopr-spending-behavior/">SOPR</a> — Holder spending behavior</li>
+      <li><a href="../../glossary/#exchange-netflow">Netflow glossary entry</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CVD: Cumulative Volume Delta Explained | Pipeline Dashboard</title>
+<meta name="description" content="CVD (Cumulative Volume Delta) tracks net taker buy/sell volume over 24 hours. Learn how to read CVD trend as a real-time order flow indicator.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/cvd-cumulative-volume-delta/">
+<meta property="og:title" content="CVD: Cumulative Volume Delta Explained">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"CVD: Cumulative Volume Delta Explained","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/cvd-cumulative-volume-delta/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/cvd-cumulative-volume-delta/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> CVD</div>
+  <article class="article-body">
+    <h1>CVD: Cumulative Volume Delta Explained</h1>
+    <div class="article-meta">Derivatives · 7 min read</div>
+
+    <p>CVD (Cumulative Volume Delta) is the most direct measure of real-time buying and selling pressure. It tracks the cumulative difference between taker buy volume and taker sell volume — showing you who's actually winning the order flow battle.</p>
+
+    <h2>What CVD Measures</h2>
+    <p>Every trade has a taker (the one who crosses the spread) and a maker (the one with the resting order). Taker buys represent aggressive buying — someone willing to pay the ask price. Taker sells represent aggressive selling — someone willing to hit the bid.</p>
+    <p>CVD is the running sum of (taker buy volume - taker sell volume) over 24 hours. Positive CVD = buyers dominating. Negative CVD = sellers dominating.</p>
+
+    <h2>The Dashboard Computation</h2>
+    <p>The <code>collect_derivatives()</code> function fetches 24 hours of hourly taker buy/sell data from Binance Futures. It validates that at least 80% of candles have both <code>buyVol</code> and <code>sellVol</code> fields, then computes:</p>
+    <ul>
+      <li><strong>CVD 24h:</strong> Cumulative (buyVol - sellVol) across all valid candles</li>
+      <li><strong>CVD trend:</strong> Compares the last 4 hours of delta to the first 4 hours</li>
+    </ul>
+
+    <h2>Reading the Trend</h2>
+    <p>The trend matters more than the absolute value:</p>
+    <ul>
+      <li><strong>Strengthening:</strong> Recent buying pressure exceeds earlier buying. Buyers are getting more aggressive.</li>
+      <li><strong>Weakening:</strong> Recent selling pressure exceeds earlier selling. Sellers are getting more aggressive.</li>
+      <li><strong>Flat:</strong> Buy/sell pressure roughly balanced. No clear direction.</li>
+    </ul>
+
+    <h2>CVD in Signal Detection</h2>
+    <p>CVD is a critical input for all three signal monitors:</p>
+    <ul>
+      <li><a href="../val-absorption-smart-money-detection/">VAL Absorption</a>: Requires CVD holding (non-negative) — buyers still present despite price drop</li>
+      <li><strong>Breakout-Retest:</strong> Requires CVD > 0 for volume confirmation — buyers supporting the breakout</li>
+      <li><strong>Breakdown-Retest:</strong> Requires CVD < 0 — sellers supporting the breakdown. If CVD flips positive during retest, the signal is skipped (that's VAL Absorption territory)</li>
+    </ul>
+
+    <div class="callout info">
+      <strong>The CVD flip filter:</strong>
+      In Breakdown-Retest detection, if CVD turns positive during the retest phase, the signal is skipped with status "cvd_flip_skip." This prevents shorting when buyers have stepped in — that's a VAL Absorption setup, not a breakdown.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../derivatives-positioning/">Derivatives pillar</a></li>
+      <li><a href="../val-absorption-smart-money-detection/">VAL Absorption</a></li>
+      <li><a href="../../glossary/#cvd">CVD glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

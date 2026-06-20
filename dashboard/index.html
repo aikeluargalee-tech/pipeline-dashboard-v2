@@ -1,0 +1,2113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Bitcoin Macro Analysis & Quantitative Pipeline Dashboard</title>
+<meta name="description" content="Real-time Bitcoin market intelligence dashboard: Gate0 pass/fail risk parameters, macro regime analysis, support/resistance bands, liquidation heatmap clusters, derivatives sentiment, on-chain cycle metrics, and technical analysis — auto-refreshed every 15 minutes.">
+<meta name="subject" content="Bitcoin market analysis, quantitative setups, technical analysis dashboard">
+<meta name="classification" content="Finance, Cryptocurrency, Trading, Technical Analysis">
+<meta name="author" content="BTC Pipeline">
+<!-- Open Graph — used by Perplexity, ChatGPT, social previews -->
+<meta property="og:title" content="BTC Pipeline Dashboard — Real-Time Market Intelligence">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Live Bitcoin monitoring: Gate0 status, funding rates, liquidation clusters, on-chain cycle metrics, and derivatives data. Updated every 15 minutes.">
+<meta property="og:site_name" content="BTC Pipeline">
+<meta property="og:updated_time" id="og-updated" content="2026-06-20T11:16:15+00:00">
+<!-- Google AI Overviews freshness signals -->
+<meta property="article:published_time" content="2024-01-01T00:00:00Z">
+<meta property="article:modified_time" id="article-modified" content="2026-06-20T11:16:15+00:00">
+<!-- Dublin Core — Perplexity respects these -->
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.title" content="BTC Pipeline Dashboard">
+<meta name="DC.type" content="Dataset">
+<meta name="DC.format" content="text/html">
+<meta name="DC.language" content="en">
+<meta name="DC.date" id="dc-date" content="2026-06-20T11:16:15+00:00">
+<!-- Schema.org Dataset markup for AI engines -->
+<script type="application/ld+json" id="schema-dataset">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "BTC Pipeline Dashboard — Real-Time Quantitative Market Analysis",
+  "description": "Real-time Bitcoin market quantitative pipeline aggregating Gate0 entry conditions, macro speculation indicators, structural support/resistance bands, liquidation heatmap data, derivatives positioning (funding, open interest), on-chain cycle metrics (MVRV Z-Score, SOPR, Puell Multiple), and technical analysis. Data auto-refreshes every 15 minutes.",
+  "url": "https://aikeluargalee-tech.github.io/pipeline-dashboard/",
+  "temporalCoverage": "2024/..",
+  "measurementTechnique": "Automated JSON data pipeline, 15-minute refresh cadence via cron-scheduled collection",
+  "creator": { "@type": "Organization", "name": "BTC Pipeline" },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "dateModified": "2026-06-20T11:16:15+00:00",
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/gate0.json", "name": "Gate0 Signal Data" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/macro.json", "name": "Macro Indicator Data" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/structural.json", "name": "Structural Liquidity Data" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/derivatives.json", "name": "Derivatives Data" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/cycle.json", "name": "Cycle Context Data" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/regime.json", "name": "Regime Synthesis Data" }
+  ],
+  "variableMeasured": [
+    { "@type": "PropertyValue", "name": "Gate0 Status", "description": "Composite pass/fail signal aggregating black swan scoring, VIX/SPX correlation, AI-3 wave detection, stablecoin health, and trading session" },
+    { "@type": "PropertyValue", "name": "BTC Price", "description": "Real-time Bitcoin price in USD with 24-hour change" },
+    { "@type": "PropertyValue", "name": "Macro Regime", "description": "DXY (US Dollar Index), 10Y Treasury yield, M2 money supply, and risk asset correlation (SPY, QQQ)" },
+    { "@type": "PropertyValue", "name": "Liquidation Magnets", "description": "Nearest above/below liquidation clusters acting as price magnets, sandwich compression width, and squeeze/sweep regime detection" },
+    { "@type": "PropertyValue", "name": "Support/Resistance Bands", "description": "Multi-timeframe (1h/4h/1d) support and resistance levels with ATR-based confidence scoring" },
+    { "@type": "PropertyValue", "name": "Volume Profile", "description": "Point of Control (POC), Value Area High/Low, and composite volume nodes" },
+    { "@type": "PropertyValue", "name": "Funding Rate", "description": "Perpetual futures funding rate as a derivatives sentiment indicator" },
+    { "@type": "PropertyValue", "name": "Open Interest", "description": "Aggregate open interest with accumulation/unwinding detection" },
+    { "@type": "PropertyValue", "name": "MVRV Z-Score", "description": "Market Value to Realized Value ratio Z-score for cycle positioning" },
+    { "@type": "PropertyValue", "name": "RSI", "description": "14-period Relative Strength Index for momentum assessment" },
+    { "@type": "PropertyValue", "name": "Bollinger Bands", "description": "Band width and squeeze detection for volatility breakout signals" }
+  ]
+}
+</script>
+<!-- BreadcrumbList schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://aikeluargalee-tech.github.io/pipeline-dashboard/"
+  }, {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "BTC Pipeline Dashboard",
+    "item": "https://aikeluargalee-tech.github.io/pipeline-dashboard/"
+  }]
+}
+</script>
+<!-- Organization schema — authority signal for AI engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "BTC Pipeline",
+  "url": "https://aikeluargalee-tech.github.io/pipeline-dashboard/",
+  "description": "Independent Bitcoin market intelligence — macro-first, multi-layer quantitative analysis updated every 15 minutes.",
+  "foundingDate": "2024",
+  "knowsAbout": [
+    "Bitcoin market analysis",
+    "Cryptocurrency quantitative models",
+    "On-chain analytics",
+    "Derivatives market structure",
+    "Technical analysis",
+    "Macroeconomic indicators"
+  ]
+}
+</script>
+<!-- WebSite schema with SearchAction -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "BTC Pipeline Dashboard",
+  "url": "https://aikeluargalee-tech.github.io/pipeline-dashboard/",
+  "description": "Real-time Bitcoin market quantitative monitoring — Gate0 entry conditions, macro regime analysis, structural liquidity, derivatives positioning, and on-chain cycle metrics.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://aikeluargalee-tech.github.io/pipeline-dashboard/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<!-- Link to raw data files for AI crawler discovery -->
+<link rel="alternate" type="application/json" href="../data/gate0.json" title="Gate0 Signal Data">
+<link rel="alternate" type="application/json" href="../data/macro.json" title="Macro Indicator Data">
+<link rel="alternate" type="application/json" href="../data/regime.json" title="Regime Synthesis Data">
+<link rel="alternate" type="application/json" href="../data/structural.json" title="Structural Liquidity Data">
+<link rel="alternate" type="application/json" href="../data/derivatives.json" title="Derivatives Data">
+<link rel="alternate" type="application/json" href="../data/cycle.json" title="Cycle Context Data">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/logo.png">
+<meta name="theme-color" content="#05070d">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<noscript>
+<nav style="background:rgba(5,7,13,0.95);border-bottom:1px solid rgba(255,255,255,0.06);padding:12px 24px">
+  <div style="max-width:1200px;margin:0 auto;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
+    <a href="/pipeline-dashboard/" style="color:#f5f5f6;text-decoration:none;font-weight:800">⚡ Pipeline Dashboard</a>
+    <a href="/pipeline-dashboard/dashboard/" style="color:#888893;text-decoration:none;font-size:0.85em">Dashboard</a>
+    <a href="/pipeline-dashboard/methodology/" style="color:#888893;text-decoration:none;font-size:0.85em">Methodology</a>
+    <a href="/pipeline-dashboard/research/" style="color:#888893;text-decoration:none;font-size:0.85em">Research</a>
+    <a href="/pipeline-dashboard/glossary/" style="color:#888893;text-decoration:none;font-size:0.85em">Glossary</a>
+    <a href="/pipeline-dashboard/events-and-disruptions/" style="color:#888893;text-decoration:none;font-size:0.85em">Events</a>
+    <a href="/pipeline-dashboard/verdicts/" style="color:#888893;text-decoration:none;font-size:0.85em">Verdicts</a>
+    <a href="/pipeline-dashboard/track-record/" style="color:#888893;text-decoration:none;font-size:0.85em">Track Record</a>
+    <a href="/pipeline-dashboard/compare/" style="color:#888893;text-decoration:none;font-size:0.85em">Compare</a>
+    <a href="/pipeline-dashboard/faq/" style="color:#888893;text-decoration:none;font-size:0.85em">FAQ</a>
+    <a href="/pipeline-dashboard/dashboard/" style="background:var(--cyan);color:#05070d;text-decoration:none;font-size:0.82em;padding:6px 16px;border-radius:8px;font-weight:700">Live Dashboard →</a>
+  </div>
+</nav>
+<div style="max-width:1200px;margin:20px auto;padding:20px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:12px;color:#a1a1aa">
+  <h2 style="color:#ffffff;margin-bottom:12px">Automated Quantitative Market Intelligence Dashboard</h2>
+  <p style="margin-bottom:16px">This pipeline continuously aggregates and tracks localized market liquidity parameters, structural open interest, and historical simulation models for Bitcoin. It operates on a 15-minute scheduled updates framework.</p>
+  <h3 style="color:#ffffff;margin-bottom:8px">Six-Layer Analytical Framework</h3>
+  <ul style="margin-left:20px;margin-bottom:16px">
+    <li><strong>Gate0 Gating:</strong> Evaluates systemic risk indexes (Black Swan scoring, equity volatility correlations, peg stability metrics).</li>
+    <li><strong>Layer 1 (Macro):</strong> Tracks macroeconomic conditions including the US Dollar Index (DXY), 10-year Treasury yields, and money supply (M2).</li>
+    <li><strong>Layer 2 (Structure):</strong> Computes structural liquidity parameters, liquidation magnet clusters, support/resistance bands, and volume profile nodes.</li>
+    <li><strong>Layer 3 (Derivatives):</strong> Monitors derivatives positioning metrics, perpetual funding rates, and open interest dynamics.</li>
+    <li><strong>Layer 4 (Cycle):</strong> Integrates on-chain valuation scores (MVRV Z-Score, SOPR, Puell Multiple) for long-term cycle alignment.</li>
+    <li><strong>Technical overlay:</strong> Displays lagging momentum measures (RSI, Bollinger Bands) for context.</li>
+  </ul>
+  <p>Note: JavaScript is required to view live metrics, charts, and auto-refresh functionalities.</p>
+</div>
+</noscript>
+
+<main id="dashboard" role="main" aria-label="BTC Pipeline Dashboard — Real-time quantitative market intelligence">
+
+
+<!-- TL;DR Executive Summary — optimized for AI answer engine extraction -->
+<div style="background:linear-gradient(135deg, rgba(251,191,36,0.06), rgba(16,185,129,0.04));border:1px solid var(--border);border-radius:14px;padding:16px 20px;margin-bottom:24px;font-size:0.88em;line-height:1.7">
+  <strong style="color:var(--yellow);text-transform:uppercase;letter-spacing:0.08em;font-size:0.85em">⚡ Executive Summary</strong>
+  <p id="exec-summary-text" style="color:var(--muted);margin:8px 0 0 0">This live dashboard translates complex, institutional Bitcoin metrics into clear market conditions. We analyze global stock markets, systemic geopolitical risks, digital dollar stability, on-chain value scores, and futures trading activity to tell you if the market is stable, rising, or flashing high-risk crash signals. Updated automatically every 15 minutes.</p>
+</div>
+
+<div class="header">
+  <div>
+    <h1>⚡ Pipeline Dashboard</h1>
+    <p class="dashboard-summary" style="font-size:0.88em;color:var(--muted);line-height:1.5;max-width:650px;margin-top:4px">
+      Live Bitcoin market intelligence: Gate0 pass/fail entry conditions, macro regime analysis, structural support/resistance bands, liquidation heatmap clusters, derivatives positioning, and on-chain cycle metrics — auto-refreshed every 15 minutes.
+    </p>
+    <div class="meta" id="meta">Loading...</div>
+    <div class="mode-toggle-container">
+      <span class="mode-label">View:</span>
+      <div class="mode-switch">
+        <button class="mode-btn active" id="btn-mode-simple" onclick="setDashboardMode('simple')">Beginner (Simple)</button>
+        <button class="mode-btn" id="btn-mode-advanced" onclick="setDashboardMode('advanced')">Trader (Advanced)</button>
+      </div>
+    </div>
+  </div>
+  <div style="text-align:right">
+    <span class="btc-price" id="btc-price">$63,666</span>
+    <span class="btc-change" id="btc-change"></span>
+    <div class="meta" id="btc-range"></div>
+  </div>
+</div>
+
+
+<!-- L-1 Manual Macro Gate Banner -->
+<div id="l1-gate-banner" style="display:none;">
+  <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+    <span id="l1-status-badge" style="padding:6px 16px;border-radius:8px;font-weight:800;font-size:0.95em;text-transform:uppercase;letter-spacing:1px;"></span>
+    <span id="l1-reason" style="flex:1;min-width:200px;font-weight:500;"></span>
+    <span id="l1-expiry" style="font-size:0.78em;color:var(--muted);"></span>
+  </div>
+  <div id="l1-trigger" style="margin-top:6px;font-size:0.75em;color:var(--muted);"></div>
+</div>
+
+<!-- Trading Session Clocks -->
+<div class="session-clocks" id="session-clocks">
+  <div class="clock-item" id="clock-ny"><span class="clock-city">NY</span><span class="clock-time">--:--</span></div>
+  <div class="clock-item" id="clock-london"><span class="clock-city">London</span><span class="clock-time">--:--</span></div>
+  <div class="clock-item" id="clock-dubai"><span class="clock-city">Dubai</span><span class="clock-time">--:--</span></div>
+  <div class="clock-item" id="clock-singapore"><span class="clock-city">Singapore</span><span class="clock-time">--:--</span></div>
+  <div class="clock-item" id="clock-tokyo"><span class="clock-city">Tokyo</span><span class="clock-time">--:--</span></div>
+</div>
+
+<!-- Regime Summary Card -->
+<div class="regime-summary" id="regime-card">
+  <div class="regime-title">⚡ REGIME SYNTHESIS</div>
+  <div class="regime-verdict" id="regime-verdict">CAUTIOUS NEUTRAL</div>
+  <div class="regime-detail" id="regime-detail">Tightened rules active. 0.5 bullish / 0.0 bearish signals. | TA: Price 12.1% below MA50 — medium-term structure bearish</div>
+  <div class="regime-layers" id="regime-layers"></div>
+  <div class="card-narrative" id="nar-regime" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+</div>
+<div class="gate-card" id="gate-card">
+  <div class="gate-header">
+    <span class="gate-badge" id="gate-badge">CAUTIOUS NEUTRAL</span>
+    <span style="color:var(--muted);font-size:0.85em" id="gate-sources"></span>
+  </div>
+  <div class="gate-modules" id="gate-modules"></div>
+  <div class="gate-rules" id="gate-rules" style="display:none"></div>
+  <div class="card-narrative" id="nar-gate" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+</div>
+
+
+<!-- Layer 1: Macro & Speculation -->
+<div class="layer">
+  <div class="layer-header">
+    <span class="layer-num">1</span>
+    <h2 class="layer-title">Macro & Speculation</h2>
+    <span class="layer-subtitle">Primary driver</span>
+  </div>
+  <div class="layer-grid">
+    <div class="card" id="card-macro">
+      <h3 class="card-title">💵 Macro Conditions</h3>
+      <div id="macro-metrics"><p style="font-size:0.8em;color:var(--muted)">Quantitative macro indices: tracks DXY, yields, and central bank money supply indicators.</p></div>
+      <div class="card-narrative" id="nar-macro" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-risk">
+      <h3 class="card-title">📈 Risk Assets</h3>
+      <div id="risk-metrics"><p style="font-size:0.8em;color:var(--muted)">Equity risk asset benchmarks: monitors SPY, QQQ, and stock volatility indices (VIX).</p></div>
+      <div class="card-narrative" id="nar-risk" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-news">
+      <h3 class="card-title">📰 Macro News</h3>
+      <div id="news-feed"></div>
+      <div class="card-narrative" id="nar-news" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-social">
+      <h3 class="card-title">💬 Social Pulse</h3>
+      <div id="social-pulse"></div>
+      <div class="card-narrative" id="nar-social" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Layer 2: Structural Liquidity -->
+<div class="layer">
+  <div class="layer-header">
+    <span class="layer-num">2</span>
+    <h2 class="layer-title">Structural Liquidity</h2>
+    <span class="layer-subtitle">Physics, not opinion</span>
+  </div>
+  <div class="layer-grid">
+    <div class="card" id="card-magnets">
+      <h3 class="card-title">🧲 Liquidation Magnets</h3>
+      <div id="magnets-content"><p style="font-size:0.8em;color:var(--muted)">Liquidation clusters: aggregates leveraged order book positions to map price attraction zones.</p></div>
+      <div class="card-narrative" id="nar-magnets" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-sr">
+      <h3 class="card-title">📊 S/R Bands</h3>
+      <div id="sr-content"><p style="font-size:0.8em;color:var(--muted)">Support and resistance zones: computes key levels using ATR variance across timeframes.</p></div>
+      <div class="card-narrative" id="nar-sr" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-vol">
+      <h3 class="card-title">📏 Volume Profile</h3>
+      <div id="vol-content"><p style="font-size:0.8em;color:var(--muted)">Volume Profile: identifies Point of Control (POC) and value area boundaries.</p></div>
+      <div class="card-narrative" id="nar-vol" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-cts" style="border-left: 3px solid var(--orange)">
+      <h3 class="card-title">🏦 Corporate Treasury Stress</h3>
+      <div id="cts-content" style="font-size:0.8em;line-height:1.6">Loading...</div>
+      <div class="card-narrative" id="nar-cts" style="font-size:0.72em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)">Strategy (MSTR) preferred share health monitor</div>
+    </div>
+  </div>
+  <div id="val-absorption-content" style="display:none"></div>
+  <div id="breakout-retest-content" style="display:none"></div>
+  <div id="breakdown-retest-content" style="display:none"></div>
+  <div id="signal-stats" style="display:none;text-align:center;margin-top:12px;padding:8px 16px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:8px;font-size:0.72em;color:var(--muted);font-family:'JetBrains Mono',monospace;letter-spacing:0.3px"></div>
+</div>
+
+<!-- Layer 3: Derivatives -->
+<div class="layer">
+  <div class="layer-header">
+    <span class="layer-num">3</span>
+    <h2 class="layer-title">Derivatives</h2>
+    <span class="layer-subtitle">Real-time positioning</span>
+  </div>
+  <div class="layer-grid">
+    <div class="card" id="card-deriv">
+      <h3 class="card-title">💰 Funding & Order Flow</h3>
+      <div id="deriv-content"><p style="font-size:0.8em;color:var(--muted)">Derivatives positioning: tracks cross-exchange funding rates and long/short skew.</p></div>
+      <div class="card-narrative" id="nar-deriv" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-oi">
+      <h3 class="card-title">📊 Open Interest</h3>
+      <div id="oi-content"><p style="font-size:0.8em;color:var(--muted)">Open Interest: monitors aggregate outstanding futures contracts and flow sentiment.</p></div>
+      <div class="card-narrative" id="nar-oi" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Layer 4: Cycle Context -->
+<div class="layer">
+  <div class="layer-header">
+    <span class="layer-num">4</span>
+    <h2 class="layer-title">Cycle Context</h2>
+    <span class="layer-subtitle">Weekly/monthly, not per-session</span>
+  </div>
+  <div class="layer-grid">
+    <div class="card" id="card-onchain">
+      <h3 class="card-title">⛓️ On-Chain Valuation</h3>
+      <div id="onchain-content"><p style="font-size:0.8em;color:var(--muted)">On-chain valuation: compiles MVRV Z-Score, SOPR, and Puell Multiple cycles.</p></div>
+      <div class="card-narrative" id="nar-onchain" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-dist">
+      <h3 class="card-title">💰 BTC Distribution</h3>
+      <div id="dist-content"><p style="font-size:0.8em;color:var(--muted)">Bitcoin distribution: monitors wallet size transitions and accumulator flow.</p></div>
+      <div class="card-narrative" id="nar-dist" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Signal Tracker — 3-state event evolution (AlphaEar-derived) -->
+<div class="layer" id="signal-tracker-section">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--cyan)">ST</span>
+    <h2 class="layer-title">Model Setup Tracker</h2>
+    <span class="layer-subtitle">Event evolution: STRENGTHENED · WEAKENING · FALSIFIED</span>
+  </div>
+  <div class="layer-grid">
+    <div class="card" id="card-sig-track" style="border-left: 3px solid var(--cyan)">
+      <h3 class="card-title">📡 Active Setup Evolution</h3>
+      <div id="sig-track-content">Loading...</div>
+      <div class="card-narrative" id="nar-sig-track" style="font-size:0.72em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)">
+        Tracks active events from the trigger library. Each event is evaluated against current BTC price to determine if the thesis is strengthening, weakening, or has been falsified.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Supplementary: TA & Lagging Indicators -->
+<div class="layer" id="ta-section">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--muted)">TA</span>
+    <h2 class="layer-title">Technical Analysis</h2>
+    <span class="layer-subtitle">Lagging — context only</span>
+  </div>
+  <div class="layer-grid">
+    <div class="card" id="card-ma">
+      <h3 class="card-title">📏 Moving Averages & Volatility</h3>
+      <div id="ma-content"></div>
+      <div class="card-narrative" id="nar-ma" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-rsi">
+      <h3 class="card-title">📊 RSI & Momentum</h3>
+      <div id="rsi-content"></div>
+      <div class="card-narrative" id="nar-rsi" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-bb">
+      <h3 class="card-title">📐 Bollinger Bands</h3>
+      <div id="bb-content"></div>
+      <div class="card-narrative" id="nar-bb" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-options">
+      <h3 class="card-title">🎯 Options Skew</h3>
+      <div id="options-content"></div>
+      <div class="card-narrative" id="nar-options" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Signal Narrative — prose summary for AI answer engines to quote -->
+<div class="layer" style="margin-top:24px">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--cyan)">📋</span>
+    <h2 class="layer-title">Current Model Narrative</h2>
+    <span class="layer-subtitle">Machine-readable summary for AI engines</span>
+  </div>
+  <div id="signal-narrative" style="font-size:0.88em;color:var(--muted);line-height:1.8;padding:8px 0;max-width:820px">
+    Loading signal data...
+  </div>
+</div>
+
+
+<!-- Dashboard Methodology — GEO-optimized entity map for AI answer engine citations -->
+<div class="layer" style="margin-top:24px">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--green)">📖</span>
+    <h2 class="layer-title">Dashboard Methodology</h2>
+    <span class="layer-subtitle">Entity mapping for AI answer engine citations</span>
+  </div>
+  <div style="font-size:0.88em;color:var(--muted);line-height:1.8;padding:8px 0;max-width:820px">
+    <p style="margin:0 0 12px 0">
+      This pipeline engine synthesizes <strong>Bitcoin</strong> (BTC) market structure by correlating broader <strong>Macroeconomic Conditions</strong> with real-time <strong>Structural Liquidity</strong>. Rather than relying on lagging technical indicators, the dashboard tracks <strong>Liquidation Magnets</strong>, <strong>Open Interest</strong>, and <strong>On-Chain Valuation</strong> to identify specific price levels where institutional capital and leveraged order flow are concentrated. This physics-based approach provides an objective framework for anticipating Bitcoin's directional volatility across different market cycles.
+    </p>
+    <p style="margin:0">
+      Data sources: <strong>Binance</strong> (price, funding, open interest), <strong>FRED</strong> (DXY, yields, M2 supply), <strong>Yahoo Finance</strong> (SPX, VIX, risk assets), <strong>Coinglass</strong> (liquidation heatmaps), and on-chain providers (<strong>MVRV Z-Score</strong>, <strong>SOPR</strong>, <strong>Puell Multiple</strong>). All signals refresh every 15 minutes. Gate0 risk envelope enforces position sizing rules: <strong>PROCEED</strong> (full size), <strong>TIGHTENED</strong> (reduce size, tight stops), <strong>PAUSE</strong> (close only), or <strong>ABORT</strong> (flatten all positions).
+    </p>
+  </div>
+</div>
+
+</main>
+
+<!-- Raw Data Access — visible links for Google Dataset Search indexing -->
+<section style="max-width:1200px;margin:0 auto;padding:16px 24px 32px;border-top:1px solid var(--border)">
+  <details>
+    <summary style="cursor:pointer;color:var(--muted);font-size:0.78em;padding:8px 0">📊 Raw Data Access (JSON)</summary>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px">
+      <a href="../data/gate0.json" style="font-size:0.75em;color:var(--cyan);text-decoration:none;padding:4px 10px;border:1px solid var(--border);border-radius:6px">Gate0</a>
+      <a href="../data/macro.json" style="font-size:0.75em;color:var(--cyan);text-decoration:none;padding:4px 10px;border:1px solid var(--border);border-radius:6px">Macro</a>
+      <a href="../data/structural.json" style="font-size:0.75em;color:var(--cyan);text-decoration:none;padding:4px 10px;border:1px solid var(--border);border-radius:6px">Structural</a>
+      <a href="../data/derivatives.json" style="font-size:0.75em;color:var(--cyan);text-decoration:none;padding:4px 10px;border:1px solid var(--border);border-radius:6px">Derivatives</a>
+      <a href="../data/cycle.json" style="font-size:0.75em;color:var(--cyan);text-decoration:none;padding:4px 10px;border:1px solid var(--border);border-radius:6px">Cycle</a>
+      <a href="../data/regime.json" style="font-size:0.75em;color:var(--cyan);text-decoration:none;padding:4px 10px;border:1px solid var(--border);border-radius:6px">Regime</a>
+      <a href="../data/btc_price.json" style="font-size:0.75em;color:var(--cyan);text-decoration:none;padding:4px 10px;border:1px solid var(--border);border-radius:6px">BTC Price</a>
+      <a href="../data/meta.json" style="font-size:0.75em;color:var(--cyan);text-decoration:none;padding:4px 10px;border:1px solid var(--border);border-radius:6px">Meta</a>
+    </div>
+  </details>
+</section>
+
+<!-- Static data snapshot for AI crawlers that don't execute JavaScript -->
+<script type="application/json" id="dashboard-snapshot">
+{
+  "description": "BTC Pipeline Dashboard — Real-time Bitcoin market signal monitoring. Gate0 entry conditions, macro regime, structural support/resistance, liquidation heatmaps, derivatives positioning, on-chain cycle metrics, and technical analysis.",
+  "refresh_cadence": "15 minutes",
+  "data_sources": ["Binance", "Glassnode", "Coinglass", "TradingView", "CryptoQuant"],
+  "methodology": "Gate0 killzone framework with multi-layer tactical allocation",
+  "layers": [
+    "Gate0 — Entry gating with black swan, VIX/SPX, AI-3 wave, stablecoin, session checks",
+    "Layer 1: Macro & Speculation — DXY, treasury yields, M2 supply, risk asset correlation",
+    "Layer 2: Structural Liquidity — Liquidation magnets, S/R bands, volume profile",
+    "Layer 3: Derivatives — Funding rates, open interest, long/short ratios",
+    "Layer 4: Cycle Context — MVRV Z-Score, SOPR, Puell Multiple, exchange netflow",
+    "TA: Technical Analysis — Moving averages, RSI, Bollinger Bands, options skew"
+  ]
+}
+</script>
+
+<div id="footer-placeholder"></div>
+<script src="../assets/nav.js"></script>
+<script>
+// --- Beginner Mode State Management ---
+let currentMode = 'simple';
+
+function setDashboardMode(mode) {
+  currentMode = mode;
+  const body = document.body;
+  const btnSimple = document.getElementById('btn-mode-simple');
+  const btnAdvanced = document.getElementById('btn-mode-advanced');
+  const execSummary = document.getElementById('exec-summary-text');
+  
+  if (mode === 'advanced') {
+    body.classList.remove('simple-mode');
+    body.classList.add('advanced-mode');
+    if (btnSimple) btnSimple.classList.remove('active');
+    if (btnAdvanced) btnAdvanced.classList.add('active');
+    if (execSummary) {
+      execSummary.textContent = "Live Bitcoin market intelligence dashboard. Tracks Gate0 entry conditions, macro regime shifts (DXY, yields, risk assets), structural support/resistance bands with liquidation magnet clusters, derivatives positioning (funding rates, open interest flow), on-chain cycle valuation (MVRV Z-score, SOPR, Puell Multiple), and technical analysis overlays. Data refreshed every 15 minutes.";
+    }
+  } else {
+    body.classList.remove('advanced-mode');
+    body.classList.add('simple-mode');
+    if (btnSimple) btnSimple.classList.add('active');
+    if (btnAdvanced) btnAdvanced.classList.remove('active');
+    if (execSummary) {
+      execSummary.textContent = "This live dashboard translates complex, institutional Bitcoin metrics into clear market conditions. We analyze global stock markets, systemic geopolitical risks, digital dollar stability, on-chain value scores, and futures trading activity to signal when conditions look stable, when risk is elevated, and when to step back and wait. Updated automatically every 15 minutes.";
+    }
+  }
+  
+  // Save preference
+  localStorage.setItem('btc_dashboard_view_mode', mode);
+  
+  // Re-run refresh to swap text descriptions
+  refresh();
+}
+
+// Translate verdicts for beginners
+function translateVerdict(v) {
+  if (!v) return '—';
+  const up = v.toUpperCase();
+  if (up.includes('CAUTIOUS BULL')) return 'Rising Safely (Watch for changes)';
+  if (up.includes('BULL')) return 'Market Rising (Growth Phase)';
+  if (up.includes('CAUTIOUS BEAR')) return 'Falling Safely (Use caution)';
+  if (up.includes('BEAR') || up.includes('DO NOT')) return 'High Risk (Avoid buying)';
+  if (up.includes('PAUSE')) return '⚠️ On Hold (Human override active)';
+  if (up.includes('ABORT')) return '🔴 Extreme Risk (Avoid all new positions)';
+  if (up.includes('TIGHTENED')) return 'Uncertain (Proceed with caution)';
+  if (up.includes('NEUTRAL')) return 'Neutral / Stable';
+  return v;
+}
+
+// Translate Gate0 badges
+function translateGateBadge(v) {
+  if (!v) return 'LOADING';
+  const up = v.toUpperCase();
+  if (up.includes('PROCEED')) return '🟢 Conditions Clear (No blockers detected)';
+  if (up.includes('TIGHTENED')) return '🟡 CAUTION / RISK';
+  if (up.includes('PAUSE')) return '🟠 HOLD / WAIT';
+  if (up.includes('ABORT')) return '🔴 HIGH RISK';
+  return v;
+}
+
+// Auto-wrap card content for layout only (metrics always visible — no toggles)
+function initBeginnerFriendlyLayout() {
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(card => {
+    const title = card.querySelector('.card-title');
+    const narrative = card.querySelector('.card-narrative');
+    
+    // Find the main metrics wrapper element
+    const metrics = Array.from(card.children).find(child => 
+      child !== title && child !== narrative && child.tagName === 'DIV' && child.id
+    );
+    
+    if (title && metrics) {
+      metrics.classList.add('metrics-panel');
+      
+      // Move narrative right after title if narrative exists
+      if (narrative) {
+        title.after(narrative);
+      }
+    }
+  });
+  
+  // Set initial mode from localStorage or default to simple
+  const savedMode = localStorage.getItem('btc_dashboard_view_mode') || 'simple';
+  setDashboardMode(savedMode);
+}
+
+const DATA = '../data/';
+
+async function load(name) {
+  try {
+    const r = await fetch(DATA + name + '.json?t=' + Date.now());
+    if (!r.ok) return null;
+    return await r.json();
+  } catch(e) { return null; }
+}
+
+function fmt(n, dec=2) {
+  if (n === null || n === undefined || isNaN(n)) return '—';
+  return Number(n).toLocaleString(undefined, {minimumFractionDigits: dec, maximumFractionDigits: dec});
+}
+
+function fmtPct(n) {
+  if (n === null || n === undefined || isNaN(n)) return '—';
+  const sign = n >= 0 ? '+' : '';
+  return sign + Number(n).toFixed(2) + '%';
+}
+
+function colorPct(n) {
+  if (n === null || n === undefined || isNaN(n)) return 'neutral';
+  return n > 0 ? 'positive' : n < 0 ? 'negative' : 'neutral';
+}
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function metricRow(label, value, cls='neutral') {
+  return `<div class="metric-row"><span class="metric-label">${esc(label)}</span><span class="metric-value ${cls}">${esc(String(value))}</span></div>`;
+}
+
+function metricRowRaw(label, valueHtml, cls='neutral') {
+  return `<div class="metric-row"><span class="metric-label">${esc(label)}</span><span class="metric-value ${cls}">${valueHtml}</span></div>`;
+}
+
+// ─── Render Gate 0 ───
+function renderGate(d) {
+  if (!d) return;
+  const v = (d.verdict || 'PROCEED').toLowerCase();
+  const card = document.getElementById('gate-card');
+  const badge = document.getElementById('gate-badge');
+  card.className = 'gate-card ' + v;
+  badge.className = 'gate-badge ' + v;
+  
+  if (currentMode === 'simple') {
+    badge.textContent = translateGateBadge(v);
+  } else {
+    badge.textContent = v === 'proceed' ? '🟢 PROCEED' : v === 'tightened' ? '🟡 TIGHTENED' : v === 'pause' ? '🟠 PAUSE' : '🔴 ABORT';
+  }
+
+  const sources = document.getElementById('gate-sources');
+  sources.textContent = d.sources && d.sources.length ? 'Trigger: ' + d.sources.join(', ') : '';
+
+  const mods = d.modules || {};
+  const grid = document.getElementById('gate-modules');
+  grid.innerHTML = '';
+
+  const stateIcon = s => s === 'PROCEED' ? '🟢' : s === 'TIGHTENED' ? '🟡' : s === 'PAUSE' ? '🟠' : '🔴';
+
+  for (const [name, mod] of Object.entries(mods)) {
+    const labels = {black_swan:'Black Swan', vix_spx:'VIX/SPX', ai3_wave:'AI-3 Wave', stablecoins:'Stablecoins', session:'Session'};
+    const descs = currentMode === 'simple' ? {
+      black_swan: 'Global events — war, hacking, and sudden crisis scan',
+      vix_spx: 'Stock market stability — checks if stock markets are crashing',
+      ai3_wave: 'Market pattern scan — detects repeating price risk waves',
+      stablecoins: 'Peg dollar health — verifies stablecoins are backed by $1',
+      session: 'Trading hours — tracks open hours across NY, London, and Asia'
+    } : {
+      black_swan: 'Systemic risk scan — terror, war, hacks, depegs',
+      vix_spx: 'Equity vol correlation — VIX>30 = risk-off',
+      ai3_wave: 'AI-3 fractal wave — active = caution',
+      stablecoins: 'Peg stability — USDC/USDT depeg detection',
+      session: 'Trading hours — NY open, weekend gate'
+    };
+    const label = labels[name] || name;
+    const state = mod.state || 'PROCEED';
+    let extra = '';
+    if (name === 'black_swan') extra = ` (${mod.score || 0}/17)`;
+    if (name === 'vix_spx' && mod.vix) extra = ` (${fmt(mod.vix,1)})`;
+    if (name === 'ai3_wave') extra = mod.active ? ' (ACTIVE)' : '';
+    if (name === 'session' && mod.name) extra = ` (${esc(mod.name)})`;
+
+    const stateVal = currentMode === 'simple' ? (
+      state === 'PROCEED' ? 'SAFE' : state === 'TIGHTENED' ? 'CAUTION' : state === 'PAUSE' ? 'PAUSED' : 'HIGH RISK'
+    ) : state;
+
+    grid.innerHTML += `<div class="gate-module">
+      <div class="label">${label}${extra}
+      <div class="value">${stateIcon(state)} ${stateVal}
+      <div class="gate-desc">${descs[name] || ''}
+    </div>`;
+  }
+
+  const rules = d.rules || {};
+  const rulesEl = document.getElementById('gate-rules');
+  if (Object.keys(rules).length > 0) {
+    rulesEl.style.display = 'block';
+    let html = '<div class="rule-title">⚠ Active Rules:</div>';
+    for (const [k,v] of Object.entries(rules)) {
+      html += `<span>${k.replace(/_/g,' ')}: <strong>${esc(v)}</strong></span> · `;
+    }
+    rulesEl.innerHTML = html;
+  } else {
+    rulesEl.style.display = 'none';
+  }
+
+}
+
+// ─── Render Layer 1: Macro ───
+function renderMacro(d) {
+  if (!d) return;
+  let html = '';
+  if (d.dxy) html += metricRow('DXY (Dollar)', fmt(d.dxy, 2));
+  if (d.us_10y_yield) html += metricRow('10Y Yield', fmt(d.us_10y_yield, 2) + '%');
+  if (d.m2_supply) html += metricRow('M2 Supply', '$' + fmt(d.m2_supply, 0) + 'B');
+  if (d.regime) html += metricRow('Regime', d.regime, 'warn');
+  document.getElementById('macro-metrics').innerHTML = html || metricRow('Status', 'No data', 'neutral');
+
+  // Risk assets
+  let rhtml = '';
+  if (d.risk_assets) {
+    for (const [ticker, a] of Object.entries(d.risk_assets)) {
+      if (a && a.price && !isNaN(a.price)) {
+        rhtml += metricRow(ticker, '$' + fmt(a.price, 0), colorPct(a.change_pct));
+        if (a.change_pct !== null && !isNaN(a.change_pct)) {
+          rhtml += `<div style="text-align:right;font-size:0.75em;color:${a.change_pct>=0?'var(--green)':'var(--red)'}">${fmtPct(a.change_pct)}</div>`;
+        }
+      }
+    }
+  }
+  if (d.vix && !isNaN(d.vix)) rhtml += metricRow('VIX', fmt(d.vix, 1), d.vix > 22 ? 'negative' : d.vix > 15 ? 'warn' : 'positive');
+  document.getElementById('risk-metrics').innerHTML = rhtml || metricRow('Status', 'No data', 'neutral');
+
+  // News — replaced by renderNewsFeed (AlphaEar data)
+  document.getElementById('news-feed').innerHTML = metricRow('Fetching headlines...', '', 'neutral');
+}
+
+// ─── Render Layer 2: Structural ───
+function renderStructural(d, v7, gate) {
+  if (!d) return;
+  const gateVerdict = gate?.verdict || 'UNKNOWN';
+  const transGateVerdict = currentMode === 'simple' ? translateGateBadge(gateVerdict) : `L0 ${gateVerdict}`;
+  const l0Badge = gateVerdict === 'PAUSE' || gateVerdict === 'ABORT'
+    ? `<span style="display:inline-block;margin-top:6px;padding:3px 10px;border-radius:4px;background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.4);color:var(--red);font-size:0.75em;font-weight:800;letter-spacing:0.5px">⛔ ${transGateVerdict} — Monitoring Only</span>`
+    : gateVerdict === 'TIGHTENED'
+    ? `<span style="display:inline-block;margin-top:6px;padding:3px 10px;border-radius:4px;background:rgba(251,191,36,0.12);border:1px solid rgba(251,191,36,0.3);color:var(--yellow);font-size:0.75em;font-weight:800;letter-spacing:0.5px">🟡 ${transGateVerdict} — Avoid high risk leverage</span>`
+    : '';
+
+  // Magnets
+  let mhtml = '';
+  if (d.magnets) {
+    const above = d.magnets.above || {};
+    const below = d.magnets.below || {};
+    const am = above.nearest_magnet || {};
+    const bm = below.nearest_magnet || {};
+
+    if (am.price) {
+      mhtml += `<div class="magnet-bar above"><span class="price" style="color:var(--green)">⬆ $${Number(am.price).toLocaleString()}</span><span class="bar"></span><span class="pct">${am.distance_pct > 0 ? '+' : ''}${am.distance_pct || '?'}%</span></div>`;
+    }
+    if (bm.price) {
+      mhtml += `<div class="magnet-bar below"><span class="price" style="color:var(--red)">⬇ $${Number(bm.price).toLocaleString()}</span><span class="bar"></span><span class="pct">${bm.distance_pct || '?'}%</span></div>`;
+    }
+
+    // Cluster details
+    const ac = above.strongest_cluster;
+    const bc = below.strongest_cluster;
+    if (ac) mhtml += metricRow('Overhead cluster', `$${ac.low?.toLocaleString()}–$${ac.high?.toLocaleString()}`);
+    if (bc) mhtml += metricRow('Downside cluster', `$${bc.low?.toLocaleString()}–$${bc.high?.toLocaleString()}`);
+
+    // Regime
+    if (d.magnets.regime) {
+      const regime = d.magnets.regime;
+      let cls = 'balanced';
+      if (regime.includes('Squeeze')) cls = 'squeeze';
+      else if (regime.includes('Sweep')) cls = 'sweep';
+      else if (regime.includes('Vice')) cls = 'vice';
+      mhtml += `<div style="margin-top:8px"><span class="regime-badge ${cls}">${esc(regime)}</span></div>`;
+    }
+
+    // Sandwich
+    if (d.magnets.sandwich) {
+      mhtml += metricRow('Sandwich width', '$' + d.magnets.sandwich.width_usd?.toLocaleString());
+    }
+
+    mhtml += metricRow('Confidence', d.magnets.confidence || '?');
+    mhtml += metricRow('Updated', d.magnets.timestamp || '—');
+  }
+  document.getElementById('magnets-content').innerHTML = mhtml || metricRow('No magnet data', '', 'neutral');
+
+  // Heatmap images
+  let hmHtml = '';
+  if (v7) {
+    const ts = v7.timestamp || '';
+    if (v7.long && v7.long.file) {
+      hmHtml += `<div class="heatmap-wrap">
+        <div class="heatmap-label">Long Liquidations ${ts ? '· ' + ts : ''}
+        <img class="heatmap-img" src="${esc(String(v7.long.file))}" alt="BTC Long Liquidation Heatmap" loading="lazy" onclick="window.open(this.src,'_blank')">
+      </div>`;
+    }
+    if (v7.short && v7.short.file) {
+      hmHtml += `<div class="heatmap-wrap">
+        <div class="heatmap-label">Short Liquidations
+        <img class="heatmap-img" src="${esc(String(v7.short.file))}" alt="BTC Short Liquidation Heatmap" loading="lazy" onclick="window.open(this.src,'_blank')">
+      </div>`;
+    }
+  }
+  if (hmHtml) {
+    document.getElementById('magnets-content').innerHTML += `<div style="margin-top:12px"><div style="font-size:0.75em;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px">🔥 Liquidation Heatmap</div>${hmHtml}</div>`;
+  }
+
+  // S/R Bands
+  let shtml = '';
+  if (d.sr_bands) {
+    for (const tf of ['1h', '4h', '1d']) {
+      const band = d.sr_bands[tf];
+      if (!band || band.error) continue;
+      shtml += `<div style="margin-bottom:8px"><strong>${tf.toUpperCase()}</strong> — ATR: ${fmt(band.atr, 0)} (${band.atr_pct}%)</div>`;
+      if (band.supports && band.supports.length) {
+        shtml += '<table class="sr-table"><tr><th>Support</th><th>Strength</th><th>Dist</th></tr>';
+        band.supports.slice(0,3).forEach(s => {
+          shtml += `<tr><td class="support">$${Number(s.center).toLocaleString()}</td><td>${esc(s.strength_label || String(s.strength))}</td><td>${s.distance_pct || '?'}%</td></tr>`;
+        });
+        shtml += '</table>';
+      }
+      if (band.resistances && band.resistances.length) {
+        shtml += '<table class="sr-table"><tr><th>Resistance</th><th>Strength</th><th>Dist</th></tr>';
+        band.resistances.slice(0,3).forEach(r => {
+          shtml += `<tr><td class="resistance">$${Number(r.center).toLocaleString()}</td><td>${esc(r.strength_label || String(r.strength))}</td><td>${r.distance_pct || '?'}%</td></tr>`;
+        });
+        shtml += '</table>';
+      }
+    }
+  }
+  document.getElementById('sr-content').innerHTML = shtml || metricRow('No S/R data', '', 'neutral');
+
+  // Volume Profile
+  let vhtml = '';
+  if (d.volume_profile) {
+    const vp = d.volume_profile;
+    // Summary row
+    if (vp.poc) vhtml += metricRow('POC', '$' + Number(vp.poc).toLocaleString());
+    if (vp.vah) vhtml += metricRow('VAH', '$' + Number(vp.vah).toLocaleString());
+    if (vp.val) vhtml += metricRow('VAL', '$' + Number(vp.val).toLocaleString());
+
+    // Chart
+    if (vp.bins && vp.bins.length > 0) {
+      const vols = vp.bins.map(b => Number(b.volume)).filter(v => Number.isFinite(v) && v > 0);
+        const maxVol = vols.length ? Math.max(...vols) : 1;
+      const btcNow = d.magnets?.btc_price || null;
+      // Show every other bin on mobile to avoid clutter, all on desktop
+      const step = vp.bins.length > 30 ? 2 : 1;
+      let chart = '<div class="vp-chart">';
+      // Reverse so highest price is on top
+      const sortedBins = [...vp.bins].reverse();
+      for (let i = 0; i < sortedBins.length; i += step) {
+        const b = sortedBins[i];
+        const pct = Math.max(2, (b.volume / maxVol) * 100);
+        let barClass = 'normal';
+        let marker = '';
+        if (b.price === vp.poc) { barClass = 'poc'; marker = '<span class="vp-marker poc-m">POC</span>'; }
+        else if (b.price >= vp.val && b.price <= vp.vah) { barClass = 'va'; }
+        // Mark VAH/VAL edges
+        if (b.price === vp.vah) marker += '<span class="vp-marker vah-m">VAH</span>';
+        if (b.price === vp.val) marker += '<span class="vp-marker val-m">VAL</span>';
+        // Current price marker
+        if (btcNow && Math.abs(b.price - btcNow) < (vp.bin_step || 50)) {
+          marker += '<span class="vp-marker" style="background:rgba(251,191,36,0.2);color:var(--yellow)">NOW</span>';
+        }
+        const v = Number(b.volume);
+        const volK = v >= 1000 ? (v / 1000).toFixed(1) + 'K' : v;
+        chart += `<div class="vp-row">
+          <span class="vp-price">$${Number(b.price).toLocaleString()}${marker}</span>
+          <div class="vp-bar-wrap"><div class="vp-bar ${barClass}" style="width:${pct}%"></div></div>
+          <span class="vp-vol">${volK}</span>
+        </div>`;
+      }
+      chart += '</div>';
+      if (vp.candles_used) {
+        chart += `<div class="vp-label">${vp.candles_used}h candles · $${vp.bin_step} bins · ${(vp.total_volume/1000).toFixed(0)}K BTC total</div>`;
+      }
+      vhtml += chart;
+    }
+  }
+  document.getElementById('vol-content').innerHTML = vhtml || metricRow('No volume data', '', 'neutral');
+
+  // VAL Absorption Alert
+  const valEl = document.getElementById('val-absorption-content');
+  if (valEl) {
+    if (d.val_absorption) {
+      const va = d.val_absorption;
+      const sig = va.signal;
+      let cls, icon, title;
+      if (sig === 'VAL_ABSORPTION') {
+        cls = 'absorption'; icon = '⚡'; title = 'VAL ABSORPTION SETUP';
+      } else if (sig === 'VAL_BREAK') {
+        cls = 'breakdown'; icon = '🔻'; title = 'VAL BREAKDOWN';
+      } else {
+        cls = 'watch'; icon = '👁️'; title = sig === 'VAL_TEST' ? 'VAL TEST IN PROGRESS' : 'VAL APPROACH';
+      }
+      const confCls = va.confidence || 'LOW';
+      const volDir = va.volume_declining ? 'Declining ▼' : va.volume_expanding ? 'Expanding ▲' : 'Flat';
+      const cvdDir = va.cvd_holding ? 'Holding ✓' : va.cvd_value < 0 ? 'Negative ✗' : 'Positive ✓';
+      valEl.innerHTML = `<div class="val-alert ${cls}">
+        <div class="val-alert-header">
+          <span class="val-alert-icon">${icon}</span>
+          <span class="val-alert-title">${title}</span>
+          <span class="val-alert-confidence ${confCls}">${confCls}</span>
+        
+        <div class="val-alert-detail">
+          ${esc(String(va.action))}<br>
+          ${va.stop ? '<strong>Stop:</strong> ' + esc(String(va.stop)) + '<br>' : ''}
+          <strong>Target:</strong> VAH $${Number(va.target || 0).toLocaleString()}
+        
+        <div class="val-alert-meta">
+          <span>📍 ${va.position === 'below_val' ? 'Below VAL' : (Number.isFinite(Number(va.distance_pct)) ? Number(va.distance_pct).toFixed(1) + '% from VAL' : 'At VAL')}</span>
+          <span>📊 Vol: ${volDir}</span>
+          <span>💹 CVD: ${cvdDir}</span>
+          <span>VAL: $${Number(va.val).toLocaleString()}</span>
+        
+        ${(sig === 'VAL_ABSORPTION' || sig === 'VAL_BREAK') ? l0Badge : ''}
+      </div>`;
+    } else {
+      // Monitoring state — always visible
+      const vp = d.volume_profile || {};
+      const val = vp.val;
+      const vah = vp.vah;
+      const poc = vp.poc;
+      const lastCheck = d.val_absorption?.timestamp || new Date().toISOString().slice(0, 16).replace('T', ' ') + ' UTC';
+      valEl.innerHTML = `<div class="val-alert watch" style="animation:none;opacity:0.7">
+        <div class="val-alert-header">
+          <span class="val-alert-icon">👁️</span>
+          <span class="val-alert-title" style="color:var(--muted)">VAL ABSORPTION MONITOR</span>
+          <span class="val-alert-confidence LOW">STANDBY</span>
+        
+        <div class="val-alert-detail">
+          System is <strong style="color:var(--green)">actively monitoring</strong> for VAL breakdown or absorption setup.<br>
+          Currently quiet — price not near watch zones.<br>
+          ${val ? `<strong>Watch zones:</strong> VAL $${Number(val).toLocaleString()} · POC $${Number(poc).toLocaleString()} · VAH $${Number(vah).toLocaleString()}` : 'Volume profile data pending...'}
+        
+        <div class="val-alert-meta" style="margin-top:8px">
+          <span>⏱️ Last check: ${lastCheck}</span>
+          <span>🔄 Updates hourly</span>
+        
+      </div>`;
+    }
+    valEl.style.display = 'block';
+  }
+
+  // Breakout-Retest Alert
+  const brkEl = document.getElementById('breakout-retest-content');
+  if (brkEl) {
+    const brk = d.breakout_retest;
+    // Get 4H resistance levels for the monitor display
+    const sr = d.sr_bands || {};
+    const res4h = (sr['4h']?.resistances || []).slice(0, 3).map(r => r.center || r.level);
+
+    if (brk && brk.signal === 'ENTRY_SIGNAL') {
+      brkEl.innerHTML = `<div class="brk-alert entry">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">🚀</span>
+          <span class="brk-alert-title">BREAKOUT RETEST — ENTRY SIGNAL</span>
+          <span class="val-alert-confidence ${brk.confidence || 'MEDIUM'}">${brk.confidence || 'MEDIUM'}</span>
+        
+        <div class="brk-alert-detail">
+          ${esc(brk.action || 'Long entry confirmed above broken resistance')}<br>
+          <strong>Broken level:</strong> $${Number(brk.level).toLocaleString()}<br>
+          ${brk.stop_loss ? '<strong>Stop:</strong> $' + Number(brk.stop_loss).toLocaleString() : ''}
+        
+        <div class="brk-alert-meta">
+          <span>📍 Price: $${Number(brk.price).toLocaleString()}</span>
+          <span>🔄 Bounce confirmed</span>
+          <span>⏱️ ${brk.timestamp}</span>
+        
+        ${l0Badge}
+      </div>`;
+    } else if (brk && brk.signal === 'BREAKOUT_DETECTED') {
+      brkEl.innerHTML = `<div class="brk-alert breakout">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">💥</span>
+          <span class="brk-alert-title">BREAKOUT DETECTED</span>
+        
+        <div class="brk-alert-detail">
+          Price broke above resistance with volume confirmation.<br>
+          <strong>Watching for retest entry.</strong><br>
+          <strong>Broken level:</strong> $${Number(brk.level).toLocaleString()}
+        
+        <div class="brk-alert-meta">
+          <span>📊 Taker: ${Number(brk.taker_ratio)?.toFixed(2) || '?'}</span>
+          <span>💹 CVD: ${Number(brk.cvd)?.toFixed(0) || '?'}</span>
+          <span>⏱️ ${brk.timestamp}</span>
+        
+      </div>`;
+    } else if (brk && brk.signal === 'RETEST_ACTIVE') {
+      brkEl.innerHTML = `<div class="brk-alert retest">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">🔄</span>
+          <span class="brk-alert-title">RETEST IN PROGRESS</span>
+        
+        <div class="brk-alert-detail">
+          Price retesting broken resistance at <strong>$${Number(brk.level).toLocaleString()}</strong>.<br>
+          Watching for bounce confirmation (1H close above level).
+        
+        <div class="brk-alert-meta">
+          <span>📍 Price: $${Number(brk.price).toLocaleString()}</span>
+          <span>⏱️ ${brk.timestamp}</span>
+        
+      </div>`;
+    } else if (brk && brk.signal === 'MONITORING') {
+      const levelsHtml = (brk.levels || []).map(l => `<span class="brk-level-tag">$${Number(l).toLocaleString()}</span>`).join(' ');
+      brkEl.innerHTML = `<div class="brk-alert monitor">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">👁️</span>
+          <span class="brk-alert-title">BREAKOUT-RETEST MONITOR</span>
+          <span class="val-alert-confidence LOW">${brk.active_zones || 0} ACTIVE</span>
+        
+        <div class="brk-alert-detail">
+          System is <strong style="color:var(--green)">actively tracking</strong> ${brk.active_zones || 0} breakout zone(s) for retest entry.<br>
+          ${levelsHtml ? 'Watching: ' + levelsHtml : ''}
+        
+        <div class="brk-alert-meta">
+          <span>⏱️ Last check: ${brk.timestamp}</span>
+          <span>🔄 Updates hourly</span>
+        
+      </div>`;
+    } else {
+      // Standby — no active zones, show resistance levels being watched
+      const levelsHtml = res4h.map(l => `<span class="brk-level-tag">$${Number(l).toLocaleString()}</span>`).join(' ');
+      brkEl.innerHTML = `<div class="brk-alert monitor">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">👁️</span>
+          <span class="brk-alert-title">BREAKOUT-RETEST MONITOR</span>
+          <span class="val-alert-confidence LOW">STANDBY</span>
+        
+        <div class="brk-alert-detail">
+          System is <strong style="color:var(--green)">actively monitoring</strong> for resistance breakout + volume confirmation.<br>
+          Currently quiet — price below all 4H resistance levels.<br>
+          ${levelsHtml ? '<strong>Watch levels:</strong> ' + levelsHtml : ''}
+        
+        <div class="brk-alert-meta">
+          <span>📐 15min detection · 1H confirmation</span>
+          <span>🔄 Updates hourly</span>
+          <span>⏳ 48h retest window</span>
+        
+      </div>`;
+    }
+    brkEl.style.display = 'block';
+  }
+
+  // ─── Breakdown-Retest Monitor ───
+  const bkdEl = document.getElementById('breakdown-retest-content');
+  if (bkdEl) {
+    const bkd = d.breakdown_retest;
+    const sr = d.sr_bands || {};
+    const sup4h = (sr['4h']?.supports || []).slice(0, 3).map(s => s.center || s.level);
+
+    if (bkd && bkd.signal === 'ENTRY_SIGNAL') {
+      bkdEl.innerHTML = `<div class="brk-alert entry" style="background:linear-gradient(135deg,rgba(239,68,68,0.12),rgba(239,68,68,0.04));border-color:rgba(239,68,68,0.5);animation:brdPulse 2s ease-in-out infinite alternate;">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">🔻</span>
+          <span class="brk-alert-title" style="color:var(--red)">BREAKDOWN RETEST — SHORT ENTRY</span>
+          <span class="val-alert-confidence ${bkd.confidence || 'MEDIUM'}">${bkd.confidence || 'MEDIUM'}</span>
+        
+        <div class="brk-alert-detail">
+          ${esc(bkd.action || 'Short entry confirmed below broken support')}<br>
+          <strong>Broken level:</strong> $${Number(bkd.level).toLocaleString()}<br>
+          ${bkd.stop_loss ? '<strong>Stop:</strong> $' + Number(bkd.stop_loss).toLocaleString() : ''}
+          ${bkd.target ? ' &nbsp;|&nbsp; <strong>Target:</strong> $' + Number(bkd.target).toLocaleString() : ''}
+        
+        <div class="brk-alert-meta">
+          <span>📍 Price: $${Number(bkd.price).toLocaleString()}</span>
+          <span>🔄 Rejection confirmed</span>
+          <span>⏱️ ${bkd.timestamp}</span>
+        
+        ${l0Badge}
+      </div>`;
+    } else if (bkd && bkd.signal === 'BREAKDOWN_DETECTED') {
+      bkdEl.innerHTML = `<div class="brk-alert breakout" style="background:linear-gradient(135deg,rgba(239,68,68,0.08),rgba(139,0,0,0.06));border-color:rgba(239,68,68,0.3);animation:brdPulse 2s ease-in-out infinite alternate;">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">💥</span>
+          <span class="brk-alert-title" style="color:var(--red)">BREAKDOWN DETECTED</span>
+        
+        <div class="brk-alert-detail">
+          Price broke below support with seller confirmation.<br>
+          <strong>Watching for retest rejection.</strong><br>
+          <strong>Broken level:</strong> $${Number(bkd.level).toLocaleString()}
+        
+        <div class="brk-alert-meta">
+          <span>📊 Taker: ${Number(bkd.taker_ratio)?.toFixed(2) || '?'}</span>
+          <span>💹 CVD: ${Number(bkd.cvd)?.toFixed(0) || '?'}</span>
+          <span>⏱️ ${bkd.timestamp}</span>
+        
+      </div>`;
+    } else if (bkd && bkd.signal === 'RETEST_ACTIVE') {
+      bkdEl.innerHTML = `<div class="brk-alert retest">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">🔄</span>
+          <span class="brk-alert-title" style="color:var(--yellow)">RETEST IN PROGRESS</span>
+        
+        <div class="brk-alert-detail">
+          Price retesting broken support from below at <strong>$${Number(bkd.level).toLocaleString()}</strong>.<br>
+          Watching for rejection (1H close below level + CVD stays negative).
+        
+        <div class="brk-alert-meta">
+          <span>📍 Price: $${Number(bkd.price).toLocaleString()}</span>
+          <span>⏱️ ${bkd.timestamp}</span>
+        
+      </div>`;
+    } else if (bkd && bkd.signal === 'MONITORING') {
+      const levelsHtml = (bkd.levels || []).map(l => `<span class="brd-level-tag">$${Number(l).toLocaleString()}</span>`).join(' ');
+      bkdEl.innerHTML = `<div class="brk-alert monitor">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">👁️</span>
+          <span class="brk-alert-title">BREAKDOWN-RETEST MONITOR</span>
+          <span class="val-alert-confidence LOW">${bkd.active_zones || 0} ACTIVE</span>
+        
+        <div class="brk-alert-detail">
+          System is <strong style="color:var(--red)">actively tracking</strong> ${bkd.active_zones || 0} breakdown zone(s) for short entry.<br>
+          ${levelsHtml ? 'Watching: ' + levelsHtml : ''}
+        
+        <div class="brk-alert-meta">
+          <span>⏱️ Last check: ${bkd.timestamp}</span>
+          <span>🔄 Updates hourly</span>
+        
+      </div>`;
+    } else {
+      // Standby — show support levels being watched
+      const levelsHtml = sup4h.map(l => `<span class="brd-level-tag">$${Number(l).toLocaleString()}</span>`).join(' ');
+      bkdEl.innerHTML = `<div class="brk-alert monitor">
+        <div class="brk-alert-header">
+          <span class="brk-alert-icon">👁️</span>
+          <span class="brk-alert-title">BREAKDOWN-RETEST MONITOR</span>
+          <span class="val-alert-confidence LOW">STANDBY</span>
+        
+        <div class="brk-alert-detail">
+          System is <strong style="color:var(--green)">actively monitoring</strong> for support breakdown + seller confirmation.<br>
+          Currently quiet — price above all 4H support levels.<br>
+          ${levelsHtml ? '<strong>Watch levels:</strong> ' + levelsHtml : ''}
+        
+        <div class="brk-alert-meta">
+          <span>📐 15min detection · 1H confirmation</span>
+          <span>🔄 Updates hourly</span>
+          <span>⏳ 48h retest window</span>
+        
+      </div>`;
+    }
+    bkdEl.style.display = 'block';
+  }
+}
+
+// ─── Render Layer 3: Derivatives ───
+function renderDerivatives(d) {
+  if (!d) return;
+  let html = '';
+  if (d.funding_rate !== null && d.funding_rate !== undefined) {
+    const fr = d.funding_rate;
+    const frPct = (fr * 100).toFixed(4) + '%';
+    const cls = fr > 0.0003 ? 'negative' : fr < -0.0003 ? 'positive' : 'neutral';
+    html += metricRow('Funding Rate', frPct, cls);
+    if (d.next_funding_time) {
+      const next = new Date(d.next_funding_time);
+      html += metricRow('Next Funding', next.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}));
+    }
+  }
+  if (d.long_short_ratio) {
+    html += metricRow('L/S Ratio', fmt(d.long_short_ratio, 2));
+    html += metricRow('Longs', fmt(d.long_pct, 1) + '%', 'positive');
+    html += metricRow('Shorts', fmt(d.short_pct, 1) + '%', 'negative');
+  }
+  if (d.taker_buy_ratio) {
+    const tr = d.taker_buy_ratio;
+    const cls = tr > 1.05 ? 'positive' : tr < 0.95 ? 'negative' : 'neutral';
+    html += metricRow('Taker B/S Ratio', fmt(tr, 3), cls);
+  }
+  // CVD
+  if (d.cvd_24h !== null && d.cvd_24h !== undefined) {
+    const cvdCls = d.cvd_24h > 0 ? 'positive' : 'negative';
+    html += metricRow('CVD (24h)', fmt(d.cvd_24h, 0) + ' BTC', cvdCls);
+    if (d.cvd_trend) html += metricRow('CVD Trend', d.cvd_trend, d.cvd_trend === 'strengthening' ? 'positive' : d.cvd_trend === 'weakening' ? 'negative' : 'neutral');
+  }
+  if (d.coinbase_premium !== null && d.coinbase_premium !== undefined) {
+    html += metricRow('Coinbase Premium', fmtPct(d.coinbase_premium), colorPct(d.coinbase_premium));
+    if (d.cb_label) html += metricRow('Signal', d.cb_label);
+  }
+  document.getElementById('deriv-content').innerHTML = html || metricRow('No derivatives data available', '', 'neutral');
+
+  let oiHtml = '';
+  if (d.open_interest_btc) oiHtml += metricRow('Open Interest', fmt(d.open_interest_btc, 0) + ' BTC');
+  if (d.open_interest_usd) oiHtml += metricRow('OI (USD)', '$' + (d.open_interest_usd / 1e9).toFixed(2) + 'B');
+
+  // OI change + trend badge
+  if (d.oi_change_24h !== null && d.oi_change_24h !== undefined) {
+    const oiCls = d.oi_change_24h > 0 ? 'positive' : 'negative';
+    oiHtml += metricRow('24h Change', fmtPct(d.oi_change_24h), oiCls);
+  }
+  if (d.oi_trend) {
+    const trendLabels = {accumulating:'📈 Accumulating', unwinding:'📉 Unwinding', stable:'➡️ Stable'};
+    const safeTrend = typeof d.oi_trend === 'string' ? d.oi_trend : 'stable';
+    oiHtml += metricRowRaw('Trend', `<span class="oi-badge ${esc(safeTrend)}">${trendLabels[safeTrend] || esc(String(d.oi_trend || ''))}</span>`);
+  }
+
+  // OI sparkline chart
+  if (d.oi_history && d.oi_history.length >= 6) {
+    const pts = d.oi_history;
+    const vals = pts.map(p => p.btc);
+    const minV = Math.min(...vals);
+    const maxV = Math.max(...vals);
+    const range = maxV - minV || 1;
+    const w = 100, h = 70;
+    const stepX = w / (pts.length - 1);
+    let linePts = [], areaPts = [];
+    pts.forEach((p, i) => {
+      const x = (i * stepX).toFixed(1);
+      const y = (h - ((p.btc - minV) / range) * (h - 10) - 5).toFixed(1);
+      linePts.push(`${x},${y}`);
+      areaPts.push(`${x},${y}`);
+    });
+    const lineStr = linePts.join(' ');
+    const areaStr = `0,${h} ${areaPts.join(' ')} ${((pts.length-1)*stepX).toFixed(1)},${h}`;
+    oiHtml += `<div class="oi-chart">
+      <svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+        <defs><linearGradient id="oiGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="rgba(34,211,238,0.25)"/>
+          <stop offset="100%" stop-color="rgba(34,211,238,0.02)"/>
+        </linearGradient></defs>
+        <polygon class="oi-area" points="${areaStr}"/>
+        <polyline class="oi-line" points="${lineStr}"/>
+      </svg>
+      <span class="oi-label top">${(maxV/1000).toFixed(1)}K</span>
+      <span class="oi-label bot">${(minV/1000).toFixed(1)}K</span>
+    </div>`;
+    oiHtml += `<div style="font-size:0.7em;color:var(--muted);text-align:center">24h OI (BTC) · hourly</div>`;
+  }
+
+  // Liquidation risk signal
+  if (d.open_interest_btc && d.funding_rate) {
+    const fr = Math.abs(d.funding_rate);
+    const oiUsdB = d.open_interest_usd ? d.open_interest_usd / 1e9 : 0;
+    let risk = 'LOW', riskCls = 'positive';
+    if (oiUsdB > 8 && fr > 0.0003) { risk = 'HIGH'; riskCls = 'negative'; }
+    else if (oiUsdB > 6 && fr > 0.0001) { risk = 'MEDIUM'; riskCls = 'neutral'; }
+    else if (oiUsdB > 6) { risk = 'ELEVATED'; riskCls = 'neutral'; }
+    oiHtml += metricRowRaw('Cascade Risk', `<span style="color:var(--${risk === 'HIGH' ? 'red' : risk === 'LOW' ? 'green' : 'yellow'});font-weight:700">${risk}</span>`);
+  }
+
+  document.getElementById('oi-content').innerHTML = oiHtml || metricRow('No OI data available', '', 'neutral');
+}
+
+// ─── Render Corporate Treasury Stress ───
+function renderCTS(d) {
+  const content = document.getElementById('cts-content');
+  const nar = document.getElementById('nar-cts');
+  if (!d) {
+    if (content) content.innerHTML = '<span style="color:var(--muted)">Data unavailable</span>';
+    if (nar) nar.textContent = 'Corporate treasury stress monitor not running';
+    return;
+  }
+  if (!d.tier || d.tier === 'CLEAR') {
+    if (content) content.innerHTML = '<span style="color:var(--green)">🟢 No stress detected</span>';
+    if (nar) nar.textContent = 'Strategy (MSTR/STRK) preferred shares healthy';
+    return;
+  }
+  const tierColors = { WATCH: 'var(--yellow)', ALERT: 'var(--orange)', FIRING: 'var(--red)' };
+  const tierIcons = { WATCH: '🟡', ALERT: '🟠', FIRING: '🔴' };
+  const color = tierColors[d.tier] || 'var(--muted)';
+  const icon = tierIcons[d.tier] || '⚪';
+
+  let html = `<div style="margin-bottom:6px"><span style="font-size:1.1em">${icon}</span> <strong style="color:${color}">${d.tier}</strong></div>`;
+
+  if (d.strc_price) {
+    const strc = Number(d.strc_price);
+    html += `<div style="font-size:0.85em;margin-bottom:3px">STRK: $${Number.isFinite(strc) ? strc.toFixed(2) : esc(String(d.strc_price))}`;
+    if (d.strc_par_distance_pct) {
+      html += ` <span style="color:var(--red)">(${esc(String(d.strc_par_distance_pct))}% below par)</span>`;
+    }
+    html += `</div>`;
+  }
+  if (d.mstr_price) {
+    const mstr = Number(d.mstr_price);
+    html += `<div style="font-size:0.85em;margin-bottom:3px">MSTR: $${Number.isFinite(mstr) ? mstr.toFixed(2) : esc(String(d.mstr_price))}</div>`;
+  }
+  if (d.btc_price) {
+    const btc = Number(d.btc_price);
+    html += `<div style="font-size:0.85em;margin-bottom:3px">BTC: $${Number.isFinite(btc) ? btc.toLocaleString(undefined, {maximumFractionDigits: 0}) : esc(String(d.btc_price))}</div>`;
+  }
+  if (d.coverage_years) {
+    html += `<div style="font-size:0.85em;margin-bottom:3px">Coverage: ${esc(String(d.coverage_years))} years</div>`;
+  }
+  if (d.holdings_value_b) {
+    html += `<div style="font-size:0.85em;margin-bottom:3px">Holdings: $${esc(String(d.holdings_value_b))}B</div>`;
+  }
+
+  if (d.breaches && d.breaches.length) {
+    html += `<div style="margin-top:6px;font-size:0.75em;color:var(--muted)">`;
+    for (const b of d.breaches) {
+      html += `• ${esc(String(b))}<br>`;
+    }
+    html += `</div>`;
+  }
+
+  if (content) content.innerHTML = html;
+  if (nar) {
+    if (d.tier === 'WATCH') nar.textContent = 'Strategy preferred stress — monitoring. No pipeline impact.';
+    else if (d.tier === 'ALERT') nar.textContent = 'Pipeline: BULLISH verdicts capped at CAUTIOUS BULL. See EVENT 005.';
+    else if (d.tier === 'FIRING') nar.textContent = 'Pipeline: cap at NEUTRAL. Consider L-1 review. See EVENT 005.';
+  }
+}
+
+// ─── Render Layer 4: Cycle ───
+function renderCycle(d) {
+  if (!d) return;
+  let html = '';
+  if (d.mvrv_z != null) {
+    const z = d.mvrv_z;
+    let cls = 'neutral';
+    if (z < 0) cls = 'positive';
+    else if (z > 3) cls = 'negative';
+    html += metricRow('MVRV Z-Score', fmt(z, 2), cls);
+  }
+  if (d.sopr != null) {
+    const s = d.sopr;
+    let cls = 'neutral';
+    if (s < 0.95) cls = 'positive';
+    else if (s > 1.05) cls = 'negative';
+    html += metricRow('SOPR', fmt(s, 4), cls);
+  }
+  if (d.puell_multiple != null) {
+    html += metricRow('Puell Multiple', fmt(d.puell_multiple, 3));
+  }
+  if (d.netflow_7d != null) {
+    const nf = d.netflow_7d;
+    const cls = nf < 0 ? 'positive' : 'negative';
+    html += metricRow('Exchange Netflow (7d)', fmt(nf, 0) + ' BTC', cls);
+  }
+  if (d.composite_score != null) {
+    html += metricRow('Cycle Score', d.composite_score + '/100');
+  }
+  if (d.cycle_phase) html += metricRow('Phase', d.cycle_phase);
+  document.getElementById('onchain-content').innerHTML = html || metricRow('No on-chain data', '', 'neutral');
+
+  // Distribution
+  let dhtml = '';
+  if (d.distribution && d.distribution.tiers) {
+    d.distribution.tiers.slice(0, 5).forEach(t => {
+      dhtml += metricRow(t.range, t.btc + ' BTC (' + t.pct + ')');
+    });
+    dhtml += metricRow('Total addresses', d.distribution.total_addresses?.toLocaleString() || '—');
+  }
+  document.getElementById('dist-content').innerHTML = dhtml || metricRow('No distribution data', '', 'neutral');
+}
+
+// ─── TA Layer ───
+function renderTA(d) {
+  if (!d) return;
+
+  // Moving Averages
+  let maHtml = '';
+  if (d.ma50) {
+    const price = d.price || 0;
+    const ma50cls = price > d.ma50 ? 'positive' : 'negative';
+    maHtml += metricRow('MA50 (Daily)', '$' + fmt(d.ma50, 0), ma50cls);
+    maHtml += `<div style="text-align:right;font-size:0.75em;color:var(--muted)">Price ${price > d.ma50 ? 'above' : 'below'} MA50</div>`;
+  }
+  if (d.ma60) {
+    maHtml += metricRow('MA60 (Daily)', '$' + fmt(d.ma60, 0));
+  }
+  if (d.atr_14) maHtml += metricRow('ATR (14d)', '$' + fmt(d.atr_14, 0));
+  if (d.atr_pct) maHtml += metricRow('ATR %', fmt(d.atr_pct, 2) + '%');
+  if (d.change_7d !== null && d.change_7d !== undefined) maHtml += metricRow('7D Change', fmtPct(d.change_7d), colorPct(d.change_7d));
+  if (d.change_30d !== null && d.change_30d !== undefined) maHtml += metricRow('30D Change', fmtPct(d.change_30d), colorPct(d.change_30d));
+  document.getElementById('ma-content').innerHTML = maHtml || metricRow('No MA data', '', 'neutral');
+
+  // RSI
+  let rsiHtml = '';
+  if (d.rsi_14 !== null && d.rsi_14 !== undefined) {
+    const rsi = d.rsi_14;
+    let cls = 'neutral';
+    let label = 'Neutral';
+    if (rsi < 30) { cls = 'positive'; label = 'Oversold'; }
+    else if (rsi < 40) { cls = 'positive'; label = 'Near oversold'; }
+    else if (rsi > 70) { cls = 'negative'; label = 'Overbought'; }
+    else if (rsi > 60) { cls = 'negative'; label = 'Near overbought'; }
+    rsiHtml += `<div style="text-align:center;margin:12px 0">
+      <div style="font-size:2.2em;font-weight:800;color:${cls==='positive'?'var(--green)':cls==='negative'?'var(--red)':'var(--text)'}">${rsi.toFixed(1)}
+      <div style="font-size:0.85em;color:var(--muted);margin-top:4px">${label}
+    </div>`;
+    // RSI scale bar
+    rsiHtml += `<div style="height:8px;border-radius:4px;background:linear-gradient(to right,var(--green),var(--yellow),var(--red));position:relative;margin:8px 0">
+      <div style="position:absolute;left:${rsi}%;top:-4px;width:4px;height:16px;background:white;border-radius:2px">
+    </div>`;
+    rsiHtml += `<div style="display:flex;justify-content:space-between;font-size:0.7em;color:var(--muted)"><span>0 Oversold</span><span>50</span><span>100 Overbought</span></div>`;
+  }
+  document.getElementById('rsi-content').innerHTML = rsiHtml || metricRow('No RSI data', '', 'neutral');
+
+  // Bollinger Bands
+  let bbHtml = '';
+  if (d.bb_upper) {
+    bbHtml += metricRow('Upper Band', '$' + fmt(d.bb_upper, 0));
+    bbHtml += metricRow('Middle Band', '$' + fmt(d.bb_mid, 0));
+    bbHtml += metricRow('Lower Band', '$' + fmt(d.bb_lower, 0));
+    if (d.bb_width) {
+      const wcls = d.bb_width < 5 ? 'warn' : 'neutral';
+      bbHtml += metricRow('Band Width', fmt(d.bb_width, 2) + '%', wcls);
+      if (d.bb_width < 5) bbHtml += `<div style="font-size:0.75em;color:var(--yellow)">⚡ Squeeze — breakout incoming</div>`;
+    }
+    if (d.price && d.bb_upper && d.bb_lower && (d.bb_upper !== d.bb_lower)) {
+      const pos = ((d.price - d.bb_lower) / (d.bb_upper - d.bb_lower) * 100).toFixed(0);
+      bbHtml += metricRow('Position', pos + '% (0=lower, 100=upper)');
+    }
+  }
+  document.getElementById('bb-content').innerHTML = bbHtml || metricRow('No BB data', '', 'neutral');
+
+  // Options Skew
+  let optHtml = '';
+  if (d.options_skew) {
+    const s = d.options_skew;
+    if (s.put_call_ratio) optHtml += metricRow('Put/Call Ratio', fmt(s.put_call_ratio, 3));
+    if (s.skew_25d) optHtml += metricRow('25D Skew', fmt(s.skew_25d, 2));
+    if (s.term_structure) optHtml += metricRow('Term Structure', s.term_structure);
+    if (s.iv_30d) optHtml += metricRow('IV 30D', fmt(s.iv_30d, 2) + '%');
+    // Render any other keys
+    for (const [k,v] of Object.entries(s)) {
+      if (!['put_call_ratio','skew_25d','term_structure','iv_30d','timestamp'].includes(k) && v !== null) {
+        optHtml += metricRow(k.replace(/_/g,' '), typeof v === 'number' ? fmt(v,2) : v);
+      }
+    }
+  }
+  document.getElementById('options-content').innerHTML = optHtml || metricRow('No options data', '', 'neutral');
+}
+
+// ─── News Feed (English, BTC-relevant) ───
+function renderNewsFeed(d) {
+  const el = document.getElementById('news-feed');
+  if (!el) return;
+  if (!d || !d.en_news) {
+    el.innerHTML = metricRow('No headlines', 'News aggregator pending', 'neutral');
+    return;
+  }
+  let html = '';
+  let total = 0;
+
+  // English news (Google News RSS — BTC/crypto/macro only)
+  const enSources = ['bitcoin','crypto','fed'];
+  for (const src of enSources) {
+    const feed = d.en_news[src];
+    if (!feed || !feed.items || !feed.items.length) continue;
+    html += `<div style="margin-bottom:6px;font-size:0.7em;color:var(--green);text-transform:uppercase;letter-spacing:0.5px">${esc(feed.name)}</div>`;
+    feed.items.slice(0, 3).forEach(item => {
+      const safeUrl = item.url && /^https?:\/\//i.test(item.url) ? item.url : null;
+      const link = safeUrl ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer" style="color:var(--text);text-decoration:none">${esc(item.title)}</a>` : esc(item.title);
+      html += `<div style="font-size:0.78em;line-height:1.5;margin-bottom:3px;padding-left:8px;border-left:2px solid rgba(0,255,0,0.12)">${link}</div>`;
+      total++;
+    });
+  }
+
+  // Polymarket
+  if (d.polymarket && d.polymarket.markets && d.polymarket.markets.length) {
+    html += `<div style="margin-top:8px;margin-bottom:4px;font-size:0.7em;color:var(--orange);text-transform:uppercase;letter-spacing:0.5px">🔮 Polymarket</div>`;
+    d.polymarket.markets.slice(0, 2).forEach(m => {
+      const q = esc((m.question || '').slice(0, 80));
+      let raw = []; try { raw = typeof m.outcomePrices === 'string' ? JSON.parse(m.outcomePrices) : (m.outcomePrices || []); } catch(e) { raw = []; }
+      const prices = raw.slice(0, 2).map(p => (parseFloat(p)*100).toFixed(0)+'%').join(' / ');
+      html += `<div style="font-size:0.75em;line-height:1.5;margin-bottom:2px;padding-left:8px;border-left:2px solid rgba(255,140,0,0.15)">${q} <span style="color:var(--orange)">${prices}</span></div>`;
+    });
+  }
+  el.innerHTML = html || metricRow('No headlines', '', 'neutral');
+}
+
+// ─── Social Pulse (Reddit, Twitter, Xueqiu) ───
+function renderSocialPulse(d) {
+  const el = document.getElementById('social-pulse');
+  if (!el) return;
+  if (!d) {
+    el.innerHTML = metricRow('No social data', 'Social pulse collector pending', 'neutral');
+    return;
+  }
+  let html = '';
+
+  // Reddit
+  const rd = d.reddit;
+  if (rd && rd.status === 'ok' && rd.items && rd.items.length) {
+    html += `<div style="margin-bottom:6px;font-size:0.7em;color:var(--orange);text-transform:uppercase;letter-spacing:0.5px">🐸 ${esc(rd.source)} · ${rd.count} posts</div>`;
+    rd.items.slice(0, 5).forEach(item => {
+      const safeUrl = item.url && /^https?:\/\//i.test(item.url) ? item.url : null;
+      const link = safeUrl ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer" style="color:var(--text);text-decoration:none">${esc(item.title)}</a>` : esc(item.title);
+      const meta = item.score != null ? `⬆${item.score} · 💬${item.num_comments || 0}` : '';
+      html += `<div style="font-size:0.75em;line-height:1.5;margin-bottom:4px;padding-left:8px;border-left:2px solid rgba(255,140,0,0.15)">${link} <span style="color:var(--muted);font-size:0.85em">${meta}</span></div>`;
+    });
+  } else if (rd) {
+    html += `<div style="font-size:0.75em;color:var(--muted);margin-bottom:6px">🐸 Reddit: ${esc(rd.status)}${rd.error ? ' — ' + esc(rd.error) : ''}</div>`;
+  }
+
+  // Twitter
+  const tw = d.twitter;
+  if (tw && tw.status === 'ok' && tw.items && tw.items.length) {
+    html += `<div style="margin-top:8px;margin-bottom:4px;font-size:0.7em;color:var(--cyan);text-transform:uppercase;letter-spacing:0.5px">🐦 ${esc(tw.source)} · ${tw.count} tweets</div>`;
+    tw.items.slice(0, 3).forEach(item => {
+      html += `<div style="font-size:0.73em;line-height:1.5;margin-bottom:3px;padding-left:8px;border-left:2px solid rgba(0,200,255,0.12)">${esc(item.text)} <span style="color:var(--muted);font-size:0.85em">@${esc(item.user)} · ❤${item.likes || 0}</span></div>`;
+    });
+  } else if (tw) {
+    const label = tw.status === 'no_auth' ? '🔒 Auth required' : esc(tw.status);
+    html += `<div style="margin-top:6px;font-size:0.75em;color:var(--muted)">🐦 Twitter: ${label}</div>`;
+  }
+
+  // Xueqiu
+  const xq = d.xueqiu;
+  if (xq) {
+    html += `<div style="margin-top:6px;font-size:0.75em;color:var(--muted)">🔴 Xueqiu: ${esc(xq.status)}</div>`;
+  }
+
+  el.innerHTML = html || metricRow('No social data', '', 'neutral');
+}
+
+// ─── Signal Tracker (3-state evolution) ───
+function renderSignalTracker(d) {
+  const el = document.getElementById('sig-track-content');
+  if (!el) return;
+  if (!d || !d.tracked_signals || !d.tracked_signals.length) {
+    el.innerHTML = metricRow('No active signals', 'Waiting for event tracking data', 'neutral');
+    return;
+  }
+  const stateColors = { STRENGTHENED: 'var(--green)', WEAKENING: 'var(--yellow)', FALSIFIED: 'var(--red)', MONITORING: 'var(--muted)' };
+  const stateEmoji = { STRENGTHENED: '✅', WEAKENING: '🟡', FALSIFIED: '❌', MONITORING: '👁️' };
+  let html = '';
+  d.tracked_signals.forEach(s => {
+    const color = stateColors[s.evolution] || 'var(--muted)';
+    const emoji = stateEmoji[s.evolution] || '•';
+    html += `<div style="margin-bottom:8px;padding:8px 10px;background:rgba(255,255,255,0.02);border-radius:6px;border-left:3px solid ${color}">`;
+    html += `<div style="font-size:0.78em;font-weight:600;color:${color}">${emoji} ${esc(s.event_id)} · ${esc(s.evolution)}</div>`;
+    html += `<div style="font-size:0.75em;color:var(--muted);margin-top:3px">${esc(s.title || '')}</div>`;
+    html += `<div style="font-size:0.7em;color:var(--muted);margin-top:2px">${esc(s.reasoning || '')}</div>`;
+    html += `</div>`;
+  });
+  // Summary bar
+  const sum = d.summary || {};
+  html += `<div style="margin-top:8px;padding:6px 10px;font-size:0.7em;color:var(--muted);background:rgba(255,255,255,0.03);border-radius:4px">`;
+  html += `<span style="color:var(--green)">${sum.strengthened||0}↑</span> `;
+  html += `<span style="color:var(--yellow)">${sum.weakening||0}~</span> `;
+  html += `<span style="color:var(--red)">${sum.falsified||0}↓</span> `;
+  html += `<span>${sum.monitoring||0}·</span></div>`;
+  el.innerHTML = html;
+}
+
+// ─── L-1 Manual Macro Gate ───
+function renderL1Gate(mg, regime) {
+  const banner = document.getElementById('l1-gate-banner');
+  const badge = document.getElementById('l1-status-badge');
+  const reason = document.getElementById('l1-reason');
+  const expiry = document.getElementById('l1-expiry');
+  const trigger = document.getElementById('l1-trigger');
+
+  if (!mg || !mg.active) {
+    // Standby — show dim card so user knows facility exists
+    banner.style.display = 'block';
+    banner.className = 'standby';
+    badge.textContent = 'L-1 INACTIVE';
+    badge.className = 'inactive';
+    reason.textContent = 'Manual macro gate standing by — no geopolitical override active';
+    expiry.textContent = '';
+    trigger.textContent = '';
+    return;
+  }
+
+  // Active — show prominent banner
+  const isAbort = mg.status === 'ABORT';
+  banner.style.display = 'block';
+  banner.className = isAbort ? '' : 'pause';
+  badge.textContent = 'L-1 ' + mg.status;
+  badge.className = isAbort ? 'abort' : 'pause';
+  reason.textContent = mg.reason || '';
+
+  if (mg.re_evaluate_at && typeof mg.re_evaluate_at === 'string') {
+    const d = new Date(mg.re_evaluate_at + (mg.re_evaluate_at.endsWith('Z') ? '' : 'Z'));
+    const local = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    expiry.textContent = '⏳ Re-evaluate: ' + local;
+  } else {
+    expiry.textContent = '';
+  }
+
+  if (mg.re_evaluate_trigger) {
+    trigger.textContent = '🔍 When to review: ' + mg.re_evaluate_trigger;
+  } else {
+    trigger.textContent = '';
+  }
+}
+
+// ─── Regime Summary ───
+function renderRegime(d) {
+  if (!d || !d.synthesis) return;
+  const s = d.synthesis;
+  const verdict = document.getElementById('regime-verdict');
+  const detail = document.getElementById('regime-detail');
+  const layers = document.getElementById('regime-layers');
+
+  // Color the verdict
+  const verdictText = s.verdict || 'LOADING';
+  let color = 'var(--yellow)';
+  if (s.manual_override && s.manual_override.active) {
+    color = s.manual_override.status === 'ABORT' ? 'var(--red)' : 'var(--orange)';
+  } else if (verdictText.includes('BULL')) color = 'var(--green)';
+  else if (verdictText.includes('BEAR') || verdictText.includes('DO NOT')) color = 'var(--red)';
+  else if (verdictText.includes('STAND')) color = 'var(--orange)';
+
+  if (currentMode === 'simple') {
+    verdict.textContent = translateVerdict(verdictText);
+  } else {
+    verdict.textContent = verdictText;
+  }
+  verdict.style.color = color;
+
+  detail.textContent = s.detail || '';
+
+  // Layer chips
+  let html = '';
+  const layerNames = [
+    { key: 'gate', label: 'Gate' },
+    { key: 'macro', label: 'Macro' },
+    { key: 'structure', label: 'Structure' },
+    { key: 'derivatives', label: 'Derivatives' },
+    { key: 'cycle', label: 'Cycle' },
+  ];
+  for (const l of layerNames) {
+    const layer = d[l.key];
+    if (!layer) continue;
+    
+    const layerVer = layer.verdict || '—';
+    const translatedVer = currentMode === 'simple' ? translateVerdict(layerVer) : layerVer;
+
+    html += `<div class="regime-layer">
+      <div class="rl-name">${esc(String(layer.emoji || ''))} ${esc(l.label)}
+      <div class="rl-verdict">${esc(translatedVer)}
+      <div class="rl-detail">${esc(String(layer.detail || ''))}
+    </div>`;
+  }
+  layers.innerHTML = html;
+}
+
+// ─── Trading Session Clocks ───
+function updateClocks() {
+  const zones = [
+    { id: 'clock-ny', tz: 'America/New_York', open: [9,30], close: [16,0], city: 'NY' },
+    { id: 'clock-london', tz: 'Europe/London', open: [8,0], close: [16,30], city: 'London' },
+    { id: 'clock-dubai', tz: 'Asia/Dubai', open: [10,0], close: [14,0], city: 'Dubai' },
+    { id: 'clock-singapore', tz: 'Asia/Singapore', open: [9,0], close: [17,0], city: 'Singapore' },
+    { id: 'clock-tokyo', tz: 'Asia/Tokyo', open: [9,0], close: [15,0], city: 'Tokyo' },
+  ];
+  const now = new Date();
+
+  for (const z of zones) {
+    const el = document.getElementById(z.id);
+    if (!el) continue;
+    const timeEl = el.querySelector('.clock-time');
+    
+    const fmt = new Intl.DateTimeFormat('en-US', {
+      timeZone: z.tz, hour: '2-digit', minute: '2-digit', hour12: false
+    });
+    timeEl.textContent = fmt.format(now);
+
+    // Check if session is active
+    const local = new Date(now.toLocaleString('en-US', { timeZone: z.tz }));
+    const mins = local.getHours() * 60 + local.getMinutes();
+    const openMin = z.open[0] * 60 + z.open[1];
+    const closeMin = z.close[0] * 60 + z.close[1];
+    const isWeekday = local.getDay() >= 1 && local.getDay() <= 5;
+
+    if (isWeekday && mins >= openMin && mins < closeMin) {
+      el.classList.add('active-session');
+    } else {
+      el.classList.remove('active-session');
+    }
+  }
+}
+
+// ─── Main ───
+// Cache fetched data to avoid refetching on view mode toggle (INP optimization)
+let _dataCache = null;
+
+async function refresh() {
+  // Use cached data if available (view mode toggle reuses cache)
+  if (!_dataCache) {
+    _dataCache = await Promise.all([
+      load('btc_price'), load('gate0'), load('macro'), load('structural'),
+      load('derivatives'), load('cycle'), load('supplementary'), load('regime'), load('meta'), load('v7_captures'),
+      load('signal_stats'), load('manual_gate'), load('corporate_treasury_stress'),
+      load('news_feed'), load('social_pulse'), load('signal_tracker')
+    ]);
+  }
+  const [btc, gate, macro, structural, derivatives, cycle, supplementary, regime, meta, v7, sigStats, manualGate, cts, newsFeed, socialPulse, sigTrack] = _dataCache;
+
+  // Header
+  if (btc && btc.price) {
+    document.getElementById('btc-price').textContent = '$' + btc.price.toLocaleString(undefined, {maximumFractionDigits: 0});
+    const ch = document.getElementById('btc-change');
+    ch.textContent = fmtPct(btc.change_pct);
+    ch.style.color = btc.change_pct >= 0 ? 'var(--green)' : 'var(--red)';
+    document.getElementById('btc-range').textContent = `24H: $${btc.low?.toLocaleString()} – $${btc.high?.toLocaleString()}`;
+  }
+
+  if (meta) {
+    const metaEl = document.getElementById('meta');
+    if (metaEl) metaEl.textContent = `Last update: ${meta.last_update}`;
+    const footerTimeEl = document.getElementById('footer-time');
+    if (footerTimeEl) footerTimeEl.textContent = meta.last_update;
+    // Freshness check — warn if data > 2 hours old
+    if (meta._collected) {
+      const ageMin = (Date.now() - new Date(meta._collected.replace(' ', 'T').replace(' UTC','Z')).getTime()) / 60000;
+      const ageH = ageMin / 60;
+      if (ageH > 2) {
+        metaEl.textContent += ` ⚠️ Stale (${ageH.toFixed(1)}h old)`;
+        metaEl.style.color = 'var(--orange)';
+      } else if (ageMin > 90) {
+        metaEl.textContent += ` (${Math.round(ageMin)}min ago)`;
+        metaEl.style.color = 'var(--yellow)';
+      } else {
+        metaEl.textContent += ` (${Math.round(ageMin)}min ago)`;
+        metaEl.style.color = '';
+      }
+
+      // Update AI engine timestamps
+      const isoTs = meta._collected?.replace(' UTC','Z') || new Date().toISOString();
+      const attrs = ['og-updated','article-modified','dc-date'];
+      attrs.forEach(id => { const el = document.getElementById(id); if (el) el.setAttribute('content', isoTs); });
+      const schema = document.getElementById('schema-dataset');
+      if (schema) {
+        try {
+          const s = JSON.parse(schema.textContent);
+          s.dateModified = isoTs;
+          schema.textContent = JSON.stringify(s);
+        } catch(e) {}
+      }
+    }
+  }
+
+  renderGate(gate);
+  renderL1Gate(manualGate, regime);
+  renderRegime(regime);
+  renderMacro(macro);
+  renderNewsFeed(newsFeed);
+  renderSocialPulse(socialPulse);
+  renderStructural(structural, v7, gate);
+  renderDerivatives(derivatives);
+  renderCycle(cycle);
+  renderSignalTracker(sigTrack);
+  renderTA(supplementary);
+  renderCTS(cts);
+
+  // Signal History Stats
+  const statsEl = document.getElementById('signal-stats');
+  if (statsEl && sigStats && sigStats.total > 0) {
+    const wr = sigStats.wins + sigStats.losses > 0 ? ((sigStats.wins / (sigStats.wins + sigStats.losses)) * 100).toFixed(0) : '—';
+    statsEl.innerHTML = `📈 MODEL PERFORMANCE &nbsp;|&nbsp; ${sigStats.wins}<span style="color:var(--green)">W</span> ${sigStats.losses}<span style="color:var(--red)">L</span> ${sigStats.expired}<span style="color:var(--muted)">E</span> ${sigStats.open}<span style="color:var(--cyan)">⏳</span> &nbsp;|&nbsp; Model Convergence Rate: ${wr}%`;
+    statsEl.style.display = 'block';
+  }
+
+  // Generate prose signal narrative for AI engines
+  renderNarrative(gate, regime, macro, structural, derivatives, cycle);
+  populateCardNarratives(gate, regime, macro, structural, derivatives, cycle, supplementary);
+}
+
+// --- Signal Narrative (prose summary for AI answer engines) ---
+function renderNarrative(gate, regime, macro, structural, derivatives, cycle) {
+  const el = document.getElementById('signal-narrative');
+  if (!el) return;
+  let lines = [];
+
+  if (gate && gate.verdict) {
+    const v = gate.verdict;
+    const triggered = gate.sources && gate.sources.length ? 'triggered by ' + gate.sources.join(', ') : 'no triggers active';
+    const modules = gate.modules || {};
+    const greenCount = Object.values(modules).filter(function(m) { return m.state === 'PROCEED'; }).length;
+    const totalCount = Object.keys(modules).length || 5;
+    const action = v === 'PROCEED' ? 'All entry conditions met — full position sizing permitted'
+      : v === 'TIGHTENED' ? 'reduce position size, use tight stops — conditions require caution'
+      : v === 'PAUSE' ? 'New entries paused — maintain existing positions only'
+      : 'All entries halted — systemic risk threshold breached';
+    lines.push('Gate0 entry gating reads ' + v + ' — ' + triggered + '. ' + greenCount + ' of ' + totalCount + ' modules green. ' + action + '.');
+  }
+
+  if (regime && regime.synthesis) {
+    var s = regime.synthesis;
+    lines.push('Overall regime synthesis: ' + esc(String(s.verdict)) + '. ' + esc(String(s.detail || '')));
+  }
+
+  if (macro) {
+    var parts = [];
+    if (macro.dxy) parts.push('DXY at ' + fmt(macro.dxy, 2));
+    if (macro.us_10y_yield) parts.push('10Y yield ' + fmt(macro.us_10y_yield, 2) + '%');
+    if (macro.regime) parts.push('regime classified as ' + macro.regime);
+    if (macro.vix && !isNaN(macro.vix)) {
+      var vixLabel = macro.vix > 22 ? 'elevated (risk-off)' : macro.vix > 15 ? 'moderate' : 'low (risk-on)';
+      parts.push('VIX at ' + fmt(macro.vix, 1) + ' — ' + vixLabel);
+    }
+    if (parts.length) lines.push('Macro environment: ' + parts.join('. ') + '.');
+  }
+
+  if (structural) {
+    var parts2 = [];
+    if (structural.magnets) {
+      var m = structural.magnets;
+      var above = m.above && m.above.nearest_magnet;
+      var below = m.below && m.below.nearest_magnet;
+      if (above && above.price) parts2.push('nearest overhead liquidation cluster at $' + Number(above.price).toLocaleString() + ' (' + (above.distance_pct > 0 ? '+' : '') + (above.distance_pct || '?') + '% away)');
+      if (below && below.price) parts2.push('nearest downside liquidation cluster at $' + Number(below.price).toLocaleString() + ' (' + (below.distance_pct || '?') + '% away)');
+      if (m.sandwich && m.sandwich.width_usd) parts2.push('sandwich compression width at $' + m.sandwich.width_usd.toLocaleString());
+      if (m.regime) parts2.push('liquidity regime: ' + m.regime);
+    }
+    if (structural.sr_bands) {
+      var bands = structural.sr_bands;
+      var tfSpecs = ['1h', '4h', '1d'];
+      var tfParts = [];
+      tfSpecs.forEach(function(tf) {
+        var b = bands[tf];
+        if (!b || b.error) return;
+        var sc = b.supports ? b.supports.length : 0;
+        var rc = b.resistances ? b.resistances.length : 0;
+        tfParts.push(tf.toUpperCase() + ': ' + sc + 'S/' + rc + 'R');
+      });
+      if (tfParts.length) parts2.push('S/R bands across ' + tfParts.join(', '));
+    }
+    if (structural.volume_profile) {
+      var vp = structural.volume_profile;
+      if (vp.poc) {
+        parts2.push('volume POC at $' + Number(vp.poc).toLocaleString());
+      }
+    }
+    if (parts2.length) lines.push('Structural liquidity: ' + parts2.join('. ') + '.');
+  }
+
+  if (derivatives) {
+    var parts3 = [];
+    if (derivatives.funding_rate !== null && derivatives.funding_rate !== undefined) {
+      var frPct = (derivatives.funding_rate * 100).toFixed(4);
+      var frLabel = derivatives.funding_rate > 0.0005 ? 'bullish pressure (longs pay)' : derivatives.funding_rate < -0.0005 ? 'bearish pressure (shorts pay)' : 'neutral';
+      parts3.push('funding rate ' + frPct + '% per 8h — ' + frLabel);
+    }
+    if (derivatives.oi_trend) {
+      var oiText = 'open interest ' + derivatives.oi_trend;
+      if (derivatives.oi_change_24h !== null && !isNaN(derivatives.oi_change_24h)) oiText += ' (' + (derivatives.oi_change_24h >= 0 ? '+' : '') + fmt(derivatives.oi_change_24h, 1) + '%)';
+      parts3.push(oiText);
+    }
+    if (parts3.length) lines.push('Derivatives positioning: ' + parts3.join('. ') + '.');
+  }
+
+  if (cycle) {
+    var parts4 = [];
+    if (cycle.mvrv_z !== null && cycle.mvrv_z !== undefined) {
+      var z = cycle.mvrv_z;
+      var zLabel = z < 0 ? 'historic accumulation zone (undervalued)' : z > 3 ? 'cycle top zone (overvalued)' : z > 1 ? 'above fair value' : 'near fair value';
+      parts4.push('MVRV Z-score at ' + fmt(z, 2) + ' — ' + zLabel);
+    }
+    if (cycle.sopr !== null && cycle.sopr !== undefined) {
+      var sopr = cycle.sopr;
+      var sLabel = sopr < 0.95 ? 'capitulation signals' : sopr > 1.05 ? 'profit-taking underway' : 'neutral spending';
+      parts4.push('SOPR ' + fmt(sopr, 4) + ' — ' + sLabel);
+    }
+    if (cycle.composite_score !== null) parts4.push('composite cycle score ' + cycle.composite_score + '/100');
+    if (cycle.cycle_phase) parts4.push('phase: ' + cycle.cycle_phase);
+    if (parts4.length) lines.push('Cycle context: ' + parts4.join('. ') + '.');
+  }
+
+  el.innerHTML = lines.length
+    ? lines.map(function(l) { return '<p style="margin:0 0 8px 0">' + esc(l) + '</p>'; }).join('')
+    : '<p style="margin:0">Insufficient data to generate signal narrative.</p>';
+}
+
+// --- Per-card inline prose (one-liner per signal card for AI engines) ---
+function populateCardNarratives(gate, regime, macro, structural, derivatives, cycle, supplementary) {
+  function nar(id, text) {
+    var el = document.getElementById(id);
+    if (el && text) el.textContent = text;
+  }
+
+  // Gate0
+  if (gate && gate.verdict) {
+    nar('nar-gate', 'Verdict: ' + gate.verdict + '. Modules active: ' + (gate.sources && gate.sources.length ? gate.sources.join(', ') : 'none') + '. Decision layer before any trade entry.');
+  }
+
+  // Regime
+  if (regime && regime.synthesis) {
+    nar('nar-regime', 'Composite verdict across all layers: ' + regime.synthesis.verdict + '. ' + (regime.synthesis.detail || '') + ' Multi-layer weighted synthesis.');
+  }
+
+  // Macro
+  if (macro) {
+    var mp = [];
+    if (macro.dxy) mp.push('DXY ' + fmt(macro.dxy, 2));
+    if (macro.us_10y_yield) mp.push('10Y yield ' + fmt(macro.us_10y_yield, 2) + '%');
+    if (macro.regime) mp.push('regime: ' + macro.regime);
+    nar('nar-macro', mp.length ? mp.join(' | ') : null);
+
+    if (macro.vix && !isNaN(macro.vix)) {
+      var vL = macro.vix > 22 ? 'elevated — risk-off' : macro.vix > 15 ? 'moderate' : 'low — risk-on';
+      nar('nar-risk', 'VIX ' + fmt(macro.vix, 1) + ' — ' + vL + '. Track SPY, QQQ correlations for macro confirmation.');
+    }
+    if (macro.news && macro.news.length) {
+      nar('nar-news', macro.news.length + ' recent headlines. Latest: ' + (macro.news[0].title || macro.news[0]));
+    }
+  }
+
+  // Structural
+  if (structural) {
+    if (structural.magnets) {
+      var m = structural.magnets;
+      var mp2 = [];
+      var ab = m.above && m.above.nearest_magnet;
+      var bl = m.below && m.below.nearest_magnet;
+      if (ab && ab.price) mp2.push('overhead magnet at $' + Number(ab.price).toLocaleString());
+      if (bl && bl.price) mp2.push('downside magnet at $' + Number(bl.price).toLocaleString());
+      if (m.regime) mp2.push('regime: ' + m.regime);
+      nar('nar-magnets', mp2.length ? mp2.join(' | ') : 'Magnet data loading.');
+    }
+    if (structural.sr_bands) {
+      var b = structural.sr_bands;
+      var sp = [];
+      ['1h','4h','1d'].forEach(function(tf) {
+        var bb = b[tf];
+        if (bb && !bb.error && bb.supports && bb.resistances) {
+          sp.push(tf.toUpperCase() + ': ' + bb.supports.length + 'S/' + bb.resistances.length + 'R');
+        }
+      });
+      nar('nar-sr', sp.length ? sp.join(' · ') + ' — ATR-based confidence' : 'S/R bands loading.');
+    }
+    if (structural.volume_profile) {
+      var vp = structural.volume_profile;
+      var vpText = [];
+      if (vp.poc) vpText.push('POC: $' + Number(vp.poc).toLocaleString());
+      if (vp.vah) vpText.push('VAH: $' + Number(vp.vah).toLocaleString());
+      if (vp.val) vpText.push('VAL: $' + Number(vp.val).toLocaleString());
+      nar('nar-vol', vpText.length ? vpText.join(' | ') + ' — value area nodes' : 'Volume profile loading.');
+    }
+  }
+
+  // Derivatives
+  if (derivatives) {
+    var dp = [];
+    if (derivatives.funding_rate !== null && derivatives.funding_rate !== undefined) {
+      var frPct = (derivatives.funding_rate * 100).toFixed(4);
+      dp.push('funding rate ' + frPct + '% per 8h');
+    }
+    if (derivatives.long_short_ratio && !isNaN(derivatives.long_short_ratio)) {
+      dp.push('L/S ratio ' + fmt(derivatives.long_short_ratio, 2));
+    }
+    nar('nar-deriv', dp.length ? dp.join(' | ') + ' — perp market positioning' : 'Funding data loading.');
+
+    if (derivatives.oi_trend || derivatives.oi_change_24h !== undefined) {
+      var oiText = derivatives.oi_trend || 'stable';
+      if (derivatives.oi_change_24h !== null && !isNaN(derivatives.oi_change_24h)) oiText += ' (' + (derivatives.oi_change_24h >= 0 ? '+' : '') + fmt(derivatives.oi_change_24h, 1) + '%)';
+      nar('nar-oi', 'OI trend: ' + oiText + '. Aggregate futures positioning indicator.');
+    }
+  }
+
+  // Cycle
+  if (cycle) {
+    var cp = [];
+    if (cycle.mvrv_z !== null && cycle.mvrv_z !== undefined) {
+      cp.push('MVRV Z: ' + fmt(cycle.mvrv_z, 2));
+    }
+    if (cycle.sopr !== null && cycle.sopr !== undefined) {
+      cp.push('SOPR: ' + fmt(cycle.sopr, 4));
+    }
+    if (cycle.composite_score !== null) cp.push('score: ' + cycle.composite_score + '/100');
+    nar('nar-onchain', cp.length ? cp.join(' | ') + ' — long-term cycle positioning' : 'On-chain data loading.');
+
+    if (cycle.distribution && cycle.distribution.tiers && cycle.distribution.tiers.length) {
+      nar('nar-dist', cycle.distribution.tiers.length + ' holder tiers tracked. ' + (cycle.distribution.total_addresses ? cycle.distribution.total_addresses.toLocaleString() + ' total addresses.' : '') + ' Whale and retail distribution analysis.');
+    }
+  }
+
+  // TA
+  if (supplementary) {
+    var sup = supplementary;
+    // MA
+    var maP = [];
+    if (sup.ma50) {
+      var price = sup.price || 0;
+      maP.push('MA50: $' + fmt(sup.ma50, 0) + ' (price ' + (price > sup.ma50 ? 'above' : 'below') + ')');
+    }
+    if (sup.atr_pct) maP.push('ATR: ' + fmt(sup.atr_pct, 2) + '%');
+    if (sup.change_7d !== null && sup.change_7d !== undefined) maP.push('7D: ' + fmtPct(sup.change_7d));
+    nar('nar-ma', maP.length ? maP.join(' | ') + ' — trend context' : 'MA data loading.');
+
+    // RSI
+    if (sup.rsi_14 !== null && sup.rsi_14 !== undefined) {
+      var rsi = sup.rsi_14;
+      var label = rsi < 30 ? 'Oversold' : rsi < 40 ? 'Near oversold' : rsi > 70 ? 'Overbought' : rsi > 60 ? 'Near overbought' : 'Neutral';
+      nar('nar-rsi', 'RSI: ' + rsi.toFixed(1) + ' — ' + label + '. 14-period momentum oscillator.');
+    }
+
+    // BB
+    if (sup.bb_width) {
+      var bw = sup.bb_width;
+      var bwLabel = bw < 5 ? 'Squeeze active — breakout likely' : 'Normal width';
+      nar('nar-bb', 'BB width: ' + fmt(bw, 2) + '% — ' + bwLabel + '. Volatility compression indicator.');
+    }
+
+    // Options
+    if (sup.options_skew) {
+      var os = sup.options_skew;
+      var op = [];
+      if (os.put_call_ratio) op.push('P/C: ' + fmt(os.put_call_ratio, 3));
+      if (os.skew_25d) op.push('25D skew: ' + fmt(os.skew_25d, 2));
+      if (os.iv_30d) op.push('IV 30D: ' + fmt(os.iv_30d, 2) + '%');
+      nar('nar-options', op.length ? op.join(' | ') + ' — derivatives sentiment overlay' : 'Options data loading.');
+    }
+  }
+}
+
+initBeginnerFriendlyLayout();
+refresh();  // initial data load
+setInterval(() => { _dataCache = null; refresh(); }, 900000); // 15 min — clear cache and refetch
+updateClocks();
+setInterval(updateClocks, 60000); // 1 min — keeps clocks live
+
+// ─── Dashboard Enhancements: Tooltips + Learn-More Links + Onboarding ───
+
+// Metric tooltips: map metric labels to glossary entries
+const METRIC_TOOLTIPS = {
+  'MVRV Z-Score': 'Market value vs realized value. < 0 = undervalued, > 4 = cycle top.',
+  'SOPR': 'Spent Output Profit Ratio. < 1 = holders selling at loss (capitulation).',
+  'Puell Multiple': 'Miner revenue vs 365-day average. < 0.5 = capitulation, > 4 = overheated.',
+  'Exchange Netflow (7d)': 'Net BTC flowing to/from exchanges. Negative = outflow (bullish).',
+  'Cycle Score': 'Composite of MVRV, SOPR, Puell on 0-100 scale.',
+  'Funding Rate': 'Perpetual futures fee. > 0.03% = longs crowded, < -0.03% = shorts paying.',
+  'L/S Ratio': 'Long/short ratio of top trader accounts. > 2.0 = longs crowded.',
+  'Longs': 'Percentage of top trader accounts that are long.',
+  'Shorts': 'Percentage of top trader accounts that are short.',
+  'Taker B/S Ratio': 'Aggressive buy vs sell volume. > 1.2 = buy pressure, < 0.8 = sell pressure.',
+  'CVD (24h)': 'Cumulative taker buy minus sell volume. Positive = buyers dominating.',
+  'CVD Trend': 'Direction of order flow: strengthening, weakening, or flat.',
+  'Open Interest': 'Total outstanding futures contracts. Rising = new money entering.',
+  'OI (USD)': 'Open interest value in USD.',
+  '24h Change': 'Open interest change over 24 hours.',
+  'Coinbase Premium': 'Price difference on Coinbase vs other exchanges. Positive = US institutional buying.',
+  'DXY (Dollar)': 'US Dollar Index. < 100 = BTC tailwind, > 105 = headwind.',
+  '10Y Yield': '10-year Treasury yield. < 4% = risk-on, > 5% = risk-off.',
+  'M2 Supply': 'Broad money supply. Expanding = liquidity positive for BTC.',
+  'VIX': 'Equity volatility index. > 30 = stress, > 40 = panic.',
+  'MA50 (Daily)': '50-day moving average. Price above = bullish trend.',
+  'MA60 (Daily)': '60-day moving average.',
+  'ATR (14d)': 'Average True Range — volatility measure over 14 days.',
+  'ATR %': 'ATR as percentage of price — normalized volatility.',
+  'RSI': 'Relative Strength Index. < 30 = oversold, > 70 = overbought.',
+  'Upper Band': 'Bollinger Band upper — 2 standard deviations above mean.',
+  'Middle Band': 'Bollinger Band middle — 20-period moving average.',
+  'Lower Band': 'Bollinger Band lower — 2 standard deviations below mean.',
+  'Band Width': 'Bollinger Band width. < 5% = squeeze (breakout incoming).',
+  'Put/Call Ratio': 'Options put/call volume ratio. High = bearish hedging.',
+  '25D Skew': '25-delta options skew. Negative = puts more expensive (bearish).',
+  'IV 30D': '30-day implied volatility for Bitcoin options.',
+};
+
+// Card-to-glossary mapping for "Learn more" links
+const CARD_GLOSSARY_LINKS = {
+  'card-onchain': '/pipeline-dashboard/glossary/#mvrv-z-score',
+  'card-deriv': '/pipeline-dashboard/glossary/#funding-rate',
+  'card-oi': '/pipeline-dashboard/glossary/#open-interest',
+  'card-macro': '/pipeline-dashboard/glossary/#dxy',
+  'card-risk': '/pipeline-dashboard/glossary/#vix',
+  'card-magnets': '/pipeline-dashboard/glossary/#liquidation-magnet',
+  'card-sr': '/pipeline-dashboard/glossary/#sr-bands',
+  'card-vol': '/pipeline-dashboard/glossary/#volume-profile',
+  'card-ma': '/pipeline-dashboard/glossary/#atr',
+  'card-rsi': '/pipeline-dashboard/glossary/#rsi',
+  'card-bb': '/pipeline-dashboard/glossary/#bollinger-bands',
+  'card-options': '/pipeline-dashboard/glossary/#options-skew',
+};
+
+function enhanceDashboard() {
+  // Add tooltips to metric labels
+  document.querySelectorAll('.metric-label').forEach(label => {
+    const text = label.textContent.trim();
+    if (METRIC_TOOLTIPS[text]) {
+      label.setAttribute('data-tooltip', METRIC_TOOLTIPS[text]);
+      label.style.cursor = 'help';
+      label.style.borderBottom = '1px dotted var(--muted)';
+    }
+  });
+
+  // Add "Learn more" links to card titles
+  document.querySelectorAll('.card').forEach(card => {
+    if (card.id && CARD_GLOSSARY_LINKS[card.id]) {
+      // Check if link already exists
+      if (card.querySelector('.card-learn-more')) return;
+      const title = card.querySelector('.card-title');
+      if (title) {
+        const link = document.createElement('a');
+        link.href = CARD_GLOSSARY_LINKS[card.id];
+        link.className = 'card-learn-more';
+        link.textContent = '📖 Learn more';
+        link.style.cssText = 'font-size:0.7em;color:var(--cyan);text-decoration:none;margin-left:8px;font-weight:500;opacity:0.7;transition:opacity 0.2s';
+        link.onmouseenter = () => link.style.opacity = '1';
+        link.onmouseleave = () => link.style.opacity = '0.7';
+        title.appendChild(link);
+      }
+    }
+  });
+}
+
+// Onboarding flow for first-time visitors
+function showOnboarding() {
+  if (localStorage.getItem('btc_dashboard_onboarded')) return;
+
+  const overlay = document.createElement('div');
+  overlay.id = 'onboarding-overlay';
+  overlay.style.cssText = 'position:fixed;inset:0;background:rgba(5,7,13,0.9);backdrop-filter:blur(8px);z-index:9999;display:flex;align-items:center;justify-content:center;padding:24px';
+  overlay.innerHTML = `
+    <div style="background:var(--card-solid);border:1px solid var(--border-hover);border-radius:16px;padding:32px;max-width:480px;text-align:center">
+      <div style="font-size:2.5em;margin-bottom:12px">⚡</div>
+      <h2 style="font-size:1.4em;font-weight:800;margin-bottom:12px">Welcome to the Pipeline Dashboard</h2>
+      <p style="color:var(--muted);font-size:0.9em;line-height:1.6;margin-bottom:24px">
+        This dashboard synthesizes 5 layers of Bitcoin data into quantitative risk parameters.
+        Here's how to read it:
+      </p>
+      <div style="text-align:left;margin-bottom:24px;display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;gap:12px;align-items:flex-start">
+          <span style="color:var(--cyan);font-size:1.2em;flex-shrink:0">1.</span>
+          <div><strong>Check the Regime Synthesis</strong> at the top — it's the overall risk synthesis (BULLISH, BEARISH, NEUTRAL).</div>
+        </div>
+        <div style="display:flex;gap:12px;align-items:flex-start">
+          <span style="color:var(--cyan);font-size:1.2em;flex-shrink:0">2.</span>
+          <div><strong>Check Gate0</strong> — the risk gate. PROCEED = normal parameters, ABORT = extreme risk overlay.</div>
+        </div>
+        <div style="display:flex;gap:12px;align-items:flex-start">
+          <span style="color:var(--cyan);font-size:1.2em;flex-shrink:0">3.</span>
+          <div><strong>Check Simulation Monitors</strong> — VAL Absorption, Breakout-Retest, Breakdown-Retest show active setups.</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;justify-content:center">
+        <a href="/pipeline-dashboard/methodology/" style="padding:10px 20px;border-radius:8px;background:rgba(255,255,255,0.05);border:1px solid var(--border-hover);color:var(--text);text-decoration:none;font-size:0.85em;font-weight:600">Read Methodology</a>
+        <button id="onboarding-dismiss" style="padding:10px 20px;border-radius:8px;background:var(--cyan);color:#05070d;border:none;font-weight:700;font-size:0.85em;cursor:pointer">Got it →</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  document.getElementById('onboarding-dismiss').onclick = () => {
+    localStorage.setItem('btc_dashboard_onboarded', '1');
+    overlay.remove();
+  };
+}
+
+// Run enhancements after each refresh
+const originalRefresh = refresh;
+refresh = async function() {
+  await originalRefresh();
+  enhanceDashboard();
+};
+
+// Show onboarding on first load
+setTimeout(showOnboarding, 1000);
+</script>
+</body>
+</html>

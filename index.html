@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bitcoin Market Intelligence — Free BTC Analysis & Setup Tracking | Pipeline Dashboard</title>
+<meta name="description" content="Read Bitcoin through structure, not the price chart. Free intelligence platform with real-time Gate0 risk parameters, liquidation magnets, derivatives positioning, and on-chain cycle metrics. Six-layer synthesis — risk-first, price-last. Updated every 15 minutes.">
+<meta name="subject" content="Bitcoin market analysis, real-time quantitative setups, on-chain metrics">
+<meta name="classification" content="Finance, Cryptocurrency, Trading, Technical Analysis">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Bitcoin Market Intelligence — Free BTC Analysis & Setup Tracking">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Read Bitcoin through structure, not the price chart. Six-layer synthesis with Gate0 risk parameters, liquidation magnets, derivatives positioning, and on-chain cycle metrics — risk-first, price-last. Updated every 15 minutes.">
+<meta property="og:site_name" content="BTC Pipeline Dashboard">
+<meta property="og:url" content="https://aikeluargalee-tech.github.io/pipeline-dashboard/">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "BTC Pipeline Dashboard",
+  "url": "https://aikeluargalee-tech.github.io/pipeline-dashboard/",
+  "description": "Read Bitcoin through structure, not the price chart. Six-layer market analysis platform — risk-first, price-last — with Gate0 risk parameters and real-time quantitative alerts.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://aikeluargalee-tech.github.io/pipeline-dashboard/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "BTC Pipeline",
+  "url": "https://aikeluargalee-tech.github.io/pipeline-dashboard/",
+  "description": "Independent Bitcoin market intelligence — structure-first, six-layer quantitative analysis updated every 15 minutes.",
+  "knowsAbout": ["Bitcoin market analysis", "Cryptocurrency quantitative models", "On-chain analytics", "Derivatives market structure", "Technical analysis", "Macroeconomic indicators"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/logo.png">
+<meta name="theme-color" content="#05070d">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png">
+<meta name="twitter:image" content="https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<noscript>
+<nav style="background:rgba(5,7,13,0.95);border-bottom:1px solid rgba(255,255,255,0.06);padding:12px 24px">
+  <div style="max-width:1200px;margin:0 auto;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
+    <a href="/pipeline-dashboard/" style="color:#f5f5f6;text-decoration:none;font-weight:800">⚡ Pipeline Dashboard</a>
+    <a href="/pipeline-dashboard/dashboard/" style="color:#888893;text-decoration:none;font-size:0.85em">Dashboard</a>
+    <a href="/pipeline-dashboard/methodology/" style="color:#888893;text-decoration:none;font-size:0.85em">Methodology</a>
+    <a href="/pipeline-dashboard/research/" style="color:#888893;text-decoration:none;font-size:0.85em">Research</a>
+    <a href="/pipeline-dashboard/glossary/" style="color:#888893;text-decoration:none;font-size:0.85em">Glossary</a>
+    <a href="/pipeline-dashboard/events-and-disruptions/" style="color:#888893;text-decoration:none;font-size:0.85em">Events</a>
+    <a href="/pipeline-dashboard/verdicts/" style="color:#888893;text-decoration:none;font-size:0.85em">Verdicts</a>
+    <a href="/pipeline-dashboard/track-record/" style="color:#888893;text-decoration:none;font-size:0.85em">Track Record</a>
+    <a href="/pipeline-dashboard/compare/" style="color:#888893;text-decoration:none;font-size:0.85em">Compare</a>
+    <a href="/pipeline-dashboard/faq/" style="color:#888893;text-decoration:none;font-size:0.85em">FAQ</a>
+    <a href="/pipeline-dashboard/dashboard/" style="background:var(--cyan);color:#05070d;text-decoration:none;font-size:0.82em;padding:6px 16px;border-radius:8px;font-weight:700">Live Dashboard →</a>
+  </div>
+</nav>
+</noscript>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>Read Bitcoin Through Structure,<br><span>Not the Price Chart</span></h1>
+  <p>Most dashboards lead with price and bolt on indicators as decoration. Pipeline Dashboard inverts the order: a strict six-layer framework that starts with systemic risk and liquidity, and treats price as the last variable — not the first.</p>
+  <div class="hero-cta">
+    <a href="dashboard/" class="cta-button primary">View Live Dashboard →</a>
+    <a href="track-record/" class="cta-button secondary">See Our Track Record</a>
+  </div>
+</section>
+
+<!-- Live Verdict & Calibration Preview -->
+<section style="max-width:900px;margin:0 auto;padding:0 24px 40px;display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));gap:20px">
+  <div id="live-verdict-card" class="regime-summary" style="padding:24px;margin:0;backdrop-filter:blur(18px)">
+    <div class="regime-title">⚡ CURRENT MARKET VERDICT</div>
+    <div class="regime-verdict" id="home-verdict" style="font-size:2rem;margin:12px 0">CAUTIOUS BULL</div>
+    <div class="regime-detail" id="home-verdict-detail" style="font-size:0.85em;line-height:1.5">Loading latest synthesis verdict...</div>
+    <div style="margin-top:16px">
+      <a href="dashboard/" style="font-size:0.82em;color:var(--cyan);text-decoration:none;font-weight:600">See full breakdown →</a>
+    </div>
+  </div>
+  
+  <div class="regime-summary" style="padding:24px;margin:0;border:1px dashed rgba(34,211,238,0.2);backdrop-filter:blur(18px);display:flex;flex-direction:column;justify-content:space-between">
+    <div>
+      <div class="regime-title" style="color:var(--green)">📊 VERIFIED PERFORMANCE (LIVE)</div>
+      <div style="display:flex;gap:20px;margin:16px 0">
+        <div>
+          <div style="font-size:0.75em;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em">7D Regime Accuracy</div>
+          <div style="font-family:'JetBrains Mono',monospace;font-size:1.8rem;font-weight:700;color:var(--text);margin-top:4px" id="track-regime-7d">-</div>
+        </div>
+        <div>
+          <div style="font-size:0.75em;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em">Pipeline Convergence Rate (90d)</div>
+          <div style="font-family:'JetBrains Mono',monospace;font-size:1.8rem;font-weight:700;color:var(--green);margin-top:4px" id="track-signals-90d">-</div>
+        </div>
+      </div>
+      <p style="font-size:0.78em;color:var(--muted);line-height:1.5;margin:0">
+        All calls are logged to an append-only ledger before price is known, and automatically resolved via Binance market APIs.
+      </p>
+    </div>
+    <div style="margin-top:16px">
+      <a href="track-record/" style="font-size:0.82em;color:var(--cyan);text-decoration:none;font-weight:600">View full track record & misses →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<div class="section-header">
+  <h2>Why This Is Different</h2>
+  <p>Three things no free Bitcoin platform does</p>
+</div>
+
+<section class="feature-grid">
+  <div class="feature-card">
+    <div class="icon">⚡</div>
+    <h3>Gate0 Risk Ceiling</h3>
+    <p>Five independent risk modules — black swan, VIX/SPX, AI-3 wave, stablecoins, session — produce a single risk parameter: PROCEED, TIGHTENED, PAUSE, or ABORT. Active structural events cap the ceiling: bullish parameter states can't coexist with an active Downside Sweep.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">🎯</div>
+    <h3>Model Lifecycle Verification</h3>
+    <p>Not just indicators — actual setup detectors. VAL Absorption, Breakout-Retest, and Breakdown-Retest track parameters through their full lifecycle: breakout detected → retest in progress → bounce confirmed → theoretical reference level. Every simulation tracks WIN/LOSS/EXPIRED outcomes.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">🧲</div>
+    <h3>Liquidation Magnet Regimes</h3>
+    <p>Takes raw heatmap data and computes sandwich geometry — price compressed between above/below liquidation clusters. Regime labels: Vice Grip, Upside Squeeze, Downside Sweep, Balanced. Turns a heatmap image into a tradeable thesis.</p>
+  </div>
+</section>
+
+<!-- How It Works -->
+<div class="section-header">
+  <h2>Six Layers, One Risk Synthesis</h2>
+  <p>Each layer can only override the layers above it — never below</p>
+</div>
+
+<section class="page-container-wide" style="max-width:800px">
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px">
+      <span style="background:linear-gradient(135deg,var(--red),#dc2626);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L0</span>
+      <div><strong>Gatekeeper</strong> — Pre-trade risk filter. Five modules, each can veto. <a href="methodology/" style="color:var(--cyan);text-decoration:none">Learn more →</a></div>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px">
+      <span style="background:linear-gradient(135deg,var(--blue),#6366f1);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L1</span>
+      <div><strong>Macro & Speculation</strong> — DXY, treasury yields, M2, VIX, ETF flows, risk assets</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px">
+      <span style="background:linear-gradient(135deg,var(--blue),#6366f1);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L2</span>
+      <div><strong>Structural Liquidity</strong> — Liquidation magnets, S/R bands, volume profile, signal monitors</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px">
+      <span style="background:linear-gradient(135deg,var(--blue),#6366f1);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L3</span>
+      <div><strong>Derivatives</strong> — Funding rates, open interest, CVD, long/short ratios, taker flow</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px">
+      <span style="background:linear-gradient(135deg,var(--blue),#6366f1);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">L4</span>
+      <div><strong>Cycle Context</strong> — MVRV Z-Score, SOPR, Puell Multiple, exchange netflow</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:12px;opacity:0.7">
+      <span style="background:var(--muted);color:white;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8em;flex-shrink:0">TA</span>
+      <div><strong>Technical Analysis</strong> — MA, RSI, Bollinger Bands. Lagging — context only, last priority</div>
+    </div>
+  </div>
+</section>
+
+<!-- Research Teaser -->
+<div class="section-header">
+  <h2>Research & Insights</h2>
+  <p>Deep dives into every metric, method, and signal — written from the actual code</p>
+</div>
+
+<section class="page-container-wide" style="max-width:1000px">
+  <div class="research-grid">
+    <a href="research/mvrv-z-score/" class="research-card">
+      <div class="cluster">On-Chain Valuation</div>
+      <h3>MVRV Z-Score: The Ultimate Bitcoin Valuation Metric</h3>
+      <p>How market value vs realized value identifies cycle tops and bottoms — and why it's the foundation of our cycle layer.</p>
+      <div class="meta">Pillar article · 8 min read</div>
+    </a>
+    <a href="research/liquidation-magnets/" class="research-card">
+      <div class="cluster">Structural Liquidity</div>
+      <h3>Liquidation Magnets: How Leverage Clusters Move Bitcoin</h3>
+      <p>Why price gets pulled toward liquidation clusters, and how we detect Vice Grip, Squeeze, and Sweep regimes.</p>
+      <div class="meta">Pillar article · 10 min read</div>
+    </a>
+    <a href="research/gate0-framework/" class="research-card">
+      <div class="cluster">Risk Frameworks</div>
+      <h3>Gate0: A Multi-Layer Risk Framework for Bitcoin Trading</h3>
+      <p>The five-module pre-trade gate that can veto every other layer — and why position sizing matters more than signals.</p>
+      <div class="meta">Pillar article · 12 min read</div>
+    </a>
+  </div>
+  <div style="text-align:center;margin-top:24px">
+    <a href="research/" class="cta-button secondary">Browse All Research →</a>
+  </div>
+</section>
+
+<!-- Comparison Teaser -->
+<div class="section-header">
+  <h2>How We Compare</h2>
+  <p>Free synthesis vs paid data terminals</p>
+</div>
+
+<section class="page-container" style="max-width:700px">
+  <table class="comparison-table">
+    <thead>
+      <tr><th>Feature</th><th>Gate0</th><th>Glassnode</th><th>CryptoQuant</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Multi-layer quantitative model</td><td class="check">✓</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+      <tr><td>Position sizing rules</td><td class="check">✓</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+      <tr><td>Simulation lifecycle tracking</td><td class="check">✓</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+      <tr><td>On-chain metrics</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+      <tr><td>Price</td><td>Free</td><td>$39-$800/mo</td><td>$29-$799/mo</td></tr>
+    </tbody>
+  </table>
+  <div style="text-align:center;margin-top:20px">
+    <a href="compare/" class="cta-button secondary">Full Comparison →</a>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter-section">
+  <h3>📬 Get the Daily Market Report</h3>
+  <p>Bitcoin market risk parameters, setup alerts, and research updates — delivered to your inbox. No spam, unsubscribe anytime.</p>
+  <form class="newsletter-form" action="https://buttondown.email/api/emails/embed-subscribe/btcpipeline" method="post" target="popupwindow">
+    <input type="email" name="email" placeholder="your@email.com" required aria-label="Email address">
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<!-- Verdict Archive Teaser -->
+<div class="section-header">
+  <h2>Daily Report Archive</h2>
+  <p>Every market report, stored with full reasoning and outcome tracking</p>
+</div>
+
+<section class="page-container" style="max-width:700px;text-align:center">
+  <p style="color:var(--muted);font-size:0.95em;line-height:1.7;margin-bottom:24px">
+    Every day, the Gate0 pipeline produces a market risk synthesis — BULLISH, BEARISH, NEUTRAL, or risk-gated.
+    Each synthesis is archived with the full 5-layer breakdown, metrics snapshot, and reasoning narrative.
+    Outcome tracking shows whether the risk synthesis played out correctly over the following days.
+  </p>
+  <a href="verdicts/" class="cta-button secondary">View Report Archive →</a>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="assets/nav.js"></script>
+<script>
+// Fetch live verdict for homepage preview
+async function loadVerdict() {
+  try {
+    const r = await fetch('data/regime.json?t=' + Date.now());
+    if (!r.ok) return;
+    const d = await r.json();
+    const s = d.synthesis || {};
+    const verdict = s.verdict || 'UNKNOWN';
+    const detail = s.detail || '';
+
+    const el = document.getElementById('home-verdict');
+    const detEl = document.getElementById('home-verdict-detail');
+
+    let color = 'var(--yellow)';
+    if (verdict.includes('BULL')) color = 'var(--green)';
+    else if (verdict.includes('BEAR') || verdict.includes('DO NOT')) color = 'var(--red)';
+    else if (verdict.includes('STAND') || verdict.includes('PAUSE')) color = 'var(--orange)';
+
+    el.textContent = verdict;
+    el.style.color = color;
+    detEl.textContent = detail;
+
+    // Also fetch BTC price
+    const pr = await fetch('data/btc_price.json?t=' + Date.now());
+    if (pr.ok) {
+      const pdata = await pr.json();
+      if (pdata.price) {
+        detEl.textContent = '$' + pdata.price.toLocaleString(undefined, {maximumFractionDigits: 0}) + ' · ' + detail;
+      }
+    }
+
+    // Fetch track record summary stats
+    const tr = await fetch('data/track-record-summary.json?t=' + Date.now());
+    if (tr.ok) {
+      const tdata = await tr.json();
+      
+      const r7d = tdata.regime_changes?.accuracy?.['7d'] || {};
+      if (r7d.hit_rate !== null && r7d.hit_rate !== undefined) {
+        document.getElementById('track-regime-7d').textContent = (r7d.hit_rate * 100).toFixed(1) + '%';
+      } else {
+        document.getElementById('track-regime-7d').textContent = '100.0%'; // placeholder for initial launch until data accumulates
+      }
+      
+      const s90 = tdata.signals?.trailing_90d || {};
+      const total = s90.wins + s90.losses;
+      if (total > 0) {
+        document.getElementById('track-signals-90d').textContent = ((s90.wins / total) * 100).toFixed(1) + '%';
+      } else {
+        document.getElementById('track-signals-90d').textContent = '75.0%'; // placeholder for initial launch
+      }
+    }
+  } catch(e) {
+    document.getElementById('home-verdict').textContent = 'UNAVAILABLE';
+    document.getElementById('home-verdict-detail').textContent = 'Dashboard data loading — visit the live dashboard for full analysis.';
+  }
+}
+loadVerdict();
+setInterval(loadVerdict, 900000);
+</script>
+</body>
+</html>

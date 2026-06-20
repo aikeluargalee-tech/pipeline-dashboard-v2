@@ -1,0 +1,37 @@
+{
+  "gate": {
+    "verdict": "TIGHTENED",
+    "emoji": "\ud83d\udfe1",
+    "detail": [
+      "ai3_wave"
+    ]
+  },
+  "macro": {
+    "verdict": "NEUTRAL",
+    "emoji": "\ud83d\udfe1",
+    "detail": "VIX 16.4 normal"
+  },
+  "structure": {
+    "verdict": "HOLDING",
+    "emoji": "\ud83d\udfe1",
+    "detail": "3/3 timeframes active, sandwich $1000.0"
+  },
+  "derivatives": {
+    "verdict": "NEUTRAL",
+    "emoji": "\ud83d\udfe1",
+    "detail": "FR 0.0035% neutral, L/S 1.78, CVD +5797"
+  },
+  "cycle": {
+    "verdict": "UNDERVALUED",
+    "emoji": "\ud83d\udfe2",
+    "detail": "MVRV-Z 0.33 undervalued, netflow -925 BTC"
+  },
+  "synthesis": {
+    "verdict": "CAUTIOUS NEUTRAL",
+    "detail": "Tightened rules active. 0.5 bullish / 0.0 bearish signals. | TA: Price 12.1% below MA50 \u2014 medium-term structure bearish",
+    "bull_count": 0.5,
+    "bear_count": 0.0,
+    "ta_warning": "Price 12.1% below MA50 \u2014 medium-term structure bearish"
+  },
+  "_collected": "2026-06-20 11:16 UTC"
+}

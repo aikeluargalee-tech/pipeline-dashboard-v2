@@ -1,0 +1,37 @@
+{
+  "verdict": "TIGHTENED",
+  "sources": [
+    "ai3_wave"
+  ],
+  "rules": {
+    "action": "Reduce position size. Tight stops. Wait for conditions to clear."
+  },
+  "modules": {
+    "black_swan": {
+      "state": "PROCEED",
+      "score": 0
+    },
+    "vix_spx": {
+      "state": "PROCEED",
+      "vix": 16.4,
+      "spx_change": 1.07,
+      "vix_weekly_chg": 1.2
+    },
+    "ai3_wave": {
+      "state": "TIGHTENED",
+      "active": true
+    },
+    "stablecoins": {
+      "state": "PROCEED"
+    },
+    "session": {
+      "state": "PROCEED",
+      "name": "LONDON",
+      "ny_open": "13:30 UTC",
+      "golden_window": "9:30 PM \u2013 1:00 AM",
+      "is_weekend": false
+    }
+  },
+  "timestamp": "2026-06-20 11:16 UTC",
+  "_collected": "2026-06-20 11:16 UTC"
+}

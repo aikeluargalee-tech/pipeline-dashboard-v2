@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Position Sizing: From PROCEED to ABORT | Pipeline Dashboard</title>
+<meta name="description" content="Gate0's four verdicts — PROCEED, TIGHTENED, PAUSE, ABORT — map directly to position sizing rules. Learn how the dashboard translates risk into actionable sizing.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/position-sizing-proceed-to-abort/">
+<meta property="og:title" content="Position Sizing: From PROCEED to ABORT">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Position Sizing: From PROCEED to ABORT","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/position-sizing-proceed-to-abort/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/position-sizing-proceed-to-abort/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Position Sizing</div>
+  <article class="article-body">
+    <h1>Position Sizing: From PROCEED to ABORT</h1>
+    <div class="article-meta">Risk Frameworks · 6 min read</div>
+
+    <p>Signal accuracy is useless without position sizing. A 90% accurate entry signal traded at full size during a systemic risk event will still blow up your account. Gate0's four verdicts aren't just labels — they're actionable position sizing rules.</p>
+
+    <h2>The Four States</h2>
+
+    <h3>🟢 PROCEED — Full Size</h3>
+    <p>No systemic risk detected. All Gate0 modules green. Trade at your normal position size with normal rules. This is when the highest-conviction trades should be taken.</p>
+
+    <h3>🟡 TIGHTENED — Half Size, Tight Stops</h3>
+    <p>Elevated risk detected. Reduce position size to 50% of normal. Maximum 10x leverage (down from your normal max). Tighten stop losses. This is the default state on weekends and when the AI-3 wave module is active.</p>
+    <p><strong>Synthesis effect:</strong> Verdicts are prefixed with "CAUTIOUS" — CAUTIOUS BULL, CAUTIOUS BEAR, CAUTIOUS NEUTRAL.</p>
+
+    <h3>🟠 PAUSE — Close Only</h3>
+    <p>Significant systemic risk. No new positions. Manage existing positions only — close them if they're underperforming, but don't open new ones. This state requires two or more Gate0 modules in escalation.</p>
+    <p><strong>Synthesis effect:</strong> Verdict becomes "STAND ASIDE."</p>
+
+    <h3>🔴 ABORT — Flatten Everything</h3>
+    <p>Extreme systemic risk. Flatten all positions. Do not open new ones. This is the rarest state — it requires Black Swan score ≥ 12 or VIX > 40. When you see this, the priority is capital preservation, not profit.</p>
+    <p><strong>Synthesis effect:</strong> Verdict becomes "DO NOT TRADE."</p>
+
+    <h2>The Most Restrictive Module Wins</h2>
+    <p>Gate0 uses a "most restrictive wins" logic. If any single module says ABORT, the gate is ABORT — regardless of what other modules say. The state priority is:</p>
+    <p><code>ABORT (4) > PAUSE (3) > TIGHTENED (2) > PROCEED (1)</code></p>
+
+    <div class="callout info">
+      <strong>Why this matters:</strong>
+      Position sizing is the only variable you fully control. You can't control the market, but you can control how much you have at risk. Gate0 automates the sizing decision so you don't have to override your own emotions during stress events.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../gate0-framework/">Gate0 Framework pillar</a></li>
+      <li><a href="../black-swan-detection-scoring/">Black Swan Detection</a></li>
+      <li><a href="../../glossary/#gate0">Gate0 glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

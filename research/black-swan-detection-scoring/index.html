@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Black Swan Detection: Scoring Tail Risk in Bitcoin | Pipeline Dashboard</title>
+<meta name="description" content="The Black Swan module scores systemic tail risk from 0-17 using VIX, DXY, funding, stablecoins, and exchange anomalies. Learn how the scoring works and what triggers ABORT.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/black-swan-detection-scoring/">
+<meta property="og:title" content="Black Swan Detection: Scoring Tail Risk in Bitcoin">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Black Swan Detection: Scoring Tail Risk in Bitcoin","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/black-swan-detection-scoring/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/black-swan-detection-scoring/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Black Swan Detection</div>
+  <article class="article-body">
+    <h1>Black Swan Detection: Scoring Tail Risk in Bitcoin</h1>
+    <div class="article-meta">Risk Frameworks · 7 min read · Part of the <a href="../gate0-framework/">Gate0</a> cluster</div>
+
+    <p>Black swan events — exchange hacks, stablecoin depegs, sudden regulatory crackdowns — can wipe out leveraged positions in minutes. The Black Swan module is Gate0's first line of defense, scoring systemic tail risk from 0 to 17.</p>
+
+    <h2>The Score</h2>
+    <p>The Black Swan score aggregates multiple systemic risk signals into a single number. Each signal contributes points based on severity:</p>
+    <ul>
+      <li><strong>VIX term inversion:</strong> When short-term VIX exceeds long-term VIX, it signals acute stress</li>
+      <li><strong>DXY spike:</strong> Sudden dollar strengthening triggers risk-off across all assets</li>
+      <li><strong>Funding rate extremes:</strong> Extremely positive or negative funding signals overcrowded positioning</li>
+      <li><strong>Stablecoin depeg:</strong> USDT or USDC deviating from $1 signals crypto-specific systemic risk</li>
+      <li><strong>Exchange anomalies:</strong> Unusual withdrawal patterns or reported hacks</li>
+      <li><strong>Geopolitical events:</strong> Wars, sanctions, regulatory crackdowns (manually scored)</li>
+    </ul>
+
+    <h2>Thresholds</h2>
+    <ul>
+      <li><strong>≥ 12 → ABORT:</strong> Extreme systemic risk. Flatten everything.</li>
+      <li><strong>≥ 8 → PAUSE:</strong> Significant risk. No new positions.</li>
+      <li><strong>≥ 5 → TIGHTENED:</strong> Elevated risk. Reduce size, tight stops.</li>
+      <li><strong>&lt; 5 → PROCEED:</strong> Normal conditions.</li>
+    </ul>
+
+    <h2>Known Limitations</h2>
+    <div class="callout danger">
+      <strong>This module catches some black swans, not all.</strong>
+      If the trigger isn't in the score, we miss it. Events that happen for reasons no one anticipated — a novel attack vector, an unprecedented regulatory action — won't be caught until the manual override is activated.
+    </div>
+    <p>This is why the <a href="../l1-manual-gate-human-override/">L-1 Manual Gate</a> exists as a complement. When a human identifies a risk the algorithm can't detect, they can override the entire system.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../gate0-framework/">Gate0 Framework pillar</a></li>
+      <li><a href="../position-sizing-proceed-to-abort/">Position Sizing article</a></li>
+      <li><a href="../l1-manual-gate-human-override/">L-1 Manual Gate article</a></li>
+      <li><a href="../../glossary/#black-swan-score">Black Swan Score glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

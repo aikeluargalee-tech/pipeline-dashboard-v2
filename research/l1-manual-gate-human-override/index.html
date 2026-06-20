@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The L-1 Manual Gate: Human Override for Geopolitical Risk | Pipeline Dashboard</title>
+<meta name="description" content="Some risks can't be detected by algorithms. The L-1 Manual Macro Gate allows a human to override the entire Gate0 system with PAUSE or ABORT for geopolitical events.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/l1-manual-gate-human-override/">
+<meta property="og:title" content="The L-1 Manual Gate: Human Override for Geopolitical Risk">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"The L-1 Manual Gate: Human Override for Geopolitical Risk","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/l1-manual-gate-human-override/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/l1-manual-gate-human-override/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> L-1 Manual Gate</div>
+  <article class="article-body">
+    <h1>The L-1 Manual Gate: Human Override for Geopolitical Risk</h1>
+    <div class="article-meta">Risk Frameworks · 6 min read</div>
+
+    <p>Algorithms can detect patterns, but they can't read the news. When a war breaks out, a major exchange gets hacked, or a regulator announces a crackdown, no automated system will catch it fast enough. The L-1 Manual Macro Gate is the human override that sits above all automation.</p>
+
+    <h2>How It Works</h2>
+    <p>The L-1 gate is set manually using <code>set_gate.py</code>. When activated, it overrides the entire Gate0 system — no matter what the algorithms say, the synthesis verdict becomes "L-1 PAUSE" or "L-1 ABORT — MANUAL OVERRIDE."</p>
+
+    <h2>Setting the Gate</h2>
+    <pre><code>python3 set_gate.py PAUSE "G7 Iran MOU contested, Hormuz deadline" --expires "2026-06-19T00:00" --trigger "Hormuz confirmed open + oil < $70"</code></pre>
+    <p>This sets a PAUSE gate with:</p>
+    <ul>
+      <li><strong>Reason:</strong> Human-readable explanation of the event</li>
+      <li><strong>Expiry:</strong> When the gate should auto-deactivate</li>
+      <li><strong>Re-evaluate trigger:</strong> The condition that, if met, means it's safe to resume trading</li>
+    </ul>
+
+    <h2>Auto-Expiry</h2>
+    <p>The gate doesn't require manual clearing. When the expiry time passes, <code>collect.py</code>'s <code>load_manual_override()</code> function automatically deactivates the gate and logs the auto-expiry. This prevents forgotten gates from blocking trading indefinitely.</p>
+
+    <h2>When to Use It</h2>
+    <div class="callout warning">
+      <strong>Use L-1 for events algorithms can't detect:</strong>
+      <ul>
+        <li>Geopolitical escalation (wars, sanctions, trade embargoes)</li>
+        <li>Exchange hacks before they're publicly confirmed</li>
+        <li>Regulatory crackdowns (SEC enforcement, country bans)</li>
+        <li>Black swan events not covered by the Black Swan score</li>
+      </ul>
+    </div>
+
+    <h2>Dashboard Display</h2>
+    <p>When the L-1 gate is active, the dashboard shows a prominent red banner at the top with the gate status, reason, and re-evaluation trigger. The synthesis verdict is overridden to reflect the manual gate.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../gate0-framework/">Gate0 Framework pillar</a></li>
+      <li><a href="../black-swan-detection-scoring/">Black Swan Detection</a></li>
+      <li><a href="../position-sizing-proceed-to-abort/">Position Sizing</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

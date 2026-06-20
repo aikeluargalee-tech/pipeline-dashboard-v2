@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VAL Absorption: Detecting Smart Money Accumulation | Pipeline Dashboard</title>
+<meta name="description" content="VAL Absorption detects when Bitcoin tests the Value Area Low with declining volume and CVD holding — a pattern suggesting institutional accumulation. Learn how the signal works.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/val-absorption-smart-money-detection/">
+<meta property="og:title" content="VAL Absorption: Detecting Smart Money Accumulation">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"VAL Absorption: Detecting Smart Money Accumulation","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/val-absorption-smart-money-detection/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/val-absorption-smart-money-detection/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> VAL Absorption</div>
+  <article class="article-body">
+    <h1>VAL Absorption: Detecting Smart Money Accumulation</h1>
+    <div class="article-meta">Structural Liquidity · 8 min read</div>
+
+    <p>When price drops to the Value Area Low, two things can happen: it breaks through (bearish) or it gets absorbed (bullish). VAL Absorption is the dashboard's active signal monitor that detects the latter — institutional accumulation at a key support level.</p>
+
+    <h2>The Setup</h2>
+    <p>VAL Absorption requires three conditions to align:</p>
+    <ol>
+      <li><strong>Price near or below VAL:</strong> Price is within 3% of the Value Area Low or below it</li>
+      <li><strong>Volume declining:</strong> Late 4-hour volume is less than 85% of early 4-hour volume — selling pressure is fading</li>
+      <li><strong>CVD holding:</strong> Cumulative Volume Delta is non-negative — buyers are still present despite the price drop</li>
+    </ol>
+
+    <h2>The Signal Types</h2>
+    <p>The <code>detect_val_absorption()</code> function produces four signal types:</p>
+    <ul>
+      <li><strong>VAL_ABSORPTION (HIGH/MEDIUM confidence):</strong> All three conditions met. Volume declining + CVD holding = buyers absorbing seller pressure. Watch for reclaim inside the Value Area for long entry.</li>
+      <li><strong>VAL_BREAK (HIGH confidence):</strong> Volume expanding + CVD falling. Real distribution — structure has failed. Bearish.</li>
+      <li><strong>VAL_TEST (LOW confidence):</strong> Price testing VAL but volume/CVD not yet confirming. Wait.</li>
+      <li><strong>VAL_APPROACH (LOW confidence):</strong> Price nearing VAL but not yet in range. Monitoring.</li>
+    </ul>
+
+    <h2>Entry Logic</h2>
+    <p>When VAL_ABSORPTION fires, the signal includes:</p>
+    <ul>
+      <li><strong>Target:</strong> VAH (Value Area High) — the top of the value area</li>
+      <li><strong>Stop loss:</strong> 1% below VAL</li>
+      <li><strong>Confidence:</strong> HIGH if CVD is strengthening, MEDIUM otherwise</li>
+    </ul>
+
+    <h2>Why This Works</h2>
+    <p>When price drops to VAL and volume declines, it means sellers are exhausted — they're running out of coins to sell. If CVD is still positive, it means buyers are quietly absorbing the remaining sell pressure. This is the footprint of institutional accumulation: large buyers who don't want to push price up, so they absorb sells passively.</p>
+
+    <div class="callout info">
+      <strong>Opposite signal:</strong>
+      If volume is expanding and CVD is falling at VAL, that's VAL_BREAK — real distribution. The structure has failed and price is likely to continue lower.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../volume-profile-poc-vah-val/">Volume Profile article</a></li>
+      <li><a href="../liquidation-magnets/">Liquidation Magnets pillar</a></li>
+      <li><a href="../../glossary/#vah-val">VAH/VAL glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

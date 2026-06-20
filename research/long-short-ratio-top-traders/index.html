@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Long/Short Ratios: What Top Traders Are Doing | Pipeline Dashboard</title>
+<meta name="description" content="The long/short ratio shows how top trader accounts are positioned in Bitcoin futures. Learn how to read crowded positioning and squeeze risk.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/long-short-ratio-top-traders/">
+<meta property="og:title" content="Long/Short Ratios: What Top Traders Are Doing">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Long/Short Ratios: What Top Traders Are Doing","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/long-short-ratio-top-traders/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/long-short-ratio-top-traders/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Long/Short Ratio</div>
+  <article class="article-body">
+    <h1>Long/Short Ratios: What Top Traders Are Doing</h1>
+    <div class="article-meta">Derivatives · 5 min read</div>
+
+    <p>The long/short ratio reveals how top trader accounts are positioned in Bitcoin futures. It's a positioning metric — not a signal on its own, but context that helps you understand who's leaning which way and how crowded the trade is.</p>
+
+    <h2>What the Ratio Means</h2>
+    <p>The dashboard fetches Binance Futures' global long/short account ratio for top traders. A ratio of 2.0 means twice as many top traders are long as short. A ratio of 0.5 means twice as many are short.</p>
+
+    <h2>Reading the Ratio</h2>
+    <ul>
+      <li><strong>> 2.0:</strong> Longs crowded. High squeeze risk — if price drops, over-leveraged longs will be liquidated, amplifying the decline.</li>
+      <li><strong>1.5-2.0:</strong> Balanced bullish. Normal bull market positioning.</li>
+      <li><strong>1.0-1.5:</strong> Balanced. No clear lean.</li>
+      <li><strong>< 1.0:</strong> Shorts crowded. Short squeeze risk — if price rises, shorts will be liquidated.</li>
+    </ul>
+
+    <h2>Dashboard Display</h2>
+    <p>The <a href="../../dashboard/#card-deriv">Funding & Order Flow card</a> shows the L/S ratio alongside the percentage of longs and shorts. For example: "L/S 1.89, Longs 65.4%, Shorts 34.6%" means 65.4% of top trader accounts are long.</p>
+
+    <h2>Crowded Positioning Risk</h2>
+    <div class="callout warning">
+      <strong>Squeeze risk:</strong>
+      When the ratio is extreme (> 2.0 or < 0.5), the crowded side is vulnerable to a squeeze. A move against the crowd triggers cascading liquidations. This is why the dashboard combines L/S ratio with <a href="../funding-rate-sentiment-gauge/">funding rates</a> — both must agree for a squeeze setup.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../derivatives-positioning/">Derivatives pillar</a></li>
+      <li><a href="../funding-rate-sentiment-gauge/">Funding Rate article</a></li>
+      <li><a href="../../glossary/#long-short-ratio">L/S Ratio glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

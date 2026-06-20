@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bitcoin Cycle Phases: Accumulation to Distribution | Pipeline Dashboard</title>
+<meta name="description" content="Bitcoin moves through cycle phases: ACCUMULATION, EARLY BULL, MID BULL, OVERHEATED, CYCLE TOP. Learn how the Pipeline Dashboard classifies cycle positioning from MVRV Z-Score.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-cycle-phases/">
+<meta property="og:title" content="Bitcoin Cycle Phases: Accumulation to Distribution">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Bitcoin Cycle Phases: Accumulation to Distribution","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-cycle-phases/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/bitcoin-cycle-phases/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Bitcoin Cycle Phases</div>
+  <article class="article-body">
+    <h1>Bitcoin Cycle Phases: Accumulation to Distribution</h1>
+    <div class="article-meta">On-Chain Valuation · 7 min read</div>
+
+    <p>Bitcoin doesn't move in a straight line — it cycles. The Pipeline Dashboard classifies the current cycle phase using <a href="../../glossary/#mvrv-z-score">MVRV Z-Score</a> thresholds, giving you a quick read on where we are in the 4-year cycle.</p>
+
+    <h2>The Five Phases</h2>
+    <p>The dashboard's <code>classify_cycle_regime()</code> function maps MVRV Z-Score to five phases:</p>
+    <ul>
+      <li><strong>ACCUMULATION (Z &lt; 0.1):</strong> Market cap is at or below realized cap. Holders are underwater. Smart money is accumulating. Historically the best risk/reward zone for long-term entries.</li>
+      <li><strong>EARLY BULL (0.1 ≤ Z ≤ 0.5):</strong> The cycle is turning. Market cap has moved slightly above realized cap. Early signs of recovery.</li>
+      <li><strong>MID BULL (0.5 &lt; Z &lt; 2.0):</strong> Normal bull market. Holders are in profit but not excessively. The trend is your friend.</li>
+      <li><strong>OVERHEATED (2.0 ≤ Z &lt; 4.0):</strong> Market cap is significantly above realized cap. Profit-taking is increasing. Historical warning zone — prepare for potential correction.</li>
+      <li><strong>CYCLE TOP (Z ≥ 4.0):</strong> Extreme overvaluation. Every previous instance preceded a 50-80% correction. Reduce exposure.</li>
+    </ul>
+
+    <h2>The 4-Year Cycle Thesis</h2>
+    <p>Bitcoin's cycle is driven by the halving — the event that cuts miner rewards in half every ~4 years. The supply shock creates a predictable pattern: accumulation → bull run → top → bear market → accumulation. The 2012, 2016, 2020, and 2024 halvings all followed this pattern.</p>
+
+    <div class="callout warning">
+      <strong>Structural break risk:</strong>
+      The spot ETF era (post-2024) may change demand dynamics in ways the 4-year cycle model doesn't anticipate. Treat cycle phases as context, not prophecy.
+    </div>
+
+    <h2>How Phases Feed the Synthesis</h2>
+    <p>Cycle phase is displayed in the <a href="../../dashboard/#card-onchain">On-Chain Valuation card</a> and feeds into the regime synthesis. However, cycle data gets 0.5x weight — it's monthly-scale and cannot outvote live structural events. A CYCLE TOP reading doesn't automatically produce a bearish verdict if structure and derivatives are bullish.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../mvrv-z-score/">MVRV Z-Score pillar article</a></li>
+      <li><a href="../composite-cycle-score-methodology/">Composite Cycle Score methodology</a></li>
+      <li><a href="../../glossary/#composite-score">Composite Score glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

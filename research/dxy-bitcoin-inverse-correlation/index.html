@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DXY and Bitcoin: The Inverse Correlation | Pipeline Dashboard</title>
+<meta name="description" content="Bitcoin has a reliable inverse correlation with the US Dollar Index (DXY). Learn why a weak dollar is a BTC tailwind and a strong dollar is a headwind.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/dxy-bitcoin-inverse-correlation/">
+<meta property="og:title" content="DXY and Bitcoin: The Inverse Correlation">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"DXY and Bitcoin: The Inverse Correlation","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/dxy-bitcoin-inverse-correlation/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/dxy-bitcoin-inverse-correlation/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> DXY and Bitcoin</div>
+  <article class="article-body">
+    <h1>DXY and Bitcoin: The Inverse Correlation</h1>
+    <div class="article-meta">Macro Context · 6 min read · Part of the <a href="../bitcoin-macro-correlation/">macro</a> cluster</div>
+
+    <p>The US Dollar Index (DXY) is the most reliable macro correlate for Bitcoin. When the dollar strengthens, BTC typically weakens. When the dollar weakens, BTC typically rallies. This inverse relationship is the foundation of the dashboard's macro layer.</p>
+
+    <h2>What DXY Measures</h2>
+    <p>DXY measures the US dollar's value against a basket of six major currencies (Euro, Japanese Yen, British Pound, Canadian Dollar, Swedish Krona, Swiss Franc). A rising DXY means the dollar is strengthening globally; a falling DXY means it's weakening.</p>
+
+    <h2>Dashboard Thresholds</h2>
+    <ul>
+      <li><strong>DXY < 100:</strong> BTC tailwind. Weak dollar makes risk assets more attractive.</li>
+      <li><strong>DXY > 104:</strong> BTC headwind. Strong dollar pressures risk assets.</li>
+      <li><strong>100-104:</strong> Neutral zone.</li>
+    </ul>
+
+    <h2>Why the Correlation Exists</h2>
+    <p>Bitcoin is priced in dollars. When the dollar strengthens, it takes fewer dollars to buy the same amount of BTC — price drops. But the relationship goes deeper: a strong dollar often coincides with tight monetary policy (high rates, reduced liquidity), which is bearish for all risk assets including BTC.</p>
+
+    <h2>In the Macro Regime Classification</h2>
+    <p>DXY is one of four signals in the <code>classify_macro_regime()</code> function. DXY < 100 adds a bullish signal; DXY > 104 adds a bearish signal. Combined with VIX, yields, and ETF flows, these produce the macro regime label: risk-on, risk-off, or mixed.</p>
+
+    <div class="callout info">
+      <strong>Correlation breakdown:</strong>
+      During acute risk-off events, BTC can decouple from DXY for weeks. The macro layer assumes eventual re-correlation, but during breakdowns, structural and derivatives signals take priority.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../bitcoin-macro-correlation/">Macro Correlation pillar</a></li>
+      <li><a href="../treasury-yields-risk-free-pressure/">Treasury Yields article</a></li>
+      <li><a href="../../glossary/#dxy">DXY glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

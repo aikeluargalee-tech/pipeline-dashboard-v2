@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MVRV Z-Score: The Ultimate Bitcoin Valuation Metric | Pipeline Dashboard</title>
+<meta name="description" content="MVRV Z-Score measures Bitcoin's market value vs realized value to identify cycle tops and bottoms. Learn how it works, what the thresholds mean, and how the Pipeline Dashboard uses it in cycle analysis.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/mvrv-z-score/">
+<meta property="og:title" content="MVRV Z-Score: The Ultimate Bitcoin Valuation Metric">
+<meta property="og:type" content="article">
+<meta property="og:description" content="How MVRV Z-Score identifies Bitcoin cycle tops and bottoms — and why it's the foundation of our cycle layer.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"MVRV Z-Score: The Ultimate Bitcoin Valuation Metric","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/mvrv-z-score/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/mvrv-z-score/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/mvrv-z-score/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> MVRV Z-Score</div>
+
+  <article class="article-body">
+    <h1>MVRV Z-Score: The Ultimate Bitcoin Valuation Metric</h1>
+    <div class="article-meta">Pillar article · On-Chain Valuation cluster · 8 min read</div>
+
+    <p>If you could only look at one metric to decide whether Bitcoin is overvalued or undervalued, the MVRV Z-Score would be the strongest candidate. It has historically identified every major cycle top and bottom with remarkable accuracy — and it's one of the foundational metrics in the Pipeline Dashboard's <a href="../../methodology/">cycle layer</a>.</p>
+
+    <h2>What Is MVRV Z-Score?</h2>
+    <p>MVRV stands for <strong>Market Value to Realized Value</strong>. It compares Bitcoin's market capitalization (the current price × total supply) to its realized capitalization (the value of every coin at the price it last moved on-chain).</p>
+    <p>The intuition is simple: market cap reflects what people <em>think</em> Bitcoin is worth right now. Realized cap reflects what holders <em>actually paid</em> for their coins. When market cap is far above realized cap, holders are sitting on large profits — historically a condition that precedes major sell-offs. When market cap falls below realized cap, holders are underwater — historically a accumulation zone.</p>
+    <p>The Z-Score version normalizes this ratio using standard deviations, making it easier to identify extreme deviations from the historical norm.</p>
+
+    <h2>How to Read It</h2>
+    <p>In the Pipeline Dashboard, MVRV Z-Score is classified into five zones:</p>
+    <ul>
+      <li><strong>Below 0 (ACCUMULATION):</strong> Market cap is below realized cap. Holders are underwater on average. Historically the strongest buy zone — every time MVRV Z has gone negative, it marked a cycle bottom.</li>
+      <li><strong>0 to 0.5 (EARLY BULL):</strong> Market cap is slightly above realized cap. The cycle is turning. Early accumulation phase.</li>
+      <li><strong>0.5 to 2.0 (MID BULL):</strong> Normal bull market conditions. Holders are in profit but not excessively so.</li>
+      <li><strong>2.0 to 4.0 (OVERHEATED):</strong> Market cap is significantly above realized cap. Profit-taking is increasing. Historical warning zone.</li>
+      <li><strong>Above 4.0 (CYCLE TOP):</strong> Extreme overvaluation. Every previous instance (2013, 2017, 2021) preceded a major correction of 50-80%.</li>
+    </ul>
+
+    <h2>How the Dashboard Uses It</h2>
+    <p>MVRV Z-Score feeds into two parts of the Pipeline Dashboard:</p>
+
+    <h3>1. Cycle Regime Classification</h3>
+    <p>The <code>classify_cycle_regime()</code> function maps the Z-Score to a regime label. This label appears in the <a href="../../dashboard/#card-onchain">On-Chain Valuation card</a> on the dashboard and feeds into the regime synthesis.</p>
+
+    <h3>2. Composite Cycle Score</h3>
+    <p>MVRV Z-Score is one of three inputs (alongside <a href="../../glossary/#sopr">SOPR</a> and <a href="../../glossary/#puell-multiple">Puell Multiple</a>) to the <a href="../../glossary/#composite-score">composite cycle score</a> — a 0-100 metric that synthesizes on-chain valuation into a single number. The Z-Score is mapped as follows:</p>
+    <ul>
+      <li>Negative Z → 0-20 (low score, accumulation)</li>
+      <li>0-2 → 20-50 (fair value to moderate bull)</li>
+      <li>2-4 → 50-80 (elevated, overheating)</li>
+      <li>4+ → 80-100 (cycle top zone)</li>
+    </ul>
+
+    <div class="callout info">
+      <strong>Timescale weighting:</strong>
+      Cycle data is monthly-scale and gets 0.5x weight in the overall synthesis. It cannot outvote live structural events. A bullish MVRV reading doesn't override an active <a href="../../glossary/#liquidation-magnet">Downside Sweep</a>.
+    </div>
+
+    <h2>Historical Performance</h2>
+    <p>MVRV Z-Score has identified every major Bitcoin cycle top within a narrow window:</p>
+    <ul>
+      <li><strong>2013 peak:</strong> Z-Score exceeded 7 before the 85% correction</li>
+      <li><strong>2017 peak:</strong> Z-Score exceeded 7 before the 84% correction</li>
+      <li><strong>2021 peak:</strong> Z-Score reached ~7.5 before the 77% correction</li>
+      <li><strong>2022 bottom:</strong> Z-Score went negative (below 0) — accumulation zone</li>
+    </ul>
+    <p>Conversely, every time Z-Score dropped below 0, it marked a generational buying opportunity.</p>
+
+    <h2>Limitations</h2>
+    <p>MVRV Z-Score is not perfect. Key limitations:</p>
+    <ul>
+      <li><strong>Lagging:</strong> It's based on on-chain data that updates daily, not in real-time. It captures regime shifts after they begin.</li>
+      <li><strong>Structural breaks:</strong> The 4-year cycle model assumes halving-driven cycles. The spot ETF era may re-base valuations in ways the model doesn't anticipate.</li>
+      <li><strong>Not a timing tool:</strong> MVRV Z-Score tells you <em>where</em> you are in the cycle, not <em>when</em> to enter or exit. Use it alongside <a href="../../glossary/#gate0">Gate0</a> for timing.</li>
+    </ul>
+
+    <h2>Related Metrics</h2>
+    <ul>
+      <li><a href="../../glossary/#sopr">SOPR</a> — Shows whether holders are selling at profit or loss</li>
+      <li><a href="../../glossary/#puell-multiple">Puell Multiple</a> — Miner revenue relative to historical average</li>
+      <li><a href="../../glossary/#exchange-netflow">Exchange Netflow</a> — Whether BTC is flowing to or from exchanges</li>
+    </ul>
+
+    <div class="newsletter-section">
+      <h3>📬 Get New Research in Your Inbox</h3>
+      <p>Subscribe for new articles and daily market verdicts. No spam.</p>
+      <form class="newsletter-form" action="https://buttondown.email/api/emails/embed-subscribe/btcpipeline" method="post" target="popupwindow">
+        <input type="email" name="email" placeholder="your@email.com" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div style="margin-top:32px;display:flex;gap:12px;justify-content:center">
+      <a href="../../dashboard/" class="cta-button primary">View Live MVRV Data →</a>
+      <a href="../liquidation-magnets/" class="cta-button secondary">Next: Liquidation Magnets →</a>
+    </div>
+  </article>
+</main>
+
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

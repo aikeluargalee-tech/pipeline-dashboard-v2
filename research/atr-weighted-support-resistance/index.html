@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support and Resistance: ATR-Weighted Levels | Pipeline Dashboard</title>
+<meta name="description" content="How the Pipeline Dashboard computes ATR-weighted support and resistance bands across 1h, 4h, and 1d timeframes — and why multi-timeframe confluence matters.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/atr-weighted-support-resistance/">
+<meta property="og:title" content="Support and Resistance: ATR-Weighted Levels">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Support and Resistance: ATR-Weighted Levels","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/atr-weighted-support-resistance/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/atr-weighted-support-resistance/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> S/R Bands</div>
+  <article class="article-body">
+    <h1>Support and Resistance: ATR-Weighted Levels</h1>
+    <div class="article-meta">Structural Liquidity · 6 min read</div>
+
+    <p>Support and resistance levels are the backbone of technical analysis. But not all levels are equal — the Pipeline Dashboard weights them by ATR (Average True Range) to account for volatility, and computes them across three timeframes for confluence analysis.</p>
+
+    <h2>Multi-Timeframe Approach</h2>
+    <p>The dashboard computes S/R bands on three timeframes:</p>
+    <ul>
+      <li><strong>1-hour:</strong> Intraday levels for short-term trading</li>
+      <li><strong>4-hour:</strong> Swing trading levels — the primary timeframe for signal detection</li>
+      <li><strong>1-day:</strong> Macro structure levels — long-term support/resistance</li>
+    </ul>
+    <p>When levels align across timeframes (confluence), they're stronger. The dashboard shows how many timeframes are "active" — 3/3 means all timeframes have valid S/R data.</p>
+
+    <h2>ATR Weighting</h2>
+    <p>Each S/R level includes an ATR percentage — the level's distance from current price as a percentage of ATR. This normalizes for volatility: a level 1 ATR away in a high-volatility market is equivalent to a level 1 ATR away in a low-volatility market, even though the dollar distance differs.</p>
+
+    <h2>Strength Labels</h2>
+    <p>Each level has a strength label based on how many times price has reacted to it and the volume at that level. Stronger levels are more likely to hold; weaker levels are more likely to break.</p>
+
+    <h2>How S/R Feeds Signal Detection</h2>
+    <p>The 4-hour S/R levels are the primary input for the <a href="../liquidation-magnets/">Breakout-Retest</a> and Breakdown-Retest signal monitors. When price breaks above 4H resistance with volume confirmation, a breakout zone is created. When price breaks below 4H support, a breakdown zone is created.</p>
+
+    <div class="callout info">
+      <strong>Space requirement:</strong>
+      The signal monitors require at least 0.5x ATR of space between the broken level and the next magnet/level. This prevents entries in compressed ranges where there's no room for the trade to work.
+    </div>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../liquidation-magnets/">Liquidation Magnets pillar</a></li>
+      <li><a href="../volume-profile-poc-vah-val/">Volume Profile article</a></li>
+      <li><a href="../../glossary/#sr-bands">S/R Bands glossary</a></li>
+      <li><a href="../../glossary/#atr">ATR glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

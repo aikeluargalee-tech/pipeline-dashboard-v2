@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taker Buy/Sell Ratio: Real-Time Order Flow | Pipeline Dashboard</title>
+<meta name="description" content="The taker buy/sell ratio measures aggressive buying vs selling in the last hour. Learn how to read real-time order flow pressure in Bitcoin futures.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/taker-buy-sell-ratio/">
+<meta property="og:title" content="Taker Buy/Sell Ratio: Real-Time Order Flow">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Taker Buy/Sell Ratio: Real-Time Order Flow","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/taker-buy-sell-ratio/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/taker-buy-sell-ratio/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Taker Ratio</div>
+  <article class="article-body">
+    <h1>Taker Buy/Sell Ratio: Real-Time Order Flow</h1>
+    <div class="article-meta">Derivatives · 5 min read</div>
+
+    <p>The taker buy/sell ratio is the most immediate sentiment indicator in the dashboard. It measures aggressive buying vs selling in the last hour — who's crossing the spread to get filled right now.</p>
+
+    <h2>What It Measures</h2>
+    <p>Every trade has a taker (aggressive — crosses the spread) and a maker (passive — has a resting order). The taker buy/sell ratio divides taker buy volume by taker sell volume. Above 1.0 = buyers more aggressive. Below 1.0 = sellers more aggressive.</p>
+
+    <h2>Dashboard Thresholds</h2>
+    <ul>
+      <li><strong>> 1.2:</strong> Strong buy pressure. Buyers are aggressively lifting the ask.</li>
+      <li><strong>0.95-1.05:</strong> Balanced. No clear aggression from either side.</li>
+      <li><strong>< 0.8:</strong> Strong sell pressure. Sellers are aggressively hitting the bid.</li>
+    </ul>
+
+    <h2>Role in Signal Detection</h2>
+    <p>The taker ratio is a critical input for volume confirmation in signal monitors:</p>
+    <ul>
+      <li><strong>Breakout-Retest:</strong> Requires taker ratio > 1.2 AND CVD > 0 for volume confirmation. Both must agree — aggressive buyers AND positive cumulative flow.</li>
+      <li><strong>Breakdown-Retest:</strong> Requires taker ratio < 0.8 AND CVD < 0. Both must confirm aggressive selling.</li>
+    </ul>
+    <p>This dual confirmation prevents false signals from single-metric noise.</p>
+
+    <h2>Thin Hours Filter</h2>
+    <p>During thin hours (00:00-06:00 UTC), the taker ratio is less reliable — low volume means a few large trades can skew the ratio. The signal monitors enforce a minimum volume threshold (50 BTC per 15m candle) during these hours to filter out noise.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../derivatives-positioning/">Derivatives pillar</a></li>
+      <li><a href="../cvd-cumulative-volume-delta/">CVD article</a></li>
+      <li><a href="../../glossary/#taker-ratio">Taker Ratio glossary</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

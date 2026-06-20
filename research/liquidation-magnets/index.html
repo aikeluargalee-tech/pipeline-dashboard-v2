@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liquidation Magnets: How Leverage Clusters Move Bitcoin | Pipeline Dashboard</title>
+<meta name="description" content="Liquidation magnets are leverage clusters that pull Bitcoin price toward them. Learn how Vice Grip, Upside Squeeze, and Downside Sweep regimes work — and how to trade them.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/liquidation-magnets/">
+<meta property="og:title" content="Liquidation Magnets: How Leverage Clusters Move Bitcoin">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Liquidation Magnets: How Leverage Clusters Move Bitcoin","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/liquidation-magnets/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/liquidation-magnets/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Liquidation Magnets</div>
+  <article class="article-body">
+    <h1>Liquidation Magnets: How Leverage Clusters Move Bitcoin</h1>
+    <div class="article-meta">Pillar article · Structural Liquidity cluster · 10 min read</div>
+
+    <p>Price doesn't move randomly. It moves toward liquidity — and in the leveraged futures market, liquidity is concentrated at liquidation levels. The Pipeline Dashboard's <a href="../../methodology/">structural layer</a> tracks these clusters and computes regime labels that turn a heatmap image into a tradeable thesis.</p>
+
+    <h2>What Are Liquidation Magnets?</h2>
+    <p>When traders use leverage, their positions have liquidation prices — the price at which the exchange forcibly closes their position. These liquidation prices cluster at certain levels, creating zones of concentrated forced selling (for longs) or forced buying (for shorts).</p>
+    <p>Price tends to move toward these clusters because once the cluster is reached, cascading liquidations amplify the move. It's a self-fulfilling prophecy: price approaches a long liquidation cluster → some longs get liquidated → the forced selling pushes price down further → more longs liquidate → cascade.</p>
+
+    <h2>The Four Regimes</h2>
+    <p>The dashboard computes "sandwich geometry" — the relationship between the nearest above magnet (short liquidations) and below magnet (long liquidations) relative to current price:</p>
+
+    <h3>Vice Grip ⚡</h3>
+    <p>Both magnets are within $500 of current price. Price is compressed. High volatility is imminent — price will likely break out of the sandwich in one direction. This is the highest-risk regime: you know a big move is coming, but not which direction.</p>
+
+    <h3>Upside Squeeze</h3>
+    <p>The above magnet (short liquidations) is much closer than the below magnet. Price is likely to be pulled upward as short positions get liquidated. The dashboard flags this when the above distance is less than 50% of the below distance.</p>
+
+    <h3>Downside Sweep</h3>
+    <p>The below magnet (long liquidations) is much closer. Price is likely to be pulled downward as long positions get liquidated. This is the bearish mirror of the upside squeeze.</p>
+
+    <h3>Balanced</h3>
+    <p>Magnets are roughly equidistant. No clear directional pull. Price may range between the two levels.</p>
+
+    <div class="callout warning">
+      <strong>Monitor Ceiling:</strong>
+      Active Downside Sweep and Upside Squeeze regimes cap the synthesis ceiling. A bullish verdict cannot coexist with an active Downside Sweep — the monitor tells the truth, and synthesis listens.
+    </div>
+
+    <h2>How We Detect Them</h2>
+    <p>The dashboard captures liquidation heatmap data from Coinglass via a browser vision job that runs every 4 hours. The heatmap is parsed to extract:</p>
+    <ul>
+      <li>Nearest above magnet (price + distance %)</li>
+      <li>Nearest below magnet (price + distance %)</li>
+      <li>Strongest overhead cluster (price range)</li>
+      <li>Strongest downside cluster (price range)</li>
+    </ul>
+    <p>The <code>collect_structural()</code> function then computes the sandwich geometry and assigns a regime label.</p>
+
+    <h2>Trading the Regimes</h2>
+    <p>Liquidation magnets are not entry signals on their own — they're context. Use them alongside <a href="../../glossary/#gate0">Gate0</a> and the <a href="../../glossary/#sr-bands">S/R bands</a>:</p>
+    <ul>
+      <li><strong>Vice Grip:</strong> Reduce position size. Wait for breakout direction confirmation before entering.</li>
+      <li><strong>Upside Squeeze:</strong> Favor long setups. Breakout-retest signals are higher probability.</li>
+      <li><strong>Downside Sweep:</strong> Favor short setups. Breakdown-retest signals are higher probability. Avoid new longs.</li>
+      <li><strong>Balanced:</strong> Range trading. Buy support, sell resistance.</li>
+    </ul>
+
+    <h2>Related Concepts</h2>
+    <ul>
+      <li><a href="../../glossary/#volume-profile">Volume Profile</a> — POC, VAH, VAL as structural levels</li>
+      <li><a href="../../glossary/#sr-bands">S/R Bands</a> — ATR-weighted support/resistance</li>
+      <li><a href="../gate0-framework/">Gate0 Framework</a> — How magnets feed into the verdict</li>
+    </ul>
+
+    <div style="margin-top:32px;display:flex;gap:12px;justify-content:center">
+      <a href="../../dashboard/" class="cta-button primary">View Live Magnets →</a>
+      <a href="../gate0-framework/" class="cta-button secondary">Next: Gate0 Framework →</a>
+    </div>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

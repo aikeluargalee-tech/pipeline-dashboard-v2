@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risk Assets: SPY, QQQ, and Bitcoin Correlation | Pipeline Dashboard</title>
+<meta name="description" content="Bitcoin correlates with equity indices, especially the Nasdaq (QQQ). Learn how SPY, QQQ, and GLD correlations provide macro context for BTC trading.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/risk-asset-correlation-spy-qqq/">
+<meta property="og:title" content="Risk Assets: SPY, QQQ, and Bitcoin Correlation">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Risk Assets: SPY, QQQ, and Bitcoin Correlation","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/risk-asset-correlation-spy-qqq/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/risk-asset-correlation-spy-qqq/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Risk Asset Correlation</div>
+  <article class="article-body">
+    <h1>Risk Assets: SPY, QQQ, and Bitcoin Correlation</h1>
+    <div class="article-meta">Macro Context · 5 min read</div>
+
+    <p>Bitcoin doesn't trade in isolation. During normal market conditions, it correlates with equity indices — especially the tech-heavy Nasdaq (QQQ). The dashboard tracks SPY, QQQ, and GLD alongside BTC to provide macro context.</p>
+
+    <h2>The Three Risk Assets</h2>
+    <ul>
+      <li><strong>SPY (S&P 500):</strong> Broad US equity market. When SPY drops sharply, BTC typically follows — institutional risk-off affects both.</li>
+      <li><strong>QQQ (Nasdaq-100):</strong> Tech-heavy index. BTC's correlation with QQQ is typically stronger than with SPY — both are "high-beta" risk assets.</li>
+      <li><strong>GLD (Gold):</strong> Safe haven. When gold rallies while equities fall, it signals risk-off — which can be bearish for BTC in the short term but bullish long-term (store of value narrative).</li>
+    </ul>
+
+    <h2>Dashboard Display</h2>
+    <p>The <a href="../../dashboard/#card-risk">Risk Assets card</a> shows each asset's price and daily change percentage. The dashboard fetches these from Yahoo Finance with a fallback: if the cached data has NaN values, it fetches directly from Yahoo's API.</p>
+
+    <h2>Correlation Dynamics</h2>
+    <div class="callout info">
+      <strong>Correlation increases during stress:</strong>
+      During normal markets, BTC-equity correlation is moderate (0.3-0.5). During risk-off events, correlation spikes toward 1.0 — everything sells off together. This is why VIX > 30 triggers a Gate0 PAUSE.
+    </div>
+
+    <h2>SPX Change as Gate0 Input</h2>
+    <p>The Gate0 VIX/SPX module uses SPX change (from SPY or QQQ) alongside VIX to assess equity stress. If SPY is falling while VIX is rising, it confirms risk-off conditions that will likely impact BTC.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../bitcoin-macro-correlation/">Macro Correlation pillar</a></li>
+      <li><a href="../vix-bitcoin-spillover/">VIX and Bitcoin</a></li>
+      <li><a href="../../dashboard/#card-risk">Live risk asset data</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>

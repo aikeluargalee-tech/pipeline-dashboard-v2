@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal Tracking: WIN, LOSS, EXPIRED Methodology | Pipeline Dashboard</title>
+<meta name="description" content="Every signal the dashboard generates is tracked to outcome: WIN, LOSS, or EXPIRED. Learn how the 48-hour evaluation window works and how confidence labels are calibrated.">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/research/signal-tracking-win-loss-expired/">
+<meta property="og:title" content="Signal Tracking: WIN, LOSS, EXPIRED Methodology">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Signal Tracking: WIN, LOSS, EXPIRED Methodology","image":["https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/social-card.png"],"datePublished":"2026-06-19","dateModified":"2026-06-19","author":{"@type":"Organization","name":"BTC Pipeline","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/"},"publisher":{"@type":"Organization","name":"BTC Pipeline","logo":{"@type":"ImageObject","url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/assets/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/signal-tracking-win-loss-expired/"},"url":"https://aikeluargalee-tech.github.io/pipeline-dashboard/research/signal-tracking-win-loss-expired/"}
+</script>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main class="page-container">
+  <div class="breadcrumb"><a href="../../">Home</a><span>›</span> <a href="../">Research</a><span>›</span> Signal Tracking</div>
+  <article class="article-body">
+    <h1>Signal Tracking: WIN, LOSS, EXPIRED Methodology</h1>
+    <div class="article-meta">Trading Execution · 7 min read</div>
+
+    <p>Signals without outcome tracking are just opinions. The Pipeline Dashboard tracks every signal it generates through to resolution — WIN, LOSS, or EXPIRED — and uses the results to calibrate confidence labels. This creates an auditable, data-driven track record.</p>
+
+    <h2>The Three Outcomes</h2>
+    <ul>
+      <li><strong>WIN:</strong> Price reached the target before the stop loss. For LONGs: price >= target. For SHORTs: price <= target.</li>
+      <li><strong>LOSS:</strong> Price hit the stop loss before the target. For LONGs: price <= stop. For SHORTs: price >= stop.</li>
+      <li><strong>EXPIRED:</strong> Neither target nor stop was hit within 48 hours. The signal didn't play out — the market didn't move enough in either direction.</li>
+    </ul>
+
+    <h2>The 48-Hour Window</h2>
+    <p>Every signal has a 48-hour evaluation window from the moment it fires. This is long enough for the setup to play out but short enough to remain relevant. After 48 hours, unresolved signals are marked EXPIRED with the current price as the outcome price.</p>
+
+    <h2>How Tracking Works</h2>
+    <p>The <code>track_outcomes()</code> function in detect_only.py runs every 15 minutes:</p>
+    <ol>
+      <li>Reads signal history from <code>/tmp/btc_signal_history.json</code></li>
+      <li>Fetches current BTC price from <code>data/btc_price.json</code></li>
+      <li>For each unresolved signal, checks if price has hit target (WIN) or stop (LOSS)</li>
+      <li>If signal is older than 48h, marks it EXPIRED</li>
+      <li>Writes updated outcomes back to history</li>
+    </ol>
+
+    <h2>Direction-Aware Logic</h2>
+    <p>The tracking logic is direction-aware:</p>
+    <ul>
+      <li><strong>LONG signals:</strong> WIN = price >= target, LOSS = price <= stop</li>
+      <li><strong>SHORT signals:</strong> WIN = price <= target, LOSS = price >= stop</li>
+    </ul>
+    <p>This is why the <code>direction:LONG</code> fix was critical — without it, breakout entry signals were tracked as SHORT, recording instant false WINs (target above entry → "price <= target" was immediately true).</p>
+
+    <h2>Confidence Calibration</h2>
+    <p>Signal outcomes feed back into confidence calibration:</p>
+    <ul>
+      <li><strong>HIGH:</strong> ≥ 70% hit rate over 90 days, ≥ 30 trades</li>
+      <li><strong>MEDIUM:</strong> 50-70% over 90 days, ≥ 15 trades</li>
+      <li><strong>LOW:</strong> < 50% or < 15 trades</li>
+    </ul>
+    <p>If a HIGH label drops below 65% for 30 days, it's auto-downgraded to MEDIUM.</p>
+
+    <h2>Dashboard Display</h2>
+    <p>The signal stats footer shows the running tally: wins, losses, expired, and open signals, plus the win rate percentage. This gives you a quick read on how the system is performing.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="../breakout-retest-lifecycle/">Breakout-Retest lifecycle</a></li>
+      <li><a href="../breakdown-retest-bearish-mirror/">Breakdown-Retest</a></li>
+      <li><a href="../gate0-framework/">Gate0 Framework</a></li>
+    </ul>
+  </article>
+</main>
+<div id="footer-placeholder"></div>
+<script src="../../assets/nav.js"></script>
+</body>
+</html>
