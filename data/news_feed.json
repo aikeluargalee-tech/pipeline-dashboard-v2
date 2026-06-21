@@ -1,91 +1,10 @@
 {
-  "timestamp": "2026-06-21T12:15:24.161403+00:00",
+  "timestamp": "2026-06-21T14:15:38.317460+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
-      "count": 8,
-      "items": [
-        {
-          "id": "en_bitcoin_0",
-          "source": "en_bitcoin",
-          "source_name": "Forbes",
-          "rank": 1,
-          "title": "‘Bigger Than 2008’—Serious $10 Trillion Fed Crash Warning Sparks Huge Bitcoin Price Prediction - Forbes",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTFNLMmZUZEhNX2dLX3Q2VmJGYnlHVGM2QTNPV3lnZGRzalNpenNxV0gtNUF2UHZoTDQ4dVJ2dFpQODB4QnJ2TzFYcExZS0w3MlhwekcwazdXUi10QkRKb0NaS0t3SFVveFVLMi1WSWhVRTYwUFV5VF9vTHR2V0ZfR2xfN1Z2RF9oYm9qR0FLT010NktRWkxrSkhJeUxxUHBOMzJCQ0I1YTBqU3dIaEotbENXTHo4ZlE0R3Q3MUdncmVSN3lTSXA1RW5CVGVtTEdjbzRsVWZ0NDNvc0EzeS1RRw?oc=5",
-          "content": "",
-          "publish_time": "Thu, 18 Jun 2026 12:32:16 GMT"
-        },
-        {
-          "id": "en_bitcoin_1",
-          "source": "en_bitcoin",
-          "source_name": "CoinDesk",
-          "rank": 2,
-          "title": "A look at how falling Bitcoin prices, capital structure changes pushed STRC below $83 in just five weeks. - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk02Ym5LSUVjM1lwUXhLU2gxLUoxZGVLazU1d0YzUWVEUzVaNl9wVFJfS2F4dHFsMzhEd2NUMksyVDBjcVh2dDBnQktkeWt4S0xrX2pNSTR1VGdTTzBTeDRfU1F3cDJQT0lja0Q0UEJXX3lBc1RtWlJabWRyS21MbkcxUkpnNU9zQlRRY1h2OW5TaUo1VlNfSUJaWklZdHVhWXBZVEJ1enJ0ZjU2dEhwMjdpanBNcmZlYU4xYU5B?oc=5",
-          "content": "",
-          "publish_time": "Sat, 20 Jun 2026 13:02:20 GMT"
-        },
-        {
-          "id": "en_bitcoin_2",
-          "source": "en_bitcoin",
-          "source_name": "Yahoo Finance",
-          "rank": 3,
-          "title": "Bitcoin Price Falls Below Key $63,000 Support — Here's Why It May Head Lower - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOei1HZTV3bmlCWDZmMEQ3TWtLMmprdFVQWEkxZUx0OFFlbHRIb3BCMDFDekx0U0xheHpPZm5RaXlJZFE4dDZZV0pEMlhFUHhBT2RzTDJBTU1GY0cyenlJbU5nNTZXcmJEcHdJaVNRSzNkV0FPQXVIc3pRWEs0SFM2U2U3T3M5U2FBbF9fLXh1YUw5QlZ0dmoteTFn?oc=5",
-          "content": "",
-          "publish_time": "Fri, 19 Jun 2026 12:12:15 GMT"
-        },
-        {
-          "id": "en_bitcoin_3",
-          "source": "en_bitcoin",
-          "source_name": "TradingView",
-          "rank": 4,
-          "title": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTk53X2dLYTJBNFZCZkYzSUNma3k0d0RWbUhjTHlLaUFVR2Q1dDFXY1c2R0dQNEw3UkxTN1JhclFZMUFjdjlWYUZmMWgtWVg4b3NPaGpKWlMxbFVMd2NmRDRrSUNfU1ZqRVdQNVdPT1NYU2g0ZTJaM0IzdDFIRmRmTk1RNmtVQmtIMVpFcFg3d1pZU0xxSGdWQ1JqRjVWVF9JaDhQR3lRX0trRFBnVHpfYWRwNTIxbWQ3VlZPeDZvM2dCS3lERUJtUWln?oc=5",
-          "content": "",
-          "publish_time": "Sun, 21 Jun 2026 10:15:57 GMT"
-        },
-        {
-          "id": "en_bitcoin_4",
-          "source": "en_bitcoin",
-          "source_name": "markets.businessinsider.com",
-          "rank": 5,
-          "title": "Crypto News: Pepeto Presale Latest Update While the Bitcoin Price Prediction Targets $225,000 After BTC Holds $64,000 - markets.businessinsider.com",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPU0trME9sVldiLUUzT2dzUGx5X0FvN0FYS3hoTi1tUy1DS3M5b3VxclFsSEpoTzNyZHZoVGNRSmRrUnktUHdDNDVlcFlHaDBacHFvTlkxWjZkbzhaRlFTRXQxVHRGSFpOVy1KYXMzb1QybmNwNk93OU9pOE9SRXI2YkozbHZqaVZhV3BLT0Y0MDk0ZU9ybUM4R3o5TjBIMUNnam1PVnprZjJ6NEJwcEtDRU9WVlhISVdaYVppLUpDcEFsb0lndVg2RG1lSHh2OXFGX2RldUpjUEc5amxxV3dfLXhNY0ZjaVpvekJZUVBWTjJtZkdQYk1LY0ZNWjNEZW9YY1kw?oc=5",
-          "content": "",
-          "publish_time": "Sun, 21 Jun 2026 04:36:08 GMT"
-        },
-        {
-          "id": "en_bitcoin_5",
-          "source": "en_bitcoin",
-          "source_name": "Decrypt",
-          "rank": 6,
-          "title": "Bitcoin Network Activity Is Rising as BTC Falls Nearly 50% Below Peak Price: CryptoQuant - Decrypt",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZnk0QUthcVBzb1pqWVctR0w5N1VPOUZGOGZLWVdxLTJhbHBTUUZlZEQ1ODNTQzN5OEdPV3FYMTNtVXFOUHJuYk9WZi0zMHFLNkJmeVdKOVVsY0dVUVc1RFVfbFgySDhnTkxyR0ZPTEt2RWpqU2tiNGg0SUMtNWx4TEJqeU52T09DMVR1UTgxdUszcUxfdEtFZFhoY9IBowFBVV95cUxOaFVpTUlzVndvNTljdUhZazN2UUZGQ0l0dDBUOGhJUkhOVTVBbjRLY0E1Vk5QNTd5cFU1d2V3VHJXbGl3eWJqNHNodnRQVElTTHJEYUFsNmRVaXRMaHlBTWl1OHdpRnI4RFpTOTNlSlV6d2dZWFJTZWxLQWtnQW9Ub1UtSjJ2SWZWSVY4bG44dWxQSHNTUDl3VUswYmFoVVRYVVVv?oc=5",
-          "content": "",
-          "publish_time": "Sat, 20 Jun 2026 14:59:51 GMT"
-        },
-        {
-          "id": "en_bitcoin_6",
-          "source": "en_bitcoin",
-          "source_name": "Bitcoin Magazine",
-          "rank": 7,
-          "title": "Bitcoin Price Falls To $62,000 As Hawkish Fed Shift Raises Risk Of Deeper Pullback - Bitcoin Magazine",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbDJUSzBPQUNIZXNmejBoSlYzNE5BV2dHU0lJLTF3bmxYSjBCOXVtZU83TjBESEw5Rk1kcnEzSDVnV1I3ZWg2NUlSZVNZSUFqNkpWTFk0WkVEaVpmLUxWOG9hZEdJeVFHemV2VTlhd0U2SWZ2Q3FkUFNyU0kxa20xTg?oc=5",
-          "content": "",
-          "publish_time": "Thu, 18 Jun 2026 16:48:06 GMT"
-        },
-        {
-          "id": "en_bitcoin_7",
-          "source": "en_bitcoin",
-          "source_name": "Yahoo Finance",
-          "rank": 8,
-          "title": "Bitcoin and ethereum prices today, Friday, June 19, 2026: Prices keep falling post-Fed decision - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOTWR4VTEzcG9FeTBJVVVWZDMtUkh3YnRUbUVwUkotTGROcnlWZXQ2V1AzbXlzR3lsN2ZsczhpVkl0TmRSWVZXUzBLQnZPY1MyblUyV0l5UE5yeHg3ZFZ0NGs3azlWTW1rQ29JeXdZY2lqdDJrajJSWTNESzJfeTdTSlF5LWl4S1IxVV9hUkZIZTlPM05BaHROR0J5djFaZ0Y2YTJZNk45MlZabzJ6NzRqRGtEbkF6cU93SlI1NUJlZTNBdFN0WGxnY215ZWZpRUNVbktSQUZyRG54Vm1RNUVZWUx5SndSdC13N0d2LXNjQ29tUWhvNUthb0tkQQ?oc=5",
-          "content": "",
-          "publish_time": "Fri, 19 Jun 2026 12:32:39 GMT"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "crypto": {
       "name": "🇬🇧 Crypto News",
@@ -104,52 +23,52 @@
         {
           "id": "en_crypto_1",
           "source": "en_crypto",
-          "source_name": "The Motley Fool",
-          "rank": 2,
-          "title": "Prediction: Solana Will Replace Ethereum as the No. 1 Altcoin - The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSk9McTBCSTBaQk1TYUFYOGZTN01iLWRRcDdBTERTelFEeG1Rc0RXRHdfdDNiWERpbjRURmdnTmhqN3cxRXdXYklld0tVTlBFSG5ROUc0cVB3MC0zb0tGc05TZ3ZYMVlETU9Wcy01ZjZXcV9MWHlwelB1NU52WFhhamw3UW91Z1RYUnc?oc=5",
-          "content": "",
-          "publish_time": "Sun, 21 Jun 2026 03:11:00 GMT"
-        },
-        {
-          "id": "en_crypto_2",
-          "source": "en_crypto",
           "source_name": "Yahoo Finance",
-          "rank": 3,
+          "rank": 2,
           "title": "Bitcoin Price Falls Below Key $63,000 Support — Here's Why It May Head Lower - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOei1HZTV3bmlCWDZmMEQ3TWtLMmprdFVQWEkxZUx0OFFlbHRIb3BCMDFDekx0U0xheHpPZm5RaXlJZFE4dDZZV0pEMlhFUHhBT2RzTDJBTU1GY0cyenlJbU5nNTZXcmJEcHdJaVNRSzNkV0FPQXVIc3pRWEs0SFM2U2U3T3M5U2FBbF9fLXh1YUw5QlZ0dmoteTFn?oc=5",
           "content": "",
           "publish_time": "Fri, 19 Jun 2026 12:12:15 GMT"
         },
         {
+          "id": "en_crypto_2",
+          "source": "en_crypto",
+          "source_name": "The Motley Fool",
+          "rank": 3,
+          "title": "Prediction: Solana Will Replace Ethereum as the No. 1 Altcoin - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSk9McTBCSTBaQk1TYUFYOGZTN01iLWRRcDdBTERTelFEeG1Rc0RXRHdfdDNiWERpbjRURmdnTmhqN3cxRXdXYklld0tVTlBFSG5ROUc0cVB3MC0zb0tGc05TZ3ZYMVlETU9Wcy01ZjZXcV9MWHlwelB1NU52WFhhamw3UW91Z1RYUnc?oc=5",
+          "content": "",
+          "publish_time": "Sun, 21 Jun 2026 03:11:00 GMT"
+        },
+        {
           "id": "en_crypto_3",
           "source": "en_crypto",
-          "source_name": "Seeking Alpha",
+          "source_name": "Binance",
           "rank": 4,
+          "title": "Digital Markets Split Between Institutional Adoption, Protocol Risk, and AI Wealth Debates - Binance",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YR2xLbGJjT1cxT3FSY3Zla1NjVUhtUXVCdzZNYnh2VkJ4TDdqYmFTYW5kOXVxX2RraE5jQzBidkFoWVZiY3RvYkgyVlM4RTl1NVVaWXRONExOXzY0d1o1dGd2OG8?oc=5",
+          "content": "",
+          "publish_time": "Sun, 21 Jun 2026 09:30:06 GMT"
+        },
+        {
+          "id": "en_crypto_4",
+          "source": "en_crypto",
+          "source_name": "Seeking Alpha",
+          "rank": 5,
           "title": "IBIT: Bitcoin Is Likely In The Final Few Months Of The Bear Market (Rating Upgrade) - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa1hWYk1KVmpmWGg0M0Rrbm96NkVVbDdIeFF2bUZ5RmpvRW1aZ0JvZHFGYXRWRDlNSERCY0pmbnRORFJkR1JDNFJGTWNtWE5MeHpiZWFtZkRZaW9xS21vTEp4cU5HdDh0YUlYcF9zc1RjR0JVTG9HNEJxbHNfcW16T0s1Tk55WFVlWE1rVGlaalBrQnZSRFNvYmZ4dXRsRjR3cHl1ektCRE94QQ?oc=5",
           "content": "",
           "publish_time": "Sun, 21 Jun 2026 05:37:59 GMT"
         },
         {
-          "id": "en_crypto_4",
+          "id": "en_crypto_5",
           "source": "en_crypto",
           "source_name": "Benzinga",
-          "rank": 5,
+          "rank": 6,
           "title": "Bitcoin's Potential Path To $7 Million, Bitwise's BTC Optimism And More: This Week In Crypto - Benzinga",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR1BHSXpOX2FpbWMxTWV5R1lUS200dWIxM1dmRGVPcnpvR1czLWhvS2ppVzFKZGdBc3cyYTVBMkNlbWlMczY3N0twY2o3N19aTHdwZmpRSG1UcjdxRzhwdFc5blVqS0RVU3VWTE9SREw3c1R1MjdNN0lackNQbVVLd19yVlNWclJPZjI5aHpvbWkxTjhkREJJeUY3RXdraGJITWJWN01VZGRwbFF5SEhET2FrdkMxQ1l0c2N1TU01YU1BX3dBTGc1VGJOd2lwZE0?oc=5",
           "content": "",
           "publish_time": "Sun, 21 Jun 2026 12:01:20 GMT"
-        },
-        {
-          "id": "en_crypto_5",
-          "source": "en_crypto",
-          "source_name": "CoinDesk",
-          "rank": 6,
-          "title": "A look at how falling Bitcoin prices, capital structure changes pushed STRC below $83 in just five weeks. - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk02Ym5LSUVjM1lwUXhLU2gxLUoxZGVLazU1d0YzUWVEUzVaNl9wVFJfS2F4dHFsMzhEd2NUMksyVDBjcVh2dDBnQktkeWt4S0xrX2pNSTR1VGdTTzBTeDRfU1F3cDJQT0lja0Q0UEJXX3lBc1RtWlJabWRyS21MbkcxUkpnNU9zQlRRY1h2OW5TaUo1VlNfSUJaWklZdHVhWXBZVEJ1enJ0ZjU2dEhwMjdpanBNcmZlYU4xYU5B?oc=5",
-          "content": "",
-          "publish_time": "Sat, 20 Jun 2026 13:02:20 GMT"
         },
         {
           "id": "en_crypto_6",
@@ -190,22 +109,22 @@
         {
           "id": "en_fed_1",
           "source": "en_fed",
-          "source_name": "Fox News",
-          "rank": 2,
-          "title": "Fed Reserve chair Kevin Warsh keeps interest rates unchanged in first meeting - Fox News",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51VDBvcG5qYVg5cC1ERC1zbjFDblltVWhJUnFtaXFSNTl4WWdJUjFvaUIzZzAzLUlyYmZ3aWlldkpMNE0tTGtpeEU1REU4M1pZcHMyenNR?oc=5",
-          "content": "",
-          "publish_time": "Wed, 17 Jun 2026 22:41:22 GMT"
-        },
-        {
-          "id": "en_fed_2",
-          "source": "en_fed",
           "source_name": "TipRanks",
-          "rank": 3,
+          "rank": 2,
           "title": "Citigroup (C) Still Expects the U.S. Federal Reserve to Cut Interest Rates This Year - TipRanks",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaEVSZ3ZQaVZRLU8yclAydTNJVE55OG16QnhUWjNWbTNDRHhKYXNxLWJYdHdDT3Uyc0ljYk1IMXdIRTN4NnRWYkM3aGpNSU9CZThyMFhqSEtFSWZnNlI4bDBMZl8wdmhwRFp4aDZpcjBlX0NZVTd1Uk1hTFEzT0ZFRHBFRUhmVGN2ckx0RE1BYUIydU9zLUpiRUFQeVZXQkhxTEEyNjNqdnRRMEZ5R0l0eA?oc=5",
           "content": "",
           "publish_time": "Thu, 18 Jun 2026 15:19:29 GMT"
+        },
+        {
+          "id": "en_fed_2",
+          "source": "en_fed",
+          "source_name": "NBC News",
+          "rank": 3,
+          "title": "Federal Reserve holds interest rates steady as Trump’s new chairman faces fresh inflation woes - NBC News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdERIN3pDeThkLVR4YkNjUmF0WTlyR2RoZ0V4RzdxdDMxQlZJaEhPLXpBUXJ4VUsxZld1TTZ5Wk0xRXBMNHZ1dHBrbFVJM3FwQy1tUnZ4SU5VVTlxbldQcDZtNl9JRzdYUnRPaFR2TXAtWHJYWGZfUVRUWHVKRXAyVmlSMDFxcnRnRThlVGhkNURiVjhK?oc=5",
+          "content": "",
+          "publish_time": "Wed, 17 Jun 2026 20:08:22 GMT"
         },
         {
           "id": "en_fed_3",
@@ -220,48 +139,48 @@
         {
           "id": "en_fed_4",
           "source": "en_fed",
-          "source_name": "NBC News",
-          "rank": 5,
-          "title": "Federal Reserve holds interest rates steady as Trump’s new chairman faces fresh inflation woes - NBC News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdERIN3pDeThkLVR4YkNjUmF0WTlyR2RoZ0V4RzdxdDMxQlZJaEhPLXpBUXJ4VUsxZld1TTZ5Wk0xRXBMNHZ1dHBrbFVJM3FwQy1tUnZ4SU5VVTlxbldQcDZtNl9JRzdYUnRPaFR2TXAtWHJYWGZfUVRUWHVKRXAyVmlSMDFxcnRnRThlVGhkNURiVjhK?oc=5",
-          "content": "",
-          "publish_time": "Wed, 17 Jun 2026 20:08:22 GMT"
-        },
-        {
-          "id": "en_fed_5",
-          "source": "en_fed",
           "source_name": "WSJ",
-          "rank": 6,
+          "rank": 5,
           "title": "Fed Holds Rates Steady, but More Officials See Higher Rates as Next Move - WSJ",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd1FlQ3ZZWmdwWHNOUkh2emZPZzFPc0w4c0VhSGN2MWtKek54RGdMRndaMWtBdWNBX2hpTGRFV2F3RlNmMkpmMmRKb0VEZXJrU203VzRUT0F2SVZ2YnU5SHVPV2F3aXlkWlpETWExNVlJbU83UEF1cFJ3TlJWcmc2c3hjS3ZGNjVGbFlUZV9fdlZvd2dBTWc?oc=5",
           "content": "",
           "publish_time": "Wed, 17 Jun 2026 20:38:00 GMT"
         },
         {
-          "id": "en_fed_6",
+          "id": "en_fed_5",
           "source": "en_fed",
           "source_name": "Reuters",
-          "rank": 7,
+          "rank": 6,
           "title": "Fed rate decision as it happened: US central bank does not cut rates in first meeting chaired by Warsh - Reuters",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObWE2dlpzVXNVMTNaRENBOUhkWlRCQUxkSlUxa20ycVpEUWFHcUp3V3BvcGRJMXhfOTdmVHdtX21RY2FzbUZMRTJEOVFWcDRqR1B2VGR4MzlCUmV5bUNDV2M5cG9LdWU3MUdES3hzeTdBZUkyV2pOOS05Q1pnLUFNTGozczl6a3hSa3kzanRoaHdlUERDZmFOVms3aVNBQjhlVXhBeUcxLTh2SHI3LVJ5dlZoM0lMWVl6VXBaM0RFcjd3dw?oc=5",
           "content": "",
           "publish_time": "Wed, 17 Jun 2026 20:39:09 GMT"
         },
         {
-          "id": "en_fed_7",
+          "id": "en_fed_6",
           "source": "en_fed",
           "source_name": "BBC",
-          "rank": 8,
+          "rank": 7,
           "title": "Fed holds US interest rates steady as uncertainty over Trump's Iran deal remains - BBC",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rWkEzQ1VoUVB6UWVnU2FFTXRHenVYSmw2MktlcWNRSkxRX1EyN0pYS2tDcjdjd1dGVFE4WUNPWFluNWIxaUFpLUtoRkNLRGVVcEdiTVA1d2twdw?oc=5",
           "content": "",
           "publish_time": "Wed, 17 Jun 2026 18:41:12 GMT"
+        },
+        {
+          "id": "en_fed_7",
+          "source": "en_fed",
+          "source_name": "CNN",
+          "rank": 8,
+          "title": "Fed leaves interest rates unchanged but signals higher rates are ahead - CNN",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ1A2d01PbW81cGFUbnhNQTJ6VHNGVGxEY3pmNVMwc3pMSjcwcUdsdnJmWXI5ZU9fTnVHdkNrMjBWQXV4M21CRkt6cVNKd1VNQ2c1dHFRVDRGQ0ZnZjlvekQxeGRNejktS3ZQUE5PQmhwVjZzMy1veGd6Y0o2TjRPWFBuUXQwT0FmUXlwQVNNZlNXajIxR0E1OU9aTQ?oc=5",
+          "content": "",
+          "publish_time": "Wed, 17 Jun 2026 21:14:00 GMT"
         }
       ]
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-21T20:15:21.879394",
+    "timestamp": "2026-06-21T22:15:36.203336",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +190,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.495\", \"0.505\"]",
-        "volume": "4505173.387891514",
-        "liquidity": "97264.02426"
+        "volume": "4505243.618279515",
+        "liquidity": "98391.36535"
       }
     ]
   }

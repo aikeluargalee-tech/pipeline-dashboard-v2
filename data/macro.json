@@ -25,6 +25,12 @@
   },
   "news": [
     {
+      "title": "Dash eyes Philippines as market for crypto payments",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Sun, 21 Jun 2026 12:25:12 GMT"
+    },
+    {
       "title": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss",
@@ -47,13 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss",
       "published": "Sun, 21 Jun 2026 04:30:00 GMT"
-    },
-    {
-      "title": "Notorious \u2018sandwich attack\u2019 bot Jaredfromsubway.eth exploited for $7.5M",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Sun, 21 Jun 2026 00:04:47 GMT"
     }
   ],
-  "_collected": "2026-06-21 12:15 UTC"
+  "_collected": "2026-06-21 14:15 UTC"
 }

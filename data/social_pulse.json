@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-06-21T12:15:28.267647+00:00",
+  "timestamp": "2026-06-21T14:15:48.486218+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
     "count": 8,
     "items": [
       {
-        "id": "1ub0wiz",
-        "title": "Where is Bitcoin headed? Does it still have the \"cypherpunk\" goals?",
-        "author": "Tricky-Place-2617",
-        "score": 1,
-        "num_comments": 53,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ub0wiz/where_is_bitcoin_headed_does_it_still_have_the/",
-        "selftext": "Genuine question, please be respectful. Is Bitcoin ever going to attempt to scale on the L1? or is it just going to count on institutions/third parties to distribute paper bitcoin to the world?\n\nI kno",
-        "created_utc": 1781973038.0
-      },
-      {
         "id": "1ubhmj0",
         "title": "This is a Bitcoin subreddit, but...",
         "author": "True_Pattern_1978",
-        "score": 3,
-        "num_comments": 46,
+        "score": 5,
+        "num_comments": 58,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ubhmj0/this_is_a_bitcoin_subreddit_but/",
         "selftext": "This is a Bitcoin subreddit, yet a lot of people seem bearish on Bitcoin. That's weird. Are you still bullish?",
         "created_utc": 1782019639.0
       },
       {
+        "id": "1ub0wiz",
+        "title": "Where is Bitcoin headed? Does it still have the \"cypherpunk\" goals?",
+        "author": "Tricky-Place-2617",
+        "score": 2,
+        "num_comments": 54,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ub0wiz/where_is_bitcoin_headed_does_it_still_have_the/",
+        "selftext": "Genuine question, please be respectful. Is Bitcoin ever going to attempt to scale on the L1? or is it just going to count on institutions/third parties to distribute paper bitcoin to the world?\n\nI kno",
+        "created_utc": 1781973038.0
+      },
+      {
         "id": "1ub3yy7",
         "title": "I just love everything about Bitcoin.",
         "author": "Ju-June",
-        "score": 18,
-        "num_comments": 41,
+        "score": 25,
+        "num_comments": 42,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ub3yy7/i_just_love_everything_about_bitcoin/",
         "selftext": "From Satochi, to my small savings, and through all the narratives around the chosen one crypto I just love Bitcoin. ",
         "created_utc": 1781980604.0
@@ -39,51 +39,51 @@
         "id": "1uaz7tf",
         "title": "i am all in in btc, all my life savings",
         "author": "MobApps1",
-        "score": 447,
-        "num_comments": 380,
+        "score": 475,
+        "num_comments": 384,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uaz7tf/i_am_all_in_in_btc_all_my_life_savings/",
         "selftext": "$171k in btc, all my life savings. i know am stupid",
         "created_utc": 1781968824.0
       },
       {
-        "id": "1uaxa69",
-        "title": "Build a Bitcoin transaction by hand — a free interactive walkthrough, with the real Bitcoin Core code behind each step (no signup)",
-        "author": "OwnFaithlessness6193",
-        "score": 13,
-        "num_comments": 5,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1uaxa69/build_a_bitcoin_transaction_by_hand_a_free/",
-        "selftext": "    I kept seeing people (myself included) get stuck on how a Bitcoin transaction actually works — \"your balance isn't stored anywhere,\" UTXOs, change, fees, signing. Most explanations are either hand",
-        "created_utc": 1781963820.0
-      },
-      {
         "id": "1ubh8jq",
         "title": "Bitcoin Core wallet. Reset settings to default.",
         "author": "Ok_Flamingo_3036",
-        "score": 2,
+        "score": 3,
         "num_comments": 2,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ubh8jq/bitcoin_core_wallet_reset_settings_to_default/",
         "selftext": "I put \"reset to default\" on settings. Now when i start it says where do i want to download everything at.\n\nDo i have to download everything again to get in sync?",
         "created_utc": 1782018317.0
       },
       {
+        "id": "1ubo5hs",
+        "title": "I designed a glitch-art Bitcoin Phone case, what do you think?",
+        "author": "Miniglitch-Art",
+        "score": 0,
+        "num_comments": 4,
+        "url": "https://i.redd.it/nsxmzes7km8h1.jpeg",
+        "selftext": "Hey everyone,\n\nI’m a huge Bitcoin enthusiast and also love digital art. I wanted a phone case that represents the chaotic yet beautiful nature of BTC, so I created this glitch-art concept with a clean",
+        "created_utc": 1782042815.0
+      },
+      {
+        "id": "1ubksk8",
+        "title": "How to actually do Fiat on a Bitcoin Standard Unit-of-Account and “End the Fed”",
+        "author": "kode_dtecht",
+        "score": 2,
+        "num_comments": 0,
+        "url": "https://i.redd.it/7o33q7jqkl8h1.jpeg",
+        "selftext": "I think STRC where it is today is actually healthy with all the hype and “stablecoin” claims wiped away. I’m glad they stopped trying to prop it up. Strategy will do well for its holder from here with",
+        "created_utc": 1782030883.0
+      },
+      {
         "id": "1uba2qu",
         "title": "OOGA BOOGA BTC",
         "author": "North_Appointment410",
-        "score": 161,
-        "num_comments": 25,
+        "score": 186,
+        "num_comments": 26,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uba2qu/ooga_booga_btc/",
         "selftext": "Me see green candle.  \nMe buy top. 📈\n\nPrice go down 30%.\n\nMe panic.\n\nMe sell bottom.\n\nPrice instantly recover.\n\nMe angry.\n\nMe open 100x leverage short because \"market rigged.\"\n\nPrice pump 5%.\n\nMe get ",
         "created_utc": 1781996386.0
-      },
-      {
-        "id": "1ub95en",
-        "title": "The opportunity I've constantly wished for",
-        "author": "Current-Run-2750",
-        "score": 76,
-        "num_comments": 31,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ub95en/the_opportunity_ive_constantly_wished_for/",
-        "selftext": "I truly came to understand Bitcoin in late 24 (as I'm sure many did) and would always kick myself for not putting in the work sooner. \"Why couldn't I have found BTC in 2018 or 2022\".\n\nBut today I real",
-        "created_utc": 1781993851.0
       }
     ]
   },
@@ -93,58 +93,58 @@
     "count": 8,
     "items": [
       {
-        "id": "2068669101984367019",
-        "text": "@coinlocallyclyc Happy father day coinlocally..\n@Utd_M10 @sterboiy @Uncmodexyz\n#coinlocally #coinlocallyrewards #giveaway #cryptogiveaway #airdrops #cryptorewards #father    #fathersday    #bitcoin #w",
-        "user": "N_rrosid",
+        "id": "2068699388629639229",
+        "text": "Bitcoin now trading at $59,800, just 200$ shy of $60k Crypto influencers flag a potential bottom as price hovers near this psychological barrier, signaling a possible shift for traders.\n\n#BTC #Crypto ",
+        "user": "caihawk_signals",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2068669097563554300",
-        "text": "@fiatarchive Bitcoin scarce, fiat endless 😢 Share your thoughts below!",
-        "user": "accolarbrouttx",
+        "id": "2068699357248180461",
+        "text": "I got $20,000 from part time work.\n\nThree options:\n\n- Buy 1 Bitcoin now\n- Wait and DCA if Bitcoin drops to $40k\n- Put the full $20,000 into S&amp;P 500\n\nWhat would you do? https://t.co/lvua91LcTW",
+        "user": "shaguncrypto",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2068669044224315680",
-        "text": "A new memorial for 🎉 Milestone Anchored: Victor at 58: The 30-Day Roast Capsule has been permanently anchored to the Bitcoin blockchain.\n\n₿ BTC at time of anchoring: $64,123\n🔗 TX: b4c08a...460feb\n\nhtt",
-        "user": "EverstoneBTC",
+        "id": "2068699354194473363",
+        "text": "@Scaramucci ETFs were the worst thing to happen to Bitcoin",
+        "user": "TheObserverSep",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2068669038088049056",
-        "text": "In case you missed this posted above: \n\nWhen you see a virulent attack posted on thread asking for information, you know you are doing something right. I will not waste my time unpacking every error a",
-        "user": "Loriss65",
+        "id": "2068699348041413066",
+        "text": "@Anton__BTC @ABTC Crypto (not Bitcoin) is credit in the founders' pockets...",
+        "user": "RealMaximvsDM",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2068669038004224271",
-        "text": "RT @BangkokPostNews: More than 300 cryptocurrency mining machines were seized during raids on illegal Bitcoin mining operations across five northeastern provinces, with total losses estimated at over ",
-        "user": "PopeKael",
+        "id": "2068699346808242572",
+        "text": "@saylor Go fuck yourself, bitcoin can go to zero and then recover, but will you?",
+        "user": "LuizClarke",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2068669034082808180",
-        "text": "@Cronosapp The Bitcoin Standard",
-        "user": "IlRiccio_xyz",
-        "likes": 1,
-        "retweets": 0
-      },
-      {
-        "id": "2068669015090679865",
-        "text": "Crypto's dirty secret: You're vulnerable to both armed robbery AND invisible code exploits. A Minnesota home invasion and a 7-day undetected bridge hack expose why self-custody cuts both ways.\n\nhttps:",
-        "user": "onlytwenty_one",
+        "id": "2068699339199787135",
+        "text": "This ONE data point tells you we MIGHT be at the best scalp long zone... but might also not 🤷 Longs/shorts +10 points in one move — and last cycle it was only HALFWAY through the dump. Mariano's 50/50",
+        "user": "TradingParrot",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2068669011328454951",
-        "text": "Sunday Crypto Reset 🧠\nMost people lose money in crypto not because of bad timing, but because of bad position sizing and zero risk management.\n\nQuick reminder that actually works:\n\n✔️Never risk more t",
-        "user": "MF_crypto007",
+        "id": "2068699323974525170",
+        "text": "What’s striking about posts like this is how much confidence is built on interpreting emoji-like signals and social media breadcrumbs.\n\nMaybe “more dots” means another Bitcoin purchase. \n\nMaybe it mea",
+        "user": "CautiousOptimi4",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2068699307058819307",
+        "text": "🚀 $MRVL LONG Setup Detected! 🔥\n\n🟢 Entry: 315.4\n🎯 Target: 322.5\n⚖️ R/R: 1.5x\n\n👇 Don't miss the next move!\n#Bitcoin https://t.co/l6rEO2Yv2F",
+        "user": "aamon1428",
         "likes": 0,
         "retweets": 0
       }
