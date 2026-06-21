@@ -45,7 +45,13 @@
         "btc_price": 63482.53
       },
       "outcomes": {
-        "1d": null,
+        "1d": {
+          "price_then": 64426.0,
+          "price_change_pct": 1.49,
+          "min_price": 63184.21,
+          "max_price": 64472.99,
+          "direction_correct": true
+        },
         "7d": null,
         "30d": null
       },
@@ -96,7 +102,13 @@
         "btc_price": 63431.99
       },
       "outcomes": {
-        "1d": null,
+        "1d": {
+          "price_then": 64416.0,
+          "price_change_pct": 1.55,
+          "min_price": 63184.21,
+          "max_price": 64472.99,
+          "direction_correct": true
+        },
         "7d": null,
         "30d": null
       },
@@ -240,6 +252,57 @@
           "ta_warning": "Price 12.0% below MA50 \u2014 medium-term structure bearish"
         },
         "btc_price": 63719.98
+      },
+      "outcomes": {
+        "1d": null,
+        "7d": null,
+        "30d": null
+      },
+      "resolved": false
+    },
+    {
+      "id": "regime_5c83676f",
+      "type": "regime_change",
+      "created_at": "2026-06-21T04:15:38.004645+00:00",
+      "btc_price_at_call": 64411.99,
+      "direction": "bullish",
+      "gate0_status": "TIGHTENED",
+      "regime_label": "CAUTIOUS BULL",
+      "rationale_snapshot": {
+        "gate": {
+          "verdict": "TIGHTENED",
+          "sources": [
+            "ai3_wave"
+          ]
+        },
+        "macro": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "VIX 16.4 normal"
+        },
+        "structure": {
+          "verdict": "Upside Squeeze",
+          "emoji": "\ud83d\udfe2",
+          "detail": "3/3 timeframes active, sandwich $2000.0"
+        },
+        "derivatives": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "FR 0.0048% neutral, L/S 1.67, CVD +1114"
+        },
+        "cycle": {
+          "verdict": "UNDERVALUED",
+          "emoji": "\ud83d\udfe2",
+          "detail": "MVRV-Z 0.35 undervalued, netflow -1,083 BTC"
+        },
+        "synthesis": {
+          "verdict": "CAUTIOUS BULL",
+          "detail": "Tightened rules active. 1.5 bullish / 0.0 bearish signals. | TA: Price 10.8% below MA50 \u2014 medium-term structure bearish",
+          "bull_count": 1.5,
+          "bear_count": 0.0,
+          "ta_warning": "Price 10.8% below MA50 \u2014 medium-term structure bearish"
+        },
+        "btc_price": 64411.99
       },
       "outcomes": {
         "1d": null,

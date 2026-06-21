@@ -26,12 +26,12 @@
     },
     "session": {
       "state": "PROCEED",
-      "name": "NEW YORK",
+      "name": "ASIA",
       "ny_open": "13:30 UTC",
       "golden_window": "9:30 PM \u2013 1:00 AM",
       "is_weekend": false
     }
   },
-  "timestamp": "2026-06-20 15:40 UTC",
-  "_collected": "2026-06-20 15:40 UTC"
+  "timestamp": "2026-06-21 04:15 UTC",
+  "_collected": "2026-06-21 04:15 UTC"
 }
