@@ -1,35 +1,10 @@
 {
-  "funding_rate": 3.389e-05,
-  "next_funding_time": 1782028800000,
-  "mark_price": 64222.7,
-  "open_interest_btc": 98804.88,
-  "open_interest_usd": 6345516166.776,
+  "funding_rate": 4.9e-05,
+  "next_funding_time": 1782057600000,
+  "mark_price": 64001.1,
+  "open_interest_btc": 99836.372,
+  "open_interest_usd": 6389637628.0092,
   "oi_history": [
-    {
-      "btc": 98446.5,
-      "usd": 6263130469,
-      "ts": 1781942400000
-    },
-    {
-      "btc": 98453.0,
-      "usd": 6241011770,
-      "ts": 1781946000000
-    },
-    {
-      "btc": 98376.7,
-      "usd": 6266507442,
-      "ts": 1781949600000
-    },
-    {
-      "btc": 98150.4,
-      "usd": 6247233127,
-      "ts": 1781953200000
-    },
-    {
-      "btc": 98120.8,
-      "usd": 6245739152,
-      "ts": 1781956800000
-    },
     {
       "btc": 98037.7,
       "usd": 6237915909,
@@ -124,17 +99,42 @@
       "btc": 98741.4,
       "usd": 6346099197,
       "ts": 1782025200000
+    },
+    {
+      "btc": 99251.9,
+      "usd": 6369538625,
+      "ts": 1782028800000
+    },
+    {
+      "btc": 99600.3,
+      "usd": 6373221309,
+      "ts": 1782032400000
+    },
+    {
+      "btc": 100050.9,
+      "usd": 6421896633,
+      "ts": 1782036000000
+    },
+    {
+      "btc": 100034.0,
+      "usd": 6435976524,
+      "ts": 1782039600000
+    },
+    {
+      "btc": 99859.3,
+      "usd": 6405076452,
+      "ts": 1782043200000
     }
   ],
-  "oi_change_24h": 0.3,
+  "oi_change_24h": 1.86,
   "oi_trend": "stable",
-  "long_short_ratio": 1.6483,
-  "long_pct": 62.239999999999995,
-  "short_pct": 37.76,
-  "taker_buy_ratio": 0.8137,
-  "cvd_24h": -850.6,
-  "cvd_trend": "strengthening",
-  "coinbase_premium": -0.1231,
+  "long_short_ratio": 1.5846,
+  "long_pct": 61.309999999999995,
+  "short_pct": 38.690000000000005,
+  "taker_buy_ratio": 0.8721,
+  "cvd_24h": -516.88,
+  "cvd_trend": "weakening",
+  "coinbase_premium": -0.1044,
   "cb_label": "US demand soft",
-  "_collected": "2026-06-21 07:15 UTC"
+  "_collected": "2026-06-21 12:15 UTC"
 }

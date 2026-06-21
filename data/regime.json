@@ -14,12 +14,12 @@
   "structure": {
     "verdict": "Upside Squeeze",
     "emoji": "\ud83d\udfe2",
-    "detail": "3/3 timeframes active, sandwich $2000.0"
+    "detail": "3/3 timeframes active, sandwich $3000.0"
   },
   "derivatives": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "FR 0.0034% neutral, L/S 1.65, CVD -851"
+    "detail": "FR 0.0049% neutral, L/S 1.58, CVD -517"
   },
   "cycle": {
     "verdict": "UNDERVALUED",
@@ -28,10 +28,10 @@
   },
   "synthesis": {
     "verdict": "CAUTIOUS BULL",
-    "detail": "Tightened rules active. 1.5 bullish / 0.0 bearish signals. | TA: Price 11.0% below MA50 \u2014 medium-term structure bearish",
+    "detail": "Tightened rules active. 1.5 bullish / 0.0 bearish signals. | TA: Price 11.3% below MA50 \u2014 medium-term structure bearish",
     "bull_count": 1.5,
     "bear_count": 0.0,
-    "ta_warning": "Price 11.0% below MA50 \u2014 medium-term structure bearish"
+    "ta_warning": "Price 11.3% below MA50 \u2014 medium-term structure bearish"
   },
-  "_collected": "2026-06-21 07:15 UTC"
+  "_collected": "2026-06-21 12:15 UTC"
 }
