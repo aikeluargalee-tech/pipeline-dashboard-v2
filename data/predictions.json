@@ -260,7 +260,13 @@
         "btc_price": 63719.98
       },
       "outcomes": {
-        "1d": null,
+        "1d": {
+          "price_then": 64256.55,
+          "price_change_pct": 0.84,
+          "min_price": 63184.21,
+          "max_price": 64588.0,
+          "direction_correct": true
+        },
         "7d": null,
         "30d": null
       },
