@@ -7,38 +7,38 @@
   "composite_score": 30.3,
   "cycle_phase": "medium",
   "distribution": {
-    "timestamp": "2026-06-21 04:05 UTC",
+    "timestamp": "2026-06-21 05:05 UTC",
     "source": "blockchair.com",
-    "total_addresses": 59266156,
-    "total_btc": 20045730.41997096,
+    "total_addresses": 59265890,
+    "total_btc": 20045758.54497096,
     "tiers": [
       {
         "range": "100+ BTC",
-        "addresses": "2,074,315",
-        "btc": "12,328,124",
+        "addresses": "2,074,306",
+        "btc": "12,328,141",
         "pct": "61.50%",
         "pctNum": 61.5,
         "color": "#f59e0b"
       },
       {
         "range": "1 \u2013 100 BTC",
-        "addresses": "948,258",
-        "btc": "6,314,405",
+        "addresses": "948,254",
+        "btc": "6,314,413",
         "pct": "31.50%",
         "pctNum": 31.5,
         "color": "#3b82f6"
       },
       {
         "range": "0.001 \u2013 1 BTC",
-        "addresses": "24,299,123",
-        "btc": "1,403,201",
+        "addresses": "24,299,014",
+        "btc": "1,403,203",
         "pct": "7.00%",
         "pctNum": 7.0,
         "color": "#6366f1"
       },
       {
         "range": "<0.001 BTC",
-        "addresses": "31,944,458",
+        "addresses": "31,944,314",
         "btc": "6,013",
         "pct": "0.03%",
         "pctNum": 0.03,
@@ -47,16 +47,16 @@
     ]
   },
   "options_skew": {
-    "timestamp": "2026-06-21 04:05 UTC",
-    "spot": 64379.13,
+    "timestamp": "2026-06-21 05:05 UTC",
+    "spot": 64251.54,
     "skew_25d": -6.6,
-    "put_25d_iv": 40.6,
-    "call_25d_iv": 34.0,
+    "put_25d_iv": 40.4,
+    "call_25d_iv": 33.8,
     "put_name": "BTC-10JUL26-61000-P",
     "call_name": "BTC-10JUL26-68000-C",
     "label": "Elevated hedging \u2014 institutions buying downside protection",
     "emoji": "\ud83d\udfe1",
     "display": "\ud83d\udfe1 Options skew (25\u0394): -6.6% \u2014 elevated hedging \u2014 institutions buying downside protection"
   },
-  "_collected": "2026-06-21 04:15 UTC"
+  "_collected": "2026-06-21 05:15 UTC"
 }

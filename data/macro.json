@@ -25,6 +25,18 @@
   },
   "news": [
     {
+      "title": "Here\u2019s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Sun, 21 Jun 2026 04:36:29 GMT"
+    },
+    {
+      "title": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Sun, 21 Jun 2026 04:30:00 GMT"
+    },
+    {
       "title": "Notorious \u2018sandwich attack\u2019 bot Jaredfromsubway.eth exploited for $7.5M",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss",
@@ -41,19 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss",
       "published": "Sat, 20 Jun 2026 14:57:41 GMT"
-    },
-    {
-      "title": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Sat, 20 Jun 2026 11:49:02 GMT"
-    },
-    {
-      "title": "Philippine SEC signals readiness for RWA tokenization",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Sat, 20 Jun 2026 07:05:20 GMT"
     }
   ],
-  "_collected": "2026-06-21 04:15 UTC"
+  "_collected": "2026-06-21 05:15 UTC"
 }

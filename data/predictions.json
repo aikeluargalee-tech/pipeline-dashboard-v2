@@ -203,7 +203,13 @@
         "btc_price": 63423.61
       },
       "outcomes": {
-        "1d": null,
+        "1d": {
+          "price_then": 64276.12,
+          "price_change_pct": 1.34,
+          "min_price": 63184.21,
+          "max_price": 64588.0,
+          "direction_correct": true
+        },
         "7d": null,
         "30d": null
       },
@@ -303,6 +309,49 @@
           "ta_warning": "Price 10.8% below MA50 \u2014 medium-term structure bearish"
         },
         "btc_price": 64411.99
+      },
+      "outcomes": {
+        "1d": null,
+        "7d": null,
+        "30d": null
+      },
+      "resolved": false
+    },
+    {
+      "id": "signal_4f3fa5ad",
+      "type": "trading_signal",
+      "signal_name": "VAL_ABSORPTION",
+      "created_at": "2026-06-21T05:15:48.969764+00:00",
+      "btc_price_at_call": 64244.0,
+      "direction": "bullish",
+      "entry": 63750.0,
+      "stop_loss": 63112.5,
+      "target": 66950.0,
+      "confidence": "MEDIUM",
+      "gate0_status": "TIGHTENED",
+      "regime_label": "CAUTIOUS BULL",
+      "rationale_snapshot": {
+        "timestamp": "2026-06-21 05:15 UTC",
+        "btc_price": 64244.0,
+        "val": 63750.0,
+        "vah": 66950.0,
+        "distance_pct": 0.77,
+        "position": "approaching_val",
+        "volume_declining": true,
+        "volume_expanding": false,
+        "cvd_holding": true,
+        "cvd_value": 989.91,
+        "cvd_trend": "weakening",
+        "target": 66950.0,
+        "early_vol_4h": 1604.8,
+        "late_vol_4h": 1069.6,
+        "signal": "VAL_ABSORPTION",
+        "action": "Watch for reclaim inside VA \u2192 Long entry",
+        "stop": "Below swing low",
+        "stop_loss": 63112.5,
+        "confidence": "MEDIUM",
+        "gate0_status": "TIGHTENED",
+        "regime_label": "CAUTIOUS BULL"
       },
       "outcomes": {
         "1d": null,
