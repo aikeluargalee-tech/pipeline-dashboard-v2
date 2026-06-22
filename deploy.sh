@@ -67,7 +67,7 @@ echo "── Data Production Phase ──"
 
 # All producer scripts now live in V2/scripts/producers/ — zero external dependencies
 # Set PYTHONPATH so chart_patterns + 3candle can find their local modules
-export PYTHONPATH="$SITE/scripts/producers:$PYTHONPATH"
+export PYTHONPATH="$SITE/scripts/producers:${PYTHONPATH:-}"
 
 run_pipeline "realtime"      "$SITE/scripts/producers/realtime_proxies.py"
 run_pipeline "macro"         "$SITE/scripts/producers/macro_snapshot.py"

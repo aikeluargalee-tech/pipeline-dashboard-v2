@@ -16,17 +16,17 @@
 <meta property="og:type" content="website">
 <meta property="og:description" content="Live Bitcoin monitoring: Gate0 status, funding rates, liquidation clusters, on-chain cycle metrics, and derivatives data. Updated every 15 minutes.">
 <meta property="og:site_name" content="BTC Pipeline">
-<meta property="og:updated_time" id="og-updated" content="2026-06-22T05:16:15+00:00">
+<meta property="og:updated_time" id="og-updated" content="2026-06-22T07:48:47+00:00">
 <!-- Google AI Overviews freshness signals -->
 <meta property="article:published_time" content="2024-01-01T00:00:00Z">
-<meta property="article:modified_time" id="article-modified" content="2026-06-22T05:16:15+00:00">
+<meta property="article:modified_time" id="article-modified" content="2026-06-22T07:48:47+00:00">
 <!-- Dublin Core — Perplexity respects these -->
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
 <meta name="DC.title" content="BTC Pipeline Dashboard">
 <meta name="DC.type" content="Dataset">
 <meta name="DC.format" content="text/html">
 <meta name="DC.language" content="en">
-<meta name="DC.date" id="dc-date" content="2026-06-22T05:16:15+00:00">
+<meta name="DC.date" id="dc-date" content="2026-06-22T07:48:47+00:00">
 <!-- Schema.org Dataset markup for AI engines -->
 <script type="application/ld+json" id="schema-dataset">
 {
@@ -39,7 +39,7 @@
   "measurementTechnique": "Automated JSON data pipeline, 15-minute refresh cadence via cron-scheduled collection",
   "creator": { "@type": "Organization", "name": "BTC Pipeline" },
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "dateModified": "2026-06-22T05:16:15+00:00",
+  "dateModified": "2026-06-22T07:48:47+00:00",
   "distribution": [
     { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/gate0.json", "name": "Gate0 Signal Data" },
     { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/macro.json", "name": "Macro Indicator Data" },
@@ -194,7 +194,7 @@
     </div>
   </div>
   <div style="text-align:right">
-    <span class="btc-price" id="btc-price">$64,248</span>
+    <span class="btc-price" id="btc-price">$64,256</span>
     <span class="btc-change" id="btc-change"></span>
     <div class="meta" id="btc-range"></div>
   </div>
@@ -224,19 +224,12 @@
 <div class="regime-summary" id="regime-card">
   <div class="regime-title">⚡ REGIME SYNTHESIS</div>
   <div class="regime-verdict" id="regime-verdict">CAUTIOUS NEUTRAL</div>
-  <div class="regime-detail" id="regime-detail">Tightened rules active. 0.5 bullish / 0.0 bearish signals. | TA: Price 10.6% below MA50 — medium-term structure bearish</div>
+  <div class="regime-detail" id="regime-detail">Tightened rules active. 1 bullish / 0 bearish signals. | TA: Price 10.6% below MA50 — medium-term structure bearish</div>
   <div class="regime-layers" id="regime-layers"></div>
   <div class="card-narrative" id="nar-regime" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
 </div>
-<div class="gate-card" id="gate-card">
-  <div class="gate-header">
-    <span class="gate-badge" id="gate-badge">CAUTIOUS NEUTRAL</span>
-    <span style="color:var(--muted);font-size:0.85em" id="gate-sources"></span>
-  </div>
-  <div class="gate-modules" id="gate-modules"></div>
-  <div class="gate-rules" id="gate-rules" style="display:none"></div>
-  <div class="card-narrative" id="nar-gate" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
-</div>
+
+
 
 
 <!-- Layer 1: Macro & Speculation -->
@@ -676,78 +669,6 @@ function metricRowRaw(label, valueHtml, cls='neutral') {
 }
 
 // ─── Render Gate 0 ───
-function renderGate(d) {
-  if (!d) return;
-  const v = (d.verdict || 'PROCEED').toLowerCase();
-  const card = document.getElementById('gate-card');
-  const badge = document.getElementById('gate-badge');
-  card.className = 'gate-card ' + v;
-  badge.className = 'gate-badge ' + v;
-  
-  if (currentMode === 'simple') {
-    badge.textContent = translateGateBadge(v);
-  } else {
-    badge.textContent = v === 'proceed' ? '🟢 PROCEED' : v === 'tightened' ? '🟡 TIGHTENED' : v === 'pause' ? '🟠 PAUSE' : '🔴 ABORT';
-  }
-
-  const sources = document.getElementById('gate-sources');
-  sources.textContent = d.sources && d.sources.length ? 'Trigger: ' + d.sources.join(', ') : '';
-
-  const mods = d.modules || {};
-  const grid = document.getElementById('gate-modules');
-  grid.innerHTML = '';
-
-  const stateIcon = s => s === 'PROCEED' ? '🟢' : s === 'TIGHTENED' ? '🟡' : s === 'PAUSE' ? '🟠' : '🔴';
-
-  for (const [name, mod] of Object.entries(mods)) {
-    const labels = {black_swan:'Black Swan', vix_spx:'VIX/SPX', ai3_wave:'AI-3 Wave', stablecoins:'Stablecoins', session:'Session'};
-    const descs = currentMode === 'simple' ? {
-      black_swan: 'Global events — war, hacking, and sudden crisis scan',
-      vix_spx: 'Stock market stability — checks if stock markets are crashing',
-      ai3_wave: 'Market pattern scan — detects repeating price risk waves',
-      stablecoins: 'Peg dollar health — verifies stablecoins are backed by $1',
-      session: 'Trading hours — tracks open hours across NY, London, and Asia'
-    } : {
-      black_swan: 'Systemic risk scan — terror, war, hacks, depegs',
-      vix_spx: 'Equity vol correlation — VIX>30 = risk-off',
-      ai3_wave: 'AI-3 fractal wave — active = caution',
-      stablecoins: 'Peg stability — USDC/USDT depeg detection',
-      session: 'Trading hours — NY open, weekend gate'
-    };
-    const label = labels[name] || name;
-    const state = mod.state || 'PROCEED';
-    let extra = '';
-    if (name === 'black_swan') extra = ` (${mod.score || 0}/17)`;
-    if (name === 'vix_spx' && mod.vix) extra = ` (${fmt(mod.vix,1)})`;
-    if (name === 'ai3_wave') extra = mod.active ? ' (ACTIVE)' : '';
-    if (name === 'session' && mod.name) extra = ` (${esc(mod.name)})`;
-
-    const stateVal = currentMode === 'simple' ? (
-      state === 'PROCEED' ? 'SAFE' : state === 'TIGHTENED' ? 'CAUTION' : state === 'PAUSE' ? 'PAUSED' : 'HIGH RISK'
-    ) : state;
-
-    grid.innerHTML += `<div class="gate-module">
-      <div class="label">${label}${extra}
-      <div class="value">${stateIcon(state)} ${stateVal}
-      <div class="gate-desc">${descs[name] || ''}
-    </div>`;
-  }
-
-  const rules = d.rules || {};
-  const rulesEl = document.getElementById('gate-rules');
-  if (Object.keys(rules).length > 0) {
-    rulesEl.style.display = 'block';
-    let html = '<div class="rule-title">⚠ Active Rules:</div>';
-    for (const [k,v] of Object.entries(rules)) {
-      html += `<span>${k.replace(/_/g,' ')}: <strong>${esc(v)}</strong></span> · `;
-    }
-    rulesEl.innerHTML = html;
-  } else {
-    rulesEl.style.display = 'none';
-  }
-
-}
-
 // ─── Render Layer 1: Macro ───
 function renderMacro(d) {
   if (!d) return;
@@ -1651,8 +1572,8 @@ function renderRegime(d) {
 
   detail.textContent = s.detail || '';
 
-  // Layer chips
-  let html = '';
+  // Layer chips — flat inline text (no nested cards)
+  let parts = [];
   const layerNames = [
     { key: 'gate', label: 'Gate' },
     { key: 'macro', label: 'Macro' },
@@ -1663,17 +1584,11 @@ function renderRegime(d) {
   for (const l of layerNames) {
     const layer = d[l.key];
     if (!layer) continue;
-    
     const layerVer = layer.verdict || '—';
     const translatedVer = currentMode === 'simple' ? translateVerdict(layerVer) : layerVer;
-
-    html += `<div class="regime-layer">
-      <div class="rl-name">${esc(String(layer.emoji || ''))} ${esc(l.label)}
-      <div class="rl-verdict">${esc(translatedVer)}
-      <div class="rl-detail">${esc(String(layer.detail || ''))}
-    </div>`;
+    parts.push(`${esc(String(layer.emoji || ''))} ${esc(l.label)} <strong style="color:var(--text)">${esc(translatedVer)}</strong> ${esc(String(layer.detail || ''))}`);
   }
-  layers.innerHTML = html;
+  layers.innerHTML = parts.join(' <span style="color:var(--muted);margin:0 6px">|</span> ');
 }
 
 // ─── Trading Session Clocks ───
@@ -1773,7 +1688,6 @@ async function refresh() {
     }
   }
 
-  renderGate(gate);
   renderL1Gate(manualGate, regime);
   renderRegime(regime);
   renderMacro(macro);

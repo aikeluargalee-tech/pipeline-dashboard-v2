@@ -239,7 +239,7 @@ def write_sitemap():
     from datetime import datetime, timezone
     today_iso = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     
-    base = "https://aikeluargalee-tech.github.io/pipeline-dashboard"
+    base = "https://aikeluargalee-tech.github.io/pipeline-dashboard-v2"
     try:
         remote_url = subprocess.check_output(["git", "remote", "get-url", "origin"], text=True, stderr=subprocess.DEVNULL).strip()
         match = re.search(r'/([^/]+?)(?:\.git)?$', remote_url)
@@ -1708,14 +1708,18 @@ def compute_regime_summary(gate0, macro, structural, derivatives, cycle, supplem
     # FIX: Neutral derivatives (🟡) contributes 0 to both counts — no longer inflates bull
     bull = 0.0
     bear = 0.0
+    bull_raw = 0  # unweighted count for display
+    bear_raw = 0
     for layer_name, layer in [("macro", result["macro"]), ("structure", result["structure"]),
                                 ("derivatives", result["derivatives"]), ("cycle", result["cycle"])]:
         if layer["emoji"] == "🟢":
             weight = 0.5 if layer_name == "cycle" else 1.0
             bull += weight
+            bull_raw += 1
         elif layer["emoji"] == "🔴":
             weight = 0.5 if layer_name == "cycle" else 1.0
             bear += weight
+            bear_raw += 1
     gate_v = gate0.get("verdict", "PROCEED")
 
     # ── Monitor Ceiling Enforcement ──
@@ -1734,28 +1738,28 @@ def compute_regime_summary(gate0, macro, structural, derivatives, cycle, supplem
         synthesis_detail = "Gate 0 PAUSE active. No new positions."
     elif gate_v == "TIGHTENED" and bull > bear + 0.5:
         synthesis = "CAUTIOUS BULL"
-        synthesis_detail = f"Tightened rules active. {bull:.1f} bullish / {bear:.1f} bearish signals."
+        synthesis_detail = f"Tightened rules active. {bull_raw} bullish / {bear_raw} bearish signals."
         if monitor_active and struct_verdict == "Downside Sweep":
             synthesis = "NEUTRAL"
             synthesis_detail += f" ⚠️ Monitor active ({struct_verdict}) — verdict capped at NEUTRAL."
     elif gate_v == "TIGHTENED" and bear > bull + 0.5:
         synthesis = "CAUTIOUS BEAR"
-        synthesis_detail = f"Tightened rules active. {bear:.1f} bearish / {bull:.1f} bullish signals."
+        synthesis_detail = f"Tightened rules active. {bear_raw} bearish / {bull_raw} bullish signals."
         if monitor_active and struct_verdict == "Upside Squeeze":
             synthesis = "NEUTRAL"
             synthesis_detail += f" ⚠️ Monitor active ({struct_verdict}) — verdict capped at NEUTRAL."
     elif gate_v == "TIGHTENED":
         synthesis = "CAUTIOUS NEUTRAL"
-        synthesis_detail = f"Tightened rules active. {bull:.1f} bullish / {bear:.1f} bearish signals."
+        synthesis_detail = f"Tightened rules active. {bull_raw} bullish / {bear_raw} bearish signals."
     elif bull > bear + 1:
         synthesis = "BULLISH"
-        synthesis_detail = f"{bull:.1f} bullish signals. Full rules."
+        synthesis_detail = f"{bull_raw} bullish signals. Full rules."
         if monitor_active and struct_verdict == "Downside Sweep":
             synthesis = "NEUTRAL"
             synthesis_detail += f" ⚠️ Monitor active ({struct_verdict}) — verdict capped at NEUTRAL."
     elif bear > bull + 1:
         synthesis = "BEARISH"
-        synthesis_detail = f"{bear:.1f} bearish signals. Full rules."
+        synthesis_detail = f"{bear_raw} bearish signals. Full rules."
         if monitor_active and struct_verdict == "Upside Squeeze":
             synthesis = "NEUTRAL"
             synthesis_detail += f" ⚠️ Monitor active ({struct_verdict}) — verdict capped at NEUTRAL."
