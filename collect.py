@@ -2515,6 +2515,41 @@ def collect_patterns():
     return result
 
 
+def collect_crash_precursor():
+    """D2 — Real-time crash precursor signals from btc-crash-monitor."""
+    HOME = Path.home()
+    result = {"composite": 0, "alert_fired": False, "signals": {}, "status": "NORMAL"}
+    try:
+        crash_path = HOME / "btc-crash-monitor/data/signal_log.jsonl"
+        if not crash_path.exists():
+            return result
+        with open(crash_path) as f:
+            lines = [l.strip() for l in f if l.strip()]
+        if not lines:
+            return result
+        entry = json.loads(lines[-1])
+        composite = entry.get("composite", 0)
+        scores = entry.get("scores", {})
+        result["composite"] = composite
+        result["alert_fired"] = entry.get("alert_fired", False)
+        result["signals"] = scores
+        result["timestamp"] = entry.get("timestamp", "")
+        if composite >= 4:
+            result["status"] = "DANGER"
+        elif composite >= 2:
+            result["status"] = "ELEVATED"
+        elif composite >= 1:
+            result["status"] = "CAUTION"
+        else:
+            result["status"] = "NORMAL"
+        active = [k.replace("_", " ").title() for k, v in scores.items() if v > 0]
+        result["active_signals"] = active
+    except Exception:
+        pass
+    result["_collected"] = ts()
+    return result
+
+
 def compute_black_swan():
     """Compute Black Swan Sentinel score (mirrors generate_v2.py logic)."""
     import json as _json
@@ -2801,6 +2836,10 @@ def main():
     patterns = collect_patterns()
     print(f"Patterns: {'✓' if patterns else '✗'}")
     write_json("patterns.json", patterns)
+
+    crash = collect_crash_precursor()
+    print(f"D2 Crash: {crash.get('status', '?')} ({crash.get('composite', 0)}/5)")
+    write_json("crash_precursor.json", crash)
 
     black_swan = compute_black_swan()
     print(f"Black Swan: {black_swan.get('status', '?')} ({black_swan.get('score', 0)}/{black_swan.get('max', 17)})")
