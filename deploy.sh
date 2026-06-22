@@ -65,21 +65,24 @@ echo "✅ Tests passed"
 # ─── 1. Data Production Phase — produce ALL /tmp/btc_*.json files ───
 echo "── Data Production Phase ──"
 
-# External project scripts (live in ~/btc-*/ directories)
-run_pipeline "realtime"      ~/btc-onchain/realtime_proxies.py
-run_pipeline "macro"         ~/btc-macro/macro_snapshot.py
-run_pipeline "risk_assets"   ~/btc-risk/risk_assets.py
-run_pipeline "risk_monitor"  ~/btc-risk/risk_monitor.py
-run_pipeline "session"       ~/btc-sessions/session_brief.py
-run_pipeline "onchain_mvrv"  ~/btc-onchain/bgeometrics_mvrv.py
-run_pipeline "news"          ~/btc-news/pipeline.py
-run_pipeline "cycle"         ~/btc-news/cycle_pipeline.py
-run_pipeline "vol_profile"   ~/btc-volume-profile/scripts/profile.py
-run_pipeline "chart_pat"     ~/btc-chart-patterns/scripts/main.py
-run_pipeline "3candle"       ~/btc-3candle-confluence/scripts/main.py
-run_pipeline "polymarket"    ~/btc-polymarket/scripts/markets.py
+# All producer scripts now live in V2/scripts/producers/ — zero external dependencies
+# Set PYTHONPATH so chart_patterns + 3candle can find their local modules
+export PYTHONPATH="$SITE/scripts/producers:$PYTHONPATH"
 
-# Internal scripts (now live in V2/scripts/)
+run_pipeline "realtime"      "$SITE/scripts/producers/realtime_proxies.py"
+run_pipeline "macro"         "$SITE/scripts/producers/macro_snapshot.py"
+run_pipeline "risk_assets"   "$SITE/scripts/producers/risk_assets.py"
+run_pipeline "risk_monitor"  "$SITE/scripts/producers/risk_monitor.py"
+run_pipeline "session"       "$SITE/scripts/producers/session_brief.py"
+run_pipeline "onchain_mvrv"  "$SITE/scripts/producers/bgeometrics_mvrv.py"
+run_pipeline "news"          "$SITE/scripts/producers/pipeline.py"
+run_pipeline "cycle"         "$SITE/scripts/producers/cycle_pipeline.py"
+run_pipeline "vol_profile"   "$SITE/scripts/producers/profile.py"
+run_pipeline "chart_pat"     "$SITE/scripts/producers/chart_patterns_main.py"
+run_pipeline "3candle"       "$SITE/scripts/producers/candle3_main.py"
+run_pipeline "polymarket"    "$SITE/scripts/producers/markets.py"
+
+# Internal fetch scripts
 run_pipeline "market_data"   "$SITE/scripts/fetch_market_data.py"
 run_pipeline "btc_dist"      "$SITE/scripts/fetch_btc_distribution.py"
 run_pipeline "skew"          "$SITE/scripts/fetch_skew.py"
