@@ -35,10 +35,10 @@ PAR_VALUE = 100.0  # STRC preferred share par value
 BTC_HOLDINGS = 500_000  # estimated Strategy BTC holdings
 ANNUAL_OBLIGATIONS = 1_000_000_000  # ~$1B/year preferred dividends
 STATE_FILE = os.path.expanduser(
-    "~/pipeline-dashboard/data/corporate_treasury_stress.json"
+    "~/pipeline-dashboard V2/data/corporate_treasury_stress.json"
 )
 LOG_FILE = os.path.expanduser(
-    "~/pipeline-dashboard/data/corporate_treasury_stress.log"
+    "~/pipeline-dashboard V2/data/corporate_treasury_stress.log"
 )
 
 THRESHOLDS = {

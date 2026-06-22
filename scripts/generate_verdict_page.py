@@ -96,7 +96,7 @@ def generate_verdict_page():
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bitcoin Market Report — {today_display} | Pipeline Dashboard</title>
 <meta name="description" content="On {today_display}, the Gate0 pipeline risk synthesis was {verdict}. See the full 5-layer analysis, metrics snapshot, and reasoning. BTC at {price_str}.">
-<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/verdicts/{today}/">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/verdicts/{today}/">
 <meta property="og:title" content="Bitcoin Market Report — {today_display}">
 <meta property="og:type" content="article">
 <meta property="og:description" content="Gate0 risk synthesis: {verdict}. Full 5-layer Bitcoin analysis for {today_display}.">
@@ -108,7 +108,7 @@ def generate_verdict_page():
   "datePublished": "{today}",
   "dateModified": "{today}",
   "description": "Gate0 risk synthesis: {verdict}. {detail[:150]}",
-  "url": "https://aikeluargalee-tech.github.io/pipeline-dashboard/verdicts/{today}/"
+  "url": "https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/verdicts/{today}/"
 }}
 </script>
 <link rel="stylesheet" href="../../assets/styles.css">
@@ -229,7 +229,7 @@ def update_archive_index(today, today_display, verdict, vclass, btc_price):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Daily Report Archive — Bitcoin Market History | Pipeline Dashboard</title>
 <meta name="description" content="Every daily Bitcoin market risk synthesis from the Gate0 pipeline, archived with full reasoning, metrics snapshot, and outcome tracking.">
-<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard/verdicts/">
+<link rel="canonical" href="https://aikeluargalee-tech.github.io/pipeline-dashboard-v2/verdicts/">
 <meta property="og:title" content="Daily Report Archive — Bitcoin Market History">
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="../assets/styles.css">

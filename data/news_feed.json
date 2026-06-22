@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-22T05:16:02.346490+00:00",
+  "timestamp": "2026-06-22T07:50:25.577672+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -18,22 +18,22 @@
         {
           "id": "en_bitcoin_1",
           "source": "en_bitcoin",
-          "source_name": "Yahoo Finance",
-          "rank": 2,
-          "title": "Bitcoin Price Falls Below Key $63,000 Support — Here's Why It May Head Lower - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOei1HZTV3bmlCWDZmMEQ3TWtLMmprdFVQWEkxZUx0OFFlbHRIb3BCMDFDekx0U0xheHpPZm5RaXlJZFE4dDZZV0pEMlhFUHhBT2RzTDJBTU1GY0cyenlJbU5nNTZXcmJEcHdJaVNRSzNkV0FPQXVIc3pRWEs0SFM2U2U3T3M5U2FBbF9fLXh1YUw5QlZ0dmoteTFn?oc=5",
-          "content": "",
-          "publish_time": "Fri, 19 Jun 2026 12:12:15 GMT"
-        },
-        {
-          "id": "en_bitcoin_2",
-          "source": "en_bitcoin",
           "source_name": "CoinDesk",
-          "rank": 3,
+          "rank": 2,
           "title": "A look at how falling Bitcoin prices, capital structure changes pushed STRC below $83 in just five weeks. - CoinDesk",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk02Ym5LSUVjM1lwUXhLU2gxLUoxZGVLazU1d0YzUWVEUzVaNl9wVFJfS2F4dHFsMzhEd2NUMksyVDBjcVh2dDBnQktkeWt4S0xrX2pNSTR1VGdTTzBTeDRfU1F3cDJQT0lja0Q0UEJXX3lBc1RtWlJabWRyS21MbkcxUkpnNU9zQlRRY1h2OW5TaUo1VlNfSUJaWklZdHVhWXBZVEJ1enJ0ZjU2dEhwMjdpanBNcmZlYU4xYU5B?oc=5",
           "content": "",
           "publish_time": "Sat, 20 Jun 2026 13:02:20 GMT"
+        },
+        {
+          "id": "en_bitcoin_2",
+          "source": "en_bitcoin",
+          "source_name": "Yahoo Finance",
+          "rank": 3,
+          "title": "Bitcoin Price Falls Below Key $63,000 Support — Here's Why It May Head Lower - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOei1HZTV3bmlCWDZmMEQ3TWtLMmprdFVQWEkxZUx0OFFlbHRIb3BCMDFDekx0U0xheHpPZm5RaXlJZFE4dDZZV0pEMlhFUHhBT2RzTDJBTU1GY0cyenlJbU5nNTZXcmJEcHdJaVNRSzNkV0FPQXVIc3pRWEs0SFM2U2U3T3M5U2FBbF9fLXh1YUw5QlZ0dmoteTFn?oc=5",
+          "content": "",
+          "publish_time": "Fri, 19 Jun 2026 12:12:15 GMT"
         },
         {
           "id": "en_bitcoin_3",
@@ -68,22 +68,22 @@
         {
           "id": "en_bitcoin_6",
           "source": "en_bitcoin",
-          "source_name": "Crypto Briefing",
+          "source_name": "CryptoPotato",
           "rank": 7,
-          "title": "Bitcoin price on Father’s Day reaches $64,100 in 2026 - Crypto Briefing",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VakZFbk9EY3JGQlc0a2RJNFNuR3dCUmdZeVd1S3JrUVF1U0lMWjU3d0ZyYUo5RTkxQlpfeS1qNHBoeUtpc2pRNUZ2YlBVaU9yV1RHTDJQNWxUNmEteWZpLURoU0p6SjFWU3c?oc=5",
+          "title": "Bitcoin Price Analysis: Here’s BTC’s Most Likely Path This Week - CryptoPotato",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVE1pUGx1N1F0aEpNZUptQ1RXTTBlb0l1VmN6akNuTkRaOUtab3FUR3o4dzRVd0Foby1JZGlmRFI5WGVpSHFIMlgwbTN0eHVob3BWLWRURTBtYjJoU3BRd3hNVjBSaWNobk9OQThjSUpjU0dpbkRMYmNLYkUtb1VQWXc1cUFSVlItOUpWNjRmaw?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 14:23:29 GMT"
+          "publish_time": "Sun, 21 Jun 2026 20:02:00 GMT"
         },
         {
           "id": "en_bitcoin_7",
           "source": "en_bitcoin",
-          "source_name": "Benzinga",
+          "source_name": "FXStreet",
           "rank": 8,
-          "title": "MSTR Nears Make-Or-Break Price as Saylor Hints at Buying More Bitcoin - Benzinga",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeUdfTEhSajZfazIxSXpBbTJoZ1NxZWRGMGZnZHBhYU9EZk1nNzZjamctQTNMNF9mYXkwYkZyc1JwN0xlYjV2cGRCYkNkQUdrMEhXREMydXBhZjh6UnVnaE1WTmRCUDVuU18tckt5cUZsR3VEdG13T21XOFNWMkU5eGZvUl92MXk5NU5mYXlxdXV3aTdKdDJFWjBMTHZpUi1kZlM0blBwT1ItQkJSVUpFR2hPbHdDdzNZWXFGaEdVM3pTd2J3?oc=5",
+          "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC recovers, Ethereum clings to support, XRP consolidates - FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdVpwTHNZTlBwMDVBb3JZWThuX1YydFNGZUdJQV9uejN4ZGdDRTlQSTFlY050MzU3X2FGaWh1azFiWGxPYjJpeDU3Z0pKc2tZa0wtdjBIaGdVSnNlajdjS29VYlRCYzQ1d2cwTHJzZmNwUTJhX1kwRmE1d1dMbVFhOTI1RzVhSk9oX3JTbXQ0eVA4QnhYNHpEVVdsNmlMX0tMTTdPRlV3VzYyYWc5aUMyUkRKSUo3dG5kS0I5SkNQUVFkck9OQVQ3ekR4STRaYlpmUjAySUN3QUpGMXhscldEaTF6QWJvbzlmakgxZUc0TVZhX2ZfVHc?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 17:31:24 GMT"
+          "publish_time": "Mon, 22 Jun 2026 04:05:04 GMT"
         }
       ]
     },
@@ -134,32 +134,32 @@
         {
           "id": "en_crypto_4",
           "source": "en_crypto",
-          "source_name": "Yahoo Finance",
+          "source_name": "CoinDesk",
           "rank": 5,
-          "title": "Can XRP Hit $500? - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ0lYcmN2azJuMllRZWRqYzBzeWt6dnRqUmxvLTg1NERpNTZQWFdLZ0k4aEV3TnpSaHF6UnViS3VldnR4VkxneXJSVTVBYmhCN25MSTFNN01OTDlhNl9UTmpDNnRSWV9qSURsQkh4NC1ObEJxa0MyaFZNTUFPN1ZTMnp3?oc=5",
+          "title": "BTC, ETH, SOL price: What next as bitcoin drifts under $64,000 - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdUhGcklFcFNqRzJwYW13bFVVM0ZLZzI2U3NOTm9vOE1vdzJNNF91aEdrQU1qWGZDMFREcGtSTnlvSEt0T0hMTkpyRnEybHkxcXJVQWFuUVBTWUl4d0VOdVRTOXltbzg4SHVUdEVFcmJhTzdNVE9wWV9vMGFYcnpacExiUlQwRjZYb09oOGg0N2Vfc2R6aGtXc3NDdkZLNFBvRWE3T21KeGV2VWRkaW1MSWpjYWFjWXFDQUUtdkwwb1h3Ul82WDZR?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 17:58:45 GMT"
+          "publish_time": "Mon, 22 Jun 2026 05:01:41 GMT"
         },
         {
           "id": "en_crypto_5",
           "source": "en_crypto",
-          "source_name": "Yahoo Finance",
+          "source_name": "CoinDesk",
           "rank": 6,
-          "title": "Prediction: Solana Will Replace Ethereum as the No. 1 Altcoin - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ1d2THd2MGxlcDJ4SlV4SXhSb1B3NVVkUlJTZHVjRzhvTEhnMlZwcjE2YVlCbHhFOUxTYUh1ZUFQU3UxV2Noa0JQb0JYZEFaVlNKNnZnVEtHOVR2NUtzNnBXZjZHbXhNVWJaSjlKMzdOb0NyOXY4WjlUZ09YanZWclk5dGhuU1N2VlBJdmxpRU0wdDBIYjBubzlWRUZGdFJvNUdnZw?oc=5",
+          "title": "Live markets: Bitcoin is stuck near $64,000 as ETF outflows reach a sixth week - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNmJLaHNjSnkyY1VnQ01aRFhnQ1dSZEpYeGtKbWEzR25UZkxELWFFaE5KTkN3eTdtNkRPTzhaMGZDRzhKV1JxR3NWUUY2RUJuU3VaTThSYUxmSTlETlFaVXhaUjJOXzBLY3BITWw4YjN3UnhVVWwzRTdvWmdHRVJhLVVjaFdQeXQ1SUVvNnNNU2U4LVBpWGo0UEg1MTZvQzdKdmY3V2JVR2lRcm5Vc2FMX2pWYWRjcVh0VkZHbw?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 02:31:00 GMT"
+          "publish_time": "Mon, 22 Jun 2026 07:34:08 GMT"
         },
         {
           "id": "en_crypto_6",
           "source": "en_crypto",
-          "source_name": "CoinDesk",
+          "source_name": "Yahoo Finance",
           "rank": 7,
-          "title": "BTC, ETH, SOL price news: Bitcoin holds near $64,000 amid US-Iran ceasefire talks - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ1pzc1BfbXBKUUNVRXNveHpVdDVBMDUwMGJsQXJXUlkteUZtUFV6clRlbFFCWngxTzZ2ZFExOVBJcnJYSHRnMVM5aUtXMWUweklleUlYRTVTZ2RpWUhCdUlrN2Q2WWwycjFJbUlqdUhLWWRqZGZuMzNlSmpvMzA0YUV3OFZHUmxrZWNTa0NBUExsUDZaTHVEbXhvd05HX1l0OXdXY0d2R01OQkFFWEt4UWx6ZFhzRHhnWkFqdVlXM2lrREc0dWFRQ3pR?oc=5",
+          "title": "Prediction: Solana Will Replace Ethereum as the No. 1 Altcoin - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ1d2THd2MGxlcDJ4SlV4SXhSb1B3NVVkUlJTZHVjRzhvTEhnMlZwcjE2YVlCbHhFOUxTYUh1ZUFQU3UxV2Noa0JQb0JYZEFaVlNKNnZnVEtHOVR2NUtzNnBXZjZHbXhNVWJaSjlKMzdOb0NyOXY4WjlUZ09YanZWclk5dGhuU1N2VlBJdmxpRU0wdDBIYjBubzlWRUZGdFJvNUdnZw?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 06:47:34 GMT"
+          "publish_time": "Sun, 21 Jun 2026 02:31:00 GMT"
         },
         {
           "id": "en_crypto_7",
@@ -220,12 +220,12 @@
         {
           "id": "en_fed_4",
           "source": "en_fed",
-          "source_name": "WSJ",
+          "source_name": "NPR",
           "rank": 5,
-          "title": "Fed Holds Rates Steady, but More Officials See Higher Rates as Next Move - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd1FlQ3ZZWmdwWHNOUkh2emZPZzFPc0w4c0VhSGN2MWtKek54RGdMRndaMWtBdWNBX2hpTGRFV2F3RlNmMkpmMmRKb0VEZXJrU203VzRUT0F2SVZ2YnU5SHVPV2F3aXlkWlpETWExNVlJbU83UEF1cFJ3TlJWcmc2c3hjS3ZGNjVGbFlUZV9fdlZvd2dBTWc?oc=5",
+          "title": "Federal Reserve holds interest rates steady and hints at rate hike later this year - NPR",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3NQY1lZdW5hdzBoUUpNYm5PVGRscEtwbGU4ZjlQRVZ5Rk8xempQVzg4QS1PUFpaanVDSEc3V1NoMFZsTVB6UXZxYjBLLVNLUDdIYm50VE1FXzA2Q2t0VGhNNkNsMm1DUFFiZ2tSZzQ1TktveWF5YlRla0MyVTlvN0RxWWdidw?oc=5",
           "content": "",
-          "publish_time": "Wed, 17 Jun 2026 20:38:00 GMT"
+          "publish_time": "Wed, 17 Jun 2026 18:34:51 GMT"
         },
         {
           "id": "en_fed_5",
@@ -250,18 +250,18 @@
         {
           "id": "en_fed_7",
           "source": "en_fed",
-          "source_name": "NPR",
+          "source_name": "Reuters",
           "rank": 8,
-          "title": "Federal Reserve holds interest rates steady and hints at rate hike later this year - NPR",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3NQY1lZdW5hdzBoUUpNYm5PVGRscEtwbGU4ZjlQRVZ5Rk8xempQVzg4QS1PUFpaanVDSEc3V1NoMFZsTVB6UXZxYjBLLVNLUDdIYm50VE1FXzA2Q2t0VGhNNkNsMm1DUFFiZ2tSZzQ1TktveWF5YlRla0MyVTlvN0RxWWdidw?oc=5",
+          "title": "Warsh kicks off Fed chief era with sweeping review as rates remain unchanged - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOVVoOVhjSkc1cnNGNlNHeUVzVkp3NWdJNkMyYW9mTXJUMUc0TTEzdEl0OE9iRjg0YVlTTHA0ZVNPY3gwYXpGa0VsbGVuMlZUTkpZX3dKdHhJOGQyejdNS1dhTjVSeUNibk1TdHM1eWh2eVhpdHpxMU55XzRrYUdtTkNuMExkeGg3a1N0WjJkOFc2RWN1eS1uaUFR?oc=5",
           "content": "",
-          "publish_time": "Wed, 17 Jun 2026 18:34:51 GMT"
+          "publish_time": "Wed, 17 Jun 2026 23:57:19 GMT"
         }
       ]
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-22T13:15:59.687081",
+    "timestamp": "2026-06-22T15:50:22.969927",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -270,9 +270,9 @@
         "question": "Will bitcoin hit $1m before GTA VI?",
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
-        "outcomePrices": "[\"0.4945\", \"0.5055\"]",
-        "volume": "4505543.578576514",
-        "liquidity": "97969.44599"
+        "outcomePrices": "[\"0.494\", \"0.506\"]",
+        "volume": "4505562.160961513",
+        "liquidity": "98847.114"
       }
     ]
   }
