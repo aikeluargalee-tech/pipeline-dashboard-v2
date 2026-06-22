@@ -220,6 +220,23 @@
   <div class="clock-item" id="clock-tokyo"><span class="clock-city">Tokyo</span><span class="clock-time">--:--</span></div>
 </div>
 
+<!-- ─── Black Swan Risk ─── -->
+<div class="layer" style="margin-top:24px">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--red)">⚠️</span>
+    <h2 class="layer-title">Black Swan Sentinel</h2>
+    <span class="layer-subtitle">Systemic risk monitoring — 8-factor scoring engine</span>
+  </div>
+  <div class="card" id="card-blackswan" style="border-left: 3px solid var(--red)">
+    <h3 class="card-title">🛡️ Risk Score</h3>
+    <div id="blackswan-content"></div>
+  </div>
+  <div class="card" id="card-crash" style="border-left: 3px solid var(--red)">
+    <h3 class="card-title">⚠️ Crash Precursor</h3>
+    <div id="crash-content"><p style="font-size:0.8em;color:var(--muted)">Real-time crash signals: taker aggression, bid wall decay, funding stress, OI implosion, divergence.</p></div>
+  </div>
+</div>
+
 <!-- Regime Summary Card -->
 <div class="regime-summary" id="regime-card">
   <div class="regime-title">⚡ REGIME SYNTHESIS</div>
@@ -343,55 +360,10 @@
 </div>
 
 
-<!-- Signal Tracker — 3-state event evolution (AlphaEar-derived) -->
-<div class="layer" id="signal-tracker-section">
-  <div class="layer-header">
-    <span class="layer-num" style="background:var(--cyan)">ST</span>
-    <h2 class="layer-title">Model Setup Tracker</h2>
-    <span class="layer-subtitle">Event evolution: STRENGTHENED · WEAKENING · FALSIFIED</span>
-  </div>
-  <div class="layer-grid">
-    <div class="card" id="card-sig-track" style="border-left: 3px solid var(--cyan)">
-      <h3 class="card-title">📡 Active Setup Evolution</h3>
-      <div id="sig-track-content">Loading...</div>
-      <div class="card-narrative" id="nar-sig-track" style="font-size:0.72em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)">
-        Tracks active events from the trigger library. Each event is evaluated against current BTC price to determine if the thesis is strengthening, weakening, or has been falsified.
-      </div>
-    </div>
-  </div>
-</div>
 
 
-<!-- Supplementary: TA & Lagging Indicators -->
-<div class="layer" id="ta-section">
-  <div class="layer-header">
-    <span class="layer-num" style="background:var(--muted)">TA</span>
-    <h2 class="layer-title">Technical Analysis</h2>
-    <span class="layer-subtitle">Lagging — context only</span>
-  </div>
-  <div class="layer-grid">
-    <div class="card" id="card-ma">
-      <h3 class="card-title">📏 Moving Averages & Volatility</h3>
-      <div id="ma-content"></div>
-      <div class="card-narrative" id="nar-ma" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
-    </div>
-    <div class="card" id="card-rsi">
-      <h3 class="card-title">📊 RSI & Momentum</h3>
-      <div id="rsi-content"></div>
-      <div class="card-narrative" id="nar-rsi" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
-    </div>
-    <div class="card" id="card-bb">
-      <h3 class="card-title">📐 Bollinger Bands</h3>
-      <div id="bb-content"></div>
-      <div class="card-narrative" id="nar-bb" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
-    </div>
-    <div class="card" id="card-options">
-      <h3 class="card-title">🎯 Options Skew</h3>
-      <div id="options-content"></div>
-      <div class="card-narrative" id="nar-options" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
-    </div>
-  </div>
-</div>
+
+
 
 
 
@@ -462,20 +434,55 @@
   </div>
 </div>
 
-<!-- ─── Black Swan Risk ─── -->
-<div class="layer" style="margin-top:24px">
+
+
+<!-- Signal Tracker — 3-state event evolution (AlphaEar-derived) -->
+<div class="layer" id="signal-tracker-section">
   <div class="layer-header">
-    <span class="layer-num" style="background:var(--red)">⚠️</span>
-    <h2 class="layer-title">Black Swan Sentinel</h2>
-    <span class="layer-subtitle">Systemic risk monitoring — 8-factor scoring engine</span>
+    <span class="layer-num" style="background:var(--cyan)">ST</span>
+    <h2 class="layer-title">Model Setup Tracker</h2>
+    <span class="layer-subtitle">Event evolution: STRENGTHENED · WEAKENING · FALSIFIED</span>
   </div>
-  <div class="card" id="card-blackswan" style="border-left: 3px solid var(--red)">
-    <h3 class="card-title">🛡️ Risk Score</h3>
-    <div id="blackswan-content"></div>
+  <div class="layer-grid">
+    <div class="card" id="card-sig-track" style="border-left: 3px solid var(--cyan)">
+      <h3 class="card-title">📡 Active Setup Evolution</h3>
+      <div id="sig-track-content">Loading...</div>
+      <div class="card-narrative" id="nar-sig-track" style="font-size:0.72em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)">
+        Tracks active events from the trigger library. Each event is evaluated against current BTC price to determine if the thesis is strengthening, weakening, or has been falsified.
+      </div>
+    </div>
   </div>
-  <div class="card" id="card-crash" style="border-left: 3px solid var(--red)">
-    <h3 class="card-title">⚠️ Crash Precursor</h3>
-    <div id="crash-content"><p style="font-size:0.8em;color:var(--muted)">Real-time crash signals: taker aggression, bid wall decay, funding stress, OI implosion, divergence.</p></div>
+</div>
+
+
+<!-- Supplementary: TA & Lagging Indicators -->
+<div class="layer" id="ta-section">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--muted)">TA</span>
+    <h2 class="layer-title">Technical Analysis</h2>
+    <span class="layer-subtitle">Lagging — context only</span>
+  </div>
+  <div class="layer-grid">
+    <div class="card" id="card-ma">
+      <h3 class="card-title">📏 Moving Averages & Volatility</h3>
+      <div id="ma-content"></div>
+      <div class="card-narrative" id="nar-ma" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-rsi">
+      <h3 class="card-title">📊 RSI & Momentum</h3>
+      <div id="rsi-content"></div>
+      <div class="card-narrative" id="nar-rsi" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-bb">
+      <h3 class="card-title">📐 Bollinger Bands</h3>
+      <div id="bb-content"></div>
+      <div class="card-narrative" id="nar-bb" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
+    <div class="card" id="card-options">
+      <h3 class="card-title">🎯 Options Skew</h3>
+      <div id="options-content"></div>
+      <div class="card-narrative" id="nar-options" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
+    </div>
   </div>
 </div>
 
@@ -1692,22 +1699,27 @@ async function refresh() {
     }
   }
 
+  // TOP — DISRUPTION
+  renderBlackSwan(blackSwan);
+  renderCrashPrecursor(crashPrecursor);
   renderL1Gate(manualGate, regime);
   renderRegime(regime);
+  // UPPER — MACRO
   renderMacro(macro);
   renderNewsFeed(newsFeed);
   renderSocialPulse(socialPulse);
+  // MIDDLE — STRUCTURE & POSITIONING
   renderStructural(structural, v7, gate);
   renderDerivatives(derivatives);
-  renderCycle(cycle);
-  renderSignalTracker(sigTrack);
-  renderTA(supplementary);
   renderCTS(cts);
+  renderCycle(cycle);
+  // LOWER — SENTIMENT & PATTERNS
   renderSentiment(sentiment);
   renderPositioning(positioning);
   renderPatterns(patterns);
-  renderBlackSwan(blackSwan);
-  renderCrashPrecursor(crashPrecursor);
+  renderSignalTracker(sigTrack);
+  // BOTTOM — LAGGING TA
+  renderTA(supplementary);
 
   // Signal History Stats
   const statsEl = document.getElementById('signal-stats');
