@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-22T07:50:25.577672+00:00",
+  "timestamp": "2026-06-22T10:13:39.425895+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -18,62 +18,62 @@
         {
           "id": "en_bitcoin_1",
           "source": "en_bitcoin",
-          "source_name": "CoinDesk",
-          "rank": 2,
-          "title": "A look at how falling Bitcoin prices, capital structure changes pushed STRC below $83 in just five weeks. - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk02Ym5LSUVjM1lwUXhLU2gxLUoxZGVLazU1d0YzUWVEUzVaNl9wVFJfS2F4dHFsMzhEd2NUMksyVDBjcVh2dDBnQktkeWt4S0xrX2pNSTR1VGdTTzBTeDRfU1F3cDJQT0lja0Q0UEJXX3lBc1RtWlJabWRyS21MbkcxUkpnNU9zQlRRY1h2OW5TaUo1VlNfSUJaWklZdHVhWXBZVEJ1enJ0ZjU2dEhwMjdpanBNcmZlYU4xYU5B?oc=5",
-          "content": "",
-          "publish_time": "Sat, 20 Jun 2026 13:02:20 GMT"
-        },
-        {
-          "id": "en_bitcoin_2",
-          "source": "en_bitcoin",
-          "source_name": "Yahoo Finance",
-          "rank": 3,
-          "title": "Bitcoin Price Falls Below Key $63,000 Support — Here's Why It May Head Lower - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOei1HZTV3bmlCWDZmMEQ3TWtLMmprdFVQWEkxZUx0OFFlbHRIb3BCMDFDekx0U0xheHpPZm5RaXlJZFE4dDZZV0pEMlhFUHhBT2RzTDJBTU1GY0cyenlJbU5nNTZXcmJEcHdJaVNRSzNkV0FPQXVIc3pRWEs0SFM2U2U3T3M5U2FBbF9fLXh1YUw5QlZ0dmoteTFn?oc=5",
-          "content": "",
-          "publish_time": "Fri, 19 Jun 2026 12:12:15 GMT"
-        },
-        {
-          "id": "en_bitcoin_3",
-          "source": "en_bitcoin",
-          "source_name": "TradingView",
-          "rank": 4,
-          "title": "Bitcoin tipped for $66K top as trader flags 'suspicious' BTC price gains - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTUdvczc5THNJQ20yVkdIR1JrRFlDUU95SERLcHBROUlXVzc5TV9SenZMempSX3NkLXdVZ1k2Tl9wTC1xWk1ORnk5V3htQzRmZU5vTWVuU1pqV2pUOXRKN3pmZlJBb0t6VDBaVnBHNUdMWjFFX1ZMN1JwUy1aVjZGd182ZDlWY01vckwxeWYzVWFVYTd4Z04weS10ZkNRbU5DZDItMmFGdGRTREUzVHRCdjNOYmFndzdjeHc5MHRZeFRRNENYR1IyblYxbk83UQ?oc=5",
-          "content": "",
-          "publish_time": "Sun, 21 Jun 2026 14:50:55 GMT"
-        },
-        {
-          "id": "en_bitcoin_4",
-          "source": "en_bitcoin",
           "source_name": "CoinMarketCap",
-          "rank": 5,
+          "rank": 2,
           "title": "Bitcoin Price Slides After Fed Holds Interest Rates Steady, Rate Hike Odds Rise - CoinMarketCap",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXlrOGJQQ2I4WnJWeThMMXdxTGFNZGNsUHZwXzNEVU1Ib0Q1bklSb0w2cC0zcjZyaU9LeGtPeWRXTUxMWW03dkRjZjhuRTY2UVdEMGk3SHZhNmROcUNDSml6Zm1zRHlpX2d5Z1FmWUNoWXIxS1hROFB4V1RiZHpKOVZfNkRVYm5JTGtlMDUzR3VqRnFuQUJ3?oc=5",
           "content": "",
           "publish_time": "Sun, 21 Jun 2026 16:58:33 GMT"
         },
         {
-          "id": "en_bitcoin_5",
+          "id": "en_bitcoin_2",
           "source": "en_bitcoin",
-          "source_name": "markets.businessinsider.com",
-          "rank": 6,
-          "title": "Crypto News: Pepeto Presale Latest Update While the Bitcoin Price Prediction Targets $225,000 After BTC Holds $64,000 - markets.businessinsider.com",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPU0trME9sVldiLUUzT2dzUGx5X0FvN0FYS3hoTi1tUy1DS3M5b3VxclFsSEpoTzNyZHZoVGNRSmRrUnktUHdDNDVlcFlHaDBacHFvTlkxWjZkbzhaRlFTRXQxVHRGSFpOVy1KYXMzb1QybmNwNk93OU9pOE9SRXI2YkozbHZqaVZhV3BLT0Y0MDk0ZU9ybUM4R3o5TjBIMUNnam1PVnprZjJ6NEJwcEtDRU9WVlhISVdaYVppLUpDcEFsb0lndVg2RG1lSHh2OXFGX2RldUpjUEc5amxxV3dfLXhNY0ZjaVpvekJZUVBWTjJtZkdQYk1LY0ZNWjNEZW9YY1kw?oc=5",
+          "source_name": "CoinDesk",
+          "rank": 3,
+          "title": "A look at how falling Bitcoin prices, capital structure changes pushed STRC below $83 in just five weeks. - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk02Ym5LSUVjM1lwUXhLU2gxLUoxZGVLazU1d0YzUWVEUzVaNl9wVFJfS2F4dHFsMzhEd2NUMksyVDBjcVh2dDBnQktkeWt4S0xrX2pNSTR1VGdTTzBTeDRfU1F3cDJQT0lja0Q0UEJXX3lBc1RtWlJabWRyS21MbkcxUkpnNU9zQlRRY1h2OW5TaUo1VlNfSUJaWklZdHVhWXBZVEJ1enJ0ZjU2dEhwMjdpanBNcmZlYU4xYU5B?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 04:36:08 GMT"
+          "publish_time": "Sat, 20 Jun 2026 13:02:20 GMT"
         },
         {
-          "id": "en_bitcoin_6",
+          "id": "en_bitcoin_3",
+          "source": "en_bitcoin",
+          "source_name": "Yahoo Finance",
+          "rank": 4,
+          "title": "Bitcoin Price Falls Below Key $63,000 Support — Here's Why It May Head Lower - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOei1HZTV3bmlCWDZmMEQ3TWtLMmprdFVQWEkxZUx0OFFlbHRIb3BCMDFDekx0U0xheHpPZm5RaXlJZFE4dDZZV0pEMlhFUHhBT2RzTDJBTU1GY0cyenlJbU5nNTZXcmJEcHdJaVNRSzNkV0FPQXVIc3pRWEs0SFM2U2U3T3M5U2FBbF9fLXh1YUw5QlZ0dmoteTFn?oc=5",
+          "content": "",
+          "publish_time": "Fri, 19 Jun 2026 12:12:15 GMT"
+        },
+        {
+          "id": "en_bitcoin_4",
+          "source": "en_bitcoin",
+          "source_name": "CoinDesk",
+          "rank": 5,
+          "title": "Bitcoin (BTC) price is forming a bear flag that may signal crash to $55,000, analyst says - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR1NyTFFFdk5wOGc4NVJ2NTQ5MG9ObUsxeWxLVjFnemcwMjU2UVJEVU1FbnRZNVdHbE42U1lkNzAxVjVpMGxyb3FDeDZPekNaQ1lRcnEyVWsyTmZlcmlsMlBHRUJScW55WFVncVdxZXF5ajk2YTlPd1oxSmFpOWZ1eEVucWZrWFJpVjVIcHZSaXVuV004UXc4UWtiNGh0cDJkb3NxOVpGNWhtY2xqbkt4dXR1S3BoazdYVVVnQzhhTGZoblBRYWhBY2NTLXp5OXc?oc=5",
+          "content": "",
+          "publish_time": "Mon, 22 Jun 2026 09:23:16 GMT"
+        },
+        {
+          "id": "en_bitcoin_5",
           "source": "en_bitcoin",
           "source_name": "CryptoPotato",
-          "rank": 7,
+          "rank": 6,
           "title": "Bitcoin Price Analysis: Here’s BTC’s Most Likely Path This Week - CryptoPotato",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVE1pUGx1N1F0aEpNZUptQ1RXTTBlb0l1VmN6akNuTkRaOUtab3FUR3o4dzRVd0Foby1JZGlmRFI5WGVpSHFIMlgwbTN0eHVob3BWLWRURTBtYjJoU3BRd3hNVjBSaWNobk9OQThjSUpjU0dpbkRMYmNLYkUtb1VQWXc1cUFSVlItOUpWNjRmaw?oc=5",
           "content": "",
           "publish_time": "Sun, 21 Jun 2026 20:02:00 GMT"
+        },
+        {
+          "id": "en_bitcoin_6",
+          "source": "en_bitcoin",
+          "source_name": "TradingView",
+          "rank": 7,
+          "title": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYXk3WE56dVRSdHp5UXFQTG1RYXZHZzB3dU43X2w1T1doRWU2TU9zaE9JMzFsOXJUQ3BaTjlyTU91QU82bFkzXzVqdDJBYjh1bldUNzVWOGwzNTBZRUMxRTFQWTdwbEdncVRHTWhTTlBIZnJuU0pqR1NfMXplZDRSS040bS1lRk1OTGFfMnVlLXBlVm9sWTQ2SldRZG1zWnliSmlqWGpaSS1tLXhQUTJWQnZ3ckhZNGM1dFJZV2o1Um1qbFlqQ3VyUFFheXBVNVFUS1E?oc=5",
+          "content": "",
+          "publish_time": "Sun, 21 Jun 2026 14:21:06 GMT"
         },
         {
           "id": "en_bitcoin_7",
@@ -106,10 +106,10 @@
           "source": "en_crypto",
           "source_name": "CoinDesk",
           "rank": 2,
-          "title": "Live updates: Bitcoin has traded below its mining cost for five months, squeezing miners - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdnJ3bnowdHItZnR2Y3RZV1RrT1gtTXNuNFN2clBvQm1idktQUTJ4V3dMZEFNZVVZck9CRmZVYmd3TG1VbTVlUllVcnZSQU1TSVkwUWNoT0hjdXFscWVSZ2NEemc2RWM2ZXJyMnFOQWd6U2V6aXU4NWVBY1ZrcjdmdTVWR0xWOVIxWXZHN1k3eWYxZEZjb2ctVWp2YU9TajBlb2RXell6alQ4dXA5bkFmZHQyZVl0TkgwYUdpLWNaY3NXTkFLcVJIcy1B?oc=5",
+          "title": "Live markets: Bitcoin is stuck near $64,000 as ETF outflows reach a sixth week - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNmJLaHNjSnkyY1VnQ01aRFhnQ1dSZEpYeGtKbWEzR25UZkxELWFFaE5KTkN3eTdtNkRPTzhaMGZDRzhKV1JxR3NWUUY2RUJuU3VaTThSYUxmSTlETlFaVXhaUjJOXzBLY3BITWw4YjN3UnhVVWwzRTdvWmdHRVJhLVVjaFdQeXQ1SUVvNnNNU2U4LVBpWGo0UEg1MTZvQzdKdmY3V2JVR2lRcm5Vc2FMX2pWYWRjcVh0VkZHbw?oc=5",
           "content": "",
-          "publish_time": "Fri, 19 Jun 2026 17:40:17 GMT"
+          "publish_time": "Mon, 22 Jun 2026 07:34:08 GMT"
         },
         {
           "id": "en_crypto_2",
@@ -134,42 +134,42 @@
         {
           "id": "en_crypto_4",
           "source": "en_crypto",
-          "source_name": "CoinDesk",
+          "source_name": "FinanceFeeds",
           "rank": 5,
-          "title": "BTC, ETH, SOL price: What next as bitcoin drifts under $64,000 - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdUhGcklFcFNqRzJwYW13bFVVM0ZLZzI2U3NOTm9vOE1vdzJNNF91aEdrQU1qWGZDMFREcGtSTnlvSEt0T0hMTkpyRnEybHkxcXJVQWFuUVBTWUl4d0VOdVRTOXltbzg4SHVUdEVFcmJhTzdNVE9wWV9vMGFYcnpacExiUlQwRjZYb09oOGg0N2Vfc2R6aGtXc3NDdkZLNFBvRWE3T21KeGV2VWRkaW1MSWpjYWFjWXFDQUUtdkwwb1h3Ul82WDZR?oc=5",
+          "title": "Crypto ETF Flows Pause on June 19 as U.S. Markets Close for Juneteenth - FinanceFeeds",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSU5ucHBoWV9sbHVNZHZTM0tkTFBRU1EzOVRWVXFzVDI4aDRJNTZ6MWJXbXVIWlpiTW1Da2hHYzRObjA3cmh5dDdJdDl2dVdxSlhmdWkwRG1xTTFMa2NzdzN2WENVUGU4aTRJS1llUXpEMWM5ZTFFZlhqR245ZFRSQVFQcWhtTW9sM2RxWWU1R3EwT21NWFd3QWZLbw?oc=5",
           "content": "",
-          "publish_time": "Mon, 22 Jun 2026 05:01:41 GMT"
+          "publish_time": "Mon, 22 Jun 2026 09:10:36 GMT"
         },
         {
           "id": "en_crypto_5",
           "source": "en_crypto",
           "source_name": "CoinDesk",
           "rank": 6,
-          "title": "Live markets: Bitcoin is stuck near $64,000 as ETF outflows reach a sixth week - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNmJLaHNjSnkyY1VnQ01aRFhnQ1dSZEpYeGtKbWEzR25UZkxELWFFaE5KTkN3eTdtNkRPTzhaMGZDRzhKV1JxR3NWUUY2RUJuU3VaTThSYUxmSTlETlFaVXhaUjJOXzBLY3BITWw4YjN3UnhVVWwzRTdvWmdHRVJhLVVjaFdQeXQ1SUVvNnNNU2U4LVBpWGo0UEg1MTZvQzdKdmY3V2JVR2lRcm5Vc2FMX2pWYWRjcVh0VkZHbw?oc=5",
+          "title": "Live updates: Bitcoin has traded below its mining cost for five months, squeezing miners - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdnJ3bnowdHItZnR2Y3RZV1RrT1gtTXNuNFN2clBvQm1idktQUTJ4V3dMZEFNZVVZck9CRmZVYmd3TG1VbTVlUllVcnZSQU1TSVkwUWNoT0hjdXFscWVSZ2NEemc2RWM2ZXJyMnFOQWd6U2V6aXU4NWVBY1ZrcjdmdTVWR0xWOVIxWXZHN1k3eWYxZEZjb2ctVWp2YU9TajBlb2RXell6alQ4dXA5bkFmZHQyZVl0TkgwYUdpLWNaY3NXTkFLcVJIcy1B?oc=5",
           "content": "",
-          "publish_time": "Mon, 22 Jun 2026 07:34:08 GMT"
+          "publish_time": "Fri, 19 Jun 2026 17:40:17 GMT"
         },
         {
           "id": "en_crypto_6",
           "source": "en_crypto",
-          "source_name": "Yahoo Finance",
+          "source_name": "CoinDesk",
           "rank": 7,
-          "title": "Prediction: Solana Will Replace Ethereum as the No. 1 Altcoin - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ1d2THd2MGxlcDJ4SlV4SXhSb1B3NVVkUlJTZHVjRzhvTEhnMlZwcjE2YVlCbHhFOUxTYUh1ZUFQU3UxV2Noa0JQb0JYZEFaVlNKNnZnVEtHOVR2NUtzNnBXZjZHbXhNVWJaSjlKMzdOb0NyOXY4WjlUZ09YanZWclk5dGhuU1N2VlBJdmxpRU0wdDBIYjBubzlWRUZGdFJvNUdnZw?oc=5",
+          "title": "BTC, ETH, SOL price: What next as bitcoin drifts under $64,000 - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdUhGcklFcFNqRzJwYW13bFVVM0ZLZzI2U3NOTm9vOE1vdzJNNF91aEdrQU1qWGZDMFREcGtSTnlvSEt0T0hMTkpyRnEybHkxcXJVQWFuUVBTWUl4d0VOdVRTOXltbzg4SHVUdEVFcmJhTzdNVE9wWV9vMGFYcnpacExiUlQwRjZYb09oOGg0N2Vfc2R6aGtXc3NDdkZLNFBvRWE3T21KeGV2VWRkaW1MSWpjYWFjWXFDQUUtdkwwb1h3Ul82WDZR?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 02:31:00 GMT"
+          "publish_time": "Mon, 22 Jun 2026 05:01:41 GMT"
         },
         {
           "id": "en_crypto_7",
           "source": "en_crypto",
           "source_name": "CoinDesk",
           "rank": 8,
-          "title": "Smart-contract and DeFi coins lead losses as bitcoin wilts for 4th straight day - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeGZmTlcwVnk2UmI1NmxTT1hpQkE2ZmdpODNGV2ZLbmVPVDR6ZS0tZ2FhcGRPbWpETDctTFkyVU5PWEhtSVFkLXY3QzhGLVFZSE90YV95ZWstSzF4WVlZQ1VXWkwtRWpzdmhBSGhiMklsRWZ5dDNlOURESVNOc3JOdXJ4TWtFVnpEOUdVaF9uZmo5WE1WWG5aYzhMdlNLRmxhSV9Bdlh3T04tZGZWRWZWZWNQLVJ1Q1Z1akI5cExZVGQ?oc=5",
+          "title": "Bitcoin (BTC) price is forming a bear flag that may signal crash to $55,000, analyst says - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR1NyTFFFdk5wOGc4NVJ2NTQ5MG9ObUsxeWxLVjFnemcwMjU2UVJEVU1FbnRZNVdHbE42U1lkNzAxVjVpMGxyb3FDeDZPekNaQ1lRcnEyVWsyTmZlcmlsMlBHRUJScW55WFVncVdxZXF5ajk2YTlPd1oxSmFpOWZ1eEVucWZrWFJpVjVIcHZSaXVuV004UXc4UWtiNGh0cDJkb3NxOVpGNWhtY2xqbkt4dXR1S3BoazdYVVVnQzhhTGZoblBRYWhBY2NTLXp5OXc?oc=5",
           "content": "",
-          "publish_time": "Fri, 19 Jun 2026 10:48:29 GMT"
+          "publish_time": "Mon, 22 Jun 2026 09:23:16 GMT"
         }
       ]
     },
@@ -190,12 +190,12 @@
         {
           "id": "en_fed_1",
           "source": "en_fed",
-          "source_name": "news8000.com",
+          "source_name": "The Motley Fool",
           "rank": 2,
-          "title": "Federal Reserve Holding Interest Rates Steady - news8000.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYkpvOC04dlYzcGVCcm1faE05RU95YmJvTUxUWnZ5MjdMRG9MVVgxNWQzRGhkQ1JEcmJaYXEzWG5fRDhpajRiVWJhXzRsMFJFUjhuM0VjdTQwLVcwTDd6YjFzZnRKeXU3YURKS0QzZjZ4c3BZUEM5bTh2QTNHMzNYWXRTZGh3Wm5nUWhGdWlTY0NLRjVpUFdLQWtFalR0SkJfSHhFUHNGZTFBSjc5blQzRnVEdXFUTlZkMFRaY1NGY0c?oc=5",
+          "title": "Will the Federal Reserve Raise or Lower Interest Rates in 2026? Here's What the Data Suggests. - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdjhseGZIaVJITnZwNUU3bnhmc2lrdmt1LVFma3lyeFREeEFPRXdLZ1NWYkUyb1FJMzBWVU9YZjJZVTE5dEJNQkJ2LVVOYzBzdWEzeUJSWW04NDZkYlhzejJ1TmhxZy1QR1gzaVRfT3VIdVR0RzdfcHFET0tjbW9md1dRYW9pVU5ZaS1JNm5wS1hLdUs4ZjBzQg?oc=5",
           "content": "",
-          "publish_time": "Sat, 20 Jun 2026 23:18:00 GMT"
+          "publish_time": "Mon, 22 Jun 2026 10:02:58 GMT"
         },
         {
           "id": "en_fed_2",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-22T15:50:22.969927",
+    "timestamp": "2026-06-22T18:13:37.245007",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -270,9 +270,9 @@
         "question": "Will bitcoin hit $1m before GTA VI?",
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
-        "outcomePrices": "[\"0.494\", \"0.506\"]",
-        "volume": "4505562.160961513",
-        "liquidity": "98847.114"
+        "outcomePrices": "[\"0.4945\", \"0.5055\"]",
+        "volume": "4505934.662620513",
+        "liquidity": "98361.33467"
       }
     ]
   }

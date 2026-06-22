@@ -19,7 +19,7 @@
   "derivatives": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "FR 0.0012% neutral, L/S 1.66, CVD +701"
+    "detail": "FR 0.0041% neutral, L/S 1.66, CVD +2195"
   },
   "cycle": {
     "verdict": "UNDERVALUED",
@@ -33,5 +33,5 @@
     "bear_count": 0.0,
     "ta_warning": "Price 10.6% below MA50 \u2014 medium-term structure bearish"
   },
-  "_collected": "2026-06-22 07:50 UTC"
+  "_collected": "2026-06-22 10:13 UTC"
 }
