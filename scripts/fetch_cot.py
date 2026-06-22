@@ -133,7 +133,7 @@ def main():
     else:
         print(f"[OK] COT {result.get('as_of','?')}: NC net {result.get('noncomm_net','?')}, Comm net {result.get('comm_net','?')} → {result.get('signal','?')}")
     
-    cache_dir = os.path.expanduser("~/btc-dashboard-site/data/cache")
+    cache_dir = os.path.expanduser("~/pipeline-dashboard V2/data/cache")
     os.makedirs(cache_dir, exist_ok=True)
     with open(os.path.join(cache_dir, "btc_cot.json"), "w") as f:
         json.dump(result, f, indent=2)

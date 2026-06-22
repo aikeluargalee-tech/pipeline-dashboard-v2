@@ -26,7 +26,7 @@ def translate_headlines(headlines):
     """Translate headlines to Simplified Chinese using Gemini Flash Lite."""
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        key_file = os.path.join(HOME, "btc-dashboard-site", ".gemini_key")
+        key_file = os.path.join(HOME, "pipeline-dashboard V2", ".gemini_key")
         if os.path.exists(key_file):
             with open(key_file) as f:
                 api_key = f.read().strip()

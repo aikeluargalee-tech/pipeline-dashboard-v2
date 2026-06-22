@@ -10,7 +10,7 @@ from pathlib import Path
 
 OUTPUT = "/tmp/btc_v7_images.json"
 CAPTURE_SCRIPT = os.path.expanduser("~/scripts/capture_coinglass_3day.py")
-ASSETS_DIR = os.path.expanduser("~/btc-dashboard-site/assets")
+ASSETS_DIR = os.path.expanduser("~/pipeline-dashboard V2/assets")
 PYTHON312 = "/usr/bin/python3.12"
 
 def capture_side(side, output_path):

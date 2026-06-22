@@ -119,7 +119,7 @@ def main():
     else:
         print(f"[OK] OI {result.get('total_oi','?'):.0f}, PCR {result.get('pcr_oi','?')}, Notional ${result.get('notional_value','?')/1e9:.1f}B → {result.get('signal','?')}")
     
-    cache_dir = os.path.expanduser("~/btc-dashboard-site/data/cache")
+    cache_dir = os.path.expanduser("~/pipeline-dashboard V2/data/cache")
     os.makedirs(cache_dir, exist_ok=True)
     with open(os.path.join(cache_dir, "btc_options_full.json"), "w") as f:
         json.dump(result, f, indent=2)

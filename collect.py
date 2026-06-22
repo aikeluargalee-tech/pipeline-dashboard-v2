@@ -38,7 +38,7 @@ ASSETS.mkdir(exist_ok=True)
 
 # Paths
 HOME = Path.home()
-FREE_MCP = HOME / "FreeMCP_BTC"
+FREE_MCP = HOME / "pipeline-dashboard V2" / "scripts" / "producers"
 AI3_STATE = HOME / ".gemini/antigravity/scratch/sigma_trading_engine/ai3_watch_state.json"
 HEATMAP_JSON = Path("/tmp/btc_heatmap_clusters.json")
 V7_IMAGES = Path("/tmp/btc_v7_images.json")
@@ -195,8 +195,9 @@ def valid_tmp_png(path):
         if resolved.suffix.lower() != ".png":
             log.warning("Rejected V7 image with non-png extension: %s", path)
             return None
-        # Allow /tmp and ~/btc-dashboard-site/assets/ as safe source dirs
-        allowed_roots = [Path("/tmp").resolve(), HOME / "btc-dashboard-site" / "assets"]
+        # Allow /tmp and V2 assets/ as safe source dirs
+        v2_assets = HOME / "pipeline-dashboard V2" / "assets"
+        allowed_roots = [Path("/tmp").resolve(), v2_assets.resolve()]
         if not any(root in resolved.parents or root == resolved.parent for root in allowed_roots):
             log.warning("Rejected V7 image outside allowed dirs: %s", path)
             return None

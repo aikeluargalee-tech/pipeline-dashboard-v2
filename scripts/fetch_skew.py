@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 OUTPUT = Path("/tmp/btc_skew.json")
-CACHE = Path.home() / "btc-dashboard-site" / "data" / "cache" / "btc_skew.json"
+CACHE = Path.home() / "pipeline-dashboard V2" / "data" / "cache" / "btc_skew.json"
 
 def log(msg):
     print(msg, flush=True)

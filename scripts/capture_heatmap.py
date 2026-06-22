@@ -31,7 +31,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 HOME = Path.home()
-SITE_DIR = HOME / "btc-dashboard-site"
+SITE_DIR = HOME / "pipeline-dashboard V2"
 OUTPUT_PATH = Path("/tmp/btc_heatmap_clusters.json")
 SCREENSHOT_PATH = Path("/tmp/coinglass_heatmap_raw.png")
 COMPRESSED_PATH = Path("/tmp/coinglass_heatmap.jpg")

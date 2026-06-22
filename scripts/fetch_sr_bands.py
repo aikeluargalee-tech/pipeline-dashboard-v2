@@ -8,7 +8,7 @@ import tempfile
 from datetime import datetime, timezone
 
 OUTPUT = "/tmp/btc_sr_bands.json"
-SR_SCRIPT = os.path.expanduser("~/FreeMCP_BTC/btc_sr_bands.py")
+SR_SCRIPT = os.path.join(os.path.dirname(__file__), "producers", "btc_sr_bands.py")
 
 def fetch_tf(tf):
     """Run btc_sr_bands.py for a given timeframe, return parsed JSON."""

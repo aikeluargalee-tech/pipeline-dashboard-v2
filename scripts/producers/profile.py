@@ -24,7 +24,7 @@ VA_PCT = 0.70
 HVN_FACTOR = 1.5
 LVN_FACTOR = 0.5
 
-OUTPUT_DIR = os.path.expanduser("~/btc-volume-profile/data")
+OUTPUT_DIR = os.path.expanduser("~/pipeline-dashboard V2/data")
 JSONL_PATH = os.path.join(OUTPUT_DIR, "profile.jsonl")
 
 # ── Fetch ──────────────────────────────────────────────────────────────────
