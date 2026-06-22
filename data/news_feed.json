@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-22T10:13:39.425895+00:00",
+  "timestamp": "2026-06-22T10:21:28.614855+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-22T18:13:37.245007",
+    "timestamp": "2026-06-22T18:21:27.784394",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -272,7 +272,7 @@
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4945\", \"0.5055\"]",
         "volume": "4505934.662620513",
-        "liquidity": "98361.33467"
+        "liquidity": "99528.80705"
       }
     ]
   }

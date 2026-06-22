@@ -15,7 +15,7 @@
       "state": "PROCEED",
       "vix": 16.4,
       "spx_change": 1.07,
-      "vix_weekly_chg": 6.6
+      "vix_weekly_chg": 6.2
     },
     "ai3_wave": {
       "state": "TIGHTENED",
@@ -32,6 +32,6 @@
       "is_weekend": false
     }
   },
-  "timestamp": "2026-06-22 10:13 UTC",
-  "_collected": "2026-06-22 10:13 UTC"
+  "timestamp": "2026-06-22 10:21 UTC",
+  "_collected": "2026-06-22 10:21 UTC"
 }

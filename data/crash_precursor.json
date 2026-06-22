@@ -1,0 +1,17 @@
+{
+  "composite": 1,
+  "alert_fired": false,
+  "signals": {
+    "taker": 1,
+    "bid_wall": 0,
+    "funding": 0,
+    "oi_implosion": 0,
+    "divergence": 0
+  },
+  "status": "CAUTION",
+  "timestamp": "2026-05-24T11:41:43.209512+00:00",
+  "active_signals": [
+    "Taker"
+  ],
+  "_collected": "2026-06-22 10:21 UTC"
+}
