@@ -16,17 +16,17 @@
 <meta property="og:type" content="website">
 <meta property="og:description" content="Live Bitcoin monitoring: Gate0 status, funding rates, liquidation clusters, on-chain cycle metrics, and derivatives data. Updated every 15 minutes.">
 <meta property="og:site_name" content="BTC Pipeline">
-<meta property="og:updated_time" id="og-updated" content="2026-06-22T03:37:00+00:00">
+<meta property="og:updated_time" id="og-updated" content="2026-06-22T04:02:42+00:00">
 <!-- Google AI Overviews freshness signals -->
 <meta property="article:published_time" content="2024-01-01T00:00:00Z">
-<meta property="article:modified_time" id="article-modified" content="2026-06-22T03:37:00+00:00">
+<meta property="article:modified_time" id="article-modified" content="2026-06-22T04:02:42+00:00">
 <!-- Dublin Core — Perplexity respects these -->
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
 <meta name="DC.title" content="BTC Pipeline Dashboard">
 <meta name="DC.type" content="Dataset">
 <meta name="DC.format" content="text/html">
 <meta name="DC.language" content="en">
-<meta name="DC.date" id="dc-date" content="2026-06-22T03:37:00+00:00">
+<meta name="DC.date" id="dc-date" content="2026-06-22T04:02:42+00:00">
 <!-- Schema.org Dataset markup for AI engines -->
 <script type="application/ld+json" id="schema-dataset">
 {
@@ -39,7 +39,7 @@
   "measurementTechnique": "Automated JSON data pipeline, 15-minute refresh cadence via cron-scheduled collection",
   "creator": { "@type": "Organization", "name": "BTC Pipeline" },
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "dateModified": "2026-06-22T03:37:00+00:00",
+  "dateModified": "2026-06-22T04:02:42+00:00",
   "distribution": [
     { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/gate0.json", "name": "Gate0 Signal Data" },
     { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aikeluargalee-tech.github.io/pipeline-dashboard/data/macro.json", "name": "Macro Indicator Data" },
@@ -194,7 +194,7 @@
     </div>
   </div>
   <div style="text-align:right">
-    <span class="btc-price" id="btc-price">$64,237</span>
+    <span class="btc-price" id="btc-price">$63,899</span>
     <span class="btc-change" id="btc-change"></span>
     <div class="meta" id="btc-range"></div>
   </div>
@@ -224,7 +224,7 @@
 <div class="regime-summary" id="regime-card">
   <div class="regime-title">⚡ REGIME SYNTHESIS</div>
   <div class="regime-verdict" id="regime-verdict">CAUTIOUS NEUTRAL</div>
-  <div class="regime-detail" id="regime-detail">Tightened rules active. 0.0 bullish / 0.0 bearish signals. | TA: Price 10.6% below MA50 — medium-term structure bearish</div>
+  <div class="regime-detail" id="regime-detail">Tightened rules active. 0.0 bullish / 0.0 bearish signals. | TA: Price 11.0% below MA50 — medium-term structure bearish</div>
   <div class="regime-layers" id="regime-layers"></div>
   <div class="card-narrative" id="nar-regime" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
 </div>
@@ -400,6 +400,87 @@
   </div>
 </div>
 
+
+
+<!-- ─── Sentiment & Positioning Section ─── -->
+<div class="layer" style="margin-top:24px">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--purple)">📊</span>
+    <h2 class="layer-title">Sentiment & Flow</h2>
+    <span class="layer-subtitle">Fear & Greed, Coinbase Premium, Whale Positioning</span>
+  </div>
+  <div class="card-grid">
+    <div class="card" id="card-fng">
+      <h3 class="card-title">😱 Fear & Greed</h3>
+      <div id="fng-content"></div>
+    </div>
+    <div class="card" id="card-coinbase">
+      <h3 class="card-title">🏦 Coinbase Premium</h3>
+      <div id="coinbase-content"></div>
+    </div>
+    <div class="card" id="card-whale">
+      <h3 class="card-title">🐋 Whale Ratio</h3>
+      <div id="whale-content"></div>
+    </div>
+    <div class="card" id="card-stable">
+      <h3 class="card-title">💵 Stablecoin Health</h3>
+      <div id="stable-content"></div>
+    </div>
+  </div>
+</div>
+
+<div class="layer" style="margin-top:24px">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--orange)">🏛️</span>
+    <h2 class="layer-title">Institutional Positioning</h2>
+    <span class="layer-subtitle">CME COT · Deribit Options</span>
+  </div>
+  <div class="card-grid">
+    <div class="card" id="card-cot">
+      <h3 class="card-title">📋 CME COT Report</h3>
+      <div id="cot-content"></div>
+    </div>
+    <div class="card" id="card-options-full">
+      <h3 class="card-title">🎯 Deribit Options</h3>
+      <div id="options-full-content"></div>
+    </div>
+  </div>
+</div>
+
+<div class="layer" style="margin-top:24px">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--yellow)">🔍</span>
+    <h2 class="layer-title">Pattern Detection</h2>
+    <span class="layer-subtitle">Chart Patterns · 3-Candle · RSI Reversal</span>
+  </div>
+  <div class="card-grid">
+    <div class="card" id="card-chartpat">
+      <h3 class="card-title">📈 Chart Pattern</h3>
+      <div id="chartpat-content"></div>
+    </div>
+    <div class="card" id="card-3candle">
+      <h3 class="card-title">🕯️ 3-Candle Signal</h3>
+      <div id="candle3-content"></div>
+    </div>
+    <div class="card" id="card-rsi-rev">
+      <h3 class="card-title">📉 RSI Reversal</h3>
+      <div id="rsirev-content"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── Black Swan Risk ─── -->
+<div class="layer" style="margin-top:24px">
+  <div class="layer-header">
+    <span class="layer-num" style="background:var(--red)">⚠️</span>
+    <h2 class="layer-title">Black Swan Sentinel</h2>
+    <span class="layer-subtitle">Systemic risk monitoring — 8-factor scoring engine</span>
+  </div>
+  <div class="card" id="card-blackswan" style="border-left: 3px solid var(--red)">
+    <h3 class="card-title">🛡️ Risk Score</h3>
+    <div id="blackswan-content"></div>
+  </div>
+</div>
 
 <!-- Signal Narrative — prose summary for AI answer engines to quote -->
 <div class="layer" style="margin-top:24px">
@@ -1642,10 +1723,11 @@ async function refresh() {
       load('btc_price'), load('gate0'), load('macro'), load('structural'),
       load('derivatives'), load('cycle'), load('supplementary'), load('regime'), load('meta'), load('v7_captures'),
       load('signal_stats'), load('manual_gate'), load('corporate_treasury_stress'),
-      load('news_feed'), load('social_pulse'), load('signal_tracker')
+      load('news_feed'), load('social_pulse'), load('signal_tracker'),
+      load('sentiment'), load('positioning'), load('patterns'), load('black_swan')
     ]);
   }
-  const [btc, gate, macro, structural, derivatives, cycle, supplementary, regime, meta, v7, sigStats, manualGate, cts, newsFeed, socialPulse, sigTrack] = _dataCache;
+  const [btc, gate, macro, structural, derivatives, cycle, supplementary, regime, meta, v7, sigStats, manualGate, cts, newsFeed, socialPulse, sigTrack, sentiment, positioning, patterns, blackSwan] = _dataCache;
 
   // Header
   if (btc && btc.price) {
@@ -1703,6 +1785,10 @@ async function refresh() {
   renderSignalTracker(sigTrack);
   renderTA(supplementary);
   renderCTS(cts);
+  renderSentiment(sentiment);
+  renderPositioning(positioning);
+  renderPatterns(patterns);
+  renderBlackSwan(blackSwan);
 
   // Signal History Stats
   const statsEl = document.getElementById('signal-stats');
@@ -1718,6 +1804,202 @@ async function refresh() {
 }
 
 // --- Signal Narrative (prose summary for AI answer engines) ---
+
+// ─── Sentiment & Flow Renderers ───
+
+function renderSentiment(d) {
+  if (!d) return;
+  
+  // Fear & Greed
+  const fng = d.fear_greed;
+  if (fng) {
+    const el = document.getElementById('fng-content');
+    if (!el) return;
+    const val = fng.value;
+    let color = 'var(--muted)';
+    let emoji = '😐';
+    if (val <= 25) { color = 'var(--red)'; emoji = '😱'; }
+    else if (val <= 45) { color = 'var(--orange)'; emoji = '😟'; }
+    else if (val <= 55) { color = 'var(--yellow)'; emoji = '😐'; }
+    else if (val <= 75) { color = 'var(--green)'; emoji = '😊'; }
+    else { color = 'var(--green)'; emoji = '🤑'; }
+    el.innerHTML = `<div class="metric-row"><span class="metric-label">Index</span><span class="metric-value" style="color:${color}">${emoji} ${val} — ${esc(fng.classification || '')}</span></div>`;
+  }
+
+  // Coinbase Premium
+  const cp = d.coinbase_premium;
+  if (cp !== undefined) {
+    const el = document.getElementById('coinbase-content');
+    if (!el) return;
+    const cpStr = (cp >= 0 ? '+' : '') + cp.toFixed(4) + '%';
+    const cpColor = cp >= 0 ? 'var(--green)' : 'var(--red)';
+    const cpLabel = cp >= 0 ? 'US institutional bid active' : 'US demand soft';
+    el.innerHTML = `<div class="metric-row"><span class="metric-label">Premium</span><span class="metric-value" style="color:${cpColor}">${cpStr}</span></div>
+      <div class="metric-row"><span class="metric-label">Direction</span><span class="metric-value">${esc(cpLabel)}</span></div>`;
+  }
+
+  // Whale Ratio
+  const whale = d.whale;
+  if (whale && whale.ratio !== undefined) {
+    const el = document.getElementById('whale-content');
+    if (!el) return;
+    let rows = `<div class="metric-row"><span class="metric-label">Ratio</span><span class="metric-value">${whale.ratio?.toFixed(2) || '—'}</span></div>`;
+    if (whale.trend) rows += `<div class="metric-row"><span class="metric-label">Trend</span><span class="metric-value">${esc(String(whale.trend))}</span></div>`;
+    if (whale.signal) rows += `<div class="metric-row"><span class="metric-label">Signal</span><span class="metric-value">${esc(String(whale.signal))}</span></div>`;
+    el.innerHTML = rows;
+  }
+
+  // Stablecoins
+  const stable = d.stablecoins;
+  if (stable) {
+    const el = document.getElementById('stable-content');
+    if (!el) return;
+    let rows = '';
+    const status = stable.status;
+    const statusColor = status === 'healthy' ? 'var(--green)' : status === 'elevated' ? 'var(--orange)' : 'var(--red)';
+    rows += `<div class="metric-row"><span class="metric-label">Status</span><span class="metric-value" style="color:${statusColor}">${esc(status.replace(/_/g,' ').toUpperCase())}</span></div>`;
+    if (stable.usdc_price) rows += `<div class="metric-row"><span class="metric-label">USDC/USDT</span><span class="metric-value">$${stable.usdc_price?.toFixed(4)} (${(stable.usdc_deviation>=0?'+':'') + stable.usdc_deviation?.toFixed(2)}%)</span></div>`;
+    if (stable.dai_price) rows += `<div class="metric-row"><span class="metric-label">DAI/USDT</span><span class="metric-value">$${stable.dai_price?.toFixed(4)}</span></div>`;
+    el.innerHTML = rows;
+  }
+
+  // Session info (append to meta area or a dedicated spot)
+  const sess = d.session;
+  if (sess) {
+    const metaEl = document.getElementById('meta');
+    if (metaEl && sess.current) {
+      const existing = metaEl.textContent || '';
+      if (!existing.includes('Session')) {
+        metaEl.textContent = existing + ` · Session: ${sess.current}`;
+      }
+    }
+  }
+}
+
+// ─── Institutional Positioning Renderers ───
+
+function renderPositioning(d) {
+  if (!d) return;
+
+  // CME COT
+  const cot = d.cot;
+  if (cot) {
+    const el = document.getElementById('cot-content');
+    if (!el) return;
+    let rows = '';
+    if (cot.as_of) rows += `<div class="metric-row"><span class="metric-label">As Of</span><span class="metric-value">${esc(String(cot.as_of))}</span></div>`;
+    if (cot.open_interest) rows += `<div class="metric-row"><span class="metric-label">Open Interest</span><span class="metric-value">${cot.open_interest?.toLocaleString?.() || cot.open_interest} contracts</span></div>`;
+    if (cot.leveraged_funds) {
+      const lf = cot.leveraged_funds;
+      rows += `<div class="metric-row"><span class="metric-label">Lev Funds</span><span class="metric-value">Long ${lf.long?.toLocaleString?.()||lf.long} | Short ${lf.short?.toLocaleString?.()||lf.short} | Net ${(lf.net>=0?'+':'') + (lf.net?.toLocaleString?.()||lf.net)}</span></div>`;
+    }
+    if (cot.commercials) {
+      const comm = cot.commercials;
+      rows += `<div class="metric-row"><span class="metric-label">Commercials</span><span class="metric-value">Long ${comm.long?.toLocaleString?.()||comm.long} | Short ${comm.short?.toLocaleString?.()||comm.short} | Net ${(comm.net>=0?'+':'') + (comm.net?.toLocaleString?.()||comm.net)}</span></div>`;
+    }
+    if (cot.signal) rows += `<div class="metric-row"><span class="metric-label">Signal</span><span class="metric-value">${esc(String(cot.signal))}</span></div>`;
+    el.innerHTML = rows;
+  }
+
+  // Deribit Options
+  const opt = d.options;
+  if (opt) {
+    const el = document.getElementById('options-full-content');
+    if (!el) return;
+    let rows = '';
+    if (opt.total_oi) rows += `<div class="metric-row"><span class="metric-label">Total OI</span><span class="metric-value">${opt.total_oi?.toLocaleString?.()||opt.total_oi} BTC</span></div>`;
+    if (opt.call_oi !== undefined && opt.put_oi !== undefined) rows += `<div class="metric-row"><span class="metric-label">Call/Put OI</span><span class="metric-value">Calls ${opt.call_oi?.toLocaleString?.()||opt.call_oi} | Puts ${opt.put_oi?.toLocaleString?.()||opt.put_oi}</span></div>`;
+    if (opt.pcr_oi !== undefined) rows += `<div class="metric-row"><span class="metric-label">PCR (OI)</span><span class="metric-value">${typeof opt.pcr_oi === 'number' ? opt.pcr_oi.toFixed(2) : opt.pcr_oi}</span></div>`;
+    if (opt.pcr_volume !== undefined) rows += `<div class="metric-row"><span class="metric-label">PCR (Vol)</span><span class="metric-value">${typeof opt.pcr_volume === 'number' ? opt.pcr_volume.toFixed(2) : opt.pcr_volume}</span></div>`;
+    if (opt.notional_value) rows += `<div class="metric-row"><span class="metric-label">Notional</span><span class="metric-value">$${(opt.notional_value/1e9).toFixed(1)}B</span></div>`;
+    if (opt.signal) rows += `<div class="metric-row"><span class="metric-label">Signal</span><span class="metric-value">${esc(String(opt.signal))}</span></div>`;
+    el.innerHTML = rows;
+  }
+}
+
+// ─── Pattern Detection Renderers ───
+
+function renderPatterns(d) {
+  if (!d) return;
+
+  // Chart Pattern
+  const cp = d.chart_pattern;
+  if (cp) {
+    const el = document.getElementById('chartpat-content');
+    if (!el) return;
+    let rows = `<div class="metric-row"><span class="metric-label">Pattern</span><span class="metric-value">${esc(String(cp.pattern))}</span></div>`;
+    rows += `<div class="metric-row"><span class="metric-label">Direction</span><span class="metric-value">${esc(String(cp.direction))}</span></div>`;
+    rows += `<div class="metric-row"><span class="metric-label">State</span><span class="metric-value">${esc(String(cp.state))}</span></div>`;
+    rows += `<div class="metric-row"><span class="metric-label">Confidence</span><span class="metric-value">${cp.confidence}/100</span></div>`;
+    rows += `<div class="metric-row"><span class="metric-label">Timeframe</span><span class="metric-value">${esc(String(cp.timeframe))}</span></div>`;
+    if (cp.target) rows += `<div class="metric-row"><span class="metric-label">Target</span><span class="metric-value">$${cp.target?.toLocaleString?.()||cp.target}</span></div>`;
+    el.innerHTML = rows;
+  }
+
+  // 3-Candle
+  const tc = d.three_candle;
+  if (tc) {
+    const el = document.getElementById('candle3-content');
+    if (!el) return;
+    let rows = `<div class="metric-row"><span class="metric-label">Pattern</span><span class="metric-value">${esc(String(tc.pattern))}</span></div>`;
+    rows += `<div class="metric-row"><span class="metric-label">Direction</span><span class="metric-value">${esc(String(tc.direction))}</span></div>`;
+    if (tc.price) rows += `<div class="metric-row"><span class="metric-label">Price</span><span class="metric-value">$${tc.price?.toLocaleString?.()||tc.price}</span></div>`;
+    el.innerHTML = rows;
+  }
+
+  // RSI Reversal
+  const rr = d.rsi_reversal;
+  if (rr) {
+    const el = document.getElementById('rsirev-content');
+    if (!el) return;
+    const signalColor = rr.signal === 'overbought' ? 'var(--red)' : rr.signal === 'oversold' ? 'var(--green)' : 'var(--muted)';
+    let rows = `<div class="metric-row"><span class="metric-label">Signal</span><span class="metric-value" style="color:${signalColor}">${esc(String(rr.signal).toUpperCase())}</span></div>`;
+    rows += `<div class="metric-row"><span class="metric-label">RSI</span><span class="metric-value">${rr.rsi?.toFixed(1)||'—'}</span></div>`;
+    rows += `<div class="metric-row"><span class="metric-label">Action</span><span class="metric-value">${esc(String(rr.action))}</span></div>`;
+    el.innerHTML = rows;
+  }
+}
+
+// ─── Black Swan Renderer ───
+
+function renderBlackSwan(d) {
+  if (!d) return;
+  const el = document.getElementById('blackswan-content');
+  if (!el) return;
+
+  const status = d.status || 'NORMAL';
+  const score = d.score || 0;
+  const max = d.max || 17;
+  const pct = max > 0 ? Math.round((score / max) * 100) : 0;
+
+  let statusColor = 'var(--green)';
+  if (status === 'CRITICAL') statusColor = 'var(--red)';
+  else if (status === 'ELEVATED') statusColor = 'var(--orange)';
+  else if (status === 'CAUTION') statusColor = 'var(--yellow)';
+
+  let html = `<div class="metric-row"><span class="metric-label">Status</span><span class="metric-value" style="color:${statusColor};font-weight:600">${status}</span></div>`;
+  html += `<div class="metric-row"><span class="metric-label">Score</span><span class="metric-value">${score}/${max} (${pct}%)</span></div>`;
+
+  // Progress bar
+  html += `<div style="margin:8px 0;background:rgba(255,255,255,0.05);border-radius:4px;height:6px;overflow:hidden">
+    <div style="width:${pct}%;height:100%;background:${statusColor};border-radius:4px;transition:width 0.5s"></div>
+  </div>`;
+
+  // Factors
+  const factors = d.factors || {};
+  if (Object.keys(factors).length > 0) {
+    html += '<div style="margin-top:10px;font-size:0.82em">';
+    for (const [key, val] of Object.entries(factors)) {
+      const isOk = String(val).startsWith('✅');
+      html += `<div style="margin:3px 0;color:${isOk ? 'var(--muted)' : 'var(--orange)'}">${esc(key)}: ${esc(String(val))}</div>`;
+    }
+    html += '</div>';
+  }
+
+  el.innerHTML = html;
+}
+
+
 function renderNarrative(gate, regime, macro, structural, derivatives, cycle) {
   const el = document.getElementById('signal-narrative');
   if (!el) return;

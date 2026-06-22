@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-22T03:36:55.639145+00:00",
+  "timestamp": "2026-06-22T04:02:30.930443+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -190,12 +190,12 @@
         {
           "id": "en_fed_1",
           "source": "en_fed",
-          "source_name": "TipRanks",
+          "source_name": "news8000.com",
           "rank": 2,
-          "title": "Citigroup (C) Still Expects the U.S. Federal Reserve to Cut Interest Rates This Year - TipRanks",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaEVSZ3ZQaVZRLU8yclAydTNJVE55OG16QnhUWjNWbTNDRHhKYXNxLWJYdHdDT3Uyc0ljYk1IMXdIRTN4NnRWYkM3aGpNSU9CZThyMFhqSEtFSWZnNlI4bDBMZl8wdmhwRFp4aDZpcjBlX0NZVTd1Uk1hTFEzT0ZFRHBFRUhmVGN2ckx0RE1BYUIydU9zLUpiRUFQeVZXQkhxTEEyNjNqdnRRMEZ5R0l0eA?oc=5",
+          "title": "Federal Reserve Holding Interest Rates Steady - news8000.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYkpvOC04dlYzcGVCcm1faE05RU95YmJvTUxUWnZ5MjdMRG9MVVgxNWQzRGhkQ1JEcmJaYXEzWG5fRDhpajRiVWJhXzRsMFJFUjhuM0VjdTQwLVcwTDd6YjFzZnRKeXU3YURKS0QzZjZ4c3BZUEM5bTh2QTNHMzNYWXRTZGh3Wm5nUWhGdWlTY0NLRjVpUFdLQWtFalR0SkJfSHhFUHNGZTFBSjc5blQzRnVEdXFUTlZkMFRaY1NGY0c?oc=5",
           "content": "",
-          "publish_time": "Thu, 18 Jun 2026 15:19:29 GMT"
+          "publish_time": "Sat, 20 Jun 2026 23:18:00 GMT"
         },
         {
           "id": "en_fed_2",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-22T11:36:53.382988",
+    "timestamp": "2026-06-22T12:02:30.009957",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -272,7 +272,7 @@
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4945\", \"0.5055\"]",
         "volume": "4505533.528072514",
-        "liquidity": "98499.17804"
+        "liquidity": "98962.00385"
       }
     ]
   }

@@ -2318,6 +2318,371 @@ def detect_breakdown_retest(btc, structural, derivatives):
 
 # ─── Main ─────────────────────────────────────────────────────
 
+def collect_sentiment():
+    """Collect sentiment/positioning metrics: Fear & Greed, Coinbase Premium, Whale, Session, Stablecoins."""
+    realtime = read_json("/tmp/btc_realtime_state.json")
+    market = read_json("/tmp/btc_market_state.json")
+    risk_alerts = read_json("/tmp/btc_risk_alerts.json")
+    session = read_json("/tmp/btc_session_state.json")
+    
+    result = {}
+    
+    # Fear & Greed
+    if realtime:
+        fng = realtime.get("fear_and_greed")
+        fng_class = realtime.get("fng_classification", "")
+        if fng is not None:
+            result["fear_greed"] = {"value": fng, "classification": fng_class}
+    
+    # Coinbase Premium
+    if market:
+        cp = market.get("coinbase_premium")
+        if cp is not None:
+            result["coinbase_premium"] = round(cp, 4)
+    
+    # Whale Ratio
+    if risk_alerts:
+        whale = risk_alerts.get("whale") or {}
+        if isinstance(whale, dict):
+            result["whale"] = {
+                "ratio": whale.get("ratio"),
+                "trend": whale.get("trend"),
+                "signal": whale.get("signal"),
+                "direction": whale.get("direction"),
+            }
+    
+    # Session
+    if session:
+        result["session"] = {
+            "current": session.get("current_session", "—"),
+            "ny_open": session.get("ny_open_myt", "—"),
+            "golden_window": session.get("golden_window", "—"),
+            "trap_zone": session.get("trap_zone", "—"),
+            "mode": session.get("mode", "—"),
+            "warnings": session.get("warnings", []),
+        }
+    
+    # Stablecoins (ccxt Binance)
+    try:
+        import ccxt
+        exchange = ccxt.binance()
+        stable = {}
+        try:
+            usdc = exchange.fetch_ticker("USDC/USDT")
+            stable["usdc_price"] = usdc["last"]
+            stable["usdc_deviation"] = round((usdc["last"] - 1) * 100, 4)
+        except Exception:
+            stable["usdc_price"] = None
+            stable["usdc_deviation"] = None
+        try:
+            dai = exchange.fetch_ticker("DAI/USDT")
+            stable["dai_price"] = dai["last"]
+            stable["dai_deviation"] = round((dai["last"] - 1) * 100, 4)
+        except Exception:
+            stable["dai_price"] = None
+            stable["dai_deviation"] = None
+        
+        max_dev = max(abs(stable.get("usdc_deviation") or 0), abs(stable.get("dai_deviation") or 0))
+        if max_dev < 0.5:
+            stable["status"] = "healthy"
+        elif max_dev < 2.0:
+            stable["status"] = "elevated"
+        else:
+            stable["status"] = "depeg_risk"
+        result["stablecoins"] = stable
+    except Exception:
+        result["stablecoins"] = {"status": "unavailable"}
+    
+    result["_collected"] = ts()
+    return result
+
+
+def collect_positioning():
+    """Collect institutional positioning: CME COT + Deribit Options Full."""
+    cot = read_json("/tmp/btc_cot.json")
+    options = read_json("/tmp/btc_options_full.json")
+    
+    result = {}
+    
+    if cot:
+        result["cot"] = {
+            "as_of": cot.get("as_of") or cot.get("date"),
+            "open_interest": cot.get("open_interest"),
+            "leveraged_funds": {
+                "long": cot.get("noncomm_long") or cot.get("leveraged_funds_long") or cot.get("lev_long"),
+                "short": cot.get("noncomm_short") or cot.get("leveraged_funds_short") or cot.get("lev_short"),
+                "net": cot.get("noncomm_net") or cot.get("leveraged_funds_net") or cot.get("lev_net"),
+            },
+            "commercials": {
+                "long": cot.get("comm_long") or cot.get("commercials_long"),
+                "short": cot.get("comm_short") or cot.get("commercials_short"),
+                "net": cot.get("comm_net") or cot.get("commercials_net"),
+            },
+            "weekly_change": cot.get("weekly_change") or cot.get("change_date"),
+            "signal": cot.get("signal"),
+        }
+    
+    if options:
+        result["options"] = {
+            "total_oi": options.get("total_oi"),
+            "call_oi": options.get("call_oi"),
+            "put_oi": options.get("put_oi"),
+            "volume_24h": options.get("volume_24h"),
+            "call_volume": options.get("call_volume_24h") or options.get("call_volume"),
+            "put_volume": options.get("put_volume_24h") or options.get("put_volume"),
+            "pcr_oi": options.get("pcr_oi") or options.get("pcr"),
+            "pcr_volume": options.get("pcr_volume") or options.get("pcr_vol"),
+            "notional_value": options.get("notional_value"),
+            "signal": options.get("signal"),
+        }
+    
+    result["_collected"] = ts()
+    return result
+
+
+def collect_patterns():
+    """Collect chart patterns, 3-candle confluence, and pattern outcome feed."""
+    HOME = Path.home()
+    result = {}
+    
+    # Chart Patterns — from btc-chart-patterns project
+    try:
+        chart_path = HOME / "btc-chart-patterns/data/alerts.jsonl"
+        if chart_path.exists():
+            with open(chart_path) as f:
+                lines = [l.strip() for l in f if l.strip()]
+            if lines:
+                import json as _json
+                entry = _json.loads(lines[-1])
+                levels = entry.get("key_levels", {})
+                result["chart_pattern"] = {
+                    "pattern": entry.get("pattern_name", "—"),
+                    "state": entry.get("state", "—"),
+                    "direction": entry.get("direction", "—"),
+                    "confidence": entry.get("confidence", 0),
+                    "timeframe": entry.get("tf", "—"),
+                    "target": levels.get("target"),
+                    "stop": levels.get("stop"),
+                    "description": entry.get("description", ""),
+                }
+    except Exception:
+        pass
+    
+    # 3-Candle Pattern — from btc-3candle-confluence project
+    try:
+        candle_path = HOME / "btc-3candle-confluence/data/reads.jsonl"
+        if candle_path.exists():
+            with open(candle_path) as f:
+                lines = [l.strip() for l in f if l.strip()]
+            if lines:
+                import json as _json
+                entry = _json.loads(lines[-1])
+                result["three_candle"] = {
+                    "pattern": entry.get("pattern", "—"),
+                    "direction": entry.get("direction", "—"),
+                    "price": entry.get("price"),
+                    "confidence": entry.get("confidence"),
+                    "description": entry.get("description", ""),
+                }
+    except Exception:
+        pass
+    
+    # RSI Reversal Signal — compute from existing supplementary data
+    try:
+        supp = read_json(str(DATA / "supplementary.json"))
+        if supp and supp.get("rsi_14") is not None:
+            rsi = supp["rsi_14"]
+            price = supp.get("price")
+            reversal = None
+            if rsi > 70:
+                reversal = {"signal": "overbought", "rsi": rsi, "action": "Watch for reversal down"}
+            elif rsi < 30:
+                reversal = {"signal": "oversold", "rsi": rsi, "action": "Watch for reversal up"}
+            else:
+                reversal = {"signal": "neutral", "rsi": rsi, "action": "No reversal signal"}
+            if price:
+                reversal["price"] = price
+            result["rsi_reversal"] = reversal
+    except Exception:
+        pass
+    
+    result["_collected"] = ts()
+    return result
+
+
+def compute_black_swan():
+    """Compute Black Swan Sentinel score (mirrors generate_v2.py logic)."""
+    import json as _json
+    
+    onchain = read_json("/tmp/btc_onchain_state.json") or {}
+    realtime = read_json("/tmp/btc_realtime_state.json") or {}
+    macro_raw = read_json("/tmp/btc_macro_state.json") or {}
+    risk = read_json("/tmp/btc_risk_state.json") or {}
+    risk_alerts = read_json("/tmp/btc_risk_alerts.json") or {}
+    
+    # Crash monitor
+    crash = None
+    try:
+        crash_path = HOME / "btc-crash-monitor/data/signal_log.jsonl"
+        if crash_path.exists():
+            with open(crash_path) as f:
+                lines = [l.strip() for l in f if l.strip()]
+            if lines:
+                crash = _json.loads(lines[-1])
+    except Exception:
+        pass
+    
+    # Stablecoins for black swan scoring
+    stable = {}
+    try:
+        import ccxt
+        exchange = ccxt.binance()
+        usdc = exchange.fetch_ticker("USDC/USDT")
+        stable["usdc_deviation"] = round((usdc["last"] - 1) * 100, 4)
+    except Exception:
+        stable["usdc_deviation"] = None
+    
+    score = 0
+    factors = {}
+    max_score = 17
+    
+    # 1. MVRV Z-Score
+    mvrv = onchain.get("mvrv_z")
+    if mvrv is not None:
+        try:
+            mvrv = float(mvrv)
+            if mvrv > 3.5:
+                score += 2
+                factors["mvrv"] = f"MVRV Z={mvrv:.2f} — extreme overvaluation"
+            elif mvrv > 2.0:
+                score += 1
+                factors["mvrv"] = f"MVRV Z={mvrv:.2f} — overvalued"
+            else:
+                factors["mvrv"] = "✅ Normal"
+        except (ValueError, TypeError):
+            factors["mvrv"] = "N/A"
+    
+    # 2. Fear & Greed extremes
+    fng = realtime.get("fear_and_greed")
+    if fng is not None:
+        try:
+            fng = int(fng)
+            if fng < 10:
+                score += 1
+                factors["fng"] = f"Extreme fear ({fng}) — panic"
+            elif fng > 90:
+                score += 1
+                factors["fng"] = f"Extreme greed ({fng}) — euphoria"
+            else:
+                factors["fng"] = "✅ Normal"
+        except (ValueError, TypeError):
+            factors["fng"] = "N/A"
+    
+    # 3. VIX
+    vix = risk.get("vix")
+    if vix is not None:
+        try:
+            vix = float(vix)
+            if vix > 35:
+                score += 3
+                factors["vix"] = f"VIX {vix:.0f} — extreme fear"
+            elif vix > 28:
+                score += 2
+                factors["vix"] = f"VIX {vix:.0f} — elevated"
+            elif vix > 22:
+                score += 1
+                factors["vix"] = f"VIX {vix:.0f} — caution"
+            else:
+                factors["vix"] = "✅ Normal"
+        except (ValueError, TypeError):
+            factors["vix"] = "N/A"
+    
+    # 4. Stablecoin depeg
+    if stable.get("usdc_deviation") is not None:
+        dev = abs(stable["usdc_deviation"])
+        if dev > 2.0:
+            score += 3
+            factors["stablecoin"] = f"USDC depeg {stable['usdc_deviation']:.2f}% — CRITICAL"
+        elif dev > 0.5:
+            score += 1
+            factors["stablecoin"] = f"USDC deviation {stable['usdc_deviation']:.2f}%"
+        else:
+            factors["stablecoin"] = "✅ Healthy"
+    
+    # 5. DXY (macro)
+    dxy = macro_raw.get("dxy")
+    if dxy is not None:
+        try:
+            dxy = float(dxy)
+            if dxy > 106:
+                score += 2
+                factors["dxy"] = f"DXY {dxy:.0f} — strong dollar pressure"
+            elif dxy > 104:
+                score += 1
+                factors["dxy"] = f"DXY {dxy:.0f} — elevated"
+            else:
+                factors["dxy"] = "✅ Normal"
+        except (ValueError, TypeError):
+            factors["dxy"] = "N/A"
+    
+    # 6. 10Y Yield
+    y10 = macro_raw.get("us_10y_yield_percent")
+    if y10 is not None:
+        try:
+            y10 = float(y10)
+            if y10 > 5.5:
+                score += 2
+                factors["yield"] = f"10Y {y10:.1f}% — restrictive"
+            elif y10 > 5.0:
+                score += 1
+                factors["yield"] = f"10Y {y10:.1f}% — elevated"
+            else:
+                factors["yield"] = "✅ Normal"
+        except (ValueError, TypeError):
+            factors["yield"] = "N/A"
+    
+    # 7. Whale signal
+    whale = risk_alerts.get("whale") or {}
+    if isinstance(whale, dict):
+        ws = whale.get("signal")
+        if ws == "whale_dominant":
+            score += 1
+            factors["whale"] = "Whale dominant — distribution risk"
+        elif ws:
+            factors["whale"] = "✅ Balanced"
+    else:
+        factors["whale"] = "N/A"
+    
+    # 8. Crash precursor
+    if crash and isinstance(crash, dict):
+        crash_signal = crash.get("signal") or crash.get("state")
+        crash_score = crash.get("score", 0)
+        if crash_signal in ("WARNING", "ALERT", "CRITICAL"):
+            score += min(crash_score, 3)
+            factors["crash"] = f"Crash precursor: {crash_signal} (score {crash_score})"
+        else:
+            factors["crash"] = "✅ Normal"
+    
+    # Determine status
+    if score >= 10:
+        status = "CRITICAL"
+    elif score >= 6:
+        status = "ELEVATED"
+    elif score >= 3:
+        status = "CAUTION"
+    else:
+        status = "NORMAL"
+    
+    result = {
+        "score": score,
+        "max": max_score,
+        "status": status,
+        "factors": factors,
+        "_collected": ts(),
+    }
+    return result
+
+
 def main():
     # Acquire shared lock to prevent race with detect_only.py on structural.json
     import fcntl
@@ -2418,6 +2783,23 @@ def main():
     meta = {"last_update": ts(), "btc_price": btc.get("price"), "regime_verdict": synth_verdict}
     write_json("meta.json", meta)
 
+
+    # New standalone collectors
+    sentiment = collect_sentiment()
+    print(f"Sentiment: {'✓' if sentiment else '✗'}")
+    write_json("sentiment.json", sentiment)
+
+    positioning = collect_positioning()
+    print(f"Positioning: {'✓' if positioning else '✗'}")
+    write_json("positioning.json", positioning)
+
+    patterns = collect_patterns()
+    print(f"Patterns: {'✓' if patterns else '✗'}")
+    write_json("patterns.json", patterns)
+
+    black_swan = compute_black_swan()
+    print(f"Black Swan: {black_swan.get('status', '?')} ({black_swan.get('score', 0)}/{black_swan.get('max', 17)})")
+    write_json("black_swan.json", black_swan)
     print(f"\n✅ All layers collected → {DATA}/")
 
     # Regenerate sitemap with current timestamp

@@ -1,0 +1,13 @@
+{
+  "score": 0,
+  "max": 17,
+  "status": "NORMAL",
+  "factors": {
+    "fng": "\u2705 Normal",
+    "vix": "\u2705 Normal",
+    "stablecoin": "\u2705 Healthy",
+    "whale": "\u2705 Balanced",
+    "crash": "\u2705 Normal"
+  },
+  "_collected": "2026-06-22 04:02 UTC"
+}
