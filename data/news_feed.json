@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-22T04:16:27.797484+00:00",
+  "timestamp": "2026-06-22T05:16:02.346490+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -96,10 +96,10 @@
           "source": "en_crypto",
           "source_name": "Yahoo Finance",
           "rank": 1,
-          "title": "Can XRP Hit $500? - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ0lYcmN2azJuMllRZWRqYzBzeWt6dnRqUmxvLTg1NERpNTZQWFdLZ0k4aEV3TnpSaHF6UnViS3VldnR4VkxneXJSVTVBYmhCN25MSTFNN01OTDlhNl9UTmpDNnRSWV9qSURsQkh4NC1ObEJxa0MyaFZNTUFPN1ZTMnp3?oc=5",
+          "title": "Bitcoin and Oil Markets Brace for Possible Black Monday After US-Iran Talks Fracture in Switzerland - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdEoxTkdTb1pGMGdQY2QyXzJ0WFVvZnpoVUEtYzBTN2dsWWY2RUY4REI2dGhNRGJRM2VmaC1laEZ3cl9STmpjUE4temxwTGR6UTk0X1AxWTI1WlNvc0hjYU5MZGMwUVhJM0otZmNiZ010YnVhTUlUZjBodnlZcDFMRXJOVDhRLU9URjdLM3AzNllkRElVZWR6cnJMeTRCZ3pD?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 17:58:45 GMT"
+          "publish_time": "Sun, 21 Jun 2026 19:13:46 GMT"
         },
         {
           "id": "en_crypto_1",
@@ -124,52 +124,52 @@
         {
           "id": "en_crypto_3",
           "source": "en_crypto",
-          "source_name": "AMBCrypto",
-          "rank": 4,
-          "title": "Crypto market’s weekly winners and losers – AERO, JTO, BEAT, DEXE - AMBCrypto",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9mZkJCWjFEbFhzQTVTaHEtTmhkdlVUd3pldG1qcXd5NHFmaUdzN0ZWNjNkU2RCSjJObVdyRzkzQW1nZTZMUGfSAW9BVV95cUxOLW1fSHJJb1dOMDhCVFNDM0tPQk5mQm5tT0I3bmVyRTRhcXg4RGxhMTFTSnZLM2xVZkVfM29FQWExclhoZ180RW5fc2NLNG5DNWljX2w1SFBTNEpMOHB1dmJWckFLVTM2eGpmcGpUalE?oc=5",
-          "content": "",
-          "publish_time": "Sun, 21 Jun 2026 22:00:56 GMT"
-        },
-        {
-          "id": "en_crypto_4",
-          "source": "en_crypto",
           "source_name": "Benzinga",
-          "rank": 5,
+          "rank": 4,
           "title": "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
           "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNmk1NVkxS2VLX3p6SUlqQ0NFbm8tam44QXFZUXMyTHVHYVNnZi1uRU8wMU9GX3BtdmlONm1kVFJvSTlfRHN3RktwT2xvc19jZFo4Qy0xUFdad0hGMjRvckpXekg4OXVxQ1YxWEFXMGRaT2ZFRlQ3U2tkYkdQVG5saE9MR0p2YXRjSmtnYllRZkt2Y3NqYlpibHl0RkJLaVlSUUFzRWZuRktXWTdtYTZQVXZWelpka2tDdVdlYkZaZ2tHWnBQNzJuMEF6V0VwZ19kMnJxQ1I4aDJQN1pxSXdYSER6bjFuM0s0ZE5vRmZXMzlpN2NKSFpsWGpNcHB4VGhGclE?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 02:02:15 GMT"
         },
         {
+          "id": "en_crypto_4",
+          "source": "en_crypto",
+          "source_name": "Yahoo Finance",
+          "rank": 5,
+          "title": "Can XRP Hit $500? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ0lYcmN2azJuMllRZWRqYzBzeWt6dnRqUmxvLTg1NERpNTZQWFdLZ0k4aEV3TnpSaHF6UnViS3VldnR4VkxneXJSVTVBYmhCN25MSTFNN01OTDlhNl9UTmpDNnRSWV9qSURsQkh4NC1ObEJxa0MyaFZNTUFPN1ZTMnp3?oc=5",
+          "content": "",
+          "publish_time": "Sun, 21 Jun 2026 17:58:45 GMT"
+        },
+        {
           "id": "en_crypto_5",
           "source": "en_crypto",
           "source_name": "Yahoo Finance",
           "rank": 6,
-          "title": "Bitcoin and Oil Markets Brace for Possible Black Monday After US-Iran Talks Fracture in Switzerland - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdEoxTkdTb1pGMGdQY2QyXzJ0WFVvZnpoVUEtYzBTN2dsWWY2RUY4REI2dGhNRGJRM2VmaC1laEZ3cl9STmpjUE4temxwTGR6UTk0X1AxWTI1WlNvc0hjYU5MZGMwUVhJM0otZmNiZ010YnVhTUlUZjBodnlZcDFMRXJOVDhRLU9URjdLM3AzNllkRElVZWR6cnJMeTRCZ3pD?oc=5",
-          "content": "",
-          "publish_time": "Sun, 21 Jun 2026 19:13:46 GMT"
-        },
-        {
-          "id": "en_crypto_6",
-          "source": "en_crypto",
-          "source_name": "Yahoo Finance",
-          "rank": 7,
-          "title": "SpaceX Is Now Worth $2.4 Trillion, Making It Twice as Valuable as Bitcoin. But Here's Why I'm Still Buying Bitcoin. - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRXVuQS13U05Xa2FDb0FSQVRPb2EyQml3WF9GU2NkaWxrTDczUVJwejc3ODVIczRBcXlXTXRwZnNYNVhGOFFIQVZmNllKWElibVk2WHA5a3VPUnNueGItek9pSHhhUmtQcjdfMm9CSFRwcWtMYVlYbWdFR3dPWG00NUJ0dTF2MmpmOE9GV1FR?oc=5",
-          "content": "",
-          "publish_time": "Sun, 21 Jun 2026 11:29:00 GMT"
-        },
-        {
-          "id": "en_crypto_7",
-          "source": "en_crypto",
-          "source_name": "Yahoo Finance",
-          "rank": 8,
           "title": "Prediction: Solana Will Replace Ethereum as the No. 1 Altcoin - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ1d2THd2MGxlcDJ4SlV4SXhSb1B3NVVkUlJTZHVjRzhvTEhnMlZwcjE2YVlCbHhFOUxTYUh1ZUFQU3UxV2Noa0JQb0JYZEFaVlNKNnZnVEtHOVR2NUtzNnBXZjZHbXhNVWJaSjlKMzdOb0NyOXY4WjlUZ09YanZWclk5dGhuU1N2VlBJdmxpRU0wdDBIYjBubzlWRUZGdFJvNUdnZw?oc=5",
           "content": "",
           "publish_time": "Sun, 21 Jun 2026 02:31:00 GMT"
+        },
+        {
+          "id": "en_crypto_6",
+          "source": "en_crypto",
+          "source_name": "CoinDesk",
+          "rank": 7,
+          "title": "BTC, ETH, SOL price news: Bitcoin holds near $64,000 amid US-Iran ceasefire talks - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ1pzc1BfbXBKUUNVRXNveHpVdDVBMDUwMGJsQXJXUlkteUZtUFV6clRlbFFCWngxTzZ2ZFExOVBJcnJYSHRnMVM5aUtXMWUweklleUlYRTVTZ2RpWUhCdUlrN2Q2WWwycjFJbUlqdUhLWWRqZGZuMzNlSmpvMzA0YUV3OFZHUmxrZWNTa0NBUExsUDZaTHVEbXhvd05HX1l0OXdXY0d2R01OQkFFWEt4UWx6ZFhzRHhnWkFqdVlXM2lrREc0dWFRQ3pR?oc=5",
+          "content": "",
+          "publish_time": "Sun, 21 Jun 2026 06:47:34 GMT"
+        },
+        {
+          "id": "en_crypto_7",
+          "source": "en_crypto",
+          "source_name": "CoinDesk",
+          "rank": 8,
+          "title": "Smart-contract and DeFi coins lead losses as bitcoin wilts for 4th straight day - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeGZmTlcwVnk2UmI1NmxTT1hpQkE2ZmdpODNGV2ZLbmVPVDR6ZS0tZ2FhcGRPbWpETDctTFkyVU5PWEhtSVFkLXY3QzhGLVFZSE90YV95ZWstSzF4WVlZQ1VXWkwtRWpzdmhBSGhiMklsRWZ5dDNlOURESVNOc3JOdXJ4TWtFVnpEOUdVaF9uZmo5WE1WWG5aYzhMdlNLRmxhSV9Bdlh3T04tZGZWRWZWZWNQLVJ1Q1Z1akI5cExZVGQ?oc=5",
+          "content": "",
+          "publish_time": "Fri, 19 Jun 2026 10:48:29 GMT"
         }
       ]
     },
@@ -190,12 +190,12 @@
         {
           "id": "en_fed_1",
           "source": "en_fed",
-          "source_name": "TipRanks",
+          "source_name": "news8000.com",
           "rank": 2,
-          "title": "Citigroup (C) Still Expects the U.S. Federal Reserve to Cut Interest Rates This Year - TipRanks",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaEVSZ3ZQaVZRLU8yclAydTNJVE55OG16QnhUWjNWbTNDRHhKYXNxLWJYdHdDT3Uyc0ljYk1IMXdIRTN4NnRWYkM3aGpNSU9CZThyMFhqSEtFSWZnNlI4bDBMZl8wdmhwRFp4aDZpcjBlX0NZVTd1Uk1hTFEzT0ZFRHBFRUhmVGN2ckx0RE1BYUIydU9zLUpiRUFQeVZXQkhxTEEyNjNqdnRRMEZ5R0l0eA?oc=5",
+          "title": "Federal Reserve Holding Interest Rates Steady - news8000.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYkpvOC04dlYzcGVCcm1faE05RU95YmJvTUxUWnZ5MjdMRG9MVVgxNWQzRGhkQ1JEcmJaYXEzWG5fRDhpajRiVWJhXzRsMFJFUjhuM0VjdTQwLVcwTDd6YjFzZnRKeXU3YURKS0QzZjZ4c3BZUEM5bTh2QTNHMzNYWXRTZGh3Wm5nUWhGdWlTY0NLRjVpUFdLQWtFalR0SkJfSHhFUHNGZTFBSjc5blQzRnVEdXFUTlZkMFRaY1NGY0c?oc=5",
           "content": "",
-          "publish_time": "Thu, 18 Jun 2026 15:19:29 GMT"
+          "publish_time": "Sat, 20 Jun 2026 23:18:00 GMT"
         },
         {
           "id": "en_fed_2",
@@ -220,48 +220,48 @@
         {
           "id": "en_fed_4",
           "source": "en_fed",
-          "source_name": "CBS News",
-          "rank": 5,
-          "title": "Federal Reserve holds interest rates steady but leaves door open to hike - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeWNzVUdhUF9wNFBtSC00WUwwbE5jUEp4WEExREd2cWZoZ21YNkNSTHJ6OGdfMjgwcjN3MXU2S1FDalNjTmpLVXRZNlBGRkphM203c1pENl9hMXdkRkFlc2hnSlJ0bFYxSk5vRVJoNGJzMmtyU2Z6VzhLNXgweV83eGNpYmlBQQ?oc=5",
-          "content": "",
-          "publish_time": "Wed, 17 Jun 2026 18:01:00 GMT"
-        },
-        {
-          "id": "en_fed_5",
-          "source": "en_fed",
           "source_name": "WSJ",
-          "rank": 6,
+          "rank": 5,
           "title": "Fed Holds Rates Steady, but More Officials See Higher Rates as Next Move - WSJ",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd1FlQ3ZZWmdwWHNOUkh2emZPZzFPc0w4c0VhSGN2MWtKek54RGdMRndaMWtBdWNBX2hpTGRFV2F3RlNmMkpmMmRKb0VEZXJrU203VzRUT0F2SVZ2YnU5SHVPV2F3aXlkWlpETWExNVlJbU83UEF1cFJ3TlJWcmc2c3hjS3ZGNjVGbFlUZV9fdlZvd2dBTWc?oc=5",
           "content": "",
           "publish_time": "Wed, 17 Jun 2026 20:38:00 GMT"
         },
         {
-          "id": "en_fed_6",
-          "source": "en_fed",
-          "source_name": "CNN",
-          "rank": 7,
-          "title": "Fed leaves interest rates unchanged but signals higher rates are ahead - CNN",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ1A2d01PbW81cGFUbnhNQTJ6VHNGVGxEY3pmNVMwc3pMSjcwcUdsdnJmWXI5ZU9fTnVHdkNrMjBWQXV4M21CRkt6cVNKd1VNQ2c1dHFRVDRGQ0ZnZjlvekQxeGRNejktS3ZQUE5PQmhwVjZzMy1veGd6Y0o2TjRPWFBuUXQwT0FmUXlwQVNNZlNXajIxR0E1OU9aTQ?oc=5",
-          "content": "",
-          "publish_time": "Wed, 17 Jun 2026 21:14:00 GMT"
-        },
-        {
-          "id": "en_fed_7",
+          "id": "en_fed_5",
           "source": "en_fed",
           "source_name": "BBC",
-          "rank": 8,
+          "rank": 6,
           "title": "Fed holds US interest rates steady as uncertainty over Trump's Iran deal remains - BBC",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rWkEzQ1VoUVB6UWVnU2FFTXRHenVYSmw2MktlcWNRSkxRX1EyN0pYS2tDcjdjd1dGVFE4WUNPWFluNWIxaUFpLUtoRkNLRGVVcEdiTVA1d2twdw?oc=5",
           "content": "",
           "publish_time": "Wed, 17 Jun 2026 18:41:12 GMT"
+        },
+        {
+          "id": "en_fed_6",
+          "source": "en_fed",
+          "source_name": "CBS News",
+          "rank": 7,
+          "title": "Federal Reserve holds interest rates steady but leaves door open to hike - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeWNzVUdhUF9wNFBtSC00WUwwbE5jUEp4WEExREd2cWZoZ21YNkNSTHJ6OGdfMjgwcjN3MXU2S1FDalNjTmpLVXRZNlBGRkphM203c1pENl9hMXdkRkFlc2hnSlJ0bFYxSk5vRVJoNGJzMmtyU2Z6VzhLNXgweV83eGNpYmlBQQ?oc=5",
+          "content": "",
+          "publish_time": "Wed, 17 Jun 2026 18:01:00 GMT"
+        },
+        {
+          "id": "en_fed_7",
+          "source": "en_fed",
+          "source_name": "NPR",
+          "rank": 8,
+          "title": "Federal Reserve holds interest rates steady and hints at rate hike later this year - NPR",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3NQY1lZdW5hdzBoUUpNYm5PVGRscEtwbGU4ZjlQRVZ5Rk8xempQVzg4QS1PUFpaanVDSEc3V1NoMFZsTVB6UXZxYjBLLVNLUDdIYm50VE1FXzA2Q2t0VGhNNkNsMm1DUFFiZ2tSZzQ1TktveWF5YlRla0MyVTlvN0RxWWdidw?oc=5",
+          "content": "",
+          "publish_time": "Wed, 17 Jun 2026 18:34:51 GMT"
         }
       ]
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-22T12:16:25.224447",
+    "timestamp": "2026-06-22T13:15:59.687081",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4945\", \"0.5055\"]",
-        "volume": "4505533.528072514",
-        "liquidity": "98925.60011"
+        "volume": "4505543.578576514",
+        "liquidity": "97969.44599"
       }
     ]
   }

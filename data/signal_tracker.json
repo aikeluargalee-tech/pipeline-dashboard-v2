@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-22T04:16:31.455314+00:00",
-  "current_btc": 63867.4,
+  "timestamp": "2026-06-22T05:16:08.159804+00:00",
+  "current_btc": 63945.9,
   "total_events": 5,
   "active_events": 4,
   "tracked_signals": [
@@ -8,31 +8,31 @@
       "event_id": "EVENT_001",
       "title": "Triple Witching June 18 2026",
       "date": "2026-06-18",
-      "btc_at_event": 63867.4,
+      "btc_at_event": 63945.9,
       "btc_at_event_source": "fallback_current",
-      "current_btc": 63867.4,
+      "current_btc": 63945.9,
       "evolution": "MONITORING",
-      "reasoning": "BTC $63867 at event level $63867 \u2014 no clear deviation"
+      "reasoning": "BTC $63946 at event level $63946 \u2014 no clear deviation"
     },
     {
       "event_id": "EVENT_003",
       "title": "FOMC June 2026 Hold",
       "date": "2026-06-10 to 2026-06-11 (meeting)",
-      "btc_at_event": 63867.4,
+      "btc_at_event": 63945.9,
       "btc_at_event_source": "fallback_current",
-      "current_btc": 63867.4,
+      "current_btc": 63945.9,
       "evolution": "STRENGTHENED",
-      "reasoning": "BTC $63867 holding above event level $63867 \u2014 bullish thesis intact"
+      "reasoning": "BTC $63946 holding above event level $63946 \u2014 bullish thesis intact"
     },
     {
       "event_id": "EVENT_004",
       "title": "US-Iran MOU (Nuclear / Hormuz)",
       "date": "2026-06-17 (MOU signed)",
-      "btc_at_event": 63867.4,
+      "btc_at_event": 63945.9,
       "btc_at_event_source": "fallback_current",
-      "current_btc": 63867.4,
+      "current_btc": 63945.9,
       "evolution": "STRENGTHENED",
-      "reasoning": "BTC $63867 holding above event level $63867 \u2014 bullish thesis intact"
+      "reasoning": "BTC $63946 holding above event level $63946 \u2014 bullish thesis intact"
     },
     {
       "event_id": "EVENT_005",
@@ -40,9 +40,9 @@
       "date": "2026-06-18",
       "btc_at_event": 64000.0,
       "btc_at_event_source": "extracted",
-      "current_btc": 63867.4,
+      "current_btc": 63945.9,
       "evolution": "MONITORING",
-      "reasoning": "BTC $63867 at event level $64000 \u2014 no clear deviation"
+      "reasoning": "BTC $63946 at event level $64000 \u2014 no clear deviation"
     }
   ],
   "summary": {
