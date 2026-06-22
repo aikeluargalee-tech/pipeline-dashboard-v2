@@ -718,10 +718,10 @@ function renderStructural(d, v7, gate) {
     const bm = below.nearest_magnet || {};
 
     if (am.price) {
-      mhtml += `<div class="magnet-bar above"><span class="price" style="color:var(--green)">⬆ $${Number(am.price).toLocaleString()}</span><span class="bar"></span><span class="pct">${am.distance_pct > 0 ? '+' : ''}${am.distance_pct || '?'}%</span></div>`;
+      mhtml += `<div class="magnet-bar above"><span class="price" style="color:var(--green)">⬆ $${esc(Number(am.price).toLocaleString())}</span><span class="bar"></span><span class="pct">${esc(am.distance_pct > 0 ? '+' : '')}${esc(String(am.distance_pct || '?'))}%</span></div>`;
     }
     if (bm.price) {
-      mhtml += `<div class="magnet-bar below"><span class="price" style="color:var(--red)">⬇ $${Number(bm.price).toLocaleString()}</span><span class="bar"></span><span class="pct">${bm.distance_pct || '?'}%</span></div>`;
+      mhtml += `<div class="magnet-bar below"><span class="price" style="color:var(--red)">⬇ $${esc(Number(bm.price).toLocaleString())}</span><span class="bar"></span><span class="pct">${esc(String(bm.distance_pct || '?'))}%</span></div>`;
     }
 
     // Cluster details

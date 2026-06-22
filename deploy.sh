@@ -86,9 +86,9 @@ run_pipeline "polymarket"    "$SITE/scripts/producers/markets.py"
 run_pipeline "market_data"   "$SITE/scripts/fetch_market_data.py"
 run_pipeline "btc_dist"      "$SITE/scripts/fetch_btc_distribution.py"
 run_pipeline "skew"          "$SITE/scripts/fetch_skew.py"
-run_pipeline "cot"           "/usr/bin/python3 $SITE/scripts/fetch_cot.py"
-run_pipeline "options_full"  "/usr/bin/python3 $SITE/scripts/fetch_options_full.py"
-run_pipeline "gamma"         "python3 $SITE/scripts/fetch_gamma.py"
+run_pipeline "cot"           "$PYTHON $SITE/scripts/fetch_cot.py"
+run_pipeline "options_full"  "$PYTHON $SITE/scripts/fetch_options_full.py"
+run_pipeline "gamma"         "$PYTHON $SITE/scripts/fetch_gamma.py"
 run_pipeline "etf_flow"      "$SITE/scripts/fetch_etf_flow.py"
 run_pipeline "gate0"         "$SITE/scripts/fetch_gate0.py"
 run_pipeline "sr_bands"      "$SITE/scripts/fetch_sr_bands.py"
@@ -136,7 +136,10 @@ fi
 
 # ─── 6. Stage + commit + push ───
 echo "── Checking for changes ──"
-git add data/*.json data/run_status.json assets/v7_long.png assets/v7_short.png assets/styles.css assets/nav.js assets/favicon.png assets/logo.png assets/social-card.png index.html dashboard/index.html methodology/index.html glossary/index.html about/index.html faq/index.html contact/index.html research/ compare/ privacy/index.html terms/index.html verdicts/ track-record/ docs/ events-and-disruptions/ sitemap.xml robots.txt manifest.json scripts/ 2>/dev/null || true
+git add data/*.json data/run_status.json assets/v7_long.png assets/v7_short.png assets/styles.css assets/nav.js assets/favicon.png assets/logo.png assets/social-card.png index.html dashboard/index.html methodology/index.html glossary/index.html about/index.html faq/index.html contact/index.html research/ compare/ privacy/index.html terms/index.html verdicts/ track-record/ docs/ events-and-disruptions/ sitemap.xml robots.txt manifest.json scripts/ 2>/dev/null
+if [ $? -ne 0 ]; then
+    echo "⚠ git add had errors — some files may not exist yet (OK for first deploy)"
+fi
 if git diff --cached --quiet; then
     echo "ℹ️  No data changes — skipping deploy"
     exit 0
@@ -158,7 +161,7 @@ echo "✅ Deployed to GitHub Pages"
 # ─── 7. Crash alert delivery ───
 ALERT_LOG="/tmp/pipeline_alerts.log"
 if [ -f "$ALERT_LOG" ]; then
-    NEW_ALERTS=$(grep "CRASH_ALERT:" "$ALERT_LOG" | tail -1 || true)
+    NEW_ALERTS=$(grep "CRASH_ALERT:" "$ALERT_LOG" || true)
     if [ -n "$NEW_ALERTS" ]; then
         echo "$NEW_ALERTS" > /tmp/btc_pipeline_crash_alert.txt
     fi
