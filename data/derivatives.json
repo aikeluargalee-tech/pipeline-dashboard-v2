@@ -1,9 +1,9 @@
 {
-  "funding_rate": 3.415e-05,
+  "funding_rate": 3.072e-05,
   "next_funding_time": 1782115200000,
-  "mark_price": 63878.8,
-  "open_interest_btc": 99922.859,
-  "open_interest_usd": 6382952325.4892,
+  "mark_price": 63949.7,
+  "open_interest_btc": 99960.138,
+  "open_interest_usd": 6392420837.0586,
   "oi_history": [
     {
       "btc": 98494.9,
@@ -136,5 +136,5 @@
   "cvd_trend": "strengthening",
   "coinbase_premium": -0.119,
   "cb_label": "US demand soft",
-  "_collected": "2026-06-22 04:02 UTC"
+  "_collected": "2026-06-22 04:16 UTC"
 }

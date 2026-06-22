@@ -12,15 +12,15 @@
   "three_candle": {
     "pattern": "\u2014",
     "direction": "\u2014",
-    "price": 64014.1,
-    "confidence": 57,
+    "price": 63952.5,
+    "confidence": 48,
     "description": ""
   },
   "rsi_reversal": {
     "signal": "neutral",
-    "rsi": 53.3,
+    "rsi": 53.5,
     "action": "No reversal signal",
-    "price": 63926.04
+    "price": 63987.14
   },
-  "_collected": "2026-06-22 04:02 UTC"
+  "_collected": "2026-06-22 04:16 UTC"
 }

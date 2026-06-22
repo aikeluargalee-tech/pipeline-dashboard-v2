@@ -1,4 +1,8 @@
 {
+  "dxy": 100.92,
+  "us_10y_yield": 4.45,
+  "m2_supply": 22804.5,
+  "regime": "mixed",
   "risk_assets": {
     "SPY": {
       "price": 746.74,
@@ -20,6 +24,12 @@
     "trend": "mild_outflow"
   },
   "news": [
+    {
+      "title": "Secret Network bridge exploited for $4.7M with \u2018infinite mint\u2019 bug",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Mon, 22 Jun 2026 03:49:49 GMT"
+    },
     {
       "title": "Bitcoin tipped for $66K top as trader flags 'suspicious' BTC price gains",
       "source": "CoinTelegraph",
@@ -43,14 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss",
       "published": "Sun, 21 Jun 2026 10:15:57 GMT"
-    },
-    {
-      "title": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Sun, 21 Jun 2026 08:54:41 GMT"
     }
   ],
-  "regime": "mixed",
-  "_collected": "2026-06-22 04:02 UTC"
+  "_collected": "2026-06-22 04:16 UTC"
 }
