@@ -365,6 +365,57 @@
         "30d": null
       },
       "resolved": false
+    },
+    {
+      "id": "regime_d7de6a0d",
+      "type": "regime_change",
+      "created_at": "2026-06-22T03:36:26.964725+00:00",
+      "btc_price_at_call": 64257.14,
+      "direction": "neutral",
+      "gate0_status": "TIGHTENED",
+      "regime_label": "CAUTIOUS NEUTRAL",
+      "rationale_snapshot": {
+        "gate": {
+          "verdict": "TIGHTENED",
+          "sources": [
+            "ai3_wave"
+          ]
+        },
+        "macro": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "VIX 16.4 normal"
+        },
+        "structure": {
+          "verdict": "HOLDING",
+          "emoji": "\ud83d\udfe1",
+          "detail": "3/3 timeframes active"
+        },
+        "derivatives": {
+          "verdict": "NEUTRAL",
+          "emoji": "\ud83d\udfe1",
+          "detail": "FR 0.0041% neutral, L/S 1.56, CVD +2143"
+        },
+        "cycle": {
+          "verdict": "MID",
+          "emoji": "\ud83d\udfe1",
+          "detail": "netflow -11,258 BTC"
+        },
+        "synthesis": {
+          "verdict": "CAUTIOUS NEUTRAL",
+          "detail": "Tightened rules active. 0.0 bullish / 0.0 bearish signals. | TA: Price 10.6% below MA50 \u2014 medium-term structure bearish",
+          "bull_count": 0.0,
+          "bear_count": 0.0,
+          "ta_warning": "Price 10.6% below MA50 \u2014 medium-term structure bearish"
+        },
+        "btc_price": 64257.14
+      },
+      "outcomes": {
+        "1d": null,
+        "7d": null,
+        "30d": null
+      },
+      "resolved": false
     }
   ]
 }

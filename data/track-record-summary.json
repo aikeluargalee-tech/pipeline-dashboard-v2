@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T14:15:50.383788+00:00",
+  "last_updated": "2026-06-22T03:37:01.090588+00:00",
   "signals": {
     "all_time": {
       "total": 2,
@@ -16,7 +16,7 @@
     }
   },
   "regime_changes": {
-    "total_calls": 5,
+    "total_calls": 6,
     "accuracy": {
       "1d": {
         "hit_rate": 1.0,

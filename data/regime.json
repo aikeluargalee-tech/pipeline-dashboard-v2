@@ -12,26 +12,26 @@
     "detail": "VIX 16.4 normal"
   },
   "structure": {
-    "verdict": "Upside Squeeze",
-    "emoji": "\ud83d\udfe2",
-    "detail": "3/3 timeframes active, sandwich $3000.0"
+    "verdict": "HOLDING",
+    "emoji": "\ud83d\udfe1",
+    "detail": "3/3 timeframes active"
   },
   "derivatives": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "FR 0.0044% neutral, L/S 1.59, CVD +579"
+    "detail": "FR 0.0041% neutral, L/S 1.56, CVD +2143"
   },
   "cycle": {
-    "verdict": "UNDERVALUED",
-    "emoji": "\ud83d\udfe2",
-    "detail": "MVRV-Z 0.35 undervalued, netflow -1,083 BTC"
+    "verdict": "MID",
+    "emoji": "\ud83d\udfe1",
+    "detail": "netflow -11,258 BTC"
   },
   "synthesis": {
-    "verdict": "CAUTIOUS BULL",
-    "detail": "Tightened rules active. 1.5 bullish / 0.0 bearish signals. | TA: Price 11.2% below MA50 \u2014 medium-term structure bearish",
-    "bull_count": 1.5,
+    "verdict": "CAUTIOUS NEUTRAL",
+    "detail": "Tightened rules active. 0.0 bullish / 0.0 bearish signals. | TA: Price 10.6% below MA50 \u2014 medium-term structure bearish",
+    "bull_count": 0.0,
     "bear_count": 0.0,
-    "ta_warning": "Price 11.2% below MA50 \u2014 medium-term structure bearish"
+    "ta_warning": "Price 10.6% below MA50 \u2014 medium-term structure bearish"
   },
-  "_collected": "2026-06-21 14:15 UTC"
+  "_collected": "2026-06-22 03:37 UTC"
 }

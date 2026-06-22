@@ -1,8 +1,4 @@
 {
-  "dxy": null,
-  "us_10y_yield": 4.45,
-  "m2_supply": 22804.5,
-  "regime": "mixed",
   "risk_assets": {
     "SPY": {
       "price": 746.74,
@@ -25,6 +21,18 @@
   },
   "news": [
     {
+      "title": "Bitcoin tipped for $66K top as trader flags 'suspicious' BTC price gains",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-66k-top-as-trader-flags-suspicious-btc-price-gains?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Sun, 21 Jun 2026 14:50:55 GMT"
+    },
+    {
+      "title": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Sun, 21 Jun 2026 14:21:06 GMT"
+    },
+    {
       "title": "Dash eyes Philippines as market for crypto payments",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss",
@@ -41,19 +49,8 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss",
       "published": "Sun, 21 Jun 2026 08:54:41 GMT"
-    },
-    {
-      "title": "Here\u2019s what happened in crypto today",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Sun, 21 Jun 2026 04:36:29 GMT"
-    },
-    {
-      "title": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Sun, 21 Jun 2026 04:30:00 GMT"
     }
   ],
-  "_collected": "2026-06-21 14:15 UTC"
+  "regime": "mixed",
+  "_collected": "2026-06-22 03:37 UTC"
 }
