@@ -890,6 +890,47 @@ def collect_macro():
             etf_trend,
         )
 
+    # ── Fallback: fetch risk assets directly from Yahoo when /tmp files are missing ──
+    if not result.get("risk_assets") or len(result.get("risk_assets", {})) == 0:
+        fallback_assets = {}
+        for ticker in ["SPY", "QQQ", "GLD"]:
+            yahoo = fetch_yahoo_price(ticker)
+            if yahoo.get("price"):
+                fallback_assets[ticker] = yahoo
+        if fallback_assets:
+            result["risk_assets"] = fallback_assets
+            log.info("Risk assets fallback (Yahoo direct): %s", list(fallback_assets.keys()))
+
+    # ── Fallback: fetch VIX directly from Yahoo when /tmp files are missing ──
+    if result.get("vix") is None:
+        try:
+            vix_url = "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?interval=1d&range=1d"
+            req = urllib.request.Request(vix_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                vix_chart = json.loads(resp.read())
+            vix_meta = vix_chart["chart"]["result"][0].get("meta", {})
+            vix_price = vix_meta.get("regularMarketPrice")
+            if vix_price is not None:
+                result["vix"] = vix_price
+                log.info("VIX fallback (Yahoo direct): %s", vix_price)
+        except Exception:
+            pass
+
+    # ── Fallback: fetch DXY, yields, M2 directly from FRED when /tmp files are missing ──
+    if result.get("dxy") is None:
+        try:
+            # DXY from Yahoo (DX-Y.NYB)
+            dxy_url = "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?interval=1d&range=1d"
+            req = urllib.request.Request(dxy_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                dxy_data = json.loads(resp.read())
+            dxy_price = dxy_data["chart"]["result"][0]["meta"].get("regularMarketPrice")
+            if dxy_price is not None:
+                result["dxy"] = dxy_price
+                log.info("DXY fallback (Yahoo direct): %s", dxy_price)
+        except Exception:
+            pass
+
     return result
 
 
