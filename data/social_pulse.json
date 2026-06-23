@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-23T07:15:54.815273+00:00",
+  "timestamp": "2026-06-23T08:18:46.059083+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -9,7 +9,7 @@
         "id": "1ucg5cb",
         "title": "Bitcoin Custom Power Law",
         "author": "Zealousideal-Deer882",
-        "score": 170,
+        "score": 178,
         "num_comments": 56,
         "url": "https://i.redd.it/d0w4397r2t8h1.png",
         "selftext": "​Just made a interactive tool for Bitcoin Power Law model with custom power. \n\n&#x200B;\n\nhttps://custompowerlaw.com/\n\n&#x200B;\n\n​Please have a look and let me know what you think. Thanks! \n\n&#x200B;\n\n",
@@ -19,8 +19,8 @@
         "id": "1ucpsjr",
         "title": "I was one of the ~300 people who helped recover a 12-year-old Bitcoin wallet",
         "author": "GrapefruitCool2078",
-        "score": 103,
-        "num_comments": 38,
+        "score": 112,
+        "num_comments": 40,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ucpsjr/i_was_one_of_the_300_people_who_helped_recover_a/",
         "selftext": "Earlier this month I participated in a public Bitcoin wallet recovery challenge involving a wallet that had been untouched for around 12 years.\n\nWhat I found most interesting was that the challenge wa",
         "created_utc": 1782146534.0
@@ -29,7 +29,7 @@
         "id": "1ucrtoc",
         "title": "BlackRock, Fidelity, and now Franklin Templeton. Wall Street stopped fighting Bitcoin and just bought it.",
         "author": "MoneyMonsterStudios",
-        "score": 70,
+        "score": 72,
         "num_comments": 26,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ucrtoc/blackrock_fidelity_and_now_franklin_templeton/",
         "selftext": "In 2017, 2020, and 2023, institutions were supposedly coming.\n\nThen BlackRock and Fidelity launched a Bitcoin ETF.\n\nNow Franklin Templeton is launching a dedicated crypto investment division backed by",
@@ -66,6 +66,16 @@
         "created_utc": 1782143450.0
       },
       {
+        "id": "1ud3f66",
+        "title": "How do i get anonymous bitcoin on my bank account?",
+        "author": "Ok_Tailor6150",
+        "score": 0,
+        "num_comments": 12,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ud3f66/how_do_i_get_anonymous_bitcoin_on_my_bank_account/",
+        "selftext": "Edit:   \nYes i know this is the second time i posted this today, but i just thought maybe posting in earlier day time and later i would get more replies, Also i live in germany which i forgot to say\n\n",
+        "created_utc": 1782178345.0
+      },
+      {
         "id": "1ucw17x",
         "title": "How do i cash out anonymous bitcoin?",
         "author": "Ok_Tailor6150",
@@ -74,16 +84,6 @@
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ucw17x/how_do_i_cash_out_anonymous_bitcoin/",
         "selftext": "Lets say i made a 7 digit amount selling some thing on the internet, got paid in bitcoin but i want all my bitcoin as fast as possible into usable money,\n\nive read some things about transferring them ",
         "created_utc": 1782160184.0
-      },
-      {
-        "id": "1ud3f66",
-        "title": "How do i get anonymous bitcoin on my bank account?",
-        "author": "Ok_Tailor6150",
-        "score": 0,
-        "num_comments": 11,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ud3f66/how_do_i_get_anonymous_bitcoin_on_my_bank_account/",
-        "selftext": "Edit:   \nYes i know this is the second time i posted this today, but i just thought maybe posting in earlier day time and later i would get more replies, Also i live in germany which i forgot to say\n\n",
-        "created_utc": 1782178345.0
       }
     ]
   },
