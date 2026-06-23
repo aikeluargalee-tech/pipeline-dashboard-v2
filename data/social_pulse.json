@@ -1,154 +1,98 @@
 {
-  "timestamp": "2026-06-22T10:21:31.873325+00:00",
+  "timestamp": "2026-06-23T02:16:08.161633+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
     "count": 8,
     "items": [
       {
-        "id": "1ubsvdp",
-        "title": "Franklin Templeton Files For Two ETFs That Reinvest Stock Dividends Into Bitcoin",
-        "author": "TheresNoSecondBest",
-        "score": 211,
+        "id": "1ucg5cb",
+        "title": "Bitcoin Custom Power Law",
+        "author": "Zealousideal-Deer882",
+        "score": 138,
+        "num_comments": 47,
+        "url": "https://i.redd.it/d0w4397r2t8h1.png",
+        "selftext": "​Just made a interactive tool for Bitcoin Power Law model with custom power. \n\n&#x200B;\n\nhttps://custompowerlaw.com/\n\n&#x200B;\n\n​Please have a look and let me know what you think. Thanks! \n\n&#x200B;\n\n",
+        "created_utc": 1782121692.0
+      },
+      {
+        "id": "1ucpsjr",
+        "title": "I was one of the ~300 people who helped recover a 12-year-old Bitcoin wallet",
+        "author": "GrapefruitCool2078",
+        "score": 81,
+        "num_comments": 33,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ucpsjr/i_was_one_of_the_300_people_who_helped_recover_a/",
+        "selftext": "Earlier this month I participated in a public Bitcoin wallet recovery challenge involving a wallet that had been untouched for around 12 years.\n\nWhat I found most interesting was that the challenge wa",
+        "created_utc": 1782146534.0
+      },
+      {
+        "id": "1ucrtoc",
+        "title": "BlackRock, Fidelity, and now Franklin Templeton. Wall Street stopped fighting Bitcoin and just bought it.",
+        "author": "MoneyMonsterStudios",
+        "score": 54,
         "num_comments": 24,
-        "url": "https://bitcoinmagazine.com/news/franklin-templeton-files-two-etfs-bitcoin",
-        "selftext": "",
-        "created_utc": 1782055623.0
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ucrtoc/blackrock_fidelity_and_now_franklin_templeton/",
+        "selftext": "In 2017, 2020, and 2023, institutions were supposedly coming.\n\nThen BlackRock and Fidelity launched a Bitcoin ETF.\n\nNow Franklin Templeton is launching a dedicated crypto investment division backed by",
+        "created_utc": 1782150998.0
       },
       {
-        "id": "1ubs5ed",
-        "title": "What if Bitcoin just did this?",
-        "author": "Financial-Nature5745",
+        "id": "1ud1jwz",
+        "title": "Is Bitcoin likely to go lower?",
+        "author": "Abstractconjecture",
         "score": 0,
-        "num_comments": 52,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ubs5ed/what_if_bitcoin_just_did_this/",
-        "selftext": "https://preview.redd.it/gznvij6qgn8h1.jpg?width=964&format=pjpg&auto=webp&s=c8a849d26bd69dcc45fe61249105c916a917c868\n\nToo much hopium...or possible?",
-        "created_utc": 1782053845.0
-      },
-      {
-        "id": "1ubzyo5",
-        "title": "Bitcoin philosophy not valid anymore!?",
-        "author": "Philip_Walker_1611",
-        "score": 24,
-        "num_comments": 43,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ubzyo5/bitcoin_philosophy_not_valid_anymore/",
-        "selftext": "I got into bitcoin because of its philosophy tha empowered people against governments. It allows people to genuinely have a piece of the Bitcoin that they could leverage at some point financially or i",
-        "created_utc": 1782072756.0
-      },
-      {
-        "id": "1uccz8y",
-        "title": "Plans to buy more Bitcoin",
-        "author": "Upstairs-Ant-3917",
-        "score": 7,
-        "num_comments": 30,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1uccz8y/plans_to_buy_more_bitcoin/",
-        "selftext": "Currently, I have about 0.35 Bitcoin. Goal: accumulate at least 4 by the time 2030 rolls around. \n\nWhy? Because I think that's the next peak. This is just my non-scientific opinion based on previous p",
-        "created_utc": 1782110189.0
+        "num_comments": 21,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ud1jwz/is_bitcoin_likely_to_go_lower/",
+        "selftext": "Unfortunately, I'm fairly new to crypto. Wish I got into it earlier but looking at cycles and from my research I expected it to be at it's lowest late Sept -early Oct. \n\nSecond guessing myself as it s",
+        "created_utc": 1782173322.0
       },
       {
         "id": "1uc8wfs",
         "title": "Elon Musk’s Bitcoin",
         "author": "sparrowjuice",
         "score": 0,
-        "num_comments": 16,
+        "num_comments": 21,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uc8wfs/elon_musks_bitcoin/",
         "selftext": "Buying Bitcoin now is a no-brainer.  \n\nIt is well known that Elon has long had an interest in btc. \n\nAnyone in his current situation would be foolish not to borrow against his massive holdings and loc",
         "created_utc": 1782097050.0
       },
       {
-        "id": "1ubvhbf",
-        "title": "Best resources to learn Crypto / Bitcoin from scratch? (A to Z guide)",
-        "author": "darshil753",
-        "score": 4,
-        "num_comments": 9,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ubvhbf/best_resources_to_learn_crypto_bitcoin_from/",
-        "selftext": "I want to dive deep into crypto and Bitcoin, but honestly, the sheer amount of info out there is pretty overwhelming. Most of the stuff I run into online feels either way too technical to understand o",
-        "created_utc": 1782061951.0
-      },
-      {
-        "id": "1ubo5hs",
-        "title": "I designed a glitch-art Bitcoin Phone case, what do you think?",
-        "author": "Miniglitch-Art",
+        "id": "1ucy2o6",
+        "title": "Bitcoin saved my life financially",
+        "author": "chaz_debagg",
         "score": 0,
-        "num_comments": 9,
-        "url": "https://i.redd.it/nsxmzes7km8h1.jpeg",
-        "selftext": "Hey everyone,\n\nI’m a huge Bitcoin enthusiast and also love digital art. I wanted a phone case that represents the chaotic yet beautiful nature of BTC, so I created this glitch-art concept with a clean",
-        "created_utc": 1782042815.0
+        "num_comments": 16,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ucy2o6/bitcoin_saved_my_life_financially/",
+        "selftext": "We were gonna have to sell our house if I didn’t invest in bitcoin and then learn about getting a loan on my bitcoin and using that money to buy cash flow with to then continue to buy more bitcoin and",
+        "created_utc": 1782164793.0
       },
       {
         "id": "1ucbp5q",
         "title": "Crazy idea - Real estate vs bitcoin",
         "author": "ScrotusAmongus",
-        "score": 7,
-        "num_comments": 7,
+        "score": 12,
+        "num_comments": 13,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ucbp5q/crazy_idea_real_estate_vs_bitcoin/",
         "selftext": "I recently sold a home needing a ton of repairs with a non working HVAC and many other things needed. I technically could have found people on Craigslist to pay for space but it'd be one person in the",
         "created_utc": 1782105768.0
+      },
+      {
+        "id": "1ucoctg",
+        "title": "If you were to take out a loan against your bitcoin bought in a four year cycle low bear market during that cycles ATH with a high LTV & then let it be liquidated, wouldn’t that be better than selling that amount because of taxes?",
+        "author": "YouMustDoWhatIsRight",
+        "score": 0,
+        "num_comments": 13,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ucoctg/if_you_were_to_take_out_a_loan_against_your/",
+        "selftext": "Was wondering if you were to buy as an example 10k worth of BTC this cycle at or near the bottom 65-45k and then wait until this cycles ATH to take out a loan at a high LTV ratio & let it get liquidat",
+        "created_utc": 1782143450.0
       }
     ]
   },
   "twitter": {
-    "status": "ok",
+    "status": "error",
     "source": "Twitter/X",
-    "count": 8,
-    "items": [
-      {
-        "id": "2069002820725145838",
-        "text": "Reading the Bullish Divergence Under Bitcoin\n\n💡 How do you position yourself before the next crypto surge? \n\nBook a FREE call with our expert team today and get ahead of the curve: \nhttps://t.co/C2fx5",
-        "user": "CCI_Crypto",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069002781147734096",
-        "text": "selling this 36k followers instagram account.\n\nt. #zonauang #zonaba #ratszone #ratzone #bnb #bitcoin #nfts https://t.co/sdbsOjScIS",
-        "user": "sjus3lls",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069002741997851125",
-        "text": "@RobinSeyr @Daniel21e15 @MicroSeed_io BITCOIN GIVES YOU ALLODIAL TITLE. https://t.co/4OgJuBXE8K",
-        "user": "realMrBit",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069002736306196898",
-        "text": "@kokiimichii Haha 🤣 Bitcoin 2010 caught me off guard 🤣😅.",
-        "user": "MwangiEcon",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069002719352717754",
-        "text": "❗️@GoMining Takes On Dorsey's @Square With Native $BTC Payments\n\nGoMining opened its #GoBTC Pay protocol to merchants with a Gen1 SDK and API — putting it in direct competition with Block's Square in ",
-        "user": "CryptoDiffer",
-        "likes": 1,
-        "retweets": 0
-      },
-      {
-        "id": "2069002716672676318",
-        "text": "Spot bitcoin ETFs log sixth consecutive week of net outflows; analyst says selling wave is exhausting itself https://t.co/LXCJLojuXA",
-        "user": "TheBlockCo",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069002682426065085",
-        "text": "My girlfriend caught me smiling at my phone at 3AM and asked what was so funny.\n\nI got laid off last week. Rent’s due in four days. No backup plan, nothing.\n\nThen I came across this 33-year-old guy wh",
-        "user": "astrowealth_ai",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069002671915221155",
-        "text": "Bitcoin is back in its sweetest buying zone.\n\n2019: $BTC surged 1,960%\n2022: $BTC surged 675%\n\n2026 is showing the exact same pattern.\n\nThe market is handing out another opportunity. https://t.co/TmH8",
-        "user": "shou07055131",
-        "likes": 0,
-        "retweets": 0
-      }
-    ]
+    "count": 0,
+    "items": [],
+    "error": "exit=1: WARNING twitter_cli.client: Failed to init ClientTransaction: 'NoneType' object has no attribute 'group'\n"
   },
   "xueqiu": {
     "status": "not_installed",

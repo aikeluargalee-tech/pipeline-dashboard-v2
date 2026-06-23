@@ -3,13 +3,8 @@
   "max": 17,
   "status": "NORMAL",
   "factors": {
-    "fng": "\u2705 Normal",
-    "vix": "\u2705 Normal",
     "stablecoin": "\u2705 Healthy",
-    "dxy": "\u2705 Normal",
-    "yield": "\u2705 Normal",
-    "whale": "\u2705 Balanced",
     "crash": "\u2705 Normal"
   },
-  "_collected": "2026-06-22 10:21 UTC"
+  "_collected": "2026-06-23 02:16 UTC"
 }
