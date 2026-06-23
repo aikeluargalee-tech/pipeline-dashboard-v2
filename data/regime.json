@@ -12,9 +12,9 @@
     "detail": ""
   },
   "structure": {
-    "verdict": "HOLDING",
-    "emoji": "\ud83d\udfe1",
-    "detail": "3/3 timeframes active"
+    "verdict": "Downside Sweep",
+    "emoji": "\ud83d\udd34",
+    "detail": "3/3 timeframes active, sandwich $1000.0"
   },
   "derivatives": {
     "verdict": "NEUTRAL",
@@ -27,11 +27,11 @@
     "detail": ""
   },
   "synthesis": {
-    "verdict": "CAUTIOUS NEUTRAL",
-    "detail": "Tightened rules active. 0 bullish / 0 bearish signals. | TA: Price 11.0% below MA50 \u2014 medium-term structure bearish",
+    "verdict": "CAUTIOUS BEAR",
+    "detail": "Tightened rules active. 1 bearish / 0 bullish signals. | TA: Price 11.4% below MA50 \u2014 medium-term structure bearish",
     "bull_count": 0.0,
-    "bear_count": 0.0,
-    "ta_warning": "Price 11.0% below MA50 \u2014 medium-term structure bearish"
+    "bear_count": 1.0,
+    "ta_warning": "Price 11.4% below MA50 \u2014 medium-term structure bearish"
   },
-  "_collected": "2026-06-23 05:16 UTC"
+  "_collected": "2026-06-23 05:50 UTC"
 }
