@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-23T05:49:59.562019+00:00",
+  "timestamp": "2026-06-23T06:15:35.019444+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -9,8 +9,8 @@
         "id": "1ucg5cb",
         "title": "Bitcoin Custom Power Law",
         "author": "Zealousideal-Deer882",
-        "score": 168,
-        "num_comments": 52,
+        "score": 170,
+        "num_comments": 53,
         "url": "https://i.redd.it/d0w4397r2t8h1.png",
         "selftext": "​Just made a interactive tool for Bitcoin Power Law model with custom power. \n\n&#x200B;\n\nhttps://custompowerlaw.com/\n\n&#x200B;\n\n​Please have a look and let me know what you think. Thanks! \n\n&#x200B;\n\n",
         "created_utc": 1782121692.0
@@ -19,7 +19,7 @@
         "id": "1ucpsjr",
         "title": "I was one of the ~300 people who helped recover a 12-year-old Bitcoin wallet",
         "author": "GrapefruitCool2078",
-        "score": 98,
+        "score": 103,
         "num_comments": 36,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ucpsjr/i_was_one_of_the_300_people_who_helped_recover_a/",
         "selftext": "Earlier this month I participated in a public Bitcoin wallet recovery challenge involving a wallet that had been untouched for around 12 years.\n\nWhat I found most interesting was that the challenge wa",
@@ -44,16 +44,6 @@
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ud1jwz/is_bitcoin_likely_to_go_lower/",
         "selftext": "Unfortunately, I'm fairly new to crypto. Wish I got into it earlier but looking at cycles and from my research I expected it to be at it's lowest late Sept -early Oct. \n\nSecond guessing myself as it s",
         "created_utc": 1782173322.0
-      },
-      {
-        "id": "1ucbp5q",
-        "title": "Crazy idea - Real estate vs bitcoin",
-        "author": "ScrotusAmongus",
-        "score": 13,
-        "num_comments": 17,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ucbp5q/crazy_idea_real_estate_vs_bitcoin/",
-        "selftext": "I recently sold a home needing a ton of repairs with a non working HVAC and many other things needed. I technically could have found people on Craigslist to pay for space but it'd be one person in the",
-        "created_utc": 1782105768.0
       },
       {
         "id": "1ucy2o6",
@@ -84,6 +74,16 @@
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ucw17x/how_do_i_cash_out_anonymous_bitcoin/",
         "selftext": "Lets say i made a 7 digit amount selling some thing on the internet, got paid in bitcoin but i want all my bitcoin as fast as possible into usable money,\n\nive read some things about transferring them ",
         "created_utc": 1782160184.0
+      },
+      {
+        "id": "1ud3f66",
+        "title": "How do i get anonymous bitcoin on my bank account?",
+        "author": "Ok_Tailor6150",
+        "score": 0,
+        "num_comments": 11,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ud3f66/how_do_i_get_anonymous_bitcoin_on_my_bank_account/",
+        "selftext": "Edit:   \nYes i know this is the second time i posted this today, but i just thought maybe posting in earlier day time and later i would get more replies, Also i live in germany which i forgot to say\n\n",
+        "created_utc": 1782178345.0
       }
     ]
   },
