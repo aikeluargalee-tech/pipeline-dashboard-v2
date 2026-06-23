@@ -92,8 +92,9 @@
       <span class="regime-verdict" id="home-verdict">CAUTIOUS BEAR</span>
     </div>
     <div class="home-verdict-price" id="home-verdict-price">$--</div>
-    <div class="home-verdict-summary" id="home-verdict-summary">Loading market analysis...</div>
-    <div class="home-verdict-factors" id="home-verdict-factors"></div>
+    <ul class="home-verdict-bullets" id="home-verdict-bullets">
+      <li>Loading market analysis...</li>
+    </ul>
     <div style="margin-top:16px">
       <a href="dashboard/" class="home-preview-link">View Full Dashboard →</a>
     </div>
@@ -282,8 +283,7 @@ async function loadVerdict() {
     const iconEl = document.getElementById('home-verdict-icon');
     const badgeEl = document.getElementById('home-verdict-badge');
     const priceEl = document.getElementById('home-verdict-price');
-    const summaryEl = document.getElementById('home-verdict-summary');
-    const factorsEl = document.getElementById('home-verdict-factors');
+    const bulletsEl = document.getElementById('home-verdict-bullets');
 
     // Set color and icon based on verdict
     let color = 'var(--yellow)';
@@ -313,27 +313,26 @@ async function loadVerdict() {
     el.style.color = color;
     iconEl.textContent = icon;
     iconEl.style.color = color;
-    summaryEl.textContent = summary;
 
     // Fetch BTC price
     const pr = await fetch('data/btc_price.json?t=' + Date.now());
+    let btcPrice = '';
     if (pr.ok) {
       const pdata = await pr.json();
       if (pdata.price) {
-        priceEl.textContent = '$' + pdata.price.toLocaleString(undefined, {maximumFractionDigits: 0});
+        btcPrice = '$' + pdata.price.toLocaleString(undefined, {maximumFractionDigits: 0});
+        priceEl.textContent = btcPrice;
       }
     }
 
-    // Build factors list
-    let factors = [];
-    if (bearCount > 0) factors.push(bearCount + ' bearish signal' + (bearCount > 1 ? 's' : ''));
-    if (bullCount > 0) factors.push(bullCount + ' bullish signal' + (bullCount > 1 ? 's' : ''));
-    if (taWarning) factors.push('Technical: ' + taWarning);
+    // Build bullet points
+    let bullets = [];
+    bullets.push(summary);
+    if (bearCount > 0) bullets.push(bearCount + ' bearish signal' + (bearCount > 1 ? 's' : '') + ' detected');
+    if (bullCount > 0) bullets.push(bullCount + ' bullish signal' + (bullCount > 1 ? 's' : '') + ' detected');
+    if (taWarning) bullets.push(taWarning);
     
-    if (factors.length > 0) {
-      factorsEl.innerHTML = '<div class="home-verdict-factors-title">Key Factors:</div>' + 
-        factors.map(f => '<div class="home-verdict-factor">• ' + f + '</div>').join('');
-    }
+    bulletsEl.innerHTML = bullets.map(b => '<li>' + b + '</li>').join('');
 
     // Fetch track record summary stats
     const tr = await fetch('data/track-record-summary.json?t=' + Date.now());
@@ -359,7 +358,7 @@ async function loadVerdict() {
     }
   } catch(e) {
     document.getElementById('home-verdict').textContent = 'UNAVAILABLE';
-    document.getElementById('home-verdict-summary').textContent = 'Dashboard data loading — visit the live dashboard for full analysis.';
+    document.getElementById('home-verdict-bullets').innerHTML = '<li>Dashboard data loading — visit the live dashboard for full analysis.</li>';
   }
 }
 loadVerdict();
