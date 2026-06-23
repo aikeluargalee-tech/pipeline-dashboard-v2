@@ -84,27 +84,27 @@
 </section>
 
 <!-- Live Verdict & Calibration Preview -->
-<section class="home-preview-grid" style="max-width:900px;margin:0 auto;padding:0 24px 40px;display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));gap:20px">
-  <div id="live-verdict-card" class="regime-summary" style="padding:24px;margin:0;backdrop-filter:blur(18px)">
+<section class="home-preview-grid">
+  <div id="live-verdict-card" class="regime-summary home-preview-card">
     <div class="regime-title">⚡ CURRENT MARKET VERDICT</div>
-    <div class="regime-verdict" id="home-verdict" style="font-size:2rem;margin:12px 0">CAUTIOUS BULL</div>
-    <div class="regime-detail" id="home-verdict-detail" style="font-size:0.85em;line-height:1.5">Loading latest synthesis verdict...</div>
+    <div class="regime-verdict" id="home-verdict">CAUTIOUS BULL</div>
+    <div class="regime-detail" id="home-verdict-detail">Loading latest synthesis verdict...</div>
     <div style="margin-top:16px">
-      <a href="dashboard/" style="font-size:0.82em;color:var(--cyan);text-decoration:none;font-weight:600">See full breakdown →</a>
+      <a href="dashboard/" class="home-preview-link">See full breakdown →</a>
     </div>
   </div>
   
-  <div class="regime-summary" style="padding:24px;margin:0;border:1px dashed rgba(34,211,238,0.2);backdrop-filter:blur(18px);display:flex;flex-direction:column;justify-content:space-between">
+  <div class="regime-summary home-preview-card home-preview-perf">
     <div>
       <div class="regime-title" style="color:var(--green)">📊 VERIFIED PERFORMANCE (LIVE)</div>
-      <div style="display:flex;gap:20px;margin:16px 0">
+      <div class="home-preview-stats">
         <div>
-          <div style="font-size:0.75em;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em">7D Regime Accuracy</div>
-          <div style="font-family:'JetBrains Mono',monospace;font-size:1.8rem;font-weight:700;color:var(--text);margin-top:4px" id="track-regime-7d">-</div>
+          <div class="home-preview-stat-label">7D Regime Accuracy</div>
+          <div class="home-preview-stat-value" id="track-regime-7d">-</div>
         </div>
         <div>
-          <div style="font-size:0.75em;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em">Pipeline Convergence Rate (90d)</div>
-          <div style="font-family:'JetBrains Mono',monospace;font-size:1.8rem;font-weight:700;color:var(--green);margin-top:4px" id="track-signals-90d">-</div>
+          <div class="home-preview-stat-label">Pipeline Convergence Rate (90d)</div>
+          <div class="home-preview-stat-value home-preview-stat-green" id="track-signals-90d">-</div>
         </div>
       </div>
       <p style="font-size:0.78em;color:var(--muted);line-height:1.5;margin:0">
@@ -112,7 +112,7 @@
       </p>
     </div>
     <div style="margin-top:16px">
-      <a href="track-record/" style="font-size:0.82em;color:var(--cyan);text-decoration:none;font-weight:600">View full track record & misses →</a>
+      <a href="track-record/" class="home-preview-link">View full track record & misses →</a>
     </div>
   </div>
 </section>

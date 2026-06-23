@@ -726,6 +726,8 @@ body.simple-mode #ta-section {
   .sr-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .verdict-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .home-preview-grid { grid-template-columns: 1fr !important; }
+  .home-preview-card { padding: 16px; }
+  .home-preview-stat-value { font-size: 1.3rem; }
 }
 
 /* Responsive — 480px mobile (PRIORITY: dashboard cards) */
@@ -778,7 +780,10 @@ body.simple-mode #ta-section {
   .feature-card { padding: 20px; }
   .page-container { padding: 24px 16px; }
   .page-container-wide { padding: 24px 16px; }
-  .home-preview-grid { grid-template-columns: 1fr !important; padding: 0 16px 32px; overflow: hidden; }
+  .home-preview-grid { grid-template-columns: 1fr !important; padding: 0 12px 32px; }
+  .home-preview-card { padding: 14px; }
+  .home-preview-stats { flex-wrap: wrap; gap: 12px; }
+  .home-preview-stat-value { font-size: 1.1rem; }
 }
 
 /* ═══ Multi-Page Site Components ═══ */
@@ -984,6 +989,52 @@ body.simple-mode #ta-section {
   margin-bottom: 32px;
   padding-bottom: 16px;
   border-bottom: 1px solid var(--border);
+}
+
+/* Homepage preview cards */
+.home-preview-grid {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.home-preview-card {
+  padding: 24px;
+  margin: 0;
+  backdrop-filter: blur(18px);
+}
+.home-preview-perf {
+  border: 1px dashed rgba(34,211,238,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-preview-stats {
+  display: flex;
+  gap: 20px;
+  margin: 16px 0;
+}
+.home-preview-stat-label {
+  font-size: 0.75em;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.home-preview-stat-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-top: 4px;
+}
+.home-preview-stat-green { color: var(--green); }
+.home-preview-link {
+  font-size: 0.82em;
+  color: var(--cyan);
+  text-decoration: none;
+  font-weight: 600;
 }
 
 /* Hero Section (Homepage) */
