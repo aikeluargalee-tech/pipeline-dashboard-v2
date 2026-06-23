@@ -1,9 +1,9 @@
 {
   "etf_flow": {
-    "daily_net": 103.7,
-    "weekly_net": -123.8,
-    "trend": "mild_outflow"
+    "daily_net": -68.3,
+    "weekly_net": -295.8,
+    "trend": "heavy_outflow"
   },
   "regime": "mild-risk-off",
-  "_collected": "2026-06-23 03:16 UTC"
+  "_collected": "2026-06-23 05:16 UTC"
 }
