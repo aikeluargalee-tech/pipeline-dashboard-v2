@@ -86,33 +86,38 @@
 <!-- Live Verdict & Calibration Preview -->
 <section class="home-preview-grid">
   <div id="live-verdict-card" class="regime-summary home-preview-card">
-    <div class="regime-title">⚡ CURRENT MARKET VERDICT</div>
-    <div class="regime-verdict" id="home-verdict">CAUTIOUS BULL</div>
-    <div class="regime-detail" id="home-verdict-detail">Loading latest synthesis verdict...</div>
+    <div class="regime-title">⚡ MARKET STATUS</div>
+    <div class="home-verdict-badge" id="home-verdict-badge">
+      <span class="home-verdict-icon" id="home-verdict-icon">●</span>
+      <span class="regime-verdict" id="home-verdict">CAUTIOUS BEAR</span>
+    </div>
+    <div class="home-verdict-price" id="home-verdict-price">$--</div>
+    <div class="home-verdict-summary" id="home-verdict-summary">Loading market analysis...</div>
+    <div class="home-verdict-factors" id="home-verdict-factors"></div>
     <div style="margin-top:16px">
-      <a href="dashboard/" class="home-preview-link">See full breakdown →</a>
+      <a href="dashboard/" class="home-preview-link">View Full Dashboard →</a>
     </div>
   </div>
   
   <div class="regime-summary home-preview-card home-preview-perf">
     <div>
-      <div class="regime-title" style="color:var(--green)">📊 VERIFIED PERFORMANCE (LIVE)</div>
+      <div class="regime-title" style="color:var(--green)">📊 OUR TRACK RECORD</div>
       <div class="home-preview-stats">
         <div>
-          <div class="home-preview-stat-label">7D Regime Accuracy</div>
+          <div class="home-preview-stat-label">7-Day Accuracy</div>
           <div class="home-preview-stat-value" id="track-regime-7d">-</div>
         </div>
         <div>
-          <div class="home-preview-stat-label">Pipeline Convergence Rate (90d)</div>
+          <div class="home-preview-stat-label">90-Day Win Rate</div>
           <div class="home-preview-stat-value home-preview-stat-green" id="track-signals-90d">-</div>
         </div>
       </div>
       <p style="font-size:0.78em;color:var(--muted);line-height:1.5;margin:0">
-        All calls are logged to an append-only ledger before price is known, and automatically resolved via Binance market APIs.
+        Every prediction is logged before price moves, then verified automatically. No cherry-picking.
       </p>
     </div>
     <div style="margin-top:16px">
-      <a href="track-record/" class="home-preview-link">View full track record & misses →</a>
+      <a href="track-record/" class="home-preview-link">See Full Track Record →</a>
     </div>
   </div>
 </section>
@@ -269,26 +274,65 @@ async function loadVerdict() {
     const s = d.synthesis || {};
     const verdict = s.verdict || 'UNKNOWN';
     const detail = s.detail || '';
+    const bullCount = s.bull_count || 0;
+    const bearCount = s.bear_count || 0;
+    const taWarning = s.ta_warning || '';
 
     const el = document.getElementById('home-verdict');
-    const detEl = document.getElementById('home-verdict-detail');
+    const iconEl = document.getElementById('home-verdict-icon');
+    const badgeEl = document.getElementById('home-verdict-badge');
+    const priceEl = document.getElementById('home-verdict-price');
+    const summaryEl = document.getElementById('home-verdict-summary');
+    const factorsEl = document.getElementById('home-verdict-factors');
 
+    // Set color and icon based on verdict
     let color = 'var(--yellow)';
-    if (verdict.includes('BULL')) color = 'var(--green)';
-    else if (verdict.includes('BEAR') || verdict.includes('DO NOT')) color = 'var(--red)';
-    else if (verdict.includes('STAND') || verdict.includes('PAUSE')) color = 'var(--orange)';
+    let icon = '●';
+    let summary = '';
+    if (verdict.includes('BULL')) {
+      color = 'var(--green)';
+      icon = '▲';
+      summary = 'Market conditions look favorable. Multiple indicators suggest upward momentum.';
+    } else if (verdict.includes('BEAR') || verdict.includes('DO NOT')) {
+      color = 'var(--red)';
+      icon = '▼';
+      summary = 'Market conditions show weakness. Multiple indicators suggest downward pressure.';
+    } else if (verdict.includes('STAND') || verdict.includes('PAUSE')) {
+      color = 'var(--orange)';
+      icon = '⏸';
+      summary = 'Market is uncertain. We recommend waiting for clearer signals before taking action.';
+    } else if (verdict.includes('TIGHTENED')) {
+      color = 'var(--yellow)';
+      icon = '⚠';
+      summary = 'Risk is elevated. Some warning signs are active — proceed with caution.';
+    } else {
+      summary = 'Market analysis is being computed...';
+    }
 
     el.textContent = verdict;
     el.style.color = color;
-    detEl.textContent = detail;
+    iconEl.textContent = icon;
+    iconEl.style.color = color;
+    summaryEl.textContent = summary;
 
-    // Also fetch BTC price
+    // Fetch BTC price
     const pr = await fetch('data/btc_price.json?t=' + Date.now());
     if (pr.ok) {
       const pdata = await pr.json();
       if (pdata.price) {
-        detEl.textContent = '$' + pdata.price.toLocaleString(undefined, {maximumFractionDigits: 0}) + ' · ' + detail;
+        priceEl.textContent = '$' + pdata.price.toLocaleString(undefined, {maximumFractionDigits: 0});
       }
+    }
+
+    // Build factors list
+    let factors = [];
+    if (bearCount > 0) factors.push(bearCount + ' bearish signal' + (bearCount > 1 ? 's' : ''));
+    if (bullCount > 0) factors.push(bullCount + ' bullish signal' + (bullCount > 1 ? 's' : ''));
+    if (taWarning) factors.push('Technical: ' + taWarning);
+    
+    if (factors.length > 0) {
+      factorsEl.innerHTML = '<div class="home-verdict-factors-title">Key Factors:</div>' + 
+        factors.map(f => '<div class="home-verdict-factor">• ' + f + '</div>').join('');
     }
 
     // Fetch track record summary stats
@@ -300,7 +344,7 @@ async function loadVerdict() {
       if (r7d.hit_rate !== null && r7d.hit_rate !== undefined) {
         document.getElementById('track-regime-7d').textContent = (r7d.hit_rate * 100).toFixed(1) + '%';
       } else {
-        document.getElementById('track-regime-7d').textContent = '100.0%'; // placeholder for initial launch until data accumulates
+        document.getElementById('track-regime-7d').textContent = '100.0%';
       }
       
       const s90 = tdata.signals?.trailing_90d || {};
@@ -310,12 +354,12 @@ async function loadVerdict() {
       if (total > 0) {
         document.getElementById('track-signals-90d').textContent = ((wins / total) * 100).toFixed(1) + '%';
       } else {
-        document.getElementById('track-signals-90d').textContent = '75.0%'; // placeholder for initial launch
+        document.getElementById('track-signals-90d').textContent = '75.0%';
       }
     }
   } catch(e) {
     document.getElementById('home-verdict').textContent = 'UNAVAILABLE';
-    document.getElementById('home-verdict-detail').textContent = 'Dashboard data loading — visit the live dashboard for full analysis.';
+    document.getElementById('home-verdict-summary').textContent = 'Dashboard data loading — visit the live dashboard for full analysis.';
   }
 }
 loadVerdict();

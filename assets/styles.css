@@ -728,6 +728,8 @@ body.simple-mode #ta-section {
   .home-preview-grid { grid-template-columns: 1fr !important; }
   .home-preview-card { padding: 16px; }
   .home-preview-stat-value { font-size: 1.3rem; }
+  .home-verdict-price { font-size: 1.6rem; }
+  .home-verdict-summary { font-size: 0.82em; }
 }
 
 /* Responsive — 480px mobile (PRIORITY: dashboard cards) */
@@ -784,6 +786,9 @@ body.simple-mode #ta-section {
   .home-preview-card { padding: 14px; }
   .home-preview-stats { flex-wrap: wrap; gap: 12px; }
   .home-preview-stat-value { font-size: 1.1rem; }
+  .home-verdict-price { font-size: 1.4rem; }
+  .home-verdict-summary { font-size: 0.78em; }
+  .home-verdict-factor { font-size: 0.75em; }
 }
 
 /* ═══ Multi-Page Site Components ═══ */
@@ -1035,6 +1040,53 @@ body.simple-mode #ta-section {
   color: var(--cyan);
   text-decoration: none;
   font-weight: 600;
+}
+
+/* Verdict badge */
+.home-verdict-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 12px 0;
+}
+.home-verdict-icon {
+  font-size: 1.2em;
+}
+.home-verdict-price {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--cyan);
+  text-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+  margin: 8px 0;
+}
+.home-verdict-summary {
+  font-size: 0.88em;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 12px 0;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-verdict-factors {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+.home-verdict-factors-title {
+  font-size: 0.72em;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.home-verdict-factor {
+  font-size: 0.8em;
+  color: var(--text);
+  line-height: 1.6;
 }
 
 /* Hero Section (Homepage) */
