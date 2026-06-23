@@ -16,6 +16,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html {
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 body {
   background: var(--bg);
@@ -23,11 +24,14 @@ body {
   font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif;
   letter-spacing: -0.01em;
   padding: 16px;
-  max-width: 1200px;
-  margin: 0 auto;
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Deep space background */
