@@ -668,6 +668,31 @@ body.simple-mode #ta-section {
   background-clip: text;
 }
 .regime-detail { font-size: 0.88em; color: var(--muted); margin-bottom: 20px; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.6; }
+.regime-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 16px auto 0;
+  text-align: left;
+  max-width: 600px;
+}
+.regime-bullets li {
+  font-size: 0.85em;
+  color: var(--muted);
+  line-height: 1.6;
+  padding: 8px 0 8px 20px;
+  position: relative;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.regime-bullets li:last-child {
+  border-bottom: none;
+}
+.regime-bullets li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--cyan);
+  font-weight: 700;
+}
 .regime-layers { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; position: relative; z-index: 1; }
 .regime-layer {
   background: rgba(255,255,255,0.03);
@@ -747,6 +772,7 @@ body.simple-mode #ta-section {
   .regime-summary { padding: 16px; margin: 16px 0; border-radius: 14px; }
   .regime-verdict { font-size: 1.4em; }
   .regime-detail { font-size: 0.82em; }
+  .regime-bullets li { font-size: 0.8em; padding: 6px 0 6px 18px; }
   .layer-header { gap: 8px; margin-bottom: 10px; padding-bottom: 8px; }
   .layer-num { width: 26px; height: 26px; font-size: 0.7em; }
   .layer-title { font-size: 1em; }

@@ -242,7 +242,7 @@
   <div class="regime-title">⚡ REGIME SYNTHESIS</div>
   <div class="regime-verdict" id="regime-verdict">CAUTIOUS BEAR</div>
   <div class="regime-detail" id="regime-detail">Tightened rules active. 1 bearish / 0 bullish signals. | TA: Price 12.3% below MA50 — medium-term structure bearish</div>
-  <div class="regime-layers" id="regime-layers"></div>
+  <ul class="regime-bullets" id="regime-layers"></ul>
   <div class="card-narrative" id="nar-regime" style="font-size:0.78em;color:var(--muted);line-height:1.5;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05)"></div>
 </div>
 
@@ -1583,8 +1583,8 @@ function renderRegime(d) {
 
   detail.textContent = s.detail || '';
 
-  // Layer chips — flat inline text (no nested cards)
-  let parts = [];
+  // Layer bullets
+  let bullets = [];
   const layerNames = [
     { key: 'gate', label: 'Gate' },
     { key: 'macro', label: 'Macro' },
@@ -1597,9 +1597,10 @@ function renderRegime(d) {
     if (!layer) continue;
     const layerVer = layer.verdict || '—';
     const translatedVer = currentMode === 'simple' ? translateVerdict(layerVer) : layerVer;
-    parts.push(`${esc(String(layer.emoji || ''))} ${esc(l.label)} <strong style="color:var(--text)">${esc(translatedVer)}</strong> ${esc(String(layer.detail || ''))}`);
+    const detailText = layer.detail ? ' — ' + layer.detail : '';
+    bullets.push(`${esc(String(layer.emoji || ''))} ${esc(l.label)}: <strong style="color:var(--text)">${esc(translatedVer)}</strong>${esc(detailText)}`);
   }
-  layers.innerHTML = parts.join(' <span style="color:var(--muted);margin:0 6px">|</span> ');
+  layers.innerHTML = bullets.map(b => '<li>' + b + '</li>').join('');
 }
 
 // ─── Trading Session Clocks ───
