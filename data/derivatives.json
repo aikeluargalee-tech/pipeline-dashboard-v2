@@ -1,9 +1,9 @@
 {
-  "funding_rate": -2.575e-05,
+  "funding_rate": -2.484e-05,
   "next_funding_time": 1782230400000,
-  "mark_price": 62162.95236232,
-  "open_interest_btc": 97910.542,
-  "open_interest_usd": 6086408358.114932,
+  "mark_price": 62129.5,
+  "open_interest_btc": 97872.464,
+  "open_interest_usd": 6080767252.088,
   "oi_history": [
     {
       "btc": 101274.7,
@@ -134,5 +134,5 @@
   "taker_buy_ratio": 0.7526,
   "cvd_24h": -4275.94,
   "cvd_trend": "weakening",
-  "_collected": "2026-06-23 13:07 UTC"
+  "_collected": "2026-06-23 13:16 UTC"
 }
