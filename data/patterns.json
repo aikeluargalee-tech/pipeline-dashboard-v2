@@ -18,9 +18,9 @@
   },
   "rsi_reversal": {
     "signal": "neutral",
-    "rsi": 52.8,
+    "rsi": 53.0,
     "action": "No reversal signal",
-    "price": 62468.05
+    "price": 62520.01
   },
-  "_collected": "2026-06-23 09:16 UTC"
+  "_collected": "2026-06-23 09:30 UTC"
 }

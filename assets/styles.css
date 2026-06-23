@@ -14,6 +14,9 @@
   --cyan: #22d3ee;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
+html {
+  overflow-x: hidden;
+}
 body {
   background: var(--bg);
   color: var(--text);
@@ -23,6 +26,8 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
 }
 
 /* Deep space background */
