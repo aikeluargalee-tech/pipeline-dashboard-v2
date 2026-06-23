@@ -304,9 +304,11 @@ async function loadVerdict() {
       }
       
       const s90 = tdata.signals?.trailing_90d || {};
-      const total = s90.wins + s90.losses;
+      const wins = s90.wins || 0;
+      const losses = s90.losses || 0;
+      const total = wins + losses;
       if (total > 0) {
-        document.getElementById('track-signals-90d').textContent = ((s90.wins / total) * 100).toFixed(1) + '%';
+        document.getElementById('track-signals-90d').textContent = ((wins / total) * 100).toFixed(1) + '%';
       } else {
         document.getElementById('track-signals-90d').textContent = '75.0%'; // placeholder for initial launch
       }

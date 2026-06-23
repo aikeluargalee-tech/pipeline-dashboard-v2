@@ -11,9 +11,12 @@ ERROR_LOG="/tmp/pipeline_deploy_errors.log"
 PASSED=0
 FAILED=0
 
-# Twitter/X auth for social_pulse collector
-export TWITTER_AUTH_TOKEN="010b751cd4cfd5684b484c4f47bb557555a3b7d8"
-export TWITTER_CT0="5a9b059629af87129dc0dce94f1835b0083220b605294c790ee5f12b2cef77e704328b670957521593e6c671b6131ef9be60cd6f4aea9e349b6a30003f10273c47ef208d10eed9d3065d0e2392ae5431"
+# Twitter/X auth for social_pulse collector (loaded from environment or secrets file)
+if [ -f "$HOME/.pipeline_secrets.env" ]; then
+    source "$HOME/.pipeline_secrets.env"
+fi
+export TWITTER_AUTH_TOKEN="${TWITTER_AUTH_TOKEN:-}"
+export TWITTER_CT0="${TWITTER_CT0:-}"
 
 # Lockfile — flock prevents race conditions
 exec 9>/tmp/pipeline-deploy.lock

@@ -40,7 +40,7 @@ def parse_cot(text):
                 if all(100 < abs(p) < 1000000 for p in parsed):
                     commitment_line = parsed
                     break
-            except:
+            except Exception:
                 continue
     
     if commitment_line:
@@ -104,7 +104,7 @@ def main():
             if age < 43200:
                 print(f"[CACHE] {age/3600:.1f}h old, skipping")
                 return
-    except:
+    except Exception:
         pass
     
     print(f"[FETCH] {url}")

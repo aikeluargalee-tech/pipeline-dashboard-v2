@@ -113,7 +113,7 @@ def check_black_swan_indicators():
         elif vix > 28:
             indicators["vix_spike"] = True
             severity = max(severity, 1)
-    except: pass
+    except Exception: pass
 
     try:
         with open("/tmp/btc_macro_state.json") as f:
@@ -122,7 +122,7 @@ def check_black_swan_indicators():
         if dxy and dxy < 95:
             indicators["dxy_flash"] = True
             severity += 1
-    except: pass
+    except Exception: pass
 
     try:
         st = "/tmp/btc_stablecoin_state.json"
@@ -132,7 +132,7 @@ def check_black_swan_indicators():
             if stable and stable.get("status") == "depeg risk":
                 indicators["stablecoin_stress"] = True
                 severity += 2
-    except: pass
+    except Exception: pass
 
     try:
         with open("/tmp/btc_onchain_state.json") as f:
@@ -141,7 +141,7 @@ def check_black_swan_indicators():
         if netflow and abs(netflow) > 10000:
             indicators["exchange_anomaly"] = True
             severity += 1
-    except: pass
+    except Exception: pass
 
     if severity >= 3: status = "critical"
     elif severity >= 1: status = "elevated"

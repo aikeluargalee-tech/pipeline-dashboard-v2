@@ -34,7 +34,7 @@ def read_json(path):
     try:
         with open(path) as f:
             return json.load(f)
-    except:
+    except Exception:
         return None
 
 
@@ -101,7 +101,7 @@ def track_outcomes():
         # Parse timestamp
         try:
             sig_time = datetime.strptime(sig["timestamp"], "%Y-%m-%d %H:%M UTC").replace(tzinfo=timezone.utc)
-        except:
+        except Exception:
             continue
 
         # Expired after 48h

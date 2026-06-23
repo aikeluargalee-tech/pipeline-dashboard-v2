@@ -20,42 +20,42 @@ def parse_metrics(text):
                 try:
                     result["put_volume_24h"] = float(lines[j].strip().replace(',',''))
                     break
-                except: pass
+                except Exception: pass
         
         if "Call Volume:" in line:
             for j in range(i+1, min(i+5, len(lines))):
                 try:
                     result["call_volume_24h"] = float(lines[j].strip().replace(',',''))
                     break
-                except: pass
+                except Exception: pass
         
         if "Put/Call Ratio:" in line and "Volume" not in lines[i-1] if i>0 else True:
             for j in range(i+1, min(i+5, len(lines))):
                 try:
                     result["pcr_volume"] = float(lines[j].strip())
                     break
-                except: pass
+                except Exception: pass
         
         if "Call Open Interest" in line:
             for j in range(i+1, min(i+3, len(lines))):
                 try:
                     result["call_oi"] = float(lines[j].strip().replace(',',''))
                     break
-                except: pass
+                except Exception: pass
         
         if "Put Open Interest" in line and "Call" not in lines[i-1] if i>0 else True:
             for j in range(i+1, min(i+3, len(lines))):
                 try:
                     result["put_oi"] = float(lines[j].strip().replace(',',''))
                     break
-                except: pass
+                except Exception: pass
         
         if "Total Open Interest" in line:
             for j in range(i+1, min(i+3, len(lines))):
                 try:
                     result["total_oi"] = float(lines[j].strip().replace(',',''))
                     break
-                except: pass
+                except Exception: pass
         
         if "Notional Value" in line:
             for j in range(i+1, min(i+3, len(lines))):
@@ -63,7 +63,7 @@ def parse_metrics(text):
                 try:
                     result["notional_value"] = float(val)
                     break
-                except: pass
+                except Exception: pass
     
     # Compute PCR
     if "call_oi" in result and "put_oi" in result and result["call_oi"] > 0:
@@ -91,7 +91,7 @@ def main():
             if age < 7200:  # 2 hours
                 print(f"[CACHE] {age/3600:.1f}h old, skipping")
                 return
-    except: pass
+    except Exception: pass
     
     print(f"[FETCH] {url}")
     with sync_playwright() as p:

@@ -1888,7 +1888,7 @@ def detect_breakout_retest(btc, structural, derivatives):
     try:
         with open(state_file, 'r') as f:
             zones = json.load(f)
-    except:
+    except Exception:
         zones = {"active": [], "history": []}
 
     now = datetime.now(timezone.utc)
@@ -2110,7 +2110,7 @@ def detect_breakdown_retest(btc, structural, derivatives):
     try:
         with open(state_file, 'r') as f:
             zones = json.load(f)
-    except:
+    except Exception:
         zones = {"active": [], "history": []}
 
     now = datetime.now(timezone.utc)

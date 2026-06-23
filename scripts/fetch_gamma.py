@@ -23,7 +23,7 @@ def get_ticker_oi(name):
             "strike": result.get("index_price", 0),
             "mark_iv": result.get("mark_iv", 0)
         }
-    except:
+    except Exception:
         return {"name": name, "oi": 0}
 
 def main():
@@ -38,7 +38,7 @@ def main():
                 if not data.get("error"):
                     print(f"[CACHE] {age/3600:.1f}h old: Call wall ${data.get('call_wall','?')}, Put wall ${data.get('put_wall','?')}")
                     return
-    except: pass
+    except Exception: pass
     
     print("[FETCH] Deribit gamma walls...")
     

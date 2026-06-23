@@ -57,7 +57,7 @@ def fetch():
                     "iv": r.get("mark_iv"),
                     "spot": r.get("underlying_price"),
                 }
-            except:
+            except Exception:
                 return None
 
         with ThreadPoolExecutor(max_workers=10) as ex:
