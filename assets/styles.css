@@ -725,6 +725,7 @@ body.simple-mode #ta-section {
   .heatmap-img { max-height: 300px; object-fit: contain; }
   .sr-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .verdict-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .home-preview-grid { grid-template-columns: 1fr !important; }
 }
 
 /* Responsive — 480px mobile (PRIORITY: dashboard cards) */
@@ -777,6 +778,7 @@ body.simple-mode #ta-section {
   .feature-card { padding: 20px; }
   .page-container { padding: 24px 16px; }
   .page-container-wide { padding: 24px 16px; }
+  .home-preview-grid { grid-template-columns: 1fr !important; padding: 0 16px 32px; overflow: hidden; }
 }
 
 /* ═══ Multi-Page Site Components ═══ */
