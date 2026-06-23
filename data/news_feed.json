@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-23T08:28:03.157265+00:00",
+  "timestamp": "2026-06-23T08:52:44.360310+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -18,32 +18,32 @@
         {
           "id": "en_bitcoin_1",
           "source": "en_bitcoin",
-          "source_name": "Forbes",
-          "rank": 2,
-          "title": "JPMorgan Just Warned A Bitcoin Nightmare Is Suddenly Coming True As Price Crash Fears Surge - Forbes",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbVBySFNZSkg1N2ZieGpNU0hWUnFTX2M3Y21Td2JGc0VjZTVfWW8tVWJVTU44Sjk0ZGtiQUZQR0VHWW8yWTlSdG9sWUlQNVlGZnU2ZEhpQV96bzR4RDZXUUhrQm9uY1RVYlVYWUxJNWpCQ1BoRlVseUlkMkJrdnRuTGptZDNTSWQtWHdsTW43RnhEZkQ2ZDJkZ2I2YmVZanFJdHNSbDk1bGNYNFJtbU4zYVh4cjRZM1ZrZy1XY2NyM0lrTUM2bERRcnRXN1p5d0c4S0gtZVJ0ODNxelcwSEs3SA?oc=5",
-          "content": "",
-          "publish_time": "Sun, 21 Jun 2026 12:53:46 GMT"
-        },
-        {
-          "id": "en_bitcoin_2",
-          "source": "en_bitcoin",
           "source_name": "Robinhood",
-          "rank": 3,
+          "rank": 2,
           "title": "BTC price range on Jun 23, 2026 at 4am EDT Crypto Prediction Market - Robinhood",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaTQ3aFQycS0yMzdNOXM0amxUVFFxVktneGVmZzNPdDFldTZMdWxtNExKbU5GVDZYajZ3cVlYRDFLeGotMXoteE9laXlzVk0zN2VYZ3FiQ1gwWXVIWkthUVdxbkxwZm9KQ0lUVkExWWEzTUY1d2psTTUwOGUyXzItVVdibXlHNjhqbTZzUUlkTmdIM05hcjFSdzNSZjBMZHRyOEJkY3A3R0lhWEx4ckxRTG9Wc3ctUQ?oc=5",
           "content": "",
           "publish_time": "Tue, 23 Jun 2026 08:00:00 GMT"
         },
         {
-          "id": "en_bitcoin_3",
+          "id": "en_bitcoin_2",
           "source": "en_bitcoin",
           "source_name": "Yahoo Finance",
-          "rank": 4,
+          "rank": 3,
           "title": "Strategy Buys Another 520 Bitcoin As Price Languishes - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRmt1Rk5fc2tEOUItY1Noa1l3bDZ2cHlpRFZpdUF0T0dRLTAwRWM5d0hGSUxoSkVqc0h2UFI0TlNrdDVLZ0xEdE9jYWU0dmNXWkhXdXFtQ25LRTN5clE0SVUzeTZfemUyZ1FkWnVUeFhteUxwSFBheXhJaFc2d1JKaFlXNlFtUm9ZeXpfWXk5OE9ycVhrNGZ4WWRXZ3VSdEE?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 15:35:00 GMT"
+        },
+        {
+          "id": "en_bitcoin_3",
+          "source": "en_bitcoin",
+          "source_name": "Forbes",
+          "rank": 4,
+          "title": "JPMorgan Just Warned A Bitcoin Nightmare Is Suddenly Coming True As Price Crash Fears Surge - Forbes",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbVBySFNZSkg1N2ZieGpNU0hWUnFTX2M3Y21Td2JGc0VjZTVfWW8tVWJVTU44Sjk0ZGtiQUZQR0VHWW8yWTlSdG9sWUlQNVlGZnU2ZEhpQV96bzR4RDZXUUhrQm9uY1RVYlVYWUxJNWpCQ1BoRlVseUlkMkJrdnRuTGptZDNTSWQtWHdsTW43RnhEZkQ2ZDJkZ2I2YmVZanFJdHNSbDk1bGNYNFJtbU4zYVh4cjRZM1ZrZy1XY2NyM0lrTUM2bERRcnRXN1p5d0c4S0gtZVJ0ODNxelcwSEs3SA?oc=5",
+          "content": "",
+          "publish_time": "Sun, 21 Jun 2026 12:53:46 GMT"
         },
         {
           "id": "en_bitcoin_4",
@@ -78,12 +78,12 @@
         {
           "id": "en_bitcoin_7",
           "source": "en_bitcoin",
-          "source_name": "CoinMarketCap",
+          "source_name": "Fortune",
           "rank": 8,
-          "title": "Bitcoin Price Slides After Fed Holds Interest Rates Steady, Rate Hike Odds Rise - CoinMarketCap",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXlrOGJQQ2I4WnJWeThMMXdxTGFNZGNsUHZwXzNEVU1Ib0Q1bklSb0w2cC0zcjZyaU9LeGtPeWRXTUxMWW03dkRjZjhuRTY2UVdEMGk3SHZhNmROcUNDSml6Zm1zRHlpX2d5Z1FmWUNoWXIxS1hROFB4V1RiZHpKOVZfNkRVYm5JTGtlMDUzR3VqRnFuQUJ3?oc=5",
+          "title": "Current price of Bitcoin for June 22, 2026 - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wMThmQmRaV3ZDOF9QQ0xHVW5TemtPdnhtMGpLNEYtS1Bvci01bS1lNk1oa2hHX29ab016Sk9oRkpsM0U3MmFsY0hQdzh4TTN3ZjRjVy1DREFoT3dTTUUzQTE2YWdHczA?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 19:58:33 GMT"
+          "publish_time": "Mon, 22 Jun 2026 13:17:08 GMT"
         }
       ]
     },
@@ -180,22 +180,22 @@
         {
           "id": "en_fed_0",
           "source": "en_fed",
-          "source_name": "Morningstar",
-          "rank": 1,
-          "title": "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year? - Morningstar",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS1FNbzVqYmVtRGlCTGxnUHQ5b0ZXUUdIU0g3NUlDMWdFalYtbzlVSHBsaGpUTThkTWlQOVlUNnJQRm5qQVRPeUV2elhOS2pFQTRkeDNZbFN4TEo3SHVWdjRyYVMyc2NVSkRoMmlnaW14Tm85VHZOa181RjUxWjB4anZCYUI0RnpJYUZleFdESFZETW9SODJ2cFNNNUU1RWNGVFU3R1JUUzgyMXp0Wmc?oc=5",
-          "content": "",
-          "publish_time": "Mon, 22 Jun 2026 08:56:06 GMT"
-        },
-        {
-          "id": "en_fed_1",
-          "source": "en_fed",
           "source_name": "Reuters",
-          "rank": 2,
+          "rank": 1,
           "title": "BofA, Deutsche Bank expect Fed to raise rates in September - Reuters",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdFJyZHVkakE1ODNnN192TVlVR3AwTWUwcnVTZ04yQ3lGYlowbHhxUWNDakZRSHZ1SnlpSGpXazZ4WjhsamVILWZFb0lIbHJ4SEphUWh3SnRHMFJyYXFZcFhoWk9nckVfLWFTQl9LNnNzXzB1ZmxRZEFtaVQtbE1pYXdFLVpUd2kwMG9Mc1dDZlU3THgzLWhKanNMLXhNem1lbnJmenBYWUVETUlCc1Z6dmQ4RHdpbTRnZVFYQ0Fn?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 14:27:36 GMT"
+        },
+        {
+          "id": "en_fed_1",
+          "source": "en_fed",
+          "source_name": "ABC News - Breaking News, Latest News and Videos",
+          "rank": 2,
+          "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZTNIcEN0R3ZySHZTdlNOM2I5a0NmT3BReXAtRkdaUUV2Tmt1VTVSQWl5WGwyamRtU3ZkV2NHaWZmZkxMcGNqbEg2dDNKbFJGSG9VWUpvd1VJRnFSalNPemFpOXlsUVNub2x4ZDA0WXN5Y0JESzNUWDZ3NEtIYnR1Y3VESlp6NFN6emN1aVVoNXo5UUtRUzdxbVhlZnd1NS1sZFN6WkdjRdIBrAFBVV95cUxQN292TEh1TlFmWWJReTdGZ3Zpc0N0NW1sR2lyYkh2Q0p3ZnBMVjBFLTI5LWVaMnZQNnVoV1I5Q2hVWHprMUpYNEJCZERtYXZ2U1ZOaDVWd2x2VmVoSkgxbl9mVWxUeS1ITDQwdkNYM2N0bGJGcUlRb1d0RlIxUUtqWl9nQXkyWUh2SDB2Uk9jMmtYX0w3MGdMNkRNYnJuUm01dUR0WFYzZWFNYkFY?oc=5",
+          "content": "",
+          "publish_time": "Sat, 20 Jun 2026 13:06:12 GMT"
         },
         {
           "id": "en_fed_2",
@@ -210,12 +210,12 @@
         {
           "id": "en_fed_3",
           "source": "en_fed",
-          "source_name": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "Morningstar",
           "rank": 4,
-          "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZTNIcEN0R3ZySHZTdlNOM2I5a0NmT3BReXAtRkdaUUV2Tmt1VTVSQWl5WGwyamRtU3ZkV2NHaWZmZkxMcGNqbEg2dDNKbFJGSG9VWUpvd1VJRnFSalNPemFpOXlsUVNub2x4ZDA0WXN5Y0JESzNUWDZ3NEtIYnR1Y3VESlp6NFN6emN1aVVoNXo5UUtRUzdxbVhlZnd1NS1sZFN6WkdjRdIBrAFBVV95cUxQN292TEh1TlFmWWJReTdGZ3Zpc0N0NW1sR2lyYkh2Q0p3ZnBMVjBFLTI5LWVaMnZQNnVoV1I5Q2hVWHprMUpYNEJCZERtYXZ2U1ZOaDVWd2x2VmVoSkgxbl9mVWxUeS1ITDQwdkNYM2N0bGJGcUlRb1d0RlIxUUtqWl9nQXkyWUh2SDB2Uk9jMmtYX0w3MGdMNkRNYnJuUm01dUR0WFYzZWFNYkFY?oc=5",
+          "title": "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year? - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS1FNbzVqYmVtRGlCTGxnUHQ5b0ZXUUdIU0g3NUlDMWdFalYtbzlVSHBsaGpUTThkTWlQOVlUNnJQRm5qQVRPeUV2elhOS2pFQTRkeDNZbFN4TEo3SHVWdjRyYVMyc2NVSkRoMmlnaW14Tm85VHZOa181RjUxWjB4anZCYUI0RnpJYUZleFdESFZETW9SODJ2cFNNNUU1RWNGVFU3R1JUUzgyMXp0Wmc?oc=5",
           "content": "",
-          "publish_time": "Sat, 20 Jun 2026 13:06:12 GMT"
+          "publish_time": "Mon, 22 Jun 2026 08:56:06 GMT"
         },
         {
           "id": "en_fed_4",
@@ -240,28 +240,28 @@
         {
           "id": "en_fed_6",
           "source": "en_fed",
-          "source_name": "Yahoo Finance",
-          "rank": 7,
-          "title": "Interest rates stay steady for now, but more Fed officials are signaling hikes later this year - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPeUVkdmxNcUd4Vno0MjFkSUJEbW9tbjV1UnBfX1JaUlZkM1pldURYeFEzVlZObzNacGxzVlRVa01CRUotVkFmVGtIU2xwSWQwRjhfU3dGUldzeE5sQm1aQVNYOVIzU2hmLWdkQkl5aFEydHdlbnZvZHNvUUp0X2lQbklaY0stVWtLam9TNXRGdVVFajVxeGlNOEhLU2VFSEhSRDU5bnJ1cEIxWm8yeG1IOUlfZFNmb2VvZ2s5dlZnUkRfTHRMLXhydHg5ejgzTkFIbWd3NXp2OXpLUXZPUUdVUF9lT0hvNUhCb2NRZlVR?oc=5",
-          "content": "",
-          "publish_time": "Wed, 17 Jun 2026 21:00:05 GMT"
-        },
-        {
-          "id": "en_fed_7",
-          "source": "en_fed",
           "source_name": "CNN",
-          "rank": 8,
+          "rank": 7,
           "title": "Fed leaves interest rates unchanged but signals higher rates are ahead - CNN",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWpDeGRNaWtwaklDUHV2aDJnY3lvaXpJMU1VSlZRWkVibnBHajd1MHptRlZkVU1iejJTY2hqSVBSMmJXX2lvYUtYMGtNTGQycllYRWMxYlVBNy0wRlNBX3VsMEI2X0RULWZmZTllazFMY0pCQ2NEZUk4dG5VSWh5VEREQ0JkWnI1M1VIOF96YldEU1VPU3c?oc=5",
           "content": "",
           "publish_time": "Wed, 17 Jun 2026 21:14:00 GMT"
+        },
+        {
+          "id": "en_fed_7",
+          "source": "en_fed",
+          "source_name": "NPR",
+          "rank": 8,
+          "title": "Federal Reserve holds interest rates steady and hints at rate hike later this year - NPR",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3NQY1lZdW5hdzBoUUpNYm5PVGRscEtwbGU4ZjlQRVZ5Rk8xempQVzg4QS1PUFpaanVDSEc3V1NoMFZsTVB6UXZxYjBLLVNLUDdIYm50VE1FXzA2Q2t0VGhNNkNsMm1DUFFiZ2tSZzQ1TktveWF5YlRla0MyVTlvN0RxWWdidw?oc=5",
+          "content": "",
+          "publish_time": "Wed, 17 Jun 2026 18:34:51 GMT"
         }
       ]
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-23T16:28:00.627678",
+    "timestamp": "2026-06-23T16:52:42.160858",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4945\", \"0.5055\"]",
-        "volume": "4527294.231118519",
-        "liquidity": "591550.41442"
+        "volume": "4527532.3711185185",
+        "liquidity": "597780.19999"
       }
     ]
   }
