@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-23T14:50:32.097099+00:00",
+  "timestamp": "2026-06-23T14:52:00.794025+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-23T22:50:29.660072",
+    "timestamp": "2026-06-23T22:51:59.691478",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.495\", \"0.505\"]",
-        "volume": "4529203.16991752",
-        "liquidity": "116912.22488"
+        "volume": "4529276.28762652",
+        "liquidity": "116710.68352"
       }
     ]
   }

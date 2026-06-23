@@ -5,5 +5,21 @@
     "trend": "mild_outflow"
   },
   "regime": "mild-risk-off",
-  "_collected": "2026-06-23 14:50 UTC"
+  "risk_assets": {
+    "SPY": {
+      "price": 737.78,
+      "change_pct": -0.89
+    },
+    "QQQ": {
+      "price": 720.425,
+      "change_pct": -2.37
+    },
+    "GLD": {
+      "price": 378.9,
+      "change_pct": -1.48
+    }
+  },
+  "vix": 19.11,
+  "dxy": 101.386,
+  "_collected": "2026-06-23 14:52 UTC"
 }
