@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-23T14:15:49.365735+00:00",
+  "timestamp": "2026-06-23T14:50:32.097099+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -8,82 +8,82 @@
         {
           "id": "en_bitcoin_0",
           "source": "en_bitcoin",
-          "source_name": "CoinDesk",
-          "rank": 1,
-          "title": "Bitcoin price analysis: BTC might need to fall below $53,500 before bottom is in - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRElfR3p1Z18xcVB2NXFKTDM1TkVYMGh2RERsQTFsS2ozTVZXNTh3dlpqc2dEaHdnaEdRN0NYYXhZX1UxTWpVSTYtRXFNVkxuc0JBdEEzODBsVkN5NE5zRzM1OERMSk1hRnZldDlPSFBkV1BKZ2J5d21rZXRxZ0U3Z0R0T01OcnhuRk54SmZSRjBZOEdqNjBtOU1zTjd4eV80SWRIWlhWT0JPZThwSFlsTzkyWVViNWtHbzhuU3FhVVVIWThBSXd6eW5NbVhXZjg?oc=5",
-          "content": "",
-          "publish_time": "Tue, 23 Jun 2026 13:09:52 GMT"
-        },
-        {
-          "id": "en_bitcoin_1",
-          "source": "en_bitcoin",
           "source_name": "Yahoo Finance",
-          "rank": 2,
+          "rank": 1,
           "title": "Bitcoin and ethereum prices today, Tuesday, June 23, 2026: Values slipping as possible rate hikes weigh on prices - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPWDRCbmZWRF9scExJMEdNTTVyc1BQekRNenhJRlY5R0czbWVFamtlZDIyQU9jTVdWMnRtVGgxLS1OdGl0bkpNNW4tZXRCd1Y2R3h6Snh0TVhCWjVGWmt3UjFBdGNzLUxESXQ4cm9JbENQNmJZaTB5Y1JKblJoTm9fb0QzTlZQbnBYdnZEOFIwbmhJWnp0bVRFb0F1emhRNUNXUG1EeW41ZVFfbU1jYkJwQ2xTMmdHaFNvOGQxX05JUjFJUThjQ1hmNXVTb2w5MzBuSWhrMmtqZjdiQm1STjQ1TmhiUnZkZ2xrV3RPakxnVDR2SGVWRFpBcjN6VlF4eFdsbnBhWFV2dkgxcjVpWXlXNlh2VQ?oc=5",
           "content": "",
           "publish_time": "Tue, 23 Jun 2026 13:58:17 GMT"
         },
         {
+          "id": "en_bitcoin_1",
+          "source": "en_bitcoin",
+          "source_name": "CoinDesk",
+          "rank": 2,
+          "title": "Bitcoin price analysis: BTC may be close to a bottom. Here's why. - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWtRY2U5RXpXQ0NoSDl5SHZDWTBfWVhfY3k3ckJjQXVFek93RkdEY09BMEtUVTZNT1ZNMVk5R2d2TlF1a3ZDOXhNQXRoSmd3R1hOdkxhX1dZZ1NJS1lmX1I5NlpXMGRhX3Jfam9UTFluQnluUkQ3Unh2R1ZwVEhubXJqRUR6TFNBeWRHTkN1VnFtUHBrVWRvOS0yY3h4S29JaXA1b1VuQ25vTTVxbzQ5MkdQc1d3bVZzakdTemRnQ1U4bUxGWFE?oc=5",
+          "content": "",
+          "publish_time": "Tue, 23 Jun 2026 08:25:36 GMT"
+        },
+        {
           "id": "en_bitcoin_2",
           "source": "en_bitcoin",
-          "source_name": "Robinhood",
-          "rank": 3,
-          "title": "BTC price on Jun 23, 2026 at 10am EDT Crypto Prediction Market - Robinhood",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYzBoVU5qNG5sSHhuRjI0YzgyZU1qQUxEbmRGWUg3OFVrcXFEMUZUOHFfMVFPTFBxVjJBbUR0LWMta2hVZVZrdWNsRERPWnNKbFRzZnYtMDJvV0ZWd0xjQl95MnBpM1VPYXg1bVNPSG5BeFMwZTFTM2Q5OTVZeW4ybkJfN0JMcy1YNjh1bmhxQlhpUVhDY0pFcG5Xc3lwb2pJb1l4NVRwdzVDal9CcV9B?oc=5",
-          "content": "",
-          "publish_time": "Tue, 23 Jun 2026 13:14:25 GMT"
-        },
-        {
-          "id": "en_bitcoin_3",
-          "source": "en_bitcoin",
-          "source_name": "TradingView",
-          "rank": 4,
-          "title": "Bitcoin Price Outlook: Why BTC Is Struggling Under The New Fed Regime - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUno5X1BpaF9VNXppTmVHNGo2eW5LX2VmUHd6TXFNbU4zYV93T0pxT3l5ZlJ1OG5OcXJ0ekQyTkxnQm9oREJMcGhfSll2d0NwQ0l3dWlIbWNGdFl1OF9lN2xIRnNwbFluOHJUdDl1UkloUnRQUmxhVVNkYWp4TURRM3BCeHNJdjQ3NDA5cXNuSndiRHdBNGNqQnZZdk9PRXgwaHJnYmFTUGRkR3NRd2Y2MUpiLXBlcVI5STZ1N0hwLXBRMzAzenkxUA?oc=5",
-          "content": "",
-          "publish_time": "Tue, 23 Jun 2026 11:20:33 GMT"
-        },
-        {
-          "id": "en_bitcoin_4",
-          "source": "en_bitcoin",
           "source_name": "Fortune",
-          "rank": 5,
+          "rank": 3,
           "title": "Current price of Bitcoin for June 23, 2026 - Fortune",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1M2JxRTNUZHVEMFJlM0tSeG1wc3BsOFg3a29LbmI2dzFUN3BTX1hmcDU2ajNHcEU3THRkbHZ3aG5nYS1sODhVRHEzeVBYb0c5eTA2VFQydEVja3FTSTh2aFdFZDljOW8?oc=5",
           "content": "",
           "publish_time": "Tue, 23 Jun 2026 13:02:00 GMT"
         },
         {
-          "id": "en_bitcoin_5",
+          "id": "en_bitcoin_3",
+          "source": "en_bitcoin",
+          "source_name": "Forbes",
+          "rank": 4,
+          "title": "Bitcoin Crash Suddenly Accelerates As Traders Brace For A Surprise Fed Price Shock - Forbes",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYWJkcjA1b2FfQ2pOd3pkdk9WUzhPR1Rkamp1WE9VYTNzRHhsX3RYTTA0OVRBMENEVGItOHNha05GazBaS2tCNFhWY05UY21vU2o0bnAxSlJDU1BKOWtJU0tWdVZmNVVJR2REanVldXVwNmpQbHc1Snhadm5tWVQ2QVRWTng0eUhBYUE5bzBfRVpIV05FOHdydUpxVlVlZm93OGRFS3ptZGt5OXN4QUZqNDhEWnlMV0ZsWTYxOTlfclJhNzlZQ2x0eDQwbjRVZjNwLVBIVA?oc=5",
+          "content": "",
+          "publish_time": "Tue, 23 Jun 2026 13:51:37 GMT"
+        },
+        {
+          "id": "en_bitcoin_4",
           "source": "en_bitcoin",
           "source_name": "Seeking Alpha",
-          "rank": 6,
+          "rank": 5,
           "title": "Bitcoin price tug-of-war: ETF outflows, 3 rate hike stance, MSTR buying collide - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQm41UXZHUVFNbTZFYTFpMG9HdklUc0Y0WUN1Tlg2TmtoVV9WdGpob0lMUWlYVnhPaUp4V3FZZHFUaERaamw1ZE9xNkU3eWpKZ1VhU3kwRHZKcmRPeF84bTJzV0tOdHNYbzdyU2k3NWZLdVRyNHIzRDJMQ0VMWFRGTkdVYVdCZG9lR1RMLXA1V0dZQjFjUHVJdm9Fd1JZMEJqMWMyNUdtdW85dEtmRk95Y1RfbGg?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 17:51:48 GMT"
         },
         {
-          "id": "en_bitcoin_6",
+          "id": "en_bitcoin_5",
           "source": "en_bitcoin",
-          "source_name": "Forbes",
-          "rank": 7,
-          "title": "JPMorgan Just Warned A Bitcoin Nightmare Is Suddenly Coming True As Price Crash Fears Surge - Forbes",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbVBySFNZSkg1N2ZieGpNU0hWUnFTX2M3Y21Td2JGc0VjZTVfWW8tVWJVTU44Sjk0ZGtiQUZQR0VHWW8yWTlSdG9sWUlQNVlGZnU2ZEhpQV96bzR4RDZXUUhrQm9uY1RVYlVYWUxJNWpCQ1BoRlVseUlkMkJrdnRuTGptZDNTSWQtWHdsTW43RnhEZkQ2ZDJkZ2I2YmVZanFJdHNSbDk1bGNYNFJtbU4zYVh4cjRZM1ZrZy1XY2NyM0lrTUM2bERRcnRXN1p5d0c4S0gtZVJ0ODNxelcwSEs3SA?oc=5",
+          "source_name": "TradingView",
+          "rank": 6,
+          "title": "Bitcoin Price Outlook: Why BTC Is Struggling Under The New Fed Regime - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUno5X1BpaF9VNXppTmVHNGo2eW5LX2VmUHd6TXFNbU4zYV93T0pxT3l5ZlJ1OG5OcXJ0ekQyTkxnQm9oREJMcGhfSll2d0NwQ0l3dWlIbWNGdFl1OF9lN2xIRnNwbFluOHJUdDl1UkloUnRQUmxhVVNkYWp4TURRM3BCeHNJdjQ3NDA5cXNuSndiRHdBNGNqQnZZdk9PRXgwaHJnYmFTUGRkR3NRd2Y2MUpiLXBlcVI5STZ1N0hwLXBRMzAzenkxUA?oc=5",
           "content": "",
-          "publish_time": "Sun, 21 Jun 2026 12:53:46 GMT"
+          "publish_time": "Tue, 23 Jun 2026 11:20:33 GMT"
         },
         {
-          "id": "en_bitcoin_7",
+          "id": "en_bitcoin_6",
           "source": "en_bitcoin",
           "source_name": "markets.businessinsider.com",
-          "rank": 8,
+          "rank": 7,
           "title": "Crypto News: Pepeto Unveils Defi Toolkit While Bitcoin Price Aims For $250,000 And The Next Dogecoin Takes Shape Ahead Of Bull Run - markets.businessinsider.com",
           "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNcWl5X01UV0hibVozWG9lSXkwYklMUzhMVVUzVG5yZWtiTjhYM21GRFdramYwWmVqdzhscjdfUHdWMWthUC1LTEcwT0ZCdjZ6S2Fjd2EySmVKR3VuR1AzUGRBM2ZLYV9OelZQcUFwRXg3YjQtaHpkNF9xVGtZR2Rvak5OTE0zWWxwM0FIdDE0OEJzNXRiT2NHa3BzZHJHOHV1TkxIeHFuV3BzLXl2NzJSc09iVEJ2elZjVWhOMHc4OU1Hd0F3eXk4Nk9qbW0zZlZyY285UnNHaVpBTTYzbEJCenF4aHc0VEJLSzN2ZEljcVl3dUZISHVDakNFSERDd2p5dlZpSmk4Wk85eHdwdXdJaU1maFdTdw?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 11:34:47 GMT"
+        },
+        {
+          "id": "en_bitcoin_7",
+          "source": "en_bitcoin",
+          "source_name": "Finance Magnates",
+          "rank": 8,
+          "title": "Bitcoin Price Prediction: Bear Flag on the BTC Chart Targets $38,000, Retest of the 2024 Lows - Finance Magnates",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbVZ3YkxOc2dXNHNmRWZaRExaQ3FZX21ZcjY1XzNlNFpaeVBzN2Z1YmR0VU92LWtWSkFmdHEtRVNRaWxreUNUbkxvMGIxVFBRVDZOejNPR3BKODR2SGI2cVVhQ2dublRwd3RfNXY0akpUTWxvdEpiTFNkR2tldHlIdTJLQWc4Y0wzeWdINGd0LXJPNFJ6aTFUbGs3VVYxNzJuWHdIQktTbklxdm5VXzZmaTNiZG81RF9PVV9KR3dUMWl0blp3VmRwajI4SQ?oc=5",
+          "content": "",
+          "publish_time": "Tue, 23 Jun 2026 10:20:16 GMT"
         }
       ]
     },
@@ -119,7 +119,7 @@
           "title": "Live BTC markets: Bitcoin drop to $62,000 creates $700 million in liquidations - CoinDesk",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPc3pZVUtLMUFwU2NNV1JtenFJU21BTEZfcFVGZ1E5N3pVaU1jT1NqTUhJVG8yRmdjWWJBbERZU3lRMXlGbnhNM01UaUtWZTBWMkpPa1hWaGNzVGNGSzl0dmdCalpXYm9QSVoxUnI1cGtlTkw5S3doeG16SEFERUhtaTZ0WWdDejRKSnBMOWtjYVFvbkhYSnRBWGFMLUlGdVpweWpubDg1UGNZeURSbnVLdlAtNE5kc0REZHh1Nko5TE1Iei1MZFJr?oc=5",
           "content": "",
-          "publish_time": "Tue, 23 Jun 2026 13:59:47 GMT"
+          "publish_time": "Tue, 23 Jun 2026 14:36:14 GMT"
         },
         {
           "id": "en_crypto_3",
@@ -134,12 +134,12 @@
         {
           "id": "en_crypto_4",
           "source": "en_crypto",
-          "source_name": "Fortune",
+          "source_name": "Seeking Alpha",
           "rank": 5,
-          "title": "Current price of Bitcoin for June 23, 2026 - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1M2JxRTNUZHVEMFJlM0tSeG1wc3BsOFg3a29LbmI2dzFUN3BTX1hmcDU2ajNHcEU3THRkbHZ3aG5nYS1sODhVRHEzeVBYb0c5eTA2VFQydEVja3FTSTh2aFdFZDljOW8?oc=5",
+          "title": "Bitcoin under pressure amid tech-led sell-off, crypto stocks dragged down (BTC-USD:Cryptocurrency) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWURzWkV6ajlraUVhakFzTkU0a2RPdWw0SVBNOFJxTlMtbTVGRExzZkhxYkJoV2FYOG9JYUZQS3F3MEVYbkRrMjA1dUpJNVdkSHlHdnRJLU5OZ1I1bDdtYTY0YS0zRzB2QjZDNENibS01WTF5ZFJGNUl0R09DbHVEMF85R2VGejVRaFBKb0RvZzRlWjhuc2RpWlNyRWNBdlJTWWk0S05aNFg2NzVuVmpN?oc=5",
           "content": "",
-          "publish_time": "Tue, 23 Jun 2026 13:02:00 GMT"
+          "publish_time": "Tue, 23 Jun 2026 11:45:39 GMT"
         },
         {
           "id": "en_crypto_5",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-23T22:15:46.654553",
+    "timestamp": "2026-06-23T22:50:29.660072",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.495\", \"0.505\"]",
-        "volume": "4529105.899917521",
-        "liquidity": "116623.7919"
+        "volume": "4529203.16991752",
+        "liquidity": "116912.22488"
       }
     ]
   }
