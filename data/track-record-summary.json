@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-24T08:19:06.915594+00:00",
+  "last_updated": "2026-06-24T09:16:24.097510+00:00",
   "signals": {
     "all_time": {
-      "total": 3,
+      "total": 4,
       "wins": 0,
       "losses": 2,
       "expired": 0,
-      "open": 1
+      "open": 2
     },
     "trailing_90d": {
       "total": 2,
