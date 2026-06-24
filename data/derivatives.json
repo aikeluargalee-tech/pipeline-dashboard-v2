@@ -1,15 +1,10 @@
 {
-  "funding_rate": 3.478e-05,
+  "funding_rate": 3.081e-05,
   "next_funding_time": 1782316800000,
-  "mark_price": 62356.30275362,
-  "open_interest_btc": 97518.835,
-  "open_interest_usd": 6080913999.440315,
+  "mark_price": 62813.21867391,
+  "open_interest_btc": 97190.338,
+  "open_interest_usd": 6104837953.785225,
   "oi_history": [
-    {
-      "btc": 97937.1,
-      "usd": 6118997101,
-      "ts": 1782216000000
-    },
     {
       "btc": 97617.7,
       "usd": 6074710655,
@@ -124,17 +119,22 @@
       "btc": 97629.5,
       "usd": 6093728011,
       "ts": 1782298800000
+    },
+    {
+      "btc": 97054.8,
+      "usd": 6103565053,
+      "ts": 1782302400000
     }
   ],
-  "oi_change_24h": -0.31,
+  "oi_change_24h": -0.58,
   "oi_trend": "stable",
-  "long_short_ratio": 1.986,
-  "long_pct": 66.51,
-  "short_pct": 33.489999999999995,
-  "taker_buy_ratio": 0.7189,
-  "cvd_24h": -26.02,
-  "cvd_trend": "weakening",
+  "long_short_ratio": 2.012,
+  "long_pct": 66.8,
+  "short_pct": 33.2,
+  "taker_buy_ratio": 1.0509,
+  "cvd_24h": -831.31,
+  "cvd_trend": "flat",
   "coinbase_premium": -0.1438,
   "cb_label": "US demand soft",
-  "_collected": "2026-06-24 11:15 UTC"
+  "_collected": "2026-06-24 12:16 UTC"
 }
