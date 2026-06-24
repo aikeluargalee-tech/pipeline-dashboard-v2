@@ -1,16 +1,16 @@
 {
-  "ma50": 71161.22,
-  "ma60": 72313.53,
-  "rsi_14": 55.3,
-  "bb_upper": 66362.33,
-  "bb_lower": 60563.29,
-  "bb_width": 9.14,
-  "bb_mid": 63462.81,
-  "atr_14": 1823.21,
-  "atr_pct": 2.9,
-  "change_7d": -2.55,
-  "change_30d": -18.7,
-  "price": 62866.0,
+  "ma50": 71145.3,
+  "ma60": 72300.27,
+  "rsi_14": 52.1,
+  "bb_upper": 66375.57,
+  "bb_lower": 60470.45,
+  "bb_width": 9.31,
+  "bb_mid": 63423.01,
+  "atr_14": 1846.71,
+  "atr_pct": 2.98,
+  "change_7d": -3.78,
+  "change_30d": -19.73,
+  "price": 62070.01,
   "options_skew": {
     "timestamp": "2026-06-24 06:36 UTC",
     "spot": 62833.63,
@@ -38,5 +38,5 @@
     "put_oi_total": 86311.9,
     "options_scanned": 374
   },
-  "_collected": "2026-06-24 12:16 UTC"
+  "_collected": "2026-06-24 13:16 UTC"
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T12:16:27.536663+00:00",
+  "timestamp": "2026-06-24T13:16:18.741924+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -10,7 +10,7 @@
         "title": "Why Bitcoin?",
         "author": "Virtual_Okra_5588",
         "score": 15,
-        "num_comments": 93,
+        "num_comments": 118,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ue9ora/why_bitcoin/",
         "selftext": "Why are you still buying Bitcoin even though there isn’t really the chance anymore for a really huge gain like 50x or 100x. But at the same time there is clearly the risk that Bitcoin can be worthless",
         "created_utc": 1782296760.0
@@ -19,8 +19,8 @@
         "id": "1udqk0l",
         "title": "Is bitcoin becoming too institutional?",
         "author": "Imaginary_Ladder_553",
-        "score": 13,
-        "num_comments": 41,
+        "score": 10,
+        "num_comments": 42,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1udqk0l/is_bitcoin_becoming_too_institutional/",
         "selftext": "With ETFs, public companies, and large funds holding more BTC than ever, do you think Bitcoin is gradually becoming an institutional asset rather than a retail driven one?",
         "created_utc": 1782242073.0
@@ -56,6 +56,16 @@
         "created_utc": 1782288668.0
       },
       {
+        "id": "1uea9im",
+        "title": "Total beginner, advice on how to top up bitcoin wallet 🙏",
+        "author": "Economy-Coffee-1953",
+        "score": 0,
+        "num_comments": 8,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1uea9im/total_beginner_advice_on_how_to_top_up_bitcoin/",
+        "selftext": "As the title states I am a total beginner and don’t know the first thing about bitcoin or wallets. \n\nI have no intention right now of investing. I simply wish to make a purchase online with bitcoin. S",
+        "created_utc": 1782298626.0
+      },
+      {
         "id": "1ue7pkv",
         "title": "Theoretical Question on Buying Bitcoin as a Time Traveller",
         "author": "OkDealer5389",
@@ -66,24 +76,14 @@
         "created_utc": 1782289792.0
       },
       {
-        "id": "1uea9im",
-        "title": "Total beginner, advice on how to top up bitcoin wallet 🙏",
-        "author": "Economy-Coffee-1953",
-        "score": 0,
+        "id": "1udznfy",
+        "title": "Trusts and wills for Bitcoin.? Most estate lawyers don’t know jack about it.",
+        "author": "thebitcoinmd",
+        "score": 8,
         "num_comments": 6,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1uea9im/total_beginner_advice_on_how_to_top_up_bitcoin/",
-        "selftext": "As the title states I am a total beginner and don’t know the first thing about bitcoin or wallets. \n\nI have no intention right now of investing. I simply wish to make a purchase online with bitcoin. S",
-        "created_utc": 1782298626.0
-      },
-      {
-        "id": "1udrdwt",
-        "title": "What happened to Swan Bitcoin?",
-        "author": "HappyDadOfFourJesus",
-        "score": 0,
-        "num_comments": 6,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1udrdwt/what_happened_to_swan_bitcoin/",
-        "selftext": "I know they're still around, but they went from a Bitcoin DCA company to a \"Bitcoin in your retirement account\" company, and now I see they're a \"Bitcoin ETF\" company.  As a Bitcoin maximalist, I used",
-        "created_utc": 1782243894.0
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1udznfy/trusts_and_wills_for_bitcoin_most_estate_lawyers/",
+        "selftext": "Does anyone have a trusts for their kids for bitcoin? I don’t have a ton but if Bitcoin does what I think it will do over twenty years and I keep stacking it will be worth at least a couple of million",
+        "created_utc": 1782264276.0
       }
     ]
   },
@@ -93,59 +93,59 @@
     "count": 8,
     "items": [
       {
-        "id": "2069756508250796293",
-        "text": "@Vivek4real_ i trust #bitcoin a lot more than i trust any billionaire lol",
-        "user": "daddyxgains",
+        "id": "2069771524501016672",
+        "text": "Kalshi is starting to look like a winner.\n\nThey've beaten two incumbents at their own game:\n\nPolymarket at prediction markets.\n\nHyperliquid at perps.\n\nA few things have converged in the last month tha",
+        "user": "ryonnixon",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069756493176692749",
-        "text": "Cope cope. Huddle in one corner of the internet n create some more blockchain ledgers and P2P casual e-cash transactions from Bob to Alice.    IP rights are sacrosanct but siphoning / stealing money f",
-        "user": "hammerheadisup",
+        "id": "2069771524211441773",
+        "text": "@Pran10000 If Bitcoin doesn't start performing in 2027, then Bitcoin and all Bitcoiners have a problem, not just Saylor. Careful what you wish for.",
+        "user": "CBRobber",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069756462964834481",
-        "text": "@PeterSchiff @saylor They have the Bitcoin $GDC Has 7500 Bitcoins and a 1 Million market cap #Bitcoin $MSTR Should probably buy them out",
-        "user": "stockexpertpro2",
+        "id": "2069771522173235452",
+        "text": "Blackrock dumping on us \n#bitcoin #crypto $btc",
+        "user": "DerekKlibingat",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069756462042104227",
-        "text": "@MarketPalmer_ Will be interesting to see how it all plays out!\n\nHe wants Bitcoin to continue to go up and to the right.\n\nBitcoin only people need it to continue to go up and to the right as well.",
-        "user": "palmbtcX",
+        "id": "2069771490183229868",
+        "text": "In a PoW blockchain like Bitcoin, miners solve complex algorithms to validate transactions and earn rewards in cryptocurrency.",
+        "user": "BerryCorde99615",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069756448905519531",
-        "text": "@ScottiePippen Satoshi are parts of bitcoin",
-        "user": "C3L1NHO",
+        "id": "2069771486433353854",
+        "text": "Trump is directing 'government dollars and time' to quantum security, which could be a boon for Bitcoin. Millions of bitcoins with exposed public addresses may be at risk to quantum computers, per Pro",
+        "user": "CryptoMoneyLife",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069756444803514796",
-        "text": "@Vivek4real_ Fuck central banks. Bitcoin was never meant to he held by them.",
-        "user": "lourenco_vs",
+        "id": "2069771466183512416",
+        "text": "@itsthatgigi buy bitcoin\nbuy solana\nbuy ETH\nand hold to die\n😂😂😂",
+        "user": "duocpro1",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069756439334449393",
-        "text": "@SuiNetwork @BitGo @BlockdaemonHQ @Bullish @ereborbank @FalconXGlobal @Ledger Building new Bitcoin finance era! 🚀 Dive in and share your thoughts!",
-        "user": "ArcudiLuci97123",
+        "id": "2069771440736334242",
+        "text": "@AshCrypto This bill really isn’t about crypto…besides, Bitcoin is dump hard again",
+        "user": "crisforanime",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069756427594342578",
-        "text": "Yea, everything is based on volume and extraction.\n\nI think most of crypto, outside of the new-pair casino, is effectively over.\n\nI haven’t heard anyone genuinely excited about the majority of the top",
-        "user": "mrjberlin",
-        "likes": 1,
+        "id": "2069771415700619559",
+        "text": "Interest to look back at this past Bitcoin ($BTC) cycle and see that it never seemed to leave the accumulation trend for a parabolic run, as it'd done in all prior cycles. I thought the 2020 cycle was",
+        "user": "chris_xcom",
+        "likes": 0,
         "retweets": 0
       }
     ]
