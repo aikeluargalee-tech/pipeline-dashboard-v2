@@ -1,25 +1,25 @@
 {
   "etf_flow": {
-    "daily_net": 0.0,
-    "weekly_net": -231.0,
+    "daily_net": 62.9,
+    "weekly_net": -168.1,
     "trend": "mild_outflow"
   },
   "regime": "mild-risk-off",
   "risk_assets": {
     "SPY": {
-      "price": 735.9,
-      "change_pct": -1.14
+      "price": 733.58,
+      "change_pct": -1.45
     },
     "QQQ": {
-      "price": 717.02,
-      "change_pct": -2.84
+      "price": 713.65,
+      "change_pct": -3.29
     },
     "GLD": {
-      "price": 378.81,
-      "change_pct": -1.5
+      "price": 377.32,
+      "change_pct": -1.89
     }
   },
-  "vix": 19.35,
-  "dxy": 101.368,
-  "_collected": "2026-06-23 15:15 UTC"
+  "vix": 19.49,
+  "dxy": 101.429,
+  "_collected": "2026-06-24 01:15 UTC"
 }

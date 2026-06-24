@@ -9,17 +9,17 @@
   "macro": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "VIX 19.4 normal"
+    "detail": "VIX 19.5 normal"
   },
   "structure": {
-    "verdict": "Downside Sweep",
-    "emoji": "\ud83d\udd34",
-    "detail": "3/3 timeframes active, sandwich $1000.0"
+    "verdict": "HOLDING",
+    "emoji": "\ud83d\udfe1",
+    "detail": "3/3 timeframes active"
   },
   "derivatives": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "FR -0.0022% neutral, L/S 2.10, CVD -5063"
+    "detail": "FR 0.0003% neutral, L/S 2.08, CVD -2446"
   },
   "cycle": {
     "verdict": "MID",
@@ -27,11 +27,11 @@
     "detail": ""
   },
   "synthesis": {
-    "verdict": "CAUTIOUS BEAR",
-    "detail": "Tightened rules active. 1 bearish / 0 bullish signals. | TA: Price 12.8% below MA50 \u2014 medium-term structure bearish",
+    "verdict": "CAUTIOUS NEUTRAL",
+    "detail": "Tightened rules active. 0 bullish / 0 bearish signals. | TA: Price 11.6% below MA50 \u2014 medium-term structure bearish",
     "bull_count": 0.0,
-    "bear_count": 1.0,
-    "ta_warning": "Price 12.8% below MA50 \u2014 medium-term structure bearish"
+    "bear_count": 0.0,
+    "ta_warning": "Price 11.6% below MA50 \u2014 medium-term structure bearish"
   },
-  "_collected": "2026-06-23 15:15 UTC"
+  "_collected": "2026-06-24 01:15 UTC"
 }
