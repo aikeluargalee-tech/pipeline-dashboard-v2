@@ -1,27 +1,27 @@
 {
-  "ma50": 71160.74,
-  "ma60": 72313.13,
-  "rsi_14": 55.2,
-  "bb_upper": 66362.14,
-  "bb_lower": 60561.08,
-  "bb_width": 9.14,
-  "bb_mid": 63461.61,
-  "atr_14": 1785.07,
-  "atr_pct": 2.84,
-  "change_7d": -2.58,
-  "change_30d": -18.73,
-  "price": 62842.0,
+  "ma50": 71155.3,
+  "ma60": 72308.6,
+  "rsi_14": 54.1,
+  "bb_upper": 66362.55,
+  "bb_lower": 60533.49,
+  "bb_width": 9.19,
+  "bb_mid": 63448.02,
+  "atr_14": 1796.77,
+  "atr_pct": 2.87,
+  "change_7d": -3.01,
+  "change_30d": -19.08,
+  "price": 62570.12,
   "options_skew": {
-    "timestamp": "2026-06-24 01:48 UTC",
-    "spot": 62980.19,
-    "skew_25d": -7.4,
+    "timestamp": "2026-06-24 02:46 UTC",
+    "spot": 62718.19,
+    "skew_25d": -7.0,
     "put_25d_iv": 42.1,
-    "call_25d_iv": 34.7,
+    "call_25d_iv": 35.0,
     "put_name": "BTC-10JUL26-60000-P",
     "call_name": "BTC-10JUL26-66000-C",
     "label": "Elevated hedging \u2014 institutions buying downside protection",
     "emoji": "\ud83d\udfe1",
-    "display": "\ud83d\udfe1 Options skew (25\u0394): -7.4% \u2014 elevated hedging \u2014 institutions buying downside protection"
+    "display": "\ud83d\udfe1 Options skew (25\u0394): -7.0% \u2014 elevated hedging \u2014 institutions buying downside protection"
   },
   "gamma": {
     "timestamp": "2026-06-24 01:44 UTC",
@@ -38,5 +38,5 @@
     "put_oi_total": 85765.8,
     "options_scanned": 374
   },
-  "_collected": "2026-06-24 02:15 UTC"
+  "_collected": "2026-06-24 03:15 UTC"
 }

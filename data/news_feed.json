@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T02:15:41.189457+00:00",
+  "timestamp": "2026-06-24T03:15:29.421255+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -38,32 +38,32 @@
         {
           "id": "en_bitcoin_3",
           "source": "en_bitcoin",
-          "source_name": "Seeking Alpha",
+          "source_name": "Forbes",
           "rank": 4,
+          "title": "Bitcoin Crash Suddenly Accelerates As Traders Brace For A Surprise Fed Price Shock - Forbes",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYWJkcjA1b2FfQ2pOd3pkdk9WUzhPR1Rkamp1WE9VYTNzRHhsX3RYTTA0OVRBMENEVGItOHNha05GazBaS2tCNFhWY05UY21vU2o0bnAxSlJDU1BKOWtJU0tWdVZmNVVJR2REanVldXVwNmpQbHc1Snhadm5tWVQ2QVRWTng0eUhBYUE5bzBfRVpIV05FOHdydUpxVlVlZm93OGRFS3ptZGt5OXN4QUZqNDhEWnlMV0ZsWTYxOTlfclJhNzlZQ2x0eDQwbjRVZjNwLVBIVA?oc=5",
+          "content": "",
+          "publish_time": "Tue, 23 Jun 2026 13:51:37 GMT"
+        },
+        {
+          "id": "en_bitcoin_4",
+          "source": "en_bitcoin",
+          "source_name": "Seeking Alpha",
+          "rank": 5,
           "title": "Bitcoin price tug-of-war: ETF outflows, 3 rate hike stance, MSTR buying collide - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQm41UXZHUVFNbTZFYTFpMG9HdklUc0Y0WUN1Tlg2TmtoVV9WdGpob0lMUWlYVnhPaUp4V3FZZHFUaERaamw1ZE9xNkU3eWpKZ1VhU3kwRHZKcmRPeF84bTJzV0tOdHNYbzdyU2k3NWZLdVRyNHIzRDJMQ0VMWFRGTkdVYVdCZG9lR1RMLXA1V0dZQjFjUHVJdm9Fd1JZMEJqMWMyNUdtdW85dEtmRk95Y1RfbGg?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 17:51:48 GMT"
         },
         {
-          "id": "en_bitcoin_4",
-          "source": "en_bitcoin",
-          "source_name": "Forbes",
-          "rank": 5,
-          "title": "JPMorgan Just Warned A Bitcoin Nightmare Is Suddenly Coming True As Price Crash Fears Surge - Forbes",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbVBySFNZSkg1N2ZieGpNU0hWUnFTX2M3Y21Td2JGc0VjZTVfWW8tVWJVTU44Sjk0ZGtiQUZQR0VHWW8yWTlSdG9sWUlQNVlGZnU2ZEhpQV96bzR4RDZXUUhrQm9uY1RVYlVYWUxJNWpCQ1BoRlVseUlkMkJrdnRuTGptZDNTSWQtWHdsTW43RnhEZkQ2ZDJkZ2I2YmVZanFJdHNSbDk1bGNYNFJtbU4zYVh4cjRZM1ZrZy1XY2NyM0lrTUM2bERRcnRXN1p5d0c4S0gtZVJ0ODNxelcwSEs3SA?oc=5",
-          "content": "",
-          "publish_time": "Sun, 21 Jun 2026 12:53:46 GMT"
-        },
-        {
           "id": "en_bitcoin_5",
           "source": "en_bitcoin",
           "source_name": "TradingView",
           "rank": 6,
-          "title": "Bitcoin Price Outlook: Why BTC Is Struggling Under The New Fed Regime - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUno5X1BpaF9VNXppTmVHNGo2eW5LX2VmUHd6TXFNbU4zYV93T0pxT3l5ZlJ1OG5OcXJ0ekQyTkxnQm9oREJMcGhfSll2d0NwQ0l3dWlIbWNGdFl1OF9lN2xIRnNwbFluOHJUdDl1UkloUnRQUmxhVVNkYWp4TURRM3BCeHNJdjQ3NDA5cXNuSndiRHdBNGNqQnZZdk9PRXgwaHJnYmFTUGRkR3NRd2Y2MUpiLXBlcVI5STZ1N0hwLXBRMzAzenkxUA?oc=5",
+          "title": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQejVqOGtiM18xWklKSEF3WWVqVE9iTFlSeVZzLUNaSVV6RHY0ck9lZ1MyLVU3VzliTm1NcW9keWRmbmZMODFiclZFQVk1bDBodFpOYm5kbllUNXJIVzB6WVFjR0M3ZWJTc1k3N3NVc1ktVEVaTk5CSkFFaEZMNENGX1kxUVA0THlFLW0tUkdWbGlGck54ZHBxeGkyT242LTFfNmFTMG00c2JZdmF1c3lSZVhlUy1tbGhfRHhSNnY5NDUwRXgtUnQzUU41MTNxS0Eza1VKSTljS3UwWms?oc=5",
           "content": "",
-          "publish_time": "Tue, 23 Jun 2026 11:20:33 GMT"
+          "publish_time": "Tue, 23 Jun 2026 10:23:19 GMT"
         },
         {
           "id": "en_bitcoin_6",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-24T10:15:38.814053",
+    "timestamp": "2026-06-24T11:15:27.152064",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4530833.41765252",
-        "liquidity": "128680.31612"
+        "volume": "4531823.606063521",
+        "liquidity": "128720.96354"
       }
     ]
   }
