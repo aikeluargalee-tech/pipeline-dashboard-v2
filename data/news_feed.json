@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T04:15:41.014464+00:00",
+  "timestamp": "2026-06-24T06:15:59.457368+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -164,12 +164,12 @@
         {
           "id": "en_crypto_7",
           "source": "en_crypto",
-          "source_name": "Benzinga",
+          "source_name": "CryptoSlate",
           "rank": 8,
-          "title": "Bitcoin Plunges To $62,000: Is The Worst Of The Bear Market Still To Come? - Benzinga",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR0pPOEhPeXI2NmlMVUJqOVNwNUoxTjNsZFF0ckFjUl92cTVPYzVqcnI5dHIzam1mREYteFhzNGRMRXhpanB0QnQ1ZzNUSWhNWU5KdU5WMXdHRU0yd1ljSTVnRjFieWZzTEVTRmNQTDZ5VGJ6SEpQT2htQ1RmWXoxakExeVQzSmlyOVZWUXR2TFl2ejc3NUZtSWpGTEwyanRiWk1UWjMzX1ZRS3IxNDVjYnF3MV83Y0huYWRqdG92T3c0MGNRQy1MMlBlaUg?oc=5",
+          "title": "Latest bear market victim shows how quickly DeFi users are left behind when crypto projects move on - CryptoSlate",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT3A5ejV4Rzd6RWxaR1RyRFJqYTZKZlBabmxwN2U3Q0VKVkVCeFYxREdjbks3dEFrLUVmQUxTRWNlbXROX05kRG1JZ21qdjk3Ri1PSm1JcTdwSTduWUZsd1BsYlh3SEF0VngxckpwZVdIbkluakZlY0Q1MHZaRm0yNVplQVVXNXFDcnZ1YTI4WTA4eFdNMEE?oc=5",
           "content": "",
-          "publish_time": "Tue, 23 Jun 2026 11:46:22 GMT"
+          "publish_time": "Wed, 24 Jun 2026 05:45:46 GMT"
         }
       ]
     },
@@ -180,62 +180,62 @@
         {
           "id": "en_fed_0",
           "source": "en_fed",
-          "source_name": "Fortune",
-          "rank": 1,
-          "title": "The Fed will bring down the hammer on inflation with a series of rate hikes this year, BofA says - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVFpiVlotVElCRTlCS0VCYWdJVk5PR2hZRHFyVEpFbGxnR09STEZBaWhZNl9USVN4RkxCdzUxd3hDUnBXNWVnaHNGeFdjOFJOT0VTTHd1N0pIclVTaV94UTdjR3FhYzQyVUstVHVFVnI1UENXZFY1QzBQQldhVHJscUFnc2hHTW1XcUxEWDNpaFJqNzFxS2s5WWhTeWtURXBxZjVvOUo3UG4?oc=5",
-          "content": "",
-          "publish_time": "Mon, 22 Jun 2026 16:16:00 GMT"
-        },
-        {
-          "id": "en_fed_1",
-          "source": "en_fed",
           "source_name": "Reuters",
-          "rank": 2,
+          "rank": 1,
           "title": "BofA, Deutsche Bank expect Fed to raise rates in September - Reuters",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdFJyZHVkakE1ODNnN192TVlVR3AwTWUwcnVTZ04yQ3lGYlowbHhxUWNDakZRSHZ1SnlpSGpXazZ4WjhsamVILWZFb0lIbHJ4SEphUWh3SnRHMFJyYXFZcFhoWk9nckVfLWFTQl9LNnNzXzB1ZmxRZEFtaVQtbE1pYXdFLVpUd2kwMG9Mc1dDZlU3THgzLWhKanNMLXhNem1lbnJmenBYWUVETUlCc1Z6dmQ4RHdpbTRnZVFYQ0Fn?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 14:27:36 GMT"
         },
         {
-          "id": "en_fed_2",
+          "id": "en_fed_1",
           "source": "en_fed",
           "source_name": "The Motley Fool",
-          "rank": 3,
+          "rank": 2,
           "title": "Will the Federal Reserve Raise or Lower Interest Rates in 2026? Here's What the Data Suggests. - The Motley Fool",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdjhseGZIaVJITnZwNUU3bnhmc2lrdmt1LVFma3lyeFREeEFPRXdLZ1NWYkUyb1FJMzBWVU9YZjJZVTE5dEJNQkJ2LVVOYzBzdWEzeUJSWW04NDZkYlhzejJ1TmhxZy1QR1gzaVRfT3VIdVR0RzdfcHFET0tjbW9md1dRYW9pVU5ZaS1JNm5wS1hLdUs4ZjBzQg?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 11:00:00 GMT"
         },
         {
-          "id": "en_fed_3",
+          "id": "en_fed_2",
           "source": "en_fed",
           "source_name": "Morningstar",
-          "rank": 4,
+          "rank": 3,
           "title": "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year? - Morningstar",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS1FNbzVqYmVtRGlCTGxnUHQ5b0ZXUUdIU0g3NUlDMWdFalYtbzlVSHBsaGpUTThkTWlQOVlUNnJQRm5qQVRPeUV2elhOS2pFQTRkeDNZbFN4TEo3SHVWdjRyYVMyc2NVSkRoMmlnaW14Tm85VHZOa181RjUxWjB4anZCYUI0RnpJYUZleFdESFZETW9SODJ2cFNNNUU1RWNGVFU3R1JUUzgyMXp0Wmc?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 08:56:06 GMT"
         },
         {
-          "id": "en_fed_4",
+          "id": "en_fed_3",
           "source": "en_fed",
           "source_name": "CNBC",
-          "rank": 5,
+          "rank": 4,
           "title": "Fed Governor Michelle Bowman warns against hiking interest rates because of inflation spike - CNBC",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSU1FUWtLRzNfdWhmdVJvYVBMeFpYaVowRGhjUFN4NXZmbzdVNUx1OFAzdE42YktoU2tfOHNfeE5uNzdFNDdreXBZX0lBMDM3a0otZkhJbFgxaGlPSm9Kam44SW92bmkwX0lBeTZidmlDdEVVaGdxOFNmQUY3Q0d1UFJ4RmRMT0JGVUFLWlJad3VRVHk2YTRYRmRxVzZjUk9SWHdnRUw5MTNCemvSAbABQVVfeXFMTVVRMVlKLXIzTUdra0lSZm44VWxLWWozUF9vY0RTRHZPbExxcDRQQmVhb1pZU01rZGVLUEtyTDcyT2k4LUMwNU9PX2t5dFhPci1YTTJtbXU5blQzQnFkMEM4cy1BVjJTTE43NWtBZWpGTXJRSlZQWnI3YnJQS2ROOXdXVVFPX0MtVjdkck1GbUhNU0tFaUlaVU8yVUFMcDVTR05ScktyLXk1YkFvNDExd1o?oc=5",
           "content": "",
           "publish_time": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
-          "id": "en_fed_5",
+          "id": "en_fed_4",
           "source": "en_fed",
           "source_name": "NBC News",
-          "rank": 6,
+          "rank": 5,
           "title": "Federal Reserve holds interest rates steady as Trump’s new chairman faces fresh inflation woes - NBC News",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdERIN3pDeThkLVR4YkNjUmF0WTlyR2RoZ0V4RzdxdDMxQlZJaEhPLXpBUXJ4VUsxZld1TTZ5Wk0xRXBMNHZ1dHBrbFVJM3FwQy1tUnZ4SU5VVTlxbldQcDZtNl9JRzdYUnRPaFR2TXAtWHJYWGZfUVRUWHVKRXAyVmlSMDFxcnRnRThlVGhkNURiVjhK?oc=5",
           "content": "",
           "publish_time": "Wed, 17 Jun 2026 20:08:22 GMT"
+        },
+        {
+          "id": "en_fed_5",
+          "source": "en_fed",
+          "source_name": "NPR",
+          "rank": 6,
+          "title": "Federal Reserve holds interest rates steady and hints at rate hike later this year - NPR",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3NQY1lZdW5hdzBoUUpNYm5PVGRscEtwbGU4ZjlQRVZ5Rk8xempQVzg4QS1PUFpaanVDSEc3V1NoMFZsTVB6UXZxYjBLLVNLUDdIYm50VE1FXzA2Q2t0VGhNNkNsMm1DUFFiZ2tSZzQ1TktveWF5YlRla0MyVTlvN0RxWWdidw?oc=5",
+          "content": "",
+          "publish_time": "Wed, 17 Jun 2026 18:34:51 GMT"
         },
         {
           "id": "en_fed_6",
@@ -250,18 +250,18 @@
         {
           "id": "en_fed_7",
           "source": "en_fed",
-          "source_name": "NPR",
+          "source_name": "AP News",
           "rank": 8,
-          "title": "Federal Reserve holds interest rates steady and hints at rate hike later this year - NPR",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3NQY1lZdW5hdzBoUUpNYm5PVGRscEtwbGU4ZjlQRVZ5Rk8xempQVzg4QS1PUFpaanVDSEc3V1NoMFZsTVB6UXZxYjBLLVNLUDdIYm50VE1FXzA2Q2t0VGhNNkNsMm1DUFFiZ2tSZzQ1TktveWF5YlRla0MyVTlvN0RxWWdidw?oc=5",
+          "title": "All eyes turn to Fed chair Kevin Warsh and his first moves on interest rates - AP News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM0dDTE8wWmtTSDZIRFI5V3BYcFl2UEN4a1JCc3NnX3dvZWZwVWxPRDdKTEl2VWZjdmU5Sk03TlJvclZKNFR4RURoMW5CdU9xSkFJOEZXM29NS2RsTDR2RHNibzNfYUlkTDlXR05hRWdiUVlrblFQcHlYT3ZWX1E5blVWNktnZmo2Zi1uRlgzTVFKbl91SERPYmtmdFNtQjFCdnFzTg?oc=5",
           "content": "",
-          "publish_time": "Wed, 17 Jun 2026 09:00:00 GMT"
+          "publish_time": "Mon, 15 Jun 2026 07:00:00 GMT"
         }
       ]
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-24T12:15:38.350922",
+    "timestamp": "2026-06-24T14:15:56.794249",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4533785.573353521",
-        "liquidity": "132121.53559"
+        "volume": "4533790.04335352",
+        "liquidity": "121999.71962"
       }
     ]
   }
