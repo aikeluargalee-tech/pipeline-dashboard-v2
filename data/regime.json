@@ -19,7 +19,7 @@
   "derivatives": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "FR -0.0001% neutral, L/S 2.12, CVD -3575"
+    "detail": "FR 0.0002% neutral, L/S 2.35, CVD -4443"
   },
   "cycle": {
     "verdict": "UNDERVALUED",
@@ -28,10 +28,10 @@
   },
   "synthesis": {
     "verdict": "CAUTIOUS NEUTRAL",
-    "detail": "Tightened rules active. 1 bullish / 0 bearish signals. | TA: Price 13.9% below MA50 \u2014 medium-term structure bearish",
+    "detail": "Tightened rules active. 1 bullish / 0 bearish signals. | TA: Price 14.3% below MA50 \u2014 medium-term structure bearish",
     "bull_count": 0.5,
     "bear_count": 0.0,
-    "ta_warning": "Price 13.9% below MA50 \u2014 medium-term structure bearish"
+    "ta_warning": "Price 14.3% below MA50 \u2014 medium-term structure bearish"
   },
-  "_collected": "2026-06-24 14:15 UTC"
+  "_collected": "2026-06-24 15:16 UTC"
 }

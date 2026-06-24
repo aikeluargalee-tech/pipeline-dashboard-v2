@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T14:15:47.190161+00:00",
+  "timestamp": "2026-06-24T15:16:08.782463+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -9,8 +9,8 @@
         "id": "1ue9ora",
         "title": "Why Bitcoin?",
         "author": "Virtual_Okra_5588",
-        "score": 40,
-        "num_comments": 145,
+        "score": 54,
+        "num_comments": 165,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ue9ora/why_bitcoin/",
         "selftext": "Why are you still buying Bitcoin even though there isn’t really the chance anymore for a really huge gain like 50x or 100x. But at the same time there is clearly the risk that Bitcoin can be worthless",
         "created_utc": 1782296760.0
@@ -26,14 +26,14 @@
         "created_utc": 1782242073.0
       },
       {
-        "id": "1udj7dm",
-        "title": "How Do Ultra-Wealthy Individuals and Institutions Actually Buy and Store Bitcoin?",
-        "author": "Bisinidem",
-        "score": 22,
-        "num_comments": 29,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1udj7dm/how_do_ultrawealthy_individuals_and_institutions/",
-        "selftext": "I’m relatively new to Bitcoin and the crypto space, and I’ve been wondering how things work at the highest levels of wealth.\n\nFor most retail investors, buying Bitcoin is straightforward: we use an ex",
-        "created_utc": 1782226057.0
+        "id": "1ueelj2",
+        "title": "Many idiots have said bitcoin has no use case.",
+        "author": "luvBitCoins",
+        "score": 23,
+        "num_comments": 28,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ueelj2/many_idiots_have_said_bitcoin_has_no_use_case/",
+        "selftext": "I can buy 24k bullion with my bitcoin. Cheaper rate than using wire or card.\n\nI can take out a mortgage with my bitcoin.\n\nI can take out 4-10% fiat loans with my bitcoin, completely bypassing credit i",
+        "created_utc": 1782310199.0
       },
       {
         "id": "1udm51s",
@@ -56,11 +56,21 @@
         "created_utc": 1782288668.0
       },
       {
+        "id": "1uebkjs",
+        "title": "H100 Shareholders Approve Bitcoin Deal That Would Make It Europe's No. 2 Listed Treasury",
+        "author": "TheresNoSecondBest",
+        "score": 83,
+        "num_comments": 3,
+        "url": "https://bitcoinmagazine.com/news/h100-shareholders-approve-bitcoin-deal",
+        "selftext": "",
+        "created_utc": 1782302551.0
+      },
+      {
         "id": "1uea9im",
         "title": "Total beginner, advice on how to top up bitcoin wallet 🙏",
         "author": "Economy-Coffee-1953",
         "score": 0,
-        "num_comments": 10,
+        "num_comments": 11,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uea9im/total_beginner_advice_on_how_to_top_up_bitcoin/",
         "selftext": "As the title states I am a total beginner and don’t know the first thing about bitcoin or wallets. \n\nI have no intention right now of investing. I simply wish to make a purchase online with bitcoin. S",
         "created_utc": 1782298626.0
@@ -74,16 +84,6 @@
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ue7pkv/theoretical_question_on_buying_bitcoin_as_a_time/",
         "selftext": "Given time travelling is possible. You go back in time in your current state with your current knowledge. What would you need to do in order to be able to get bitcoins during it’s first years and be a",
         "created_utc": 1782289792.0
-      },
-      {
-        "id": "1uedk0p",
-        "title": "Predictive Bitcoin block templates via DATUM Gateway — methodology + 95.3% accuracy results",
-        "author": "Suitable_Instance_98",
-        "score": 10,
-        "num_comments": 7,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1uedk0p/predictive_bitcoin_block_templates_via_datum/",
-        "selftext": "Sharing some results from a side project on predictive block template generation:  \n  \n\\- 95.3% median hit-rate on the +1 lookahead bucket (outlier-filtered)  \n\\- 71.9% mean across all blocks (\\~166 b",
-        "created_utc": 1782307759.0
       }
     ]
   },
@@ -93,59 +93,59 @@
     "count": 8,
     "items": [
       {
-        "id": "2069786518852374779",
-        "text": "Do note these names go along with Crypto $BTC $ETH  and bitcoin. So, there is a bit of a different risk playing these. I typically don't trade them unless I am bullish on Crypto and the setup is unden",
-        "user": "BreadAlerts",
+        "id": "2069801730838085675",
+        "text": "Why bitcoin follow oil ?",
+        "user": "DIHCapital",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069786514322547054",
-        "text": "Back in 2022-2023 bear market the narrative circulating was that Michael Saylor and $MSTR were going to get liquidated on their bitcoin:native stack.\n\nThey weren't.\n\nUnsurprisingly, the same narrative",
-        "user": "rafaelnobel",
+        "id": "2069801730183688549",
+        "text": "@MtroX207 Bitcoin below 60k next",
+        "user": "Vintaeonchain",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2069801703747015057",
+        "text": "@solana @phantom @RootstockColl A DAO that rewards the builders shaping Bitcoin's future on top of Rootstock_io, Bitcoin's DeFi layer. \n\nRootstock Collective is decentralizing grant allocation while e",
+        "user": "shefiorg",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2069801691805819285",
+        "text": "Arthur Hayes says AI rescue liquidity could send Bitcoin price to $1,000,000 https://t.co/O3K8KlPG3H Gino Matos \nArthur Hayes outlined a path to $1 million Bitcoin price built around AI absorbing liqu",
+        "user": "CryptoPlanet247",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2069801691088629870",
+        "text": "@ABTC @realDonaldTrump has failed the bitcoin community.  No group has suffered more under his leadership.  He has turned a blind eye to the ongoing market manipulation and price suppression despite h",
+        "user": "fla_monty",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2069801677599973641",
+        "text": "I don’t understand one thing. If you are “predicting” the $ move, why not also take trades on currency pairs like EU, GU, and UJ? That alone can make you whole. Gold and Bitcoin can also be traded usi",
+        "user": "Hx7_01",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2069801671748952313",
+        "text": "someone plz stop Bitcoin here.\n\ncan't take it anymore!🥺 https://t.co/cwAno9ej7D",
+        "user": "mirza_sarmin",
         "likes": 1,
         "retweets": 0
       },
       {
-        "id": "2069786511063531756",
-        "text": "The recent confusion over Ethereum Foundation cuts, and\na lot of people in the last two days have been putting immense focus on the Ethereum Foundation’s decision to cut staff, and whether that could ",
-        "user": "ElliotsCrypto",
+        "id": "2069801662655398340",
+        "text": "US stocks drift after oil prices ease and Big Tech stocks fall\n#WallStreet #StockMarkets #GlobalMarkets #Nikkei #DAX #NYSE #NYC #SP500 #NASDAQ #CAC #FTSE #HKEX #JPX #Bitcoin #OilPrices #Crypto #FTX #S",
+        "user": "RealPhatsBlog",
         "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069786507620262212",
-        "text": "@1000xgirl Bitcoin ecosystem $SATS",
-        "user": "zhuizhu6661",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069786503522447504",
-        "text": "@coinbureau Cheaper entry have a feeling hes gonna sell more bitcoin soon",
-        "user": "NotWeb3liveNews",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069786477639471312",
-        "text": "@Vivek4real_ Corruption don’t like Bitcoin, that’s clear",
-        "user": "PurpleRock___",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069786464515133544",
-        "text": "XRP doing what it does best right now.. mimicking Bitcoin.",
-        "user": "ReignsLogical",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069786459872317534",
-        "text": "🚨EVERYTHING IS DUMPING🚨\n\n🔻Bitcoin fell to $61,000\n🔻Ethereum fell to $1,647\n\n🔻Gold just fell below $4,000.\n🔻Silver has crashed ~50% from ATH.\n\nSince the war started:👇\n- Gold down -25%, erasing $9.4 tri",
-        "user": "cryptothedoggy",
-        "likes": 1,
         "retweets": 0
       }
     ]
