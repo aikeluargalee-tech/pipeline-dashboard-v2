@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T15:15:59.134216+00:00",
+  "timestamp": "2026-06-24T16:20:42.994317+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -18,12 +18,12 @@
         {
           "id": "en_bitcoin_1",
           "source": "en_bitcoin",
-          "source_name": "Investor's Business Daily",
+          "source_name": "Robinhood",
           "rank": 2,
-          "title": "When Strategy Will Need To Sell Bitcoin; MSTR Stock's Scary Math - Investor's Business Daily",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb0ZiS05vQldybEtGQjFiZTZSYzIxQkZYRDA4ellJVWFxdk9STUpQTXNxa3BEV2pzTHBhZEpaS1FBMFhKMnFSV1B3WTM5QXBNbHF4MGE5d29Pd2VzZWN2blh3SUR1OXZNOFNIcEJtemRuX05hdzdLdVF3ckpIYmdUajBCT2FQQ0hvLU5YUmFsTnd0dGpIcE9qUg?oc=5",
+          "title": "SOL price on Jun 24, 2026 at 1pm EDT Crypto Prediction Market - Robinhood",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTU5XQmp2ZUxIb3I1R3BJQl9SVmtMcnBLN0R0UEttcVUwekRQa09FWldjWV9VLV9WeFhia2dvSTlaZkp1QkNDLWI3MUpsWURVWEJST2Zhcnk4UnRiN0RhQXRvNWFnWXFLczRJMDdvblA2MXFsbm1VLTJSSTlrXzl3ZXhQcUJrbC0yQTBVbVJjNzhxak5zSFJxLXB1b2puUlZIaHNwUzB0akt2WmRHeVE?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 12:49:00 GMT"
+          "publish_time": "Wed, 24 Jun 2026 16:08:59 GMT"
         },
         {
           "id": "en_bitcoin_2",
@@ -38,52 +38,52 @@
         {
           "id": "en_bitcoin_3",
           "source": "en_bitcoin",
-          "source_name": "Fortune",
+          "source_name": "Investor's Business Daily",
           "rank": 4,
+          "title": "When Strategy Will Need To Sell Bitcoin; MSTR Stock's Scary Math - Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb0ZiS05vQldybEtGQjFiZTZSYzIxQkZYRDA4ellJVWFxdk9STUpQTXNxa3BEV2pzTHBhZEpaS1FBMFhKMnFSV1B3WTM5QXBNbHF4MGE5d29Pd2VzZWN2blh3SUR1OXZNOFNIcEJtemRuX05hdzdLdVF3ckpIYmdUajBCT2FQQ0hvLU5YUmFsTnd0dGpIcE9qUg?oc=5",
+          "content": "",
+          "publish_time": "Wed, 24 Jun 2026 12:49:00 GMT"
+        },
+        {
+          "id": "en_bitcoin_4",
+          "source": "en_bitcoin",
+          "source_name": "Bitcoin Magazine",
+          "rank": 5,
+          "title": "Bitcoin Price Crashes Toward $61,000 as Bloodbath Engulfs Crypto Stocks - Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51a0VaVGR3V1BoQ1pMVGJ5Wk5ZRzVqeGwtTUpHd0Z0MlB5d2NNRWVSMWhNQTVSeW94YWFOMlJHVndjcmxxV1k1Z2NYbzFRMm5hMTZYU3UyUWpWX1J0NVY2TGFkRnZiNFkxQkNkbjVtWlhNMk9UeHg2NQ?oc=5",
+          "content": "",
+          "publish_time": "Wed, 24 Jun 2026 14:09:00 GMT"
+        },
+        {
+          "id": "en_bitcoin_5",
+          "source": "en_bitcoin",
+          "source_name": "Fortune",
+          "rank": 6,
           "title": "Current price of Bitcoin for June 23, 2026 - Fortune",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1M2JxRTNUZHVEMFJlM0tSeG1wc3BsOFg3a29LbmI2dzFUN3BTX1hmcDU2ajNHcEU3THRkbHZ3aG5nYS1sODhVRHEzeVBYb0c5eTA2VFQydEVja3FTSTh2aFdFZDljOW8?oc=5",
           "content": "",
           "publish_time": "Tue, 23 Jun 2026 13:02:00 GMT"
         },
         {
-          "id": "en_bitcoin_4",
+          "id": "en_bitcoin_6",
           "source": "en_bitcoin",
           "source_name": "TradingView",
-          "rank": 5,
+          "rank": 7,
           "title": "BTC price four-year trend calls for $76K as analysis says Bitcoin 'not broken' - TradingView",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNenE3ZUVxWFBfdDFvLVBBd0Fqd3RnbnE3UVBNV01MMzdOS0NuV0MtTTVXb2xHaHZrVTcwWFZMMnlwNDcycW11Z0pYRUJPUlRPYVhZNmpJaWZYODdKTzhmdE1DVzItTlJEZEtZcXJRX2UyVVFTeHNXMmxxOUF0bkVrRUVlb3hzNDJldVB6LXl2Q2ZDMXh5aTdBT1BKdGJyX0FLcjU2VWVIaHU4OUxmNWh2MlJCZlU3b1ZTdnpfN05hb0NZX0x3eUttbHY5RUNXU2hxVkhUdS1B?oc=5",
           "content": "",
           "publish_time": "Wed, 24 Jun 2026 09:40:13 GMT"
         },
         {
-          "id": "en_bitcoin_5",
-          "source": "en_bitcoin",
-          "source_name": "Forbes",
-          "rank": 6,
-          "title": "Bitcoin Crash Suddenly Accelerates As Traders Brace For A Surprise Fed Price Shock - Forbes",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYWJkcjA1b2FfQ2pOd3pkdk9WUzhPR1Rkamp1WE9VYTNzRHhsX3RYTTA0OVRBMENEVGItOHNha05GazBaS2tCNFhWY05UY21vU2o0bnAxSlJDU1BKOWtJU0tWdVZmNVVJR2REanVldXVwNmpQbHc1Snhadm5tWVQ2QVRWTng0eUhBYUE5bzBfRVpIV05FOHdydUpxVlVlZm93OGRFS3ptZGt5OXN4QUZqNDhEWnlMV0ZsWTYxOTlfclJhNzlZQ2x0eDQwbjRVZjNwLVBIVA?oc=5",
-          "content": "",
-          "publish_time": "Tue, 23 Jun 2026 13:51:37 GMT"
-        },
-        {
-          "id": "en_bitcoin_6",
+          "id": "en_bitcoin_7",
           "source": "en_bitcoin",
           "source_name": "Seeking Alpha",
-          "rank": 7,
+          "rank": 8,
           "title": "Bitcoin price tug-of-war: ETF outflows, 3 rate hike stance, MSTR buying collide - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQm41UXZHUVFNbTZFYTFpMG9HdklUc0Y0WUN1Tlg2TmtoVV9WdGpob0lMUWlYVnhPaUp4V3FZZHFUaERaamw1ZE9xNkU3eWpKZ1VhU3kwRHZKcmRPeF84bTJzV0tOdHNYbzdyU2k3NWZLdVRyNHIzRDJMQ0VMWFRGTkdVYVdCZG9lR1RMLXA1V0dZQjFjUHVJdm9Fd1JZMEJqMWMyNUdtdW85dEtmRk95Y1RfbGg?oc=5",
           "content": "",
           "publish_time": "Mon, 22 Jun 2026 17:51:48 GMT"
-        },
-        {
-          "id": "en_bitcoin_7",
-          "source": "en_bitcoin",
-          "source_name": "Finance Magnates",
-          "rank": 8,
-          "title": "Bitcoin Price Prediction: Bear Flag on the BTC Chart Targets $38,000, Retest of the 2024 Lows - Finance Magnates",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbVZ3YkxOc2dXNHNmRWZaRExaQ3FZX21ZcjY1XzNlNFpaeVBzN2Z1YmR0VU92LWtWSkFmdHEtRVNRaWxreUNUbkxvMGIxVFBRVDZOejNPR3BKODR2SGI2cVVhQ2dublRwd3RfNXY0akpUTWxvdEpiTFNkR2tldHlIdTJLQWc4Y0wzeWdINGd0LXJPNFJ6aTFUbGs3VVYxNzJuWHdIQktTbklxdm5VXzZmaTNiZG81RF9PVV9KR3dUMWl0blp3VmRwajI4SQ?oc=5",
-          "content": "",
-          "publish_time": "Tue, 23 Jun 2026 10:20:16 GMT"
         }
       ]
     },
@@ -99,24 +99,24 @@
           "title": "Live updates: Bitcoin could drop to $59,000 in the short-term as liquidity dries up - CoinDesk",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOHZvVlBMcmJLZzNubnNkWmd0N09BWWhVNUpwOFFMbUlmWGZUTEFPcjlpc3JkMzdiUTBHdHRaQ3U5cVlFNDlDZHpldkVoNlp4cXB3WlVWNlRHLWJNS292NU9HNUpfbi04LV9GQzVsd3puR2xkbHZKYmNhclZFSlU5VG9TYV9yUGRaTXRNdE1oX1ZFbW5QenhZaWs5RUVfa1FoZi1YSnNsQ3VVaTNxemtqbFg4NDFfOE9qMEFyRmluV3hvcVlo?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 15:02:22 GMT"
+          "publish_time": "Wed, 24 Jun 2026 16:18:01 GMT"
         },
         {
           "id": "en_crypto_1",
           "source": "en_crypto",
-          "source_name": "CoinDesk",
+          "source_name": "Euronews.com",
           "rank": 2,
-          "title": "Bitcoin clings to $62,500 as bears tighten grip on crypto market - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVk5iRVJsazBYUXZWLU5xWlpUU1ZmLWsxWE56NGF3djRUN3AyQ0JPZm1fRVdQWi1iRmJ5UmE0Rm96bzduTjczZlBDTnA0aVJDN0V4d3dfenRLaHpGb3JMYTR4VkNwRXkwMjBKd0UyU3dzdkphQUlqS0dIVU43Q3pJRW1RSFVOSEFSTmFBbm9XS1d1T0VURml3TTJvUk56aWE0cTRXMnhGQlJVWEV4b2xr?oc=5",
+          "title": "New EU crypto rules could force hundreds of firms to exit the market - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQzBqRkZ2QVlwM2s5Mm1oZDlqQXlzS3ZEUUpETE5haHU3ZGZQWjhtWDNLaDdiY2hOYTVmcEFfRzU0Q1NxT1duN3g4VHVnQXV4Wm8tRUl5M3dNckN2Q0I5ZnAtSzVLM0JhREhVSUxSTnIyRUJtMDJoczdIZV9aek03OG1LcmUtNDJzRFFsMHNqUENXUGRXdFVhV3VoYUdTX2VXNjBmTzVxeGl4cHh5aFBiSUtER1VsdVFHTnA3dTRfdXIxRmc?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 11:05:37 GMT"
+          "publish_time": "Wed, 24 Jun 2026 15:45:15 GMT"
         },
         {
           "id": "en_crypto_2",
           "source": "en_crypto",
-          "source_name": "Bloomberg.com",
+          "source_name": "Bloomberg",
           "rank": 3,
-          "title": "Bitcoin’s Retreating Retail Army Exposes Fresh Market Fragility - Bloomberg.com",
+          "title": "Bitcoin’s Retreating Retail Army Exposes Fresh Market Fragility - Bloomberg",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMnFmTVljZklrd0tfUWZhZVlwbVZaNnBmZnZqRng2ZlRtR1RyMG9weVZKUmhETl9ienRmeF9zODVLT19JNHo3ek8ybV9LTVJKeHpQanNCbGpqSjZDLXptMTVEZEFaY3c1cDBPd0xSWGpzcVdoSFBLbzViRkFJTkpYLTlyS2ZCWndEekFXTjBXeGZEc2VJb3VwU0NwWFc1alJ0ajZUYW9EYTZBcFhUcld5ZU16OW0?oc=5",
           "content": "",
           "publish_time": "Wed, 24 Jun 2026 12:27:31 GMT"
@@ -134,12 +134,12 @@
         {
           "id": "en_crypto_4",
           "source": "en_crypto",
-          "source_name": "Euronews.com",
+          "source_name": "Bitcoin Magazine",
           "rank": 5,
-          "title": "New EU crypto rules could force hundreds of firms to exit the market - Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQzBqRkZ2QVlwM2s5Mm1oZDlqQXlzS3ZEUUpETE5haHU3ZGZQWjhtWDNLaDdiY2hOYTVmcEFfRzU0Q1NxT1duN3g4VHVnQXV4Wm8tRUl5M3dNckN2Q0I5ZnAtSzVLM0JhREhVSUxSTnIyRUJtMDJoczdIZV9aek03OG1LcmUtNDJzRFFsMHNqUENXUGRXdFVhV3VoYUdTX2VXNjBmTzVxeGl4cHh5aFBiSUtER1VsdVFHTnA3dTRfdXIxRmc?oc=5",
+          "title": "Bitcoin Price Crashes Toward $61,000 as Bloodbath Engulfs Crypto Stocks - Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51a0VaVGR3V1BoQ1pMVGJ5Wk5ZRzVqeGwtTUpHd0Z0MlB5d2NNRWVSMWhNQTVSeW94YWFOMlJHVndjcmxxV1k1Z2NYbzFRMm5hMTZYU3UyUWpWX1J0NVY2TGFkRnZiNFkxQkNkbjVtWlhNMk9UeHg2NQ?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 09:57:32 GMT"
+          "publish_time": "Wed, 24 Jun 2026 14:09:00 GMT"
         },
         {
           "id": "en_crypto_5",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-24T23:15:56.650522",
+    "timestamp": "2026-06-25T00:20:40.220426",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -272,7 +272,7 @@
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
         "volume": "4536109.175634519",
-        "liquidity": "149932.85513"
+        "liquidity": "151612.90441"
       }
     ]
   }
