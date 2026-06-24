@@ -467,11 +467,12 @@
         "regime_label": "CAUTIOUS NEUTRAL"
       },
       "outcomes": {
-        "1d": null,
-        "7d": null,
-        "30d": null
+        "outcome": "loss",
+        "exit_price": 61726.5,
+        "resolved_at": "2026-06-24T13:00:00+00:00",
+        "price_change_pct": -1.0
       },
-      "resolved": false
+      "resolved": true
     },
     {
       "id": "regime_8290dce4",
@@ -618,11 +619,12 @@
         "regime_label": "CAUTIOUS NEUTRAL"
       },
       "outcomes": {
-        "1d": null,
-        "7d": null,
-        "30d": null
+        "outcome": "loss",
+        "exit_price": 61924.5,
+        "resolved_at": "2026-06-24T13:00:00+00:00",
+        "price_change_pct": -1.0
       },
-      "resolved": false
+      "resolved": true
     }
   ]
 }

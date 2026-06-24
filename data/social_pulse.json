@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T13:16:18.741924+00:00",
+  "timestamp": "2026-06-24T14:15:47.190161+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -9,8 +9,8 @@
         "id": "1ue9ora",
         "title": "Why Bitcoin?",
         "author": "Virtual_Okra_5588",
-        "score": 15,
-        "num_comments": 118,
+        "score": 40,
+        "num_comments": 145,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ue9ora/why_bitcoin/",
         "selftext": "Why are you still buying Bitcoin even though there isn’t really the chance anymore for a really huge gain like 50x or 100x. But at the same time there is clearly the risk that Bitcoin can be worthless",
         "created_utc": 1782296760.0
@@ -19,7 +19,7 @@
         "id": "1udqk0l",
         "title": "Is bitcoin becoming too institutional?",
         "author": "Imaginary_Ladder_553",
-        "score": 10,
+        "score": 11,
         "num_comments": 42,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1udqk0l/is_bitcoin_becoming_too_institutional/",
         "selftext": "With ETFs, public companies, and large funds holding more BTC than ever, do you think Bitcoin is gradually becoming an institutional asset rather than a retail driven one?",
@@ -60,7 +60,7 @@
         "title": "Total beginner, advice on how to top up bitcoin wallet 🙏",
         "author": "Economy-Coffee-1953",
         "score": 0,
-        "num_comments": 8,
+        "num_comments": 10,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uea9im/total_beginner_advice_on_how_to_top_up_bitcoin/",
         "selftext": "As the title states I am a total beginner and don’t know the first thing about bitcoin or wallets. \n\nI have no intention right now of investing. I simply wish to make a purchase online with bitcoin. S",
         "created_utc": 1782298626.0
@@ -70,20 +70,20 @@
         "title": "Theoretical Question on Buying Bitcoin as a Time Traveller",
         "author": "OkDealer5389",
         "score": 0,
-        "num_comments": 8,
+        "num_comments": 9,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ue7pkv/theoretical_question_on_buying_bitcoin_as_a_time/",
         "selftext": "Given time travelling is possible. You go back in time in your current state with your current knowledge. What would you need to do in order to be able to get bitcoins during it’s first years and be a",
         "created_utc": 1782289792.0
       },
       {
-        "id": "1udznfy",
-        "title": "Trusts and wills for Bitcoin.? Most estate lawyers don’t know jack about it.",
-        "author": "thebitcoinmd",
-        "score": 8,
-        "num_comments": 6,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1udznfy/trusts_and_wills_for_bitcoin_most_estate_lawyers/",
-        "selftext": "Does anyone have a trusts for their kids for bitcoin? I don’t have a ton but if Bitcoin does what I think it will do over twenty years and I keep stacking it will be worth at least a couple of million",
-        "created_utc": 1782264276.0
+        "id": "1uedk0p",
+        "title": "Predictive Bitcoin block templates via DATUM Gateway — methodology + 95.3% accuracy results",
+        "author": "Suitable_Instance_98",
+        "score": 10,
+        "num_comments": 7,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1uedk0p/predictive_bitcoin_block_templates_via_datum/",
+        "selftext": "Sharing some results from a side project on predictive block template generation:  \n  \n\\- 95.3% median hit-rate on the +1 lookahead bucket (outlier-filtered)  \n\\- 71.9% mean across all blocks (\\~166 b",
+        "created_utc": 1782307759.0
       }
     ]
   },
@@ -93,59 +93,59 @@
     "count": 8,
     "items": [
       {
-        "id": "2069771524501016672",
-        "text": "Kalshi is starting to look like a winner.\n\nThey've beaten two incumbents at their own game:\n\nPolymarket at prediction markets.\n\nHyperliquid at perps.\n\nA few things have converged in the last month tha",
-        "user": "ryonnixon",
+        "id": "2069786518852374779",
+        "text": "Do note these names go along with Crypto $BTC $ETH  and bitcoin. So, there is a bit of a different risk playing these. I typically don't trade them unless I am bullish on Crypto and the setup is unden",
+        "user": "BreadAlerts",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069771524211441773",
-        "text": "@Pran10000 If Bitcoin doesn't start performing in 2027, then Bitcoin and all Bitcoiners have a problem, not just Saylor. Careful what you wish for.",
-        "user": "CBRobber",
+        "id": "2069786514322547054",
+        "text": "Back in 2022-2023 bear market the narrative circulating was that Michael Saylor and $MSTR were going to get liquidated on their bitcoin:native stack.\n\nThey weren't.\n\nUnsurprisingly, the same narrative",
+        "user": "rafaelnobel",
+        "likes": 1,
+        "retweets": 0
+      },
+      {
+        "id": "2069786511063531756",
+        "text": "The recent confusion over Ethereum Foundation cuts, and\na lot of people in the last two days have been putting immense focus on the Ethereum Foundation’s decision to cut staff, and whether that could ",
+        "user": "ElliotsCrypto",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069771522173235452",
-        "text": "Blackrock dumping on us \n#bitcoin #crypto $btc",
-        "user": "DerekKlibingat",
+        "id": "2069786507620262212",
+        "text": "@1000xgirl Bitcoin ecosystem $SATS",
+        "user": "zhuizhu6661",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069771490183229868",
-        "text": "In a PoW blockchain like Bitcoin, miners solve complex algorithms to validate transactions and earn rewards in cryptocurrency.",
-        "user": "BerryCorde99615",
+        "id": "2069786503522447504",
+        "text": "@coinbureau Cheaper entry have a feeling hes gonna sell more bitcoin soon",
+        "user": "NotWeb3liveNews",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069771486433353854",
-        "text": "Trump is directing 'government dollars and time' to quantum security, which could be a boon for Bitcoin. Millions of bitcoins with exposed public addresses may be at risk to quantum computers, per Pro",
-        "user": "CryptoMoneyLife",
+        "id": "2069786477639471312",
+        "text": "@Vivek4real_ Corruption don’t like Bitcoin, that’s clear",
+        "user": "PurpleRock___",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069771466183512416",
-        "text": "@itsthatgigi buy bitcoin\nbuy solana\nbuy ETH\nand hold to die\n😂😂😂",
-        "user": "duocpro1",
+        "id": "2069786464515133544",
+        "text": "XRP doing what it does best right now.. mimicking Bitcoin.",
+        "user": "ReignsLogical",
         "likes": 0,
         "retweets": 0
       },
       {
-        "id": "2069771440736334242",
-        "text": "@AshCrypto This bill really isn’t about crypto…besides, Bitcoin is dump hard again",
-        "user": "crisforanime",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2069771415700619559",
-        "text": "Interest to look back at this past Bitcoin ($BTC) cycle and see that it never seemed to leave the accumulation trend for a parabolic run, as it'd done in all prior cycles. I thought the 2020 cycle was",
-        "user": "chris_xcom",
-        "likes": 0,
+        "id": "2069786459872317534",
+        "text": "🚨EVERYTHING IS DUMPING🚨\n\n🔻Bitcoin fell to $61,000\n🔻Ethereum fell to $1,647\n\n🔻Gold just fell below $4,000.\n🔻Silver has crashed ~50% from ATH.\n\nSince the war started:👇\n- Gold down -25%, erasing $9.4 tri",
+        "user": "cryptothedoggy",
+        "likes": 1,
         "retweets": 0
       }
     ]
