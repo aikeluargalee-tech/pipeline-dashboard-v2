@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T03:15:29.421255+00:00",
+  "timestamp": "2026-06-24T04:15:41.014464+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -114,22 +114,22 @@
         {
           "id": "en_crypto_2",
           "source": "en_crypto",
-          "source_name": "The Block",
-          "rank": 3,
-          "title": "'Quarter-end catalyst or consolidation?': Bitcoin below $63,000 amid ETF outflows, $10.6 billion options expiry - The Block",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWnZRdEtIbkQzeElFQUxyV2dkelRSZlZfREYzSG1keS1HeDVzS3FlaVMtLWtPd09zMFFUNmZGd2JGUzBrVDd0VmNkSVhPYjFCUEktSkRWVHZLcG51RU43WlJ1V3Jsb3FsVUhYNm9nbmlsZmVNUmUzS1ZpYmRCZzd0MVZjaUFUdEdTWk01aG44Q0VsM0xqR2p6MlRKc3BRQlZlYkRiTEY4MURDMVgtNHZmcXVITmNaTTA4UldiRDdLcU5wUWtYNTE0cU9sNA?oc=5",
-          "content": "",
-          "publish_time": "Tue, 23 Jun 2026 17:26:34 GMT"
-        },
-        {
-          "id": "en_crypto_3",
-          "source": "en_crypto",
           "source_name": "CoinDesk",
-          "rank": 4,
+          "rank": 3,
           "title": "ETH, SOL, DOGE price news: Bitcoin under $63,000 amid tech selloff - CoinDesk",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOekwwUlZRa2U1Q1RCTzN1UG1nTmxhcHRkeHNoZWJxbjh4dzRIMU44Vnk3S3E3MUlBZzR5QThyZmxQRWZDVS1FMUFwNGpkVFV3cjA4UVlab1oweE4xRC1KVnJNdFVuU0s0SFpsMEpvbEJtRUh2MDd1Z3hmQlNsV1hFUXJWT0Y1QkJwT1ZxZ2lnMm9OZnpoQTlhamVaeXdzeUxEVjFpQWU2ckJyZ1JrTkJvTFJMYXRlNjQ?oc=5",
           "content": "",
           "publish_time": "Tue, 23 Jun 2026 05:25:34 GMT"
+        },
+        {
+          "id": "en_crypto_3",
+          "source": "en_crypto",
+          "source_name": "BeInCrypto",
+          "rank": 4,
+          "title": "Big Tech Sell-Off Hits Risk Assets Hard and Crypto Suffers Most - BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HdWFCdGFjZnJkaW1iV3lfVFlrNldPQy1tbHJQTE1Sd0l4LWJDNzJ3dkFVOHNFX0dwWkM2ejlrRkhnbW5xQ1ZhM3JIODZZMjVITElFZThQeGdIX3RqZWJTenNpNGU?oc=5",
+          "content": "",
+          "publish_time": "Tue, 23 Jun 2026 13:18:00 GMT"
         },
         {
           "id": "en_crypto_4",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-24T11:15:27.152064",
+    "timestamp": "2026-06-24T12:15:38.350922",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4531823.606063521",
-        "liquidity": "128720.96354"
+        "volume": "4533785.573353521",
+        "liquidity": "132121.53559"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "dxy": 101.4,
+  "dxy": 101.46,
   "us_10y_yield": 4.49,
   "m2_supply": 23052.3,
   "regime": "mild-risk-on",
@@ -25,6 +25,12 @@
   },
   "news": [
     {
+      "title": "StarkWare introduces 'Private KYC' to address personal data breaches",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/starkware-introduces-private-kyc-to-address-personal-data-breaches?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Wed, 24 Jun 2026 03:14:04 GMT"
+    },
+    {
       "title": "CFTC sues Kentucky after state\u2019s prediction market lawsuits",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/cftc-sues-kentucky-after-states-prediction-market-lawsuits?utm_source=rss&utm_medium=rss&utm_campaign=rss",
@@ -47,13 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/features/starmer-steps-down-what-andy-burnham-means-for-crypto-in-the-uk?utm_source=rss&utm_medium=rss&utm_campaign=rss",
       "published": "Tue, 23 Jun 2026 22:00:00 GMT"
-    },
-    {
-      "title": "Mark Zuckerberg ordered Meta staff to develop moneyless prediction market: NYT",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/mark-zuckerberg-meta-prediction-markets?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Tue, 23 Jun 2026 21:01:32 GMT"
     }
   ],
-  "_collected": "2026-06-24 03:15 UTC"
+  "_collected": "2026-06-24 04:15 UTC"
 }
