@@ -1,25 +1,59 @@
 {
-  "etf_flow": {
-    "daily_net": 62.9,
-    "weekly_net": -168.1,
-    "trend": "mild_outflow"
-  },
-  "regime": "mild-risk-off",
+  "dxy": 101.43,
+  "us_10y_yield": 4.49,
+  "m2_supply": 23052.3,
+  "regime": "mild-risk-on",
   "risk_assets": {
     "SPY": {
       "price": 733.58,
-      "change_pct": -1.45
+      "change_pct": -2.53
     },
     "QQQ": {
       "price": 713.65,
-      "change_pct": -3.29
+      "change_pct": -3.75
     },
     "GLD": {
       "price": 377.32,
-      "change_pct": -1.89
+      "change_pct": -5.16
     }
   },
   "vix": 19.49,
-  "dxy": 101.429,
-  "_collected": "2026-06-24 01:15 UTC"
+  "etf_flow": {
+    "daily_net": 68.2,
+    "weekly_net": -162.8,
+    "trend": "mild_inflow"
+  },
+  "news": [
+    {
+      "title": "Ethereum\u2019s much-hated staking 'tax' may already be obsolete",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/features/ethereums-funding-scare-why-a-hated-staking-tax-may-already-be-obsolete?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Tue, 23 Jun 2026 23:18:08 GMT"
+    },
+    {
+      "title": "$170M Ether longs liquidated as crypto market tumbles: Is ETH doomed?",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/170m-ether-positions-liquidated-as-crypto-market-tumbles-is-eth-doomed?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Tue, 23 Jun 2026 22:15:20 GMT"
+    },
+    {
+      "title": "Starmer steps down: What Andy Burnham means for crypto in the UK",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/features/starmer-steps-down-what-andy-burnham-means-for-crypto-in-the-uk?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Tue, 23 Jun 2026 22:00:00 GMT"
+    },
+    {
+      "title": "Mark Zuckerberg ordered Meta staff to develop moneyless prediction market: NYT",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/mark-zuckerberg-meta-prediction-markets?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Tue, 23 Jun 2026 21:01:32 GMT"
+    },
+    {
+      "title": "Here\u2019s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Tue, 23 Jun 2026 20:07:02 GMT"
+    }
+  ],
+  "_collected": "2026-06-24 02:15 UTC"
 }

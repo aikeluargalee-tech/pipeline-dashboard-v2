@@ -13,8 +13,8 @@
     },
     "vix_spx": {
       "state": "PROCEED",
-      "vix": null,
-      "spx_change": -1.45,
+      "vix": 19.49,
+      "spx_change": -2.53,
       "vix_weekly_chg": 5.7
     },
     "ai3_wave": {
@@ -26,12 +26,12 @@
     },
     "session": {
       "state": "PROCEED",
-      "name": "Unknown",
+      "name": "ASIA",
       "ny_open": "13:30 UTC",
-      "golden_window": null,
+      "golden_window": "9:30 PM \u2013 1:00 AM",
       "is_weekend": false
     }
   },
-  "timestamp": "2026-06-24 01:15 UTC",
-  "_collected": "2026-06-24 01:15 UTC"
+  "timestamp": "2026-06-24 02:15 UTC",
+  "_collected": "2026-06-24 02:15 UTC"
 }
