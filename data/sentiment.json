@@ -21,11 +21,11 @@
     ]
   },
   "stablecoins": {
-    "usdc_price": 1.00109,
-    "usdc_deviation": 0.109,
+    "usdc_price": 1.00108,
+    "usdc_deviation": 0.108,
     "dai_price": null,
     "dai_deviation": null,
     "status": "healthy"
   },
-  "_collected": "2026-06-24 09:16 UTC"
+  "_collected": "2026-06-24 10:16 UTC"
 }
