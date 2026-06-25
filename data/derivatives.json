@@ -1,15 +1,10 @@
 {
-  "funding_rate": 9.58e-06,
+  "funding_rate": 8.25e-06,
   "next_funding_time": 1782374400000,
-  "mark_price": 60690.4,
-  "open_interest_btc": 101053.836,
-  "open_interest_usd": 6132997728.3744,
+  "mark_price": 60782.14789855,
+  "open_interest_btc": 100827.479,
+  "open_interest_usd": 6128510740.815945,
   "oi_history": [
-    {
-      "btc": 97813.1,
-      "usd": 6133329053,
-      "ts": 1782273600000
-    },
     {
       "btc": 97793.6,
       "usd": 6134836028,
@@ -124,15 +119,20 @@
       "btc": 100880.7,
       "usd": 6130451808,
       "ts": 1782356400000
+    },
+    {
+      "btc": 100774.6,
+      "usd": 6132538969,
+      "ts": 1782360000000
     }
   ],
-  "oi_change_24h": 3.14,
+  "oi_change_24h": 3.05,
   "oi_trend": "accumulating",
-  "long_short_ratio": 2.4002,
-  "long_pct": 70.59,
-  "short_pct": 29.409999999999997,
-  "taker_buy_ratio": 0.7253,
-  "cvd_24h": -14383.86,
+  "long_short_ratio": 2.3546,
+  "long_pct": 70.19,
+  "short_pct": 29.81,
+  "taker_buy_ratio": 1.0243,
+  "cvd_24h": -13988.3,
   "cvd_trend": "weakening",
-  "_collected": "2026-06-25 03:15 UTC"
+  "_collected": "2026-06-25 04:15 UTC"
 }
