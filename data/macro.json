@@ -1,59 +1,25 @@
 {
-  "dxy": 101.5,
-  "us_10y_yield": 4.41,
-  "m2_supply": 23052.3,
+  "etf_flow": {
+    "daily_net": -229.7,
+    "weekly_net": -584.7,
+    "trend": "heavy_outflow"
+  },
   "regime": "mild-risk-off",
   "risk_assets": {
     "SPY": {
-      "price": 736.13,
-      "change_pct": -1.77
+      "price": 733.24,
+      "change_pct": -0.05
     },
     "QQQ": {
-      "price": 713.26,
-      "change_pct": -2.88
+      "price": 710.62,
+      "change_pct": -0.42
     },
     "GLD": {
-      "price": 367.94,
-      "change_pct": -7.51
+      "price": 365.92,
+      "change_pct": -3.02
     }
   },
-  "vix": 18.44,
-  "etf_flow": {
-    "daily_net": -113.8,
-    "weekly_net": -344.8,
-    "trend": "mild_outflow"
-  },
-  "news": [
-    {
-      "title": "Bitcoin crash to $60K opens new $530M demand zone: Will bulls buy in?",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-daily-close-points-to-the-next-demand-zone-as-530m-in-buy-bids-emerge?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Wed, 24 Jun 2026 16:21:52 GMT"
-    },
-    {
-      "title": "Credit unions managing $25B in assets join stablecoin infrastructure program",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/credit-unions-join-stablecoin-infrastructure-program?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Wed, 24 Jun 2026 15:49:54 GMT"
-    },
-    {
-      "title": "Binance withdraws Greece-filed MiCA application",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/binance-eu-license-greece-mica-setback?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Wed, 24 Jun 2026 15:47:05 GMT"
-    },
-    {
-      "title": "Trump cancels signing of housing bill with CBDC ban",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/donald-trump-cancels-signing-housing-bill-cbdc-ban?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Wed, 24 Jun 2026 15:18:07 GMT"
-    },
-    {
-      "title": "The Impossibility of Perfect Fairness in Transaction Ordering",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/research/the-impossibility-of-perfect-fairness-in-transaction-ordering?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Wed, 24 Jun 2026 15:00:00 GMT"
-    }
-  ],
-  "_collected": "2026-06-24 17:15 UTC"
+  "vix": 18.63,
+  "dxy": 101.507,
+  "_collected": "2026-06-25 03:15 UTC"
 }

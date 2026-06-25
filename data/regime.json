@@ -9,7 +9,7 @@
   "macro": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "VIX 18.4 normal"
+    "detail": "VIX 18.6 normal"
   },
   "structure": {
     "verdict": "HOLDING",
@@ -19,19 +19,19 @@
   "derivatives": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "FR -0.0018% neutral, L/S 2.50, CVD -13814"
+    "detail": "FR 0.0010% neutral, L/S 2.40, CVD -14384"
   },
   "cycle": {
-    "verdict": "UNDERVALUED",
-    "emoji": "\ud83d\udfe2",
-    "detail": "MVRV-Z 0.37 undervalued, netflow -12,417 BTC"
+    "verdict": "MID",
+    "emoji": "\ud83d\udfe1",
+    "detail": ""
   },
   "synthesis": {
     "verdict": "CAUTIOUS NEUTRAL",
-    "detail": "Tightened rules active. 1 bullish / 0 bearish signals. | TA: Price 15.8% below MA50 \u2014 medium-term structure bearish",
-    "bull_count": 0.5,
+    "detail": "Tightened rules active. 0 bullish / 0 bearish signals. | TA: Price 14.1% below MA50 \u2014 medium-term structure bearish",
+    "bull_count": 0.0,
     "bear_count": 0.0,
-    "ta_warning": "Price 15.8% below MA50 \u2014 medium-term structure bearish"
+    "ta_warning": "Price 14.1% below MA50 \u2014 medium-term structure bearish"
   },
-  "_collected": "2026-06-24 17:15 UTC"
+  "_collected": "2026-06-25 03:15 UTC"
 }
