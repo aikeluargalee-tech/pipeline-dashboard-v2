@@ -1,7 +1,7 @@
 {
   "etf_flow": {
-    "daily_net": -469.0,
-    "weekly_net": -824.0,
+    "daily_net": 0.0,
+    "weekly_net": -741.8,
     "trend": "heavy_outflow"
   },
   "regime": "mild-risk-off",
@@ -19,7 +19,7 @@
       "change_pct": -3.02
     }
   },
-  "vix": 17.92,
-  "dxy": 101.681,
-  "_collected": "2026-06-25 11:15 UTC"
+  "vix": 18.07,
+  "dxy": 101.706,
+  "_collected": "2026-06-25 12:18 UTC"
 }
