@@ -7,19 +7,19 @@
   "regime": "mild-risk-off",
   "risk_assets": {
     "SPY": {
-      "price": 733.24,
-      "change_pct": -0.05
+      "price": 734.14,
+      "change_pct": 0.12
     },
     "QQQ": {
-      "price": 710.62,
-      "change_pct": -0.42
+      "price": 711.2,
+      "change_pct": 0.08
     },
     "GLD": {
-      "price": 365.92,
-      "change_pct": -3.02
+      "price": 368.51,
+      "change_pct": 0.71
     }
   },
-  "vix": 17.81,
-  "dxy": 101.602,
-  "_collected": "2026-06-25 13:16 UTC"
+  "vix": 19.78,
+  "dxy": 101.354,
+  "_collected": "2026-06-25 14:16 UTC"
 }
