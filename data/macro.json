@@ -1,5 +1,10 @@
 {
-  "regime": "mixed",
+  "etf_flow": {
+    "daily_net": -469.0,
+    "weekly_net": -824.0,
+    "trend": "heavy_outflow"
+  },
+  "regime": "mild-risk-off",
   "risk_assets": {
     "SPY": {
       "price": 733.24,
@@ -15,6 +20,6 @@
     }
   },
   "vix": 18.63,
-  "dxy": 101.487,
-  "_collected": "2026-06-25 04:15 UTC"
+  "dxy": 101.499,
+  "_collected": "2026-06-25 05:15 UTC"
 }

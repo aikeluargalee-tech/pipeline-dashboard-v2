@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-25T04:15:36.705148+00:00",
+  "timestamp": "2026-06-25T05:15:50.973043+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -78,12 +78,12 @@
         {
           "id": "en_bitcoin_7",
           "source": "en_bitcoin",
-          "source_name": "Forbes",
+          "source_name": "Fortune",
           "rank": 8,
-          "title": "Serious ‘Cascade’ Crash Warning Issued As Bitcoin Price Suddenly Plunges - Forbes",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPV2ZHaFc4NDJoZXNFVTYyVVNUXy1Gc0NBZ1JqU2I0MjJJM3NRUVpMVlBTLVZPaVNTT203eTlvYWI4QmZPLTBBaEFxZm9GUERMMjhnQ2lXY3dwRXFPbkxBVEh5NWFXeGZ1RGxuMFktYng4czAxRVFHWEFIdVZCVjdWcVJQRHNRZXB5ZUVhVGpaMmp0MWhfemc4YVFzMlJVS254a0VESlF6a2RncGo0WEVTS1pFblkzQTBOdlVPRWFvdVFIdF9Z?oc=5",
+          "title": "Current price of Bitcoin for June 24, 2026 - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OWVJvbXNrVm9GRlFjS1ZKbEVDSDNFQnB0dFVhZ3RuNkJtSUcwdXNINGh1Q3d5RFF2TmVHTGRTVzR1R1lJWTAyTHREMjlaOXZPQXJrZzJEcVJrM2xKYW9rU0JiNFh3YUE?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 16:40:51 GMT"
+          "publish_time": "Wed, 24 Jun 2026 13:03:00 GMT"
         }
       ]
     },
@@ -114,22 +114,22 @@
         {
           "id": "en_crypto_2",
           "source": "en_crypto",
-          "source_name": "CNBC",
-          "rank": 3,
-          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTMwY2NncWRoaGVwYy1YdWQyZER4ZE16Q2JrWE5sb2U4UnF3TkxzRnBaMnhDUkJkX0NGZnNDN2ZBY2hLcm11NWZIVWk1V2hnY0NxQzR2YmljWGVpWW5UTHFET2tPYmJxUnRZRmtzR2FRRlByX2ZmSXYtcUczMWlkRFJkeFNVS25Xb2JmSFFXTnB3MHZGaU5iTldnVUduMkxBQUxWTzlyNEwtZ0hkQ0ZKQtIBtgFBVV95cUxPVlc2Sm5HdEtHUzVIR25nUkxMUjF2OVhMbU1YdFV4WjctRGt5cEhWUk8wWC0yXzE5RWF5THFJTVZfa3hXX3RsY2NMZFRoZUVJN0d4Ymg2TEZjcWE2S1NUNkRkU3VFTEZ4ejlxMTk4V043UFQ3NjkxS0lnS21JOVhhbkFpM1Z0eEFBdVo3TTU1S3daMmhnQzQ4SFh6NkdhVEJ1ZUtIUTJXZElmWERheDBkV3ZjVHNPZw?oc=5",
-          "content": "",
-          "publish_time": "Wed, 24 Jun 2026 18:58:27 GMT"
-        },
-        {
-          "id": "en_crypto_3",
-          "source": "en_crypto",
           "source_name": "WSJ",
-          "rank": 4,
+          "rank": 3,
           "title": "Exclusive | How a Crypto Exchange Became a Major Hub for Illicit Iranian Cash - WSJ",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWXdXRFpnamlRdjhvbjd4czc4TVdXQk50ajg3bnlZaG93emdacEpCUGxQRTVkYXRXeVdMZmJMNXZqcjdpcE05aklBbWoyTEVvcHYtN0tBQ0V6NHBkdjNFNTV4cjgxWVlZMjFKZFl6RjFDdS1KM1JzLU9MclZxd1VlaW1sSjFiSV9mZC0xUFd2ZXltNUFUWkpnYTRvdlNPeS1uSjNUMnpwTzFMS0VGbXAwcENiZw?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 01:00:00 GMT"
+        },
+        {
+          "id": "en_crypto_3",
+          "source": "en_crypto",
+          "source_name": "CNBC",
+          "rank": 4,
+          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTMwY2NncWRoaGVwYy1YdWQyZER4ZE16Q2JrWE5sb2U4UnF3TkxzRnBaMnhDUkJkX0NGZnNDN2ZBY2hLcm11NWZIVWk1V2hnY0NxQzR2YmljWGVpWW5UTHFET2tPYmJxUnRZRmtzR2FRRlByX2ZmSXYtcUczMWlkRFJkeFNVS25Xb2JmSFFXTnB3MHZGaU5iTldnVUduMkxBQUxWTzlyNEwtZ0hkQ0ZKQtIBtgFBVV95cUxPVlc2Sm5HdEtHUzVIR25nUkxMUjF2OVhMbU1YdFV4WjctRGt5cEhWUk8wWC0yXzE5RWF5THFJTVZfa3hXX3RsY2NMZFRoZUVJN0d4Ymg2TEZjcWE2S1NUNkRkU3VFTEZ4ejlxMTk4V043UFQ3NjkxS0lnS21JOVhhbkFpM1Z0eEFBdVo3TTU1S3daMmhnQzQ4SFh6NkdhVEJ1ZUtIUTJXZElmWERheDBkV3ZjVHNPZw?oc=5",
+          "content": "",
+          "publish_time": "Wed, 24 Jun 2026 18:58:27 GMT"
         },
         {
           "id": "en_crypto_4",
@@ -144,32 +144,32 @@
         {
           "id": "en_crypto_5",
           "source": "en_crypto",
-          "source_name": "PYMNTS.com",
+          "source_name": "HackerNoon",
           "rank": 6,
+          "title": "How I Broke Into Crypto During the Market Bottom - HackerNoon",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41QlVIcWFzVXZWYnlhV0wxbTVwU3N0MDFYOGpiOHBkclBNY1RaQ0p5MkY4NGhsSExXWU9hY0N4QWY4aUtxb2RrdXBvUXc5M0ZUMjgwWXFLdnR1VDVMTTBFVVp3X0JxZXdBWldVamtJd2lOdzc5X0w1YzlkTQ?oc=5",
+          "content": "",
+          "publish_time": "Thu, 25 Jun 2026 05:05:44 GMT"
+        },
+        {
+          "id": "en_crypto_6",
+          "source": "en_crypto",
+          "source_name": "PYMNTS.com",
+          "rank": 7,
           "title": "Catholic Leaders Join Growing Opposition to Crypto Market Structure Bill - PYMNTS.com",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ1ZBT0JXZlE4RDViRG1wNU1xdzVLNUNGeEpTTkFvMlBMZ0NpV3NKZlFNVTRMU3diMzJYUHZ2M0llVmNTZkJTNGk5MTV2ZXlfVXZUQ3pwbHlkLXhheFpEbmc2b2Q2bzR2T3FGbUxIU2VES3dEUEUyN0VDUHpxRFhubzFrSHZOUjRpUm82akRxSnRxLVZvcHJKRnJfWXN6a2pmU2N5UzBuYWFYQQ?oc=5",
           "content": "",
           "publish_time": "Wed, 24 Jun 2026 19:31:37 GMT"
         },
         {
-          "id": "en_crypto_6",
+          "id": "en_crypto_7",
           "source": "en_crypto",
           "source_name": "BeInCrypto",
-          "rank": 7,
+          "rank": 8,
           "title": "21Shares Concedes 4-Year Cycle Intact as Bitcoin Falls Below $60,000 Again - BeInCrypto",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jc3FwWXVlb0gza1NzMkt1WHpBeklwRGNjX09VQmsyTTBqMGRJTWU2WUs5aTg5aWZwbUJkNmpjRWZnSC1SS0RybkxJX1VGMkQ4QzBoa19Zdm5tUHYzSUpTZ2U5MnNucml4bUxLM0dkRXZEU3BqbjNEX0N3?oc=5",
           "content": "",
           "publish_time": "Wed, 24 Jun 2026 19:13:00 GMT"
-        },
-        {
-          "id": "en_crypto_7",
-          "source": "en_crypto",
-          "source_name": "Benzinga",
-          "rank": 8,
-          "title": "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMlJUZDY5ZlFfcG5BT0I1UExzYWVkLU1XRGhzQUhMMERqUDNwRFlMVlpTV2oxZ2IwYjJLUVZZVDVHd2ptXzhPLXF1MzM5SXJsN3k0U0dTYlhvVW5CVGFKRHFENTAxY1RCajNlcUFkSkE2UTlzQXZLVGFySUlwSWJWVnFyWlVJWGp5ZmxmNlFVWEE1cjNDOTBJMEtCQ3ZlcWIwaEZwMUxGTEFpLTZCR1JuWDAzcExNeWNuY29TVVRvdkw1NlpiRTRyLTJ4MDBFZ2JHSHpFU1BBYVJJdEk?oc=5",
-          "content": "",
-          "publish_time": "Wed, 24 Jun 2026 02:12:12 GMT"
         }
       ]
     },
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-25T12:15:34.497816",
+    "timestamp": "2026-06-25T13:15:48.803792",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -272,7 +272,7 @@
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
         "volume": "4536992.775416518",
-        "liquidity": "148607.19705"
+        "liquidity": "148285.54232"
       }
     ]
   }
