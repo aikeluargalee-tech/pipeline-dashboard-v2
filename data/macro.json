@@ -1,29 +1,35 @@
 {
-  "dxy": 101.24,
-  "us_10y_yield": 4.39,
+  "dxy": 101.1,
+  "us_10y_yield": 4.4,
   "m2_supply": 23052.3,
   "regime": "mild-risk-off",
   "risk_assets": {
     "SPY": {
-      "price": 734.3,
-      "change_pct": -1.8
+      "price": 728.47,
+      "change_pct": -2.57
     },
     "QQQ": {
-      "price": 716.38,
-      "change_pct": -2.72
+      "price": 705.35,
+      "change_pct": -4.94
     },
     "GLD": {
-      "price": 369.46,
-      "change_pct": -5.57
+      "price": 372.56,
+      "change_pct": -3.04
     }
   },
-  "vix": 19.88,
+  "vix": 20.24,
   "etf_flow": {
     "daily_net": -691.7,
     "weekly_net": -1433.5,
     "trend": "strong_outflow"
   },
   "news": [
+    {
+      "title": "Hyperliquid added to Singapore's Investor Alert List",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/hyperliquid-singapore-mas-investor-alert-list?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 13:11:29 +0000"
+    },
     {
       "title": "Australian regulator extends no-action period for crypto licensing",
       "source": "CoinTelegraph",
@@ -47,13 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/polymarket-vendor-compromise-drains-29m-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "Fri, 26 Jun 2026 08:20:37 +0000"
-    },
-    {
-      "title": "Here\u2019s what happened in crypto today",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 26 Jun 2026 06:04:04 +0000"
     }
   ],
-  "_collected": "2026-06-26 13:15 UTC"
+  "_collected": "2026-06-26 14:15 UTC"
 }
