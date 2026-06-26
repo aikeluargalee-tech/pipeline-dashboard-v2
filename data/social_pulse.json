@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T10:15:35.021098+00:00",
+  "timestamp": "2026-06-26T11:15:36.714409+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -9,8 +9,8 @@
         "id": "1ufbopa",
         "title": "Bitcoin is down. And somewhere, someone is smiling, not because they bought the dip.",
         "author": "MoneyMonsterStudios",
-        "score": 215,
-        "num_comments": 175,
+        "score": 222,
+        "num_comments": 178,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufbopa/bitcoin_is_down_and_somewhere_someone_is_smiling/",
         "selftext": "Bitcoin opened deep in the red today, and I already know what's happening somewhere in my circle. There's someone who has never owned Bitcoin, **(one of my best friends**) never wanted to, who gets no",
         "created_utc": 1782397840.0
@@ -19,8 +19,8 @@
         "id": "1ufer4g",
         "title": "Bitcoin is down so bad Bloomberg removed it from their homepage",
         "author": "thomas_unise",
-        "score": 434,
-        "num_comments": 89,
+        "score": 458,
+        "num_comments": 91,
         "url": "https://i.redd.it/bck11gcofg9h1.jpeg",
         "selftext": "",
         "created_utc": 1782404495.0
@@ -29,8 +29,8 @@
         "id": "1ufkz8u",
         "title": "Honest question about bitcoin",
         "author": "Unreal_fist",
-        "score": 33,
-        "num_comments": 84,
+        "score": 32,
+        "num_comments": 89,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufkz8u/honest_question_about_bitcoin/",
         "selftext": "If bitcoin was originally intended to be a decentralized digital currency, why are people treating it like an investment? Isn’t the point of currency to be used as an instrument for money or a medium ",
         "created_utc": 1782417965.0
@@ -40,7 +40,7 @@
         "title": "For those who believe bitcoin is going lower...",
         "author": "Suspicious-Ear-6129",
         "score": 32,
-        "num_comments": 70,
+        "num_comments": 73,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufc8uy/for_those_who_believe_bitcoin_is_going_lower/",
         "selftext": "Thoughts on the bitcoin power law chart? I understand it is just a chart so it only reads data but, its been true so far through bitcoins history. There appears to be a large support at 59k, so how co",
         "created_utc": 1782399064.0
@@ -59,7 +59,7 @@
         "id": "1ufh8vc",
         "title": "Bitcoin Mining Pool DMND Mines First Known Stratum V2 Block",
         "author": "TheresNoSecondBest",
-        "score": 62,
+        "score": 70,
         "num_comments": 18,
         "url": "https://bitcoinmagazine.com/bitcoin-mining/bitcoin-mining-pool-dmnd-mines",
         "selftext": "Bitcoin mining pool DMND has mined the first known Bitcoin block produced using the Stratum V2 protocol, a technical milestone that shifts control over block construction from pools to individual mine",
@@ -69,7 +69,7 @@
         "id": "1uf8yys",
         "title": "Greg Maxwell u/nullc just submitted comments opposing the FCC's proposed mandatory telecom KYC, and Bitcoiners should pay attention.",
         "author": "seedor",
-        "score": 31,
+        "score": 37,
         "num_comments": 9,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uf8yys/greg_maxwell_unullc_just_submitted_comments/",
         "selftext": "His argument isn't really about phones but about a broader trend toward mandatory identification everywhere. Once anonymous access disappears, every data breach becomes a target list, every privacy-co",
@@ -79,7 +79,7 @@
         "id": "1ufaxnn",
         "title": "That’s all you got?!?",
         "author": "Craignog",
-        "score": 1032,
+        "score": 1038,
         "num_comments": 132,
         "url": "https://i.redd.it/xog9e1fuqf9h1.jpeg",
         "selftext": "",
@@ -88,11 +88,67 @@
     ]
   },
   "twitter": {
-    "status": "error",
+    "status": "ok",
     "source": "Twitter/X",
-    "count": 0,
-    "items": [],
-    "error": "exit=1: WARNING twitter_cli.client: Failed to init ClientTransaction: 'NoneType' object has no attribute 'group'\n"
+    "count": 8,
+    "items": [
+      {
+        "id": "2070465975065960645",
+        "text": "⚔️ The morning Warband briefing rides. Dawn intelligence for the hard-money Warband. The night's moves, decoded before the herd wakes.\n\nhttps://t.co/uEdwIo8Yw8\n\n#Bitcoin #HODL",
+        "user": "HODLBarbarian",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070465944661491849",
+        "text": "@AltcoinDaily Every “BOMBSHELL” headline about Saylor is entertaining until your family has to figure out the Bitcoin without a single written instruction — the practical handoff playbook I built and ",
+        "user": "BTCProtector",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070465928723063244",
+        "text": "@Bitcoinprof0637 BITCOIN CLARITY IS COMING TO CAPITOL HILL. https://t.co/tGoVSC5ED3",
+        "user": "realMrBit",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070465895609126925",
+        "text": "$BTC hits new low yesterday.\n\nNow it is again at $59,600.\n\nPerfect Head and shoulder in play right now.\n\nSo far, sellers are still dominating, which means bitcoin could move lower.",
+        "user": "CryptoJacksonc",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070465848179859752",
+        "text": "\"Bitcoin is like a fruit tree\"...\n\nJorge from Bitcoin Tofo (Mozambique) believes that once the community tastes the fruit, they take the seeds and plant them to grow more Bitcoiners.\n\nProof of Work fo",
+        "user": "b4_humanity",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070465848175964608",
+        "text": "🔥SAYLOR: \"VOLATILITY TESTS EVERY CAPITAL STRUCTURE. STRATEGY REMAINS FOCUSED ON BITCOIN.\"\n\nSaylor says Strategy will continue to execute with \"disciplined capital allocation, credit quality, and long-",
+        "user": "coinbureau",
+        "likes": 0,
+        "retweets": 1
+      },
+      {
+        "id": "2070465830781952296",
+        "text": "@saylor \n#LUNC could save Bitcoin.\nYES ∆ NO ?",
+        "user": "SatoshiSays_X",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070465830765392198",
+        "text": "MiCA will not define Bitcoin, but it does push a question: what exactly is being offered to the public, and who is describing it honestly?\n\nForks, WP requirements, and why BSV Blockchain may be better",
+        "user": "skgremont",
+        "likes": 0,
+        "retweets": 0
+      }
+    ]
   },
   "xueqiu": {
     "status": "not_installed",

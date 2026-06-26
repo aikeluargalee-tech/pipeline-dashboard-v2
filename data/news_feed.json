@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T10:15:29.297253+00:00",
+  "timestamp": "2026-06-26T11:15:30.668586+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -109,27 +109,27 @@
           "title": "Live markets: Bitcoin rebounds to nearly $60,000. Kospi, Nikkei sink - CoinDesk",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbUNhVXg0WklocmV5djlsNmdiM3oyUkp0QXc2ZkRFenNrNTJMeFhGcXJHS25melZHVnl0WndXSzQwV1cydG1ncVpNUEFXdlhKald0NUhNSVotY0R2U21tU1hSQUhtS2J1MzVrZGQyeVhCejJiZjdvWHZQbVY0TVZibk5PTW8xNXQyVTVseE5iQ25NODhHSnRlTTMtWm1hX0V2cjBKMm9laF9ocW9T?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 05:42:39 GMT"
+          "publish_time": "Fri, 26 Jun 2026 10:12:08 GMT"
         },
         {
           "id": "en_crypto_2",
           "source": "en_crypto",
-          "source_name": "Euronews.com",
+          "source_name": "The Motley Fool",
           "rank": 3,
-          "title": "New EU crypto rules could force hundreds of firms to exit the market - Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQzBqRkZ2QVlwM2s5Mm1oZDlqQXlzS3ZEUUpETE5haHU3ZGZQWjhtWDNLaDdiY2hOYTVmcEFfRzU0Q1NxT1duN3g4VHVnQXV4Wm8tRUl5M3dNckN2Q0I5ZnAtSzVLM0JhREhVSUxSTnIyRUJtMDJoczdIZV9aek03OG1LcmUtNDJzRFFsMHNqUENXUGRXdFVhV3VoYUdTX2VXNjBmTzVxeGl4cHh5aFBiSUtER1VsdVFHTnA3dTRfdXIxRmc?oc=5",
+          "title": "This Trend Shows Why Solana Could Be a Smart Crypto Bear Market Buy - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ1phSFFZbDkydDczSzFseVZwMXd3ZEJKWDFlemtFUGVhLUIyRklaMUZIOVEzaW85dHd2cS02RVVfRVYyUzBTRU95LVgwczFObUxlQnFGZFJjdE5oQVdDZFNWTG05V3ZBZE4wMnlwbUxid1NmN2lYZ2E0MTNQQU5nSFpkUmxzV25JbERWb3Uwclg2VUJmUFRVRg?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 09:57:32 GMT"
+          "publish_time": "Fri, 26 Jun 2026 11:13:14 GMT"
         },
         {
           "id": "en_crypto_3",
           "source": "en_crypto",
-          "source_name": "Investing.com",
+          "source_name": "Euronews.com",
           "rank": 4,
-          "title": "The Crypto Market Has Tested the $2T Mark - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVnBrQ1hpVzNCQ1VHRXJoXy1aVjg4eDM5T2JhdC1LLTc5NFljbWc2VnhZMDZOM2U5Y3pKUFphZGkzbDVTMDZxVEtSWjFiNVZva0NCN0ZaNHV2SGJTQkF3bFhYMEhlVFR4TmJZaWdxUThjYk1HMDRPaWZxQXY0amZvOVktaVlldUZMdnRraWFB?oc=5",
+          "title": "New EU crypto rules could force hundreds of firms to exit the market - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQzBqRkZ2QVlwM2s5Mm1oZDlqQXlzS3ZEUUpETE5haHU3ZGZQWjhtWDNLaDdiY2hOYTVmcEFfRzU0Q1NxT1duN3g4VHVnQXV4Wm8tRUl5M3dNckN2Q0I5ZnAtSzVLM0JhREhVSUxSTnIyRUJtMDJoczdIZV9aek03OG1LcmUtNDJzRFFsMHNqUENXUGRXdFVhV3VoYUdTX2VXNjBmTzVxeGl4cHh5aFBiSUtER1VsdVFHTnA3dTRfdXIxRmc?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 08:45:41 GMT"
+          "publish_time": "Wed, 24 Jun 2026 09:57:32 GMT"
         },
         {
           "id": "en_crypto_4",
@@ -144,32 +144,32 @@
         {
           "id": "en_crypto_5",
           "source": "en_crypto",
-          "source_name": "Morningstar",
+          "source_name": "Investing.com",
           "rank": 6,
+          "title": "The Crypto Market Has Tested the $2T Mark - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVnBrQ1hpVzNCQ1VHRXJoXy1aVjg4eDM5T2JhdC1LLTc5NFljbWc2VnhZMDZOM2U5Y3pKUFphZGkzbDVTMDZxVEtSWjFiNVZva0NCN0ZaNHV2SGJTQkF3bFhYMEhlVFR4TmJZaWdxUThjYk1HMDRPaWZxQXY0amZvOVktaVlldUZMdnRraWFB?oc=5",
+          "content": "",
+          "publish_time": "Fri, 26 Jun 2026 08:45:41 GMT"
+        },
+        {
+          "id": "en_crypto_6",
+          "source": "en_crypto",
+          "source_name": "Morningstar",
+          "rank": 7,
           "title": "The Stablecoin Market Is Poised for Stratospheric Growth. Who Will Benefit, and Who Faces the Most Risk? - Morningstar",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYlhSUDRRYVRnaENXeUJvNXdBTHVfUGtVZzdHSkRVVlJCOEZTVGg5VUxETVREV3BsUU9nRXJUUlhiUm84al9SdUhpajhpZDZnTkY1WkpxZ2RkV3V6NVhMYUdoT3o5SFVjT3RGeTBTNkdWODRWVHZTcndIZmZDSWtwcV9GOXl2MU9ZRU9hYnJDUEZuLTlkMTZGYlY4eWhzV0szb1ZkVU1MN3N3cF9lU1V0UEtNUzlVMjZ0QjRqOWRYOGJZWi0ydW92Z1F6MVF3b0xrWDZn?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 10:10:43 GMT"
         },
         {
-          "id": "en_crypto_6",
+          "id": "en_crypto_7",
           "source": "en_crypto",
           "source_name": "TipRanks",
-          "rank": 7,
+          "rank": 8,
           "title": "Is Bitcoin Finished? Analysts Warn a $1.6 Billion Risk Looms Large as BTC Crashes to $59,000 - TipRanks",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUV6UGMtX0tiVzdpaXpwMV84akFHNElSZnJta3BTektTQlZ3azB0QmhzeTlDYklWeEZpUC1Bc1lYS1lUYWZ6bUhmdFcxR1VkMmRUcXlsTGwtcTQtVHhublNYR0MxdEJsQ1Y5UDFad3RGR2wtUFphM0RvSzJLd2lsMWR4dVlTN05SZXJkZUI0dnU5V1AtM0RTbVI5bDdYZw?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 14:47:24 GMT"
-        },
-        {
-          "id": "en_crypto_7",
-          "source": "en_crypto",
-          "source_name": "Yahoo Finance",
-          "rank": 8,
-          "title": "Peter Schiff Says Gold’s Selloff Is A Buying Opportunity, Bitcoin’s Decline Is ‘A Bubble Deflating’ - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmRkVmp6QjdUNUJNVERNakpiWVZwdmdzQkItSW9Ka1diRmM3eWVMNGFVdFNnWGhEbnNzc3p4WlZLb25XaFVFeHB6MFZLUVFjMWljaGc1b3hvV21tb3Ftdk9mY08zcWI0VGFMVldoYm93aGFrdmxtM1c0c2diVjc3ZVFscEZBaGo2cGZKMEMzQmhscUdRMWZxSGhlYkd0YmVPamc?oc=5",
-          "content": "",
-          "publish_time": "Fri, 26 Jun 2026 00:30:00 GMT"
         }
       ]
     },
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-26T18:15:26.686054",
+    "timestamp": "2026-06-26T19:15:28.583014",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4543350.853404516",
-        "liquidity": "145758.48108"
+        "volume": "4543360.853404516",
+        "liquidity": "145347.83211"
       }
     ]
   }

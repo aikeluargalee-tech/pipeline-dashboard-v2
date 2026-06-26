@@ -1,5 +1,5 @@
 {
-  "dxy": 101.2,
+  "dxy": 101.19,
   "us_10y_yield": 4.39,
   "m2_supply": 21200.0,
   "regime": "mild-risk-off",
@@ -17,7 +17,7 @@
       "change_pct": -5.57
     }
   },
-  "vix": 20.19,
+  "vix": 20.18,
   "etf_flow": {
     "daily_net": -691.7,
     "weekly_net": -1433.5,
@@ -27,33 +27,33 @@
     {
       "title": "Bitcoin ETFs post June's biggest daily outflows as BTC falls below $60K",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-etfs-biggest-outflows-june-btc-below-60k?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Fri, 26 Jun 2026 09:36:34 GMT"
+      "url": "https://cointelegraph.com/news/bitcoin-etfs-biggest-outflows-june-btc-below-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 09:36:34 +0000"
     },
     {
       "title": "Polymarket hit by $2.9M theft, users to be refunded",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/polymarket-vendor-compromise-drains-29m-users?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Fri, 26 Jun 2026 08:20:37 GMT"
+      "url": "https://cointelegraph.com/news/polymarket-vendor-compromise-drains-29m-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 08:20:37 +0000"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Fri, 26 Jun 2026 06:04:04 GMT"
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 06:04:04 +0000"
     },
     {
       "title": "Tether stablecoin flips Ether by market cap as ETH routs to $1.5K",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/tether-stablecoin-flips-ether-by-market-cap-as-eth-routs-to-15k?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Fri, 26 Jun 2026 06:02:01 GMT"
+      "url": "https://cointelegraph.com/news/tether-stablecoin-flips-ether-by-market-cap-as-eth-routs-to-15k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 06:02:01 +0000"
     },
     {
       "title": "Coinbase's Base resumes block production after 2-hour outage",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/coinbases-blockchain-base-back-online-after-2-hour-outage?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Fri, 26 Jun 2026 05:10:44 GMT"
+      "url": "https://cointelegraph.com/news/coinbases-blockchain-base-back-online-after-2-hour-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 05:10:44 +0000"
     }
   ],
-  "_collected": "2026-06-26 10:15 UTC"
+  "_collected": "2026-06-26 11:15 UTC"
 }
