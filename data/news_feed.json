@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T08:16:13.638312+00:00",
+  "timestamp": "2026-06-26T09:16:16.911563+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -48,22 +48,22 @@
         {
           "id": "en_bitcoin_4",
           "source": "en_bitcoin",
-          "source_name": "The Block",
-          "rank": 5,
-          "title": "21Shares says bitcoin's post-halving price action 'still looks familiar,' but sees recovery toward $100,000 by year-end - The Block",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb242R0NsOE85OVlqMnZ0dTNoX1lIUXQ3cnQxQ0dXcXZpOGt4STVfLVBnRjN2M0VJZDhiUWt0WUdoa0FrVkxPYW1JSEY0Ry1uUnhCMzNjbFFHZko0S3RUZUtrTGpVUjk0eDJBTUNUWEViN3dvRE5laUR4T2tPUkxMWGp6b290SG1ZS2pUYkpPcnRydi1nNnZKdG90YXEwaXh3QURDcTNOdUpuN3dkMFBuNUh3NGdzMDh2WEwyUDZMb3gxYTdReWs2dExiWXVfRkJZTFhpVHlRU2FmOXJsYWJfcF9pTQ?oc=5",
-          "content": "",
-          "publish_time": "Wed, 24 Jun 2026 11:38:27 GMT"
-        },
-        {
-          "id": "en_bitcoin_5",
-          "source": "en_bitcoin",
           "source_name": "Fortune",
-          "rank": 6,
+          "rank": 5,
           "title": "Current price of Bitcoin for June 23, 2026 - Fortune",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1M2JxRTNUZHVEMFJlM0tSeG1wc3BsOFg3a29LbmI2dzFUN3BTX1hmcDU2ajNHcEU3THRkbHZ3aG5nYS1sODhVRHEzeVBYb0c5eTA2VFQydEVja3FTSTh2aFdFZDljOW8?oc=5",
           "content": "",
           "publish_time": "Tue, 23 Jun 2026 13:02:00 GMT"
+        },
+        {
+          "id": "en_bitcoin_5",
+          "source": "en_bitcoin",
+          "source_name": "The Block",
+          "rank": 6,
+          "title": "21Shares says bitcoin's post-halving price action 'still looks familiar,' but sees recovery toward $100,000 by year-end - The Block",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb242R0NsOE85OVlqMnZ0dTNoX1lIUXQ3cnQxQ0dXcXZpOGt4STVfLVBnRjN2M0VJZDhiUWt0WUdoa0FrVkxPYW1JSEY0Ry1uUnhCMzNjbFFHZko0S3RUZUtrTGpVUjk0eDJBTUNUWEViN3dvRE5laUR4T2tPUkxMWGp6b290SG1ZS2pUYkpPcnRydi1nNnZKdG90YXEwaXh3QURDcTNOdUpuN3dkMFBuNUh3NGdzMDh2WEwyUDZMb3gxYTdReWs2dExiWXVfRkJZTFhpVHlRU2FmOXJsYWJfcF9pTQ?oc=5",
+          "content": "",
+          "publish_time": "Wed, 24 Jun 2026 11:38:27 GMT"
         },
         {
           "id": "en_bitcoin_6",
@@ -78,12 +78,12 @@
         {
           "id": "en_bitcoin_7",
           "source": "en_bitcoin",
-          "source_name": "U.Today",
+          "source_name": "TipRanks",
           "rank": 8,
-          "title": "XRP, Shiba Inu (SHIB), Bitcoin (BTC) and Dogecoin (DOGE) Price Analysis for June 25: Fresh Wave of Bullish Recovery - U.Today",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSWthSXVvU3FsMVZiMDNoZnotaWFGQ3A3MGQyTGdKZDJNWUYyRWhhQVBHN2hRanNEaVIwNEc1RlhuQzVQamdNSl9tRVJINlRWbHZWMlp6TjJFLVhQdV9RRV81S3lBVllQUTFJSHN5MS00NkNtdEhYSHRpZV9jOVo0bHAxTGN4czZIOEtQMFo5LU1zLXJ4N1dPdmoySkNoVWdLVWNPQWgyODdOT0xiNEtIdFRBTdIBuAFBVV95cUxPdGxZa3FlbXBWblFmd19Pb2RLZ0Jpd2VUT3NNZXFYVGF5Qy1ia3otRTltQTVrbkNwM290bTJIWWVxbUtKQV9OSVR4cC0xWXZfS2tvTzBzT25TOTNHeFBBS2RiSFl2MzF3S1hzUGpqLWVVZW82VTJBRzBYMXg0XzVtbkE1VDdncVlLa1gtVGotRTFNQ2F2eDA3Wkl4Wjh6R0lsOEh2cVA2Wkl6Z1hGNHd4c1FsMXJyZFUx?oc=5",
+          "title": "Bitcoin’s (BTC) Price Falls Below $60,000 as Crypto Selloff Worsens - TipRanks",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPczlKeTBDMWMwdG5WcEViaFV3a0dYLXV4Zmx0NTYyVjhORkRHTHhmZ01nTzVxX1gzVWRJbFFPMHVoMm9kQmdhdFRjcTlSQUM0TFFZaDU1eUNTNjRNdGd2NkxUUjJFOXJDTGpPanZ3MFJWcFlKNzUzQ1FfcVhRdk03VnI0RldyVWNCYXJJc2FmZWFWaVAtR3Z3?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 00:02:24 GMT"
+          "publish_time": "Wed, 24 Jun 2026 16:37:32 GMT"
         }
       ]
     },
@@ -116,7 +116,7 @@
           "source": "en_crypto",
           "source_name": "CoinDesk",
           "rank": 3,
-          "title": "Too big to fail: Strategy’s $13 billion bitcoin paper loss alone dwarfs hundreds of prominent tokens - CoinDesk",
+          "title": "Strategy’s $13 billion paper loss dwarfs dogecoin, BlackRock's BUIDL and hundreds of other tokens - CoinDesk",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSFRaa3QwU0RIWE1NZlZHc25FTHl2OUVBaFUyYWV4Ukl6OGZKLVhXVlhDQURzN3lGVnJ1aVNUT2xXbjh6b1pDSG95N3BQUmV3cEVPbWk5RFUwQ0NzQW9vMHVKUlQwQWxSR2hkM2pUcjhiOVh2b0w3MnN4emRQM2Z1eGJVV0tYQTZSenVOY3gzaEFYR3JCenpyMnp0TUg4TElJdkN2Tlhja002aGhYbi1RNzhaUDB0WlZVdDQ4b21HaWdsSm5JcE52TlVVNFQ0Qm13b2J4VGlNeXdDaGpncVE?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 06:38:54 GMT"
@@ -154,22 +154,22 @@
         {
           "id": "en_crypto_6",
           "source": "en_crypto",
-          "source_name": "Binance",
+          "source_name": "Investing.com",
           "rank": 7,
-          "title": "Cryptocurrency Market | Coin Prices & Market Cap - Binance",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rZjdrVHB4RzRINlhsbTJPNnY2WF9WQnJxTUlJYlZxbHU1dnFkempIUlVIOGJ4RTdoN3lrVEF3WjFEcTR5UHVUWURPeGg4dndLa0tqSENiSUxONHFXY2FiNw?oc=5",
+          "title": "The Crypto Market Has Tested the $2T Mark - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVnBrQ1hpVzNCQ1VHRXJoXy1aVjg4eDM5T2JhdC1LLTc5NFljbWc2VnhZMDZOM2U5Y3pKUFphZGkzbDVTMDZxVEtSWjFiNVZva0NCN0ZaNHV2SGJTQkF3bFhYMEhlVFR4TmJZaWdxUThjYk1HMDRPaWZxQXY0amZvOVktaVlldUZMdnRraWFB?oc=5",
           "content": "",
-          "publish_time": "Thu, 25 Jun 2026 10:44:29 GMT"
+          "publish_time": "Fri, 26 Jun 2026 08:45:41 GMT"
         },
         {
           "id": "en_crypto_7",
           "source": "en_crypto",
-          "source_name": "FinanceFeeds",
+          "source_name": "Binance",
           "rank": 8,
-          "title": "Bitcoin Lost Support. Here's How Traders Can Survive if Crypto Enters a Prolonged Bear Market - FinanceFeeds",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN3dqS1R1QVJ3ZDlRUnU0a1l0V0xQY3VyWGdHVTFReWx2S0VlRThIR3c2UUtQM2ZRNUR6V2JxSWN4bmJDMl9TUDhqcV9LYWhWUm5jNkxXUEZoaS1yYjlEUFZVdTVXMFVNLXA3QWROUHI1VWNxTWYwaFNwTUMzdmZiVnlxUTBzNFE4THZxd2U2V3M5UV9YZUNseXZxeGZNNnJhcVNNMmphX1BlY01ua1NnTWZiYWVvdTFW?oc=5",
+          "title": "Cryptocurrency Market | Coin Prices & Market Cap - Binance",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rZjdrVHB4RzRINlhsbTJPNnY2WF9WQnJxTUlJYlZxbHU1dnFkempIUlVIOGJ4RTdoN3lrVEF3WjFEcTR5UHVUWURPeGg4dndLa0tqSENiSUxONHFXY2FiNw?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 06:08:11 GMT"
+          "publish_time": "Thu, 25 Jun 2026 10:44:29 GMT"
         }
       ]
     },
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-26T16:16:11.346129",
+    "timestamp": "2026-06-26T17:16:14.192059",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -272,7 +272,7 @@
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
         "volume": "4542935.0134045165",
-        "liquidity": "142724.69966"
+        "liquidity": "144883.75914"
       }
     ]
   }
