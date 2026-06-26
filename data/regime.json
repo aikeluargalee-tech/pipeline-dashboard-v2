@@ -9,7 +9,7 @@
   "macro": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "VIX 20.2 normal"
+    "detail": "VIX 20.0 normal"
   },
   "structure": {
     "verdict": "HOLDING",
@@ -19,7 +19,7 @@
   "derivatives": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "FR 0.0034% neutral, L/S 1.97, CVD -4809"
+    "detail": "FR 0.0041% neutral, L/S 2.04, CVD -3745"
   },
   "cycle": {
     "verdict": "UNDERVALUED",
@@ -33,5 +33,5 @@
     "bear_count": 0.0,
     "ta_warning": "Price 15.4% below MA50 \u2014 medium-term structure bearish"
   },
-  "_collected": "2026-06-26 11:15 UTC"
+  "_collected": "2026-06-26 12:15 UTC"
 }

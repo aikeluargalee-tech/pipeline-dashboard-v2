@@ -7,38 +7,38 @@
   "composite_score": 27.8,
   "cycle_phase": "medium",
   "distribution": {
-    "timestamp": "2026-06-26 10:50 UTC",
+    "timestamp": "2026-06-26 11:59 UTC",
     "source": "blockchair.com",
-    "total_addresses": 59305619,
-    "total_btc": 20048330.41997096,
+    "total_addresses": 59310218,
+    "total_btc": 20048346.04497096,
     "tiers": [
       {
         "range": "100+ BTC",
-        "addresses": "2,075,696",
-        "btc": "12,329,723",
+        "addresses": "2,075,857",
+        "btc": "12,329,732",
         "pct": "61.50%",
         "pctNum": 61.5,
         "color": "#f59e0b"
       },
       {
         "range": "1 \u2013 100 BTC",
-        "addresses": "948,889",
-        "btc": "6,315,224",
+        "addresses": "948,963",
+        "btc": "6,315,229",
         "pct": "31.50%",
         "pctNum": 31.5,
         "color": "#3b82f6"
       },
       {
         "range": "0.001 \u2013 1 BTC",
-        "addresses": "24,315,303",
-        "btc": "1,403,383",
+        "addresses": "24,317,189",
+        "btc": "1,403,384",
         "pct": "7.00%",
         "pctNum": 7.0,
         "color": "#6366f1"
       },
       {
         "range": "<0.001 BTC",
-        "addresses": "31,965,728",
+        "addresses": "31,968,207",
         "btc": "6,014",
         "pct": "0.03%",
         "pctNum": 0.03,
@@ -47,16 +47,16 @@
     ]
   },
   "options_skew": {
-    "timestamp": "2026-06-26 10:50 UTC",
-    "spot": 59427.73,
-    "skew_25d": -12.6,
-    "put_25d_iv": 54.0,
-    "call_25d_iv": 41.3,
-    "put_name": "BTC-10JUL26-56000-P",
+    "timestamp": "2026-06-26 11:59 UTC",
+    "spot": 59360.44,
+    "skew_25d": -15.0,
+    "put_25d_iv": 56.9,
+    "call_25d_iv": 41.9,
+    "put_name": "BTC-10JUL26-55000-P",
     "call_name": "BTC-10JUL26-63000-C",
     "label": "Extreme fear \u2014 historically near local bottoms",
     "emoji": "\ud83d\udd34",
-    "display": "\ud83d\udd34 Options skew (25\u0394): -12.6% \u2014 extreme fear \u2014 historically near local bottoms"
+    "display": "\ud83d\udd34 Options skew (25\u0394): -15.0% \u2014 extreme fear \u2014 historically near local bottoms"
   },
-  "_collected": "2026-06-26 11:15 UTC"
+  "_collected": "2026-06-26 12:15 UTC"
 }

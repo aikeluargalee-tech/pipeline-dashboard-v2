@@ -3,7 +3,7 @@
     "value": 13,
     "classification": "extreme_fear"
   },
-  "coinbase_premium": -0.1605,
+  "coinbase_premium": -0.1595,
   "whale": {
     "ratio": null,
     "trend": "falling",
@@ -17,15 +17,15 @@
     "trap_zone": "7:30 PM \u2013 9:30 PM",
     "mode": "SUMMER (Daylight Savings)",
     "warnings": [
-      "\u2705 Standard Operations \u2014 no risk flags"
+      "\ud83d\uded1 TRAP ZONE ACTIVE \u2014 Do Not Execute. Watch for liquidity sweeps."
     ]
   },
   "stablecoins": {
-    "usdc_price": 1.00116,
-    "usdc_deviation": 0.116,
+    "usdc_price": 1.0011,
+    "usdc_deviation": 0.11,
     "dai_price": null,
     "dai_deviation": null,
     "status": "healthy"
   },
-  "_collected": "2026-06-26 11:15 UTC"
+  "_collected": "2026-06-26 12:15 UTC"
 }
