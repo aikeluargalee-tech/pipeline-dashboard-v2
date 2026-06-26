@@ -1,27 +1,27 @@
 {
-  "ma50": 70295.29,
-  "ma60": 71682.33,
-  "rsi_14": 37.5,
-  "bb_upper": 66698.34,
-  "bb_lower": 59848.83,
-  "bb_width": 10.83,
-  "bb_mid": 63273.58,
+  "ma50": 70288.09,
+  "ma60": 71676.33,
+  "rsi_14": 35.8,
+  "bb_upper": 66748.88,
+  "bb_lower": 59762.31,
+  "bb_width": 11.04,
+  "bb_mid": 63255.59,
   "atr_14": 2216.06,
-  "atr_pct": 3.68,
-  "change_7d": -5.34,
-  "change_30d": -19.21,
-  "price": 60150.57,
+  "atr_pct": 3.71,
+  "change_7d": -5.91,
+  "change_30d": -19.69,
+  "price": 59790.75,
   "options_skew": {
-    "timestamp": "2026-06-26 08:46 UTC",
-    "spot": 60226.63,
-    "skew_25d": -11.6,
-    "put_25d_iv": 50.9,
-    "call_25d_iv": 39.3,
-    "put_name": "BTC-10JUL26-57000-P",
-    "call_name": "BTC-10JUL26-64000-C",
+    "timestamp": "2026-06-26 10:15 UTC",
+    "spot": 59731.73,
+    "skew_25d": -12.8,
+    "put_25d_iv": 53.3,
+    "call_25d_iv": 40.4,
+    "put_name": "BTC-10JUL26-56000-P",
+    "call_name": "BTC-10JUL26-63000-C",
     "label": "Extreme fear \u2014 historically near local bottoms",
     "emoji": "\ud83d\udd34",
-    "display": "\ud83d\udd34 Options skew (25\u0394): -11.6% \u2014 extreme fear \u2014 historically near local bottoms"
+    "display": "\ud83d\udd34 Options skew (25\u0394): -12.8% \u2014 extreme fear \u2014 historically near local bottoms"
   },
   "gamma": {
     "timestamp": "2026-06-26 08:37 UTC",
@@ -38,5 +38,5 @@
     "put_oi_total": 59873.3,
     "options_scanned": 438
   },
-  "_collected": "2026-06-26 09:16 UTC"
+  "_collected": "2026-06-26 10:15 UTC"
 }
