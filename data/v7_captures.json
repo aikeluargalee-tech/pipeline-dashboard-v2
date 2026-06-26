@@ -1,10 +1,12 @@
 {
-  "timestamp": "2026-06-26 03:15 UTC",
+  "timestamp": "2026-06-26 04:15 UTC",
   "long": {
-    "error": "No v7 data source at /tmp/btc_v7_images.json"
+    "file": "../assets/v7_long.png",
+    "size_kb": 409.1
   },
   "short": {
-    "error": "No v7 data source at /tmp/btc_v7_images.json"
+    "file": "../assets/v7_short.png",
+    "size_kb": 409.1
   },
-  "_collected": "2026-06-26 03:15 UTC"
+  "_collected": "2026-06-26 04:15 UTC"
 }

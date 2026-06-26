@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T03:16:02.037731+00:00",
+  "timestamp": "2026-06-26T04:16:04.399132+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -78,12 +78,12 @@
         {
           "id": "en_bitcoin_7",
           "source": "en_bitcoin",
-          "source_name": "Seeking Alpha",
+          "source_name": "CoinMarketCap",
           "rank": 8,
-          "title": "Bitcoin price tug-of-war: ETF outflows, 3 rate hike stance, MSTR buying collide - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQm41UXZHUVFNbTZFYTFpMG9HdklUc0Y0WUN1Tlg2TmtoVV9WdGpob0lMUWlYVnhPaUp4V3FZZHFUaERaamw1ZE9xNkU3eWpKZ1VhU3kwRHZKcmRPeF84bTJzV0tOdHNYbzdyU2k3NWZLdVRyNHIzRDJMQ0VMWFRGTkdVYVdCZG9lR1RMLXA1V0dZQjFjUHVJdm9Fd1JZMEJqMWMyNUdtdW85dEtmRk95Y1RfbGg?oc=5",
+          "title": "How Low Can Bitcoin Price Go in 2026? Why Analysts Say $50K Looks Likely - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOEtzdTR1NzVuS3VfXzBDOTFaWmxqUGg2UHJXZXE3eGYyNVpZZmV0YjhlajMxZFFiNGJLZWZtZzRhNm1hRE0xckdTVmcyYXZ0ek9JOGxpVFRXQ0hVaXFrQXE5dEdKUUhoSy1LTTF1QmlFb2trNFpSdVA1WktZdU9XRGQ2MkxuUQ?oc=5",
           "content": "",
-          "publish_time": "Mon, 22 Jun 2026 17:51:48 GMT"
+          "publish_time": "Thu, 25 Jun 2026 07:12:31 GMT"
         }
       ]
     },
@@ -94,12 +94,12 @@
         {
           "id": "en_crypto_0",
           "source": "en_crypto",
-          "source_name": "Financial Times",
+          "source_name": "Bloomberg.com",
           "rank": 1,
-          "title": "Bitcoin hits 20-month low as market sentiment sours - Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGVlQXFBa18zRUoxNDBXYllIN2FCV2hNSWZJWXkyYVc1UnJSdVJteWtIdmhZcmVaOXlzWlp6cnFpZlBKUF8wVWxJTUdNelFkNUVwNkRnMXg1M01GWWZ1QVlCMnY0R3phSXVzN05MdlNjM21XUHN5Szg1aXROZXo0V240bTM?oc=5",
+          "title": "Bitcoin’s Retreating Retail Army Exposes Fresh Market Fragility - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMnFmTVljZklrd0tfUWZhZVlwbVZaNnBmZnZqRng2ZlRtR1RyMG9weVZKUmhETl9ienRmeF9zODVLT19JNHo3ek8ybV9LTVJKeHpQanNCbGpqSjZDLXptMTVEZEFaY3c1cDBPd0xSWGpzcVdoSFBLbzViRkFJTkpYLTlyS2ZCWndEekFXTjBXeGZEc2VJb3VwU0NwWFc1alJ0ajZUYW9EYTZBcFhUcld5ZU16OW0?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 19:37:41 GMT"
+          "publish_time": "Wed, 24 Jun 2026 20:40:16 GMT"
         },
         {
           "id": "en_crypto_1",
@@ -114,62 +114,62 @@
         {
           "id": "en_crypto_2",
           "source": "en_crypto",
-          "source_name": "TradingView",
-          "rank": 3,
-          "title": "$10 Billion Bitcoin Options Expiry Puts Market Under Fresh Pressure - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTEZURWtKcDZYSjVuTlBaRFlaUHRFVUxGLTBwWFVTcjhLY2tQNXRXekVvMUt6amw2dHJlbnB5SDVYQk9QY3N4ZXAxQkVRUk5vX0JPZkwwSlV6TUtFNm1LUFd2YmJDNEN6Z2dqeXhqU2o0Vk14aUpTUlczM25TcUV6TnVzMW10TGFsYzdmVnktQjNLVGRWeDVPZU04TXdyMjhhM29CTWpXNzJLaU9RM2NrenFOc2tkU1A5WU1SUEJsVWpRdXpD?oc=5",
-          "content": "",
-          "publish_time": "Thu, 25 Jun 2026 18:15:10 GMT"
-        },
-        {
-          "id": "en_crypto_3",
-          "source": "en_crypto",
           "source_name": "MarketForces Africa",
-          "rank": 4,
+          "rank": 3,
           "title": "XRP Dives To $1.03 As Strobe Finance Shutdown Erodes Confidence - MarketForces Africa",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZUNMdG50WkVRY21JVS00WEU1NzhEbnFMTV80LVVBVjJTVDBHVlREcjQ3VjlKMmUtaGpISlN5WG1mNkpPYnlhVW9MWFNFYk56dkFlVG9MUkRLU2JaaGlxNDR4bHplOTl6WVI5dmc0WGdoRnRibGFuT1pTRWYxUzlYTER0RFE3V2xTQTE2YnlvZ19kdlk?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 21:25:07 GMT"
         },
         {
-          "id": "en_crypto_4",
+          "id": "en_crypto_3",
           "source": "en_crypto",
           "source_name": "Euronews",
-          "rank": 5,
+          "rank": 4,
           "title": "New EU crypto rules could force hundreds of firms to exit the market - Euronews",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQzBqRkZ2QVlwM2s5Mm1oZDlqQXlzS3ZEUUpETE5haHU3ZGZQWjhtWDNLaDdiY2hOYTVmcEFfRzU0Q1NxT1duN3g4VHVnQXV4Wm8tRUl5M3dNckN2Q0I5ZnAtSzVLM0JhREhVSUxSTnIyRUJtMDJoczdIZV9aek03OG1LcmUtNDJzRFFsMHNqUENXUGRXdFVhV3VoYUdTX2VXNjBmTzVxeGl4cHh5aFBiSUtER1VsdVFHTnA3dTRfdXIxRmc?oc=5",
           "content": "",
           "publish_time": "Wed, 24 Jun 2026 09:57:32 GMT"
         },
         {
-          "id": "en_crypto_5",
-          "source": "en_crypto",
-          "source_name": "TRM Labs",
-          "rank": 6,
-          "title": "How CoinEx Became Iran's Primary Gateway to Global Cryptocurrency Markets - TRM Labs",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM0hOeHYyelVYeWtFQXdPSFZTakRTbDJSR0pwOEpMWU8wMks5TUcweXhET2xNU294MUtkWnNmQXlRbUxoMjF0d2Y2YWVtczEyWWFqTkdRS2ZYSk81UGFFc2NNa3lPSW9ESjVQU0tKLUU1a2lyX01JdV9ud0ZRS1prZDd2Q2xhczR1S2d1QnFDVkhkQmtjM2lWazM3QVVjbUtWZDlzLTJoUnl6d3NKeWRERw?oc=5",
-          "content": "",
-          "publish_time": "Thu, 25 Jun 2026 03:08:42 GMT"
-        },
-        {
-          "id": "en_crypto_6",
+          "id": "en_crypto_4",
           "source": "en_crypto",
           "source_name": "markets.businessinsider.com",
-          "rank": 7,
+          "rank": 5,
           "title": "QuantRate Launches Free AI Trading Platform to Help Investors Identify Opportunities Across Stocks, Crypto and Forex - markets.businessinsider.com",
           "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOangyNXJod3dfU1BCVlVRS2Z2WXV0elE3T01XdGszLUVnNWF3YnlPT2lYR0hxN0JYMVZYSUpyZDVMZG8wS3lrdVozZmRlWURVUERwZXhlVUVnS1BfRGNZRHE5Sm95eGw0Vk82eWRWWnBzSjJqMkNGNVJRSTJHV2JXUXZyQ3pjb3QyRW9GenQ3OTZzcUcxUEwtaHpqSjdrTVJNWWJvalVNQS1GdmZ5YktBOTZYVGl1V0xuNEdLb2Zfb1Fic01kQzZKWWtsU3VxVDU5X2NfY3A5SmtHZmJaQ215T1lPUHdtakpWcFY4cEZUaUdKaHhhS3lvNkxpd28wUDU1eFFGMQ?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 16:56:03 GMT"
         },
         {
-          "id": "en_crypto_7",
+          "id": "en_crypto_5",
           "source": "en_crypto",
           "source_name": "Binance",
-          "rank": 8,
+          "rank": 6,
           "title": "Cryptocurrency Market | Coin Prices & Market Cap - Binance",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rZjdrVHB4RzRINlhsbTJPNnY2WF9WQnJxTUlJYlZxbHU1dnFkempIUlVIOGJ4RTdoN3lrVEF3WjFEcTR5UHVUWURPeGg4dndLa0tqSENiSUxONHFXY2FiNw?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 10:44:29 GMT"
+        },
+        {
+          "id": "en_crypto_6",
+          "source": "en_crypto",
+          "source_name": "CNBC",
+          "rank": 7,
+          "title": "Bitcoin ETFs see record investor flight as the cryptocurrency hits lowest levels since 2024 - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWGcxTXBOcmR6bUk5WEZPSkp5Njk3dmgwdUdsa0UybVNZZ21tM01PNkk2MUkyLUgwU29ybTZaTE00VUdPNjNZUXdIcGRkMzc5bmtIVGFyLTBRNGlQMTFMODRWbm41dzYyc3JBRnBfRmxPNTR5Qk00azhkV1YtT0YwbmtUMlpHMUQxSXYxaEZSNV9pblN1ZndnakZfOThpV1B6YVJlU3pvQms3SXJqS1JMNXF1YmZMNTA3?oc=5",
+          "content": "",
+          "publish_time": "Thu, 25 Jun 2026 16:00:26 GMT"
+        },
+        {
+          "id": "en_crypto_7",
+          "source": "en_crypto",
+          "source_name": "Yahoo Finance",
+          "rank": 8,
+          "title": "Peter Schiff Says Gold’s Selloff Is A Buying Opportunity, Bitcoin’s Decline Is ‘A Bubble Deflating’ - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmRkVmp6QjdUNUJNVERNakpiWVZwdmdzQkItSW9Ka1diRmM3eWVMNGFVdFNnWGhEbnNzc3p4WlZLb25XaFVFeHB6MFZLUVFjMWljaGc1b3hvV21tb3Ftdk9mY08zcWI0VGFMVldoYm93aGFrdmxtM1c0c2diVjc3ZVFscEZBaGo2cGZKMEMzQmhscUdRMWZxSGhlYkd0YmVPamc?oc=5",
+          "content": "",
+          "publish_time": "Fri, 26 Jun 2026 00:30:00 GMT"
         }
       ]
     },
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-26T11:15:59.705089",
+    "timestamp": "2026-06-26T12:16:01.496746",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4542022.978165517",
-        "liquidity": "145279.38854"
+        "volume": "4542777.279582516",
+        "liquidity": "145875.01476"
       }
     ]
   }
