@@ -1,7 +1,7 @@
 {
-  "dxy": 101.25,
+  "dxy": 101.24,
   "us_10y_yield": 4.39,
-  "m2_supply": 21200.0,
+  "m2_supply": 23052.3,
   "regime": "mild-risk-off",
   "risk_assets": {
     "SPY": {
@@ -17,13 +17,19 @@
       "change_pct": -5.57
     }
   },
-  "vix": 20.02,
+  "vix": 19.88,
   "etf_flow": {
     "daily_net": -691.7,
     "weekly_net": -1433.5,
     "trend": "strong_outflow"
   },
   "news": [
+    {
+      "title": "Australian regulator extends no-action period for crypto licensing",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/australia-asic-extends-crypto-licensing-relief-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 12:14:31 +0000"
+    },
     {
       "title": "AscendEX withdrawal complaints mount as ZachXBT questions reserves",
       "source": "CoinTelegraph",
@@ -47,13 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "Fri, 26 Jun 2026 06:04:04 +0000"
-    },
-    {
-      "title": "Tether stablecoin flips Ether by market cap as ETH routs to $1.5K",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/tether-stablecoin-flips-ether-by-market-cap-as-eth-routs-to-15k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 26 Jun 2026 06:02:01 +0000"
     }
   ],
-  "_collected": "2026-06-26 12:15 UTC"
+  "_collected": "2026-06-26 13:15 UTC"
 }

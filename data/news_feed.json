@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T12:15:37.272466+00:00",
+  "timestamp": "2026-06-26T13:15:37.962244+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -8,52 +8,52 @@
         {
           "id": "en_bitcoin_0",
           "source": "en_bitcoin",
-          "source_name": "CoinDesk",
-          "rank": 1,
-          "title": "Bitcoin price news: BTC hits $58,000 but a short-squeeze could set up for bounce - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWU9LWjE4dHhtTFpmQXJrTlJ6ZjF5MnNPT1dpWHpNbHhjNUZaWUh0TlgwSDBlZjRORUdkTkRwLWoxZWFfODRaTGMzXzZNSFF1V1BHSG93VVBlOE45OHhFbHA2eDQxcm81RzhXeEFyb0dqRm5xZ1JDWVphUXBsclZsaTNKRko0R0lLYXljZnM5VFFveWpGcVJ6OEFSaVhCaVFLNTREd05UU3RxelIwekc0TFVpOW9Nd2VfOTZVMWNSdG1fVFRGSTY0?oc=5",
-          "content": "",
-          "publish_time": "Thu, 25 Jun 2026 15:04:30 GMT"
-        },
-        {
-          "id": "en_bitcoin_1",
-          "source": "en_bitcoin",
-          "source_name": "CoinMarketCap",
-          "rank": 2,
-          "title": "How Low Can Bitcoin Price Go in 2026? Why Analysts Say $50K Looks Likely - CoinMarketCap",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOEtzdTR1NzVuS3VfXzBDOTFaWmxqUGg2UHJXZXE3eGYyNVpZZmV0YjhlajMxZFFiNGJLZWZtZzRhNm1hRE0xckdTVmcyYXZ0ek9JOGxpVFRXQ0hVaXFrQXE5dEdKUUhoSy1LTTF1QmlFb2trNFpSdVA1WktZdU9XRGQ2MkxuUQ?oc=5",
-          "content": "",
-          "publish_time": "Thu, 25 Jun 2026 13:44:01 GMT"
-        },
-        {
-          "id": "en_bitcoin_2",
-          "source": "en_bitcoin",
           "source_name": "Yahoo Finance",
-          "rank": 3,
+          "rank": 1,
           "title": "Michael Saylor's Strategy faces no easy way out as bitcoin prices continue to drop - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUXRTcmVuaU9PZkpUUFBJcEVfQktwMzhoQlZnU1hxdTZONlRtMVYzVHRpZjJwRWdxVTRMVk1hWGNSbGl0WnFtQXVJNC0tcFFIUWYxdkxsSDlUcjBtem5zbVRTSS1DTC1HeWo5dVNQMWR5Ql9QZWQ0Q1Jla2pTdXlLcy1tNC1taWhQeGVHR2RIbXpKRWtzaG95d3lyZFRvZ1hrdUxwRzRfalMtdkl0R054WERhS09HeXY2QlM2T2d1d1kzYTAyYjhDeHdOMjhQelFyRmxzTg?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 11:23:28 GMT"
         },
         {
-          "id": "en_bitcoin_3",
+          "id": "en_bitcoin_1",
+          "source": "en_bitcoin",
+          "source_name": "Forbes",
+          "rank": 2,
+          "title": "The ‘Ponzi Scheme’ Is Collapsing—Bitcoin Suddenly Braced For A Massive Price Crash - Forbes",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZFN4YWN5YzZfNk1TUHRkMWczdVdmdmgtaXJNdlB6ZDBPZTVwRDBqaUk0SzRYU2M0YWVCUGpvQXBxU3hiODJRbjdrdldKV3JkaTFhNUxzSTdJRHJNVVk1WFBEcFNJdWN6M2h4U0pHZkFianFqN0w3ZEtDeVpEbDNRWHNtLXd6bDRwcXlIOTZGbDViVjVMdjd5UWw4VHdUS2IxMk5jb2o0aXpnZ2tYeEh1M1RKX1F2dkxESzlyWFVKOU5sbGdP?oc=5",
+          "content": "",
+          "publish_time": "Fri, 26 Jun 2026 12:25:58 GMT"
+        },
+        {
+          "id": "en_bitcoin_2",
           "source": "en_bitcoin",
           "source_name": "Barron's",
-          "rank": 4,
+          "rank": 3,
           "title": "Bitcoin Is Paying the Price for the End of the Dollar Debasement Trade - Barron's",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd0NzNjF6ell3SGlCRXM5MXFUVGoyaURaRThHXy1oazN3UDcwRXFIeW1ab1BYbVdzUjhnQzVyZGZNSzVjNlhiZUtiM3EwUUdaMXFlaEpPZm1hSGZ6TlJxVHhZTExPYWZpSU8yUnhsT3JsOGxlNUdNTnM2ZS1mZ3NRZDdlVExPMU0?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 15:52:00 GMT"
         },
         {
-          "id": "en_bitcoin_4",
+          "id": "en_bitcoin_3",
           "source": "en_bitcoin",
           "source_name": "FOREX.com",
-          "rank": 5,
+          "rank": 4,
           "title": "Bitcoin Price Forecast: BTC/USD 30% Selloff Tests Major Support—Bottoming Risk Builds 6 25 2026 - FOREX.com",
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRE8xRUE1V2FqbGtvZ0ZHM01WSFpqZHNJa1hpeXpWemNsWnhUMW90RXhaLUMzbFhTY1JSekd4Q3U5QjNqWEdlZFlnSW9MUTc1ZEtCTHZLdkxyVFVoUmhLcHhHRGYzYnNDMDlhRlhPVlVJNnkwMjlyeEVfYUdibldkVUF0bGpwQ3RycmxTdUlib1dpYVVlQmhXc2t3M3VxNkhFeTA5UVNxSVdrZ19nTlFBNmVZU05wWDBibklpOFA2c1BSbDViN0t2alMxX21mdndUaE1VejhWMA?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 18:36:53 GMT"
+        },
+        {
+          "id": "en_bitcoin_4",
+          "source": "en_bitcoin",
+          "source_name": "CCN.com",
+          "rank": 5,
+          "title": "$1.26B Liquidated, 209,000 Traders Wrecked: What Just Happened to Crypto in 24 Hours? - CCN.com",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWS1CYUpJX01ZWUk3UGRvQlNraUY5N2F6NWpJcmU1S0F2S2ZrTm94NGh2ZUpPZFdaa2lvOVp3cmQyZE5UZ1FCbWJoRm9TYkIyN3ZKVnI5amdGWHpaT01VWV9jOGc1UFVfbEkteEhmamQtLXZlanhBMWNnQ1Ywb2llTm5TM2g4UQ?oc=5",
+          "content": "",
+          "publish_time": "Fri, 26 Jun 2026 10:43:30 GMT"
         },
         {
           "id": "en_bitcoin_5",
@@ -78,12 +78,12 @@
         {
           "id": "en_bitcoin_7",
           "source": "en_bitcoin",
-          "source_name": "CryptoSlate",
+          "source_name": "CoinMarketCap",
           "rank": 8,
-          "title": "On-chain data says Bitcoin price at $60k is cheap, but buyers are still nervous - CryptoSlate",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVJOZ2YzT3JDYUtDZ1FSSHNYd3U5TnExRmE1RmxaVWt6SEMtS3NpNHJXWnhuLUktalpIb2JwYk9PdmRHTG1VRHcwRWloV1FyelVOMWt5MEg4UVNKUVhvMUEtcTNCQVFYQU0wRHNYaUxTS0ZwcmxoSmdLelhjYUtFVXFSRldnNEZjV3dxTU1EVkFOVnBkekJRbmJKWHE?oc=5",
+          "title": "How Low Can Bitcoin Price Go in 2026? Why Analysts Say $50K Looks Likely - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOEtzdTR1NzVuS3VfXzBDOTFaWmxqUGg2UHJXZXE3eGYyNVpZZmV0YjhlajMxZFFiNGJLZWZtZzRhNm1hRE0xckdTVmcyYXZ0ek9JOGxpVFRXQ0hVaXFrQXE5dEdKUUhoSy1LTTF1QmlFb2trNFpSdVA1WktZdU9XRGQ2MkxuUQ?oc=5",
           "content": "",
-          "publish_time": "Thu, 25 Jun 2026 09:30:28 GMT"
+          "publish_time": "Thu, 25 Jun 2026 13:44:01 GMT"
         }
       ]
     },
@@ -124,39 +124,39 @@
         {
           "id": "en_crypto_3",
           "source": "en_crypto",
-          "source_name": "CoinDesk",
+          "source_name": "Yahoo Finance",
           "rank": 4,
-          "title": "Ethereum treasury firm Sharplink takes in ether for the first time in eight months - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZ3hPa0l0QzVnUi13MXNkUXA0WW5zU0QyZWZEWjdsQ3Utak1rR0NKMExhLXJkeFJQVk0xV2RRV1FtQVNaTlptODZOSTF6YmJwNnlXNHRHckZteXY0WUFPZEo1aEdHVVFIejRCS3V3cXY4YVRfdWFTN1BjTTRkU2JJckcwdHhuSnZzOTVqQXBXRlU2WG9kcW11VnY2c1J1Q0h2dlZ5OURpSERVUi1yOWt6VEJvTnh5dURRR2NZYVZwOWd2NU9j?oc=5",
+          "title": "Spain markets watchdog rules out extension for EU crypto licence deadline - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR3dMM2V3b3Q4ZkFtRnNHSE9XV20zNXdvVUpIVkF1M3dDWW9PMEZ5TDVjdUJWbmtWcVlvM2lReFBSbFVha0FQN3Faa09rUFY0SEZLTm5MdmJhZEpNdEhWRTFqQ3ZFQmlUM0dkVkoyc21XUXlsb2d6eDhqckU1WDNEYVNoUGhPaXhEdzRmSVVtZW5rblZuUjFmQzhZc2FTeGp2ZFViMkNn?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 09:48:26 GMT"
+          "publish_time": "Fri, 26 Jun 2026 12:10:49 GMT"
         },
         {
           "id": "en_crypto_4",
           "source": "en_crypto",
-          "source_name": "CoinDesk",
+          "source_name": "CNBC",
           "rank": 5,
-          "title": "Live markets: Bitcoin falls below $60,000. Kospi, Nikkei sink - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbUNhVXg0WklocmV5djlsNmdiM3oyUkp0QXc2ZkRFenNrNTJMeFhGcXJHS25melZHVnl0WndXSzQwV1cydG1ncVpNUEFXdlhKald0NUhNSVotY0R2U21tU1hSQUhtS2J1MzVrZGQyeVhCejJiZjdvWHZQbVY0TVZibk5PTW8xNXQyVTVseE5iQ25NODhHSnRlTTMtWm1hX0V2cjBKMm9laF9ocW9T?oc=5",
+          "title": "Bitcoin ETFs see record investor flight as the cryptocurrency hits lowest levels since 2024 - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWGcxTXBOcmR6bUk5WEZPSkp5Njk3dmgwdUdsa0UybVNZZ21tM01PNkk2MUkyLUgwU29ybTZaTE00VUdPNjNZUXdIcGRkMzc5bmtIVGFyLTBRNGlQMTFMODRWbm41dzYyc3JBRnBfRmxPNTR5Qk00azhkV1YtT0YwbmtUMlpHMUQxSXYxaEZSNV9pblN1ZndnakZfOThpV1B6YVJlU3pvQms3SXJqS1JMNXF1YmZMNTA3?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 10:42:57 GMT"
+          "publish_time": "Thu, 25 Jun 2026 16:00:26 GMT"
         },
         {
           "id": "en_crypto_5",
           "source": "en_crypto",
-          "source_name": "CNBC",
+          "source_name": "markets.businessinsider.com",
           "rank": 6,
-          "title": "Bitcoin is having a tough year. Traders are betting it's going to get worse - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdlZnTE5kQ0lIa0lrZVQ4cWl4NFBYa2JTS2hqaXBqa21qOE5DQUhGZEVKVzVTR0JJQkJCLU10TkdhOTF5MUtRSkU3ZmlCMk11dFBqeDduX2M2TzRmczJVcHVRNHE1YnZDX0otRG9zVTFESjhGQ2hpdnFFX1FrbEl6emZlOWhadWgtRzN2TmJRNXg3MTE3bHN4aU1ZOFJHdmRqZUpHWUpqcVNlWW02WUhF0gG0AUFVX3lxTE9pQXpxOVVXTUpKaDF6X3dqbFJaQlNyU2M3bDFRVGtiWXBreWY2b3R5WWdDb216S21yYlQ4YkNNT3E2R2RPWmFZaU1hT1NnaktMOEZQX1VpaEsxS1o4OFBtN3lZVjJWZHBETUs4M0I1Vk9JZmxESk8wOVVDT01UZ1dxWm5KNEozNHZiQjdNS1Z0YVpJWExEdTB6VzZ2NUltS05aUGZvQzEwU2h0Q3dmbUNLQ1Z5UQ?oc=5",
+          "title": "MoneySimpler Launches Free Multi-Strategy AI Trading Robot for Cryptocurrency, Stock, and Forex Markets - markets.businessinsider.com",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMVd2ek41UWd5NHB5NmNPMU9uQjNQdzhNdU9UMXNKTFNmRnBtZHJtdUQxbmVJZGpiNUNTejBVT0VkQmo1d19sTklrSEo1MWZKaWVycG5MTjBHQ2VaOTQycEZpNl9CZTV2b2x3N2RyUXdRSHAtOEc3bVROd2xvWUUzUWtqclcyVnB2S1o1bzFobnBpUU1FeWdJQ2lZdHBPZG04MDFQbnQ2Z0cyRjl3Y3M0YkZzMklzYlpwMHZKRFhZZ2tXOTdPeC1lUjBSa3EyV1lkTzRKclVVSUhfV1Q1d00tWkhwSFl6T2poQTFtU0FBT09CUQ?oc=5",
           "content": "",
-          "publish_time": "Thu, 25 Jun 2026 11:45:00 GMT"
+          "publish_time": "Fri, 26 Jun 2026 13:06:44 GMT"
         },
         {
           "id": "en_crypto_6",
           "source": "en_crypto",
-          "source_name": "Euronews.com",
+          "source_name": "Euronews",
           "rank": 7,
-          "title": "New EU crypto rules could force hundreds of firms to exit the market - Euronews.com",
+          "title": "New EU crypto rules could force hundreds of firms to exit the market - Euronews",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQzBqRkZ2QVlwM2s5Mm1oZDlqQXlzS3ZEUUpETE5haHU3ZGZQWjhtWDNLaDdiY2hOYTVmcEFfRzU0Q1NxT1duN3g4VHVnQXV4Wm8tRUl5M3dNckN2Q0I5ZnAtSzVLM0JhREhVSUxSTnIyRUJtMDJoczdIZV9aek03OG1LcmUtNDJzRFFsMHNqUENXUGRXdFVhV3VoYUdTX2VXNjBmTzVxeGl4cHh5aFBiSUtER1VsdVFHTnA3dTRfdXIxRmc?oc=5",
           "content": "",
           "publish_time": "Wed, 24 Jun 2026 09:57:32 GMT"
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-26T20:15:34.727925",
+    "timestamp": "2026-06-26T21:15:35.182820",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4544316.535976516",
-        "liquidity": "145017.83742"
+        "volume": "4544318.516173516",
+        "liquidity": "144015.11775"
       }
     ]
   }
