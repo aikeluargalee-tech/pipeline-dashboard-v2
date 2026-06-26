@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T07:16:15.720624+00:00",
+  "timestamp": "2026-06-26T08:16:19.245210+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -19,7 +19,7 @@
         "id": "1ufer4g",
         "title": "Bitcoin is down so bad Bloomberg removed it from their homepage",
         "author": "thomas_unise",
-        "score": 386,
+        "score": 394,
         "num_comments": 87,
         "url": "https://i.redd.it/bck11gcofg9h1.jpeg",
         "selftext": "",
@@ -29,8 +29,8 @@
         "id": "1ufkz8u",
         "title": "Honest question about bitcoin",
         "author": "Unreal_fist",
-        "score": 26,
-        "num_comments": 76,
+        "score": 27,
+        "num_comments": 79,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufkz8u/honest_question_about_bitcoin/",
         "selftext": "If bitcoin was originally intended to be a decentralized digital currency, why are people treating it like an investment? Isn’t the point of currency to be used as an instrument for money or a medium ",
         "created_utc": 1782417965.0
@@ -39,8 +39,8 @@
         "id": "1ufc8uy",
         "title": "For those who believe bitcoin is going lower...",
         "author": "Suspicious-Ear-6129",
-        "score": 32,
-        "num_comments": 68,
+        "score": 31,
+        "num_comments": 69,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufc8uy/for_those_who_believe_bitcoin_is_going_lower/",
         "selftext": "Thoughts on the bitcoin power law chart? I understand it is just a chart so it only reads data but, its been true so far through bitcoins history. There appears to be a large support at 59k, so how co",
         "created_utc": 1782399064.0
@@ -59,7 +59,7 @@
         "id": "1ufh8vc",
         "title": "Bitcoin Mining Pool DMND Mines First Known Stratum V2 Block",
         "author": "TheresNoSecondBest",
-        "score": 59,
+        "score": 57,
         "num_comments": 18,
         "url": "https://bitcoinmagazine.com/bitcoin-mining/bitcoin-mining-pool-dmnd-mines",
         "selftext": "Bitcoin mining pool DMND has mined the first known Bitcoin block produced using the Stratum V2 protocol, a technical milestone that shifts control over block construction from pools to individual mine",
@@ -69,7 +69,7 @@
         "id": "1uf8yys",
         "title": "Greg Maxwell u/nullc just submitted comments opposing the FCC's proposed mandatory telecom KYC, and Bitcoiners should pay attention.",
         "author": "seedor",
-        "score": 33,
+        "score": 34,
         "num_comments": 9,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uf8yys/greg_maxwell_unullc_just_submitted_comments/",
         "selftext": "His argument isn't really about phones but about a broader trend toward mandatory identification everywhere. Once anonymous access disappears, every data breach becomes a target list, every privacy-co",
@@ -79,8 +79,8 @@
         "id": "1ufaxnn",
         "title": "That’s all you got?!?",
         "author": "Craignog",
-        "score": 1002,
-        "num_comments": 129,
+        "score": 1011,
+        "num_comments": 130,
         "url": "https://i.redd.it/xog9e1fuqf9h1.jpeg",
         "selftext": "",
         "created_utc": 1782396144.0
@@ -88,11 +88,67 @@
     ]
   },
   "twitter": {
-    "status": "error",
+    "status": "ok",
     "source": "Twitter/X",
-    "count": 0,
-    "items": [],
-    "error": "exit=1: WARNING twitter_cli.client: Failed to init ClientTransaction: 'NoneType' object has no attribute 'group'\n"
+    "count": 8,
+    "items": [
+      {
+        "id": "2070420838407442630",
+        "text": "Market-moving developments in focus today\n\n🛢️ #Brent crude oil rose above $74/b after an attack on a container ship near Hormuz.\n\n₿ #Bitcoin dropped to $59,000, following a choppy week in the AI-led t",
+        "user": "exca_prime",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070420835358183827",
+        "text": "Volatility tests every capital structure. Strategy remains focused on Bitcoin, disciplined capital allocation, credit quality, and long-term value creation. We appreciate our investors and will contin",
+        "user": "saylor",
+        "likes": 4,
+        "retweets": 1
+      },
+      {
+        "id": "2070420821755957632",
+        "text": "🐋 Senator Lummis has been the most consistent Bitcoin advocate in the Senate — her work on the BITCOIN Act and stablecoin legislation is laying the groundwork for America to lead the global digital as",
+        "user": "twtlinks",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070420796615381242",
+        "text": "@rodpalmerhodl @sebbunney I will be signaling on my node…\n\nlmfao 🤣 \n\nthe bitcoin equivalent of the Ukrainian flag in bio",
+        "user": "bergealex4",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070420789263057028",
+        "text": "@WatcherGuru Very simple \n\n2011-19 - Bitcoin holders now live in Dorado Beach \n\n2021&gt; bag holders \n\nThank you and good night",
+        "user": "GaardoWealth",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070420781712998586",
+        "text": "⚠️ Screenshot this.\n\nThe people screaming “BOTTOM IS IN” today will be the same people panic selling lower.\n\nBitcoin hasn’t reached the levels I’m interested in.\n\n🎯 $53,485\n🎯 $45,145\n\nMost traders don",
+        "user": "GregoryT_Forex",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070420736825872858",
+        "text": "BTC $60,228 | ETH $1,573\n\nFear in the market. Smart money watches, waits, strikes.\n\n#Bitcoin #Crypto #NexusLab",
+        "user": "NexusLab101",
+        "likes": 0,
+        "retweets": 0
+      },
+      {
+        "id": "2070420736737444256",
+        "text": "Bitcoin for saving.\nLightning for payments.\nFiat for the user experience.\nIf nobody is building this yet, I hope someone does. I'd happily be an early user. 🚀",
+        "user": "TheLuxemburgish",
+        "likes": 0,
+        "retweets": 0
+      }
+    ]
   },
   "xueqiu": {
     "status": "not_installed",
