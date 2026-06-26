@@ -1,7 +1,7 @@
 {
-  "dxy": 101.43,
+  "dxy": 101.41,
   "us_10y_yield": 4.39,
-  "m2_supply": 21200.0,
+  "m2_supply": 23052.3,
   "regime": "mild-risk-off",
   "risk_assets": {
     "SPY": {
@@ -55,5 +55,5 @@
       "published": "Thu, 25 Jun 2026 21:02:50 GMT"
     }
   ],
-  "_collected": "2026-06-26 04:16 UTC"
+  "_collected": "2026-06-26 05:16 UTC"
 }

@@ -3,7 +3,7 @@
     "value": 13,
     "classification": "extreme_fear"
   },
-  "coinbase_premium": -0.1735,
+  "coinbase_premium": -0.1423,
   "whale": {
     "ratio": null,
     "trend": "falling",
@@ -27,5 +27,5 @@
     "dai_deviation": null,
     "status": "healthy"
   },
-  "_collected": "2026-06-26 04:16 UTC"
+  "_collected": "2026-06-26 05:16 UTC"
 }
