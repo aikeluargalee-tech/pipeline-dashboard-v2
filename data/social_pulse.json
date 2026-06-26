@@ -1,26 +1,16 @@
 {
-  "timestamp": "2026-06-26T16:15:49.789868+00:00",
+  "timestamp": "2026-06-26T17:16:02.276502+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
     "count": 8,
     "items": [
       {
-        "id": "1ufer4g",
-        "title": "Bitcoin is down so bad Bloomberg removed it from their homepage",
-        "author": "thomas_unise",
-        "score": 524,
-        "num_comments": 109,
-        "url": "https://i.redd.it/bck11gcofg9h1.jpeg",
-        "selftext": "",
-        "created_utc": 1782404495.0
-      },
-      {
         "id": "1ufkz8u",
         "title": "Honest question about bitcoin",
         "author": "Unreal_fist",
-        "score": 35,
-        "num_comments": 97,
+        "score": 38,
+        "num_comments": 99,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufkz8u/honest_question_about_bitcoin/",
         "selftext": "If bitcoin was originally intended to be a decentralized digital currency, why are people treating it like an investment? Isn’t the point of currency to be used as an instrument for money or a medium ",
         "created_utc": 1782417965.0
@@ -29,28 +19,18 @@
         "id": "1ug6kvg",
         "title": "New dynamic Bitcoin Rainbow Chart with R²=94,3%",
         "author": "blockchaincenter_de",
-        "score": 45,
-        "num_comments": 48,
+        "score": 46,
+        "num_comments": 54,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ug6kvg/new_dynamic_bitcoin_rainbow_chart_with_r²943/",
         "selftext": "So, I am the author of the original Bitcoin Rainbow Chart. As you may now, it fell > 10% below the lowest band (that was also added later).\n\nI don't want to let it die.\n\nInstead of blindly adding new ",
         "created_utc": 1782479782.0
       },
       {
-        "id": "1uff0pc",
-        "title": "Comment for free Bitcoin! [Lightning tip]",
-        "author": "KaleidoscopePlusPlus",
-        "score": 0,
-        "num_comments": 39,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1uff0pc/comment_for_free_bitcoin_lightning_tip/",
-        "selftext": "Hey guys, I just launched a VPN that pays you bits of Lightning everyday. Non-custodial, no kyc, withdraw whenever you want.\n\nWould love to hear feedback, questions, memes :) \n\nTips are made over the ",
-        "created_utc": 1782405072.0
-      },
-      {
         "id": "1ufh8vc",
         "title": "Bitcoin Mining Pool DMND Mines First Known Stratum V2 Block",
         "author": "TheresNoSecondBest",
-        "score": 75,
-        "num_comments": 22,
+        "score": 74,
+        "num_comments": 23,
         "url": "https://bitcoinmagazine.com/bitcoin-mining/bitcoin-mining-pool-dmnd-mines",
         "selftext": "Bitcoin mining pool DMND has mined the first known Bitcoin block produced using the Stratum V2 protocol, a technical milestone that shifts control over block construction from pools to individual mine",
         "created_utc": 1782409848.0
@@ -60,7 +40,7 @@
         "title": "Bitcoin needs to invest in marketing...",
         "author": "Throwdotaway1",
         "score": 0,
-        "num_comments": 31,
+        "num_comments": 32,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ug8lvy/bitcoin_needs_to_invest_in_marketing/",
         "selftext": "The wealthy holders NEED to start looking into marketing budget. Bitcoin is very dependent on hype and that hype has moved on. There are a lot of us stuck holding the bag, but with some marketing and ",
         "created_utc": 1782484577.0
@@ -69,8 +49,8 @@
         "id": "1ufhwgb",
         "title": "Finally Wholecoiner 💎",
         "author": "vium99",
-        "score": 1369,
-        "num_comments": 110,
+        "score": 1417,
+        "num_comments": 112,
         "url": "https://i.redd.it/48uoy7znzg9h1.png",
         "selftext": "Finally made it to 1 BTC 💎",
         "created_utc": 1782411238.0
@@ -84,6 +64,26 @@
         "url": "https://youtu.be/A-x66uaof_k",
         "selftext": "",
         "created_utc": 1782448111.0
+      },
+      {
+        "id": "1uganaj",
+        "title": "No, bitcoin is not dead",
+        "author": "Turbulent_Ferret_552",
+        "score": 4,
+        "num_comments": 1,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1uganaj/no_bitcoin_is_not_dead/",
+        "selftext": "It’s funny, when bitcoin goes down, it’s the only asset they claim has died and it’s over. Farther from the truth. 80% of bitcoin hasn’t even moved the last 6 months. 20% of bitcoin(mainly leveraged t",
+        "created_utc": 1782489147.0
+      },
+      {
+        "id": "1ug4aj8",
+        "title": "LND zero-timestamp DoS, Stack Exchange Q&A - Bitcoin Optech Newsletter #411",
+        "author": "bitschmidty",
+        "score": 4,
+        "num_comments": 0,
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/26/",
+        "selftext": "Bitcoin Optech newsletter #411 is here:\n\n* describes the responsible disclosure of a denial-of-service vulnerability that affected older versions of LND\n* summarizes popular Q&A from Stack Exchange\n* ",
+        "created_utc": 1782473687.0
       }
     ]
   },
