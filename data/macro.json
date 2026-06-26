@@ -1,5 +1,5 @@
 {
-  "dxy": 101.36,
+  "dxy": 101.37,
   "us_10y_yield": 4.39,
   "m2_supply": 21200.0,
   "regime": "mild-risk-off",
@@ -25,6 +25,12 @@
   },
   "news": [
     {
+      "title": "Here\u2019s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Fri, 26 Jun 2026 06:04:04 GMT"
+    },
+    {
       "title": "Tether stablecoin flips Ether by market cap as ETH routs to $1.5K",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/tether-stablecoin-flips-ether-by-market-cap-as-eth-routs-to-15k?utm_source=rss&utm_medium=rss&utm_campaign=rss",
@@ -47,13 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/stablecoinx-merges-with-tlgy-and-begins-trading-on-nasdaq-friday?utm_source=rss&utm_medium=rss&utm_campaign=rss",
       "published": "Fri, 26 Jun 2026 03:48:03 GMT"
-    },
-    {
-      "title": "BitGo cuts 15% of staff to sharpen focus on AI, stablecoins",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/crypto-infrastructure-firm-bitgo-lays-off-15-of-staff?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "Fri, 26 Jun 2026 00:41:02 GMT"
     }
   ],
-  "_collected": "2026-06-26 06:16 UTC"
+  "_collected": "2026-06-26 07:16 UTC"
 }

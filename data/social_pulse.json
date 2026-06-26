@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T06:16:18.474560+00:00",
+  "timestamp": "2026-06-26T07:16:15.720624+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -9,7 +9,7 @@
         "id": "1ufbopa",
         "title": "Bitcoin is down. And somewhere, someone is smiling, not because they bought the dip.",
         "author": "MoneyMonsterStudios",
-        "score": 177,
+        "score": 193,
         "num_comments": 172,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufbopa/bitcoin_is_down_and_somewhere_someone_is_smiling/",
         "selftext": "Bitcoin opened deep in the red today, and I already know what's happening somewhere in my circle. There's someone who has never owned Bitcoin, **(one of my best friends**) never wanted to, who gets no",
@@ -19,28 +19,18 @@
         "id": "1ufer4g",
         "title": "Bitcoin is down so bad Bloomberg removed it from their homepage",
         "author": "thomas_unise",
-        "score": 368,
-        "num_comments": 85,
+        "score": 386,
+        "num_comments": 87,
         "url": "https://i.redd.it/bck11gcofg9h1.jpeg",
         "selftext": "",
         "created_utc": 1782404495.0
       },
       {
-        "id": "1uf2n5s",
-        "title": "Bitcoin explained",
-        "author": "inb7_banned",
-        "score": 212,
-        "num_comments": 104,
-        "url": "https://i.redd.it/h53dz9lpmd9h1.png",
-        "selftext": "",
-        "created_utc": 1782370550.0
-      },
-      {
         "id": "1ufkz8u",
         "title": "Honest question about bitcoin",
         "author": "Unreal_fist",
-        "score": 24,
-        "num_comments": 74,
+        "score": 26,
+        "num_comments": 76,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufkz8u/honest_question_about_bitcoin/",
         "selftext": "If bitcoin was originally intended to be a decentralized digital currency, why are people treating it like an investment? Isn’t the point of currency to be used as an instrument for money or a medium ",
         "created_utc": 1782417965.0
@@ -49,7 +39,7 @@
         "id": "1ufc8uy",
         "title": "For those who believe bitcoin is going lower...",
         "author": "Suspicious-Ear-6129",
-        "score": 27,
+        "score": 32,
         "num_comments": 68,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufc8uy/for_those_who_believe_bitcoin_is_going_lower/",
         "selftext": "Thoughts on the bitcoin power law chart? I understand it is just a chart so it only reads data but, its been true so far through bitcoins history. There appears to be a large support at 59k, so how co",
@@ -69,7 +59,7 @@
         "id": "1ufh8vc",
         "title": "Bitcoin Mining Pool DMND Mines First Known Stratum V2 Block",
         "author": "TheresNoSecondBest",
-        "score": 53,
+        "score": 59,
         "num_comments": 18,
         "url": "https://bitcoinmagazine.com/bitcoin-mining/bitcoin-mining-pool-dmnd-mines",
         "selftext": "Bitcoin mining pool DMND has mined the first known Bitcoin block produced using the Stratum V2 protocol, a technical milestone that shifts control over block construction from pools to individual mine",
@@ -79,11 +69,21 @@
         "id": "1uf8yys",
         "title": "Greg Maxwell u/nullc just submitted comments opposing the FCC's proposed mandatory telecom KYC, and Bitcoiners should pay attention.",
         "author": "seedor",
-        "score": 34,
+        "score": 33,
         "num_comments": 9,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uf8yys/greg_maxwell_unullc_just_submitted_comments/",
         "selftext": "His argument isn't really about phones but about a broader trend toward mandatory identification everywhere. Once anonymous access disappears, every data breach becomes a target list, every privacy-co",
         "created_utc": 1782391462.0
+      },
+      {
+        "id": "1ufaxnn",
+        "title": "That’s all you got?!?",
+        "author": "Craignog",
+        "score": 1002,
+        "num_comments": 129,
+        "url": "https://i.redd.it/xog9e1fuqf9h1.jpeg",
+        "selftext": "",
+        "created_utc": 1782396144.0
       }
     ]
   },
