@@ -1,17 +1,17 @@
 {
   "tier": "FIRING",
-  "timestamp": "2026-06-26T01:32:36.343700+00:00",
+  "timestamp": "2026-06-26T05:32:51.287381+00:00",
   "strc_price": 51.720001220703125,
   "mstr_price": 85.33000183105469,
-  "btc_price": 59252.37,
+  "btc_price": 60004.0,
   "strc_par_distance_pct": 48.28,
-  "coverage_years": 29.6,
-  "holdings_value_b": 29.63,
+  "coverage_years": 30.0,
+  "holdings_value_b": 30.0,
   "mstr_btc_ratio": 0.0014,
   "breaches": [
     "STRC 48.28% below par (threshold: 15.0%)",
     "STRC 48.28% below par (threshold: 5.0%)",
-    "Coverage 29.6yr (threshold: <40yr)"
+    "Coverage 30.0yr (threshold: <40yr)"
   ],
   "previous_tier": "FIRING",
   "errors": {}

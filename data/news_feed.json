@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T05:16:06.362329+00:00",
+  "timestamp": "2026-06-26T06:16:11.587628+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -58,32 +58,32 @@
         {
           "id": "en_bitcoin_5",
           "source": "en_bitcoin",
-          "source_name": "Investor's Business Daily",
-          "rank": 6,
-          "title": "When Strategy Will Need To Sell Bitcoin; MSTR Stock's Scary Math - Investor's Business Daily",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb0ZiS05vQldybEtGQjFiZTZSYzIxQkZYRDA4ellJVWFxdk9STUpQTXNxa3BEV2pzTHBhZEpaS1FBMFhKMnFSV1B3WTM5QXBNbHF4MGE5d29Pd2VzZWN2blh3SUR1OXZNOFNIcEJtemRuX05hdzdLdVF3ckpIYmdUajBCT2FQQ0hvLU5YUmFsTnd0dGpIcE9qUg?oc=5",
-          "content": "",
-          "publish_time": "Wed, 24 Jun 2026 14:31:00 GMT"
-        },
-        {
-          "id": "en_bitcoin_6",
-          "source": "en_bitcoin",
           "source_name": "Fortune",
-          "rank": 7,
+          "rank": 6,
           "title": "Current price of Bitcoin for June 23, 2026 - Fortune",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1M2JxRTNUZHVEMFJlM0tSeG1wc3BsOFg3a29LbmI2dzFUN3BTX1hmcDU2ajNHcEU3THRkbHZ3aG5nYS1sODhVRHEzeVBYb0c5eTA2VFQydEVja3FTSTh2aFdFZDljOW8?oc=5",
           "content": "",
           "publish_time": "Tue, 23 Jun 2026 13:02:00 GMT"
         },
         {
+          "id": "en_bitcoin_6",
+          "source": "en_bitcoin",
+          "source_name": "Seeking Alpha",
+          "rank": 7,
+          "title": "Bitcoin price tug-of-war: ETF outflows, 3 rate hike stance, MSTR buying collide - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQm41UXZHUVFNbTZFYTFpMG9HdklUc0Y0WUN1Tlg2TmtoVV9WdGpob0lMUWlYVnhPaUp4V3FZZHFUaERaamw1ZE9xNkU3eWpKZ1VhU3kwRHZKcmRPeF84bTJzV0tOdHNYbzdyU2k3NWZLdVRyNHIzRDJMQ0VMWFRGTkdVYVdCZG9lR1RMLXA1V0dZQjFjUHVJdm9Fd1JZMEJqMWMyNUdtdW85dEtmRk95Y1RfbGg?oc=5",
+          "content": "",
+          "publish_time": "Mon, 22 Jun 2026 17:51:48 GMT"
+        },
+        {
           "id": "en_bitcoin_7",
           "source": "en_bitcoin",
-          "source_name": "CoinMarketCap",
+          "source_name": "U.Today",
           "rank": 8,
-          "title": "How Low Can Bitcoin Price Go in 2026? Why Analysts Say $50K Looks Likely - CoinMarketCap",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOEtzdTR1NzVuS3VfXzBDOTFaWmxqUGg2UHJXZXE3eGYyNVpZZmV0YjhlajMxZFFiNGJLZWZtZzRhNm1hRE0xckdTVmcyYXZ0ek9JOGxpVFRXQ0hVaXFrQXE5dEdKUUhoSy1LTTF1QmlFb2trNFpSdVA1WktZdU9XRGQ2MkxuUQ?oc=5",
+          "title": "XRP, Shiba Inu (SHIB), Bitcoin (BTC) and Dogecoin (DOGE) Price Analysis for June 25: Fresh Wave of Bullish Recovery - U.Today",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSWthSXVvU3FsMVZiMDNoZnotaWFGQ3A3MGQyTGdKZDJNWUYyRWhhQVBHN2hRanNEaVIwNEc1RlhuQzVQamdNSl9tRVJINlRWbHZWMlp6TjJFLVhQdV9RRV81S3lBVllQUTFJSHN5MS00NkNtdEhYSHRpZV9jOVo0bHAxTGN4czZIOEtQMFo5LU1zLXJ4N1dPdmoySkNoVWdLVWNPQWgyODdOT0xiNEtIdFRBTdIBuAFBVV95cUxPdGxZa3FlbXBWblFmd19Pb2RLZ0Jpd2VUT3NNZXFYVGF5Qy1ia3otRTltQTVrbkNwM290bTJIWWVxbUtKQV9OSVR4cC0xWXZfS2tvTzBzT25TOTNHeFBBS2RiSFl2MzF3S1hzUGpqLWVVZW82VTJBRzBYMXg0XzVtbkE1VDdncVlLa1gtVGotRTFNQ2F2eDA3Wkl4Wjh6R0lsOEh2cVA2Wkl6Z1hGNHd4c1FsMXJyZFUx?oc=5",
           "content": "",
-          "publish_time": "Thu, 25 Jun 2026 13:44:01 GMT"
+          "publish_time": "Fri, 26 Jun 2026 00:02:24 GMT"
         }
       ]
     },
@@ -136,10 +136,10 @@
           "source": "en_crypto",
           "source_name": "markets.businessinsider.com",
           "rank": 5,
-          "title": "QuantRate Launches Free AI Trading Platform to Help Investors Identify Opportunities Across Stocks, Crypto and Forex - markets.businessinsider.com",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOangyNXJod3dfU1BCVlVRS2Z2WXV0elE3T01XdGszLUVnNWF3YnlPT2lYR0hxN0JYMVZYSUpyZDVMZG8wS3lrdVozZmRlWURVUERwZXhlVUVnS1BfRGNZRHE5Sm95eGw0Vk82eWRWWnBzSjJqMkNGNVJRSTJHV2JXUXZyQ3pjb3QyRW9GenQ3OTZzcUcxUEwtaHpqSjdrTVJNWWJvalVNQS1GdmZ5YktBOTZYVGl1V0xuNEdLb2Zfb1Fic01kQzZKWWtsU3VxVDU5X2NfY3A5SmtHZmJaQ215T1lPUHdtakpWcFY4cEZUaUdKaHhhS3lvNkxpd28wUDU1eFFGMQ?oc=5",
+          "title": "QuantRate Launches Free AI Crypto Trading Bot as Bitcoin Consolidates Near $60,000 - markets.businessinsider.com",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYkdWek5xN1RKWFpOdDBGaWRma1dPSUtiaHc2V1hjakFVUEFURVhURW1vMkNNTnF3RDZRVl80MzlZV3k2ZlpnOHVoYlZFYlI3a0pkcXBxTXVhOElrcjNCNXV5d1YtcWFhcFpETUZDbE9pTEFnbWkzWU1sc0tFY3NHZDRIVVVxb052WGQ0Y1Z6LXctMFFDTmZjYWlKdjVRQjM0c2ZMT2YzdGRIXzdURW1ONm1DY2VpMGh1ZTRWUHZTSjQ5OUg4TjlCSW1GZl9iV1lKWjNOX1E3UQ?oc=5",
           "content": "",
-          "publish_time": "Thu, 25 Jun 2026 16:56:03 GMT"
+          "publish_time": "Thu, 25 Jun 2026 18:24:21 GMT"
         },
         {
           "id": "en_crypto_5",
@@ -154,22 +154,22 @@
         {
           "id": "en_crypto_6",
           "source": "en_crypto",
-          "source_name": "CNBC",
+          "source_name": "TipRanks",
           "rank": 7,
-          "title": "Bitcoin is having a tough year. Traders are betting it's going to get worse - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdlZnTE5kQ0lIa0lrZVQ4cWl4NFBYa2JTS2hqaXBqa21qOE5DQUhGZEVKVzVTR0JJQkJCLU10TkdhOTF5MUtRSkU3ZmlCMk11dFBqeDduX2M2TzRmczJVcHVRNHE1YnZDX0otRG9zVTFESjhGQ2hpdnFFX1FrbEl6emZlOWhadWgtRzN2TmJRNXg3MTE3bHN4aU1ZOFJHdmRqZUpHWUpqcVNlWW02WUhF0gG0AUFVX3lxTE9pQXpxOVVXTUpKaDF6X3dqbFJaQlNyU2M3bDFRVGtiWXBreWY2b3R5WWdDb216S21yYlQ4YkNNT3E2R2RPWmFZaU1hT1NnaktMOEZQX1VpaEsxS1o4OFBtN3lZVjJWZHBETUs4M0I1Vk9JZmxESk8wOVVDT01UZ1dxWm5KNEozNHZiQjdNS1Z0YVpJWExEdTB6VzZ2NUltS05aUGZvQzEwU2h0Q3dmbUNLQ1Z5UQ?oc=5",
+          "title": "Is Bitcoin Finished? Analysts Warn a $1.6 Billion Risk Looms Large as BTC Crashes to $59,000 - TipRanks",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUV6UGMtX0tiVzdpaXpwMV84akFHNElSZnJta3BTektTQlZ3azB0QmhzeTlDYklWeEZpUC1Bc1lYS1lUYWZ6bUhmdFcxR1VkMmRUcXlsTGwtcTQtVHhublNYR0MxdEJsQ1Y5UDFad3RGR2wtUFphM0RvSzJLd2lsMWR4dVlTN05SZXJkZUI0dnU5V1AtM0RTbVI5bDdYZw?oc=5",
           "content": "",
-          "publish_time": "Thu, 25 Jun 2026 11:45:00 GMT"
+          "publish_time": "Thu, 25 Jun 2026 14:47:24 GMT"
         },
         {
           "id": "en_crypto_7",
           "source": "en_crypto",
-          "source_name": "Yahoo Finance",
+          "source_name": "CNBC",
           "rank": 8,
-          "title": "Peter Schiff Says Gold’s Selloff Is A Buying Opportunity, Bitcoin’s Decline Is ‘A Bubble Deflating’ - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmRkVmp6QjdUNUJNVERNakpiWVZwdmdzQkItSW9Ka1diRmM3eWVMNGFVdFNnWGhEbnNzc3p4WlZLb25XaFVFeHB6MFZLUVFjMWljaGc1b3hvV21tb3Ftdk9mY08zcWI0VGFMVldoYm93aGFrdmxtM1c0c2diVjc3ZVFscEZBaGo2cGZKMEMzQmhscUdRMWZxSGhlYkd0YmVPamc?oc=5",
+          "title": "Bitcoin is having a tough year. Traders are betting it's going to get worse - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdlZnTE5kQ0lIa0lrZVQ4cWl4NFBYa2JTS2hqaXBqa21qOE5DQUhGZEVKVzVTR0JJQkJCLU10TkdhOTF5MUtRSkU3ZmlCMk11dFBqeDduX2M2TzRmczJVcHVRNHE1YnZDX0otRG9zVTFESjhGQ2hpdnFFX1FrbEl6emZlOWhadWgtRzN2TmJRNXg3MTE3bHN4aU1ZOFJHdmRqZUpHWUpqcVNlWW02WUhF0gG0AUFVX3lxTE9pQXpxOVVXTUpKaDF6X3dqbFJaQlNyU2M3bDFRVGtiWXBreWY2b3R5WWdDb216S21yYlQ4YkNNT3E2R2RPWmFZaU1hT1NnaktMOEZQX1VpaEsxS1o4OFBtN3lZVjJWZHBETUs4M0I1Vk9JZmxESk8wOVVDT01UZ1dxWm5KNEozNHZiQjdNS1Z0YVpJWExEdTB6VzZ2NUltS05aUGZvQzEwU2h0Q3dmbUNLQ1Z5UQ?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 00:30:00 GMT"
+          "publish_time": "Thu, 25 Jun 2026 11:45:00 GMT"
         }
       ]
     },
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-26T13:16:04.006212",
+    "timestamp": "2026-06-26T14:16:09.043907",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4542842.318193517",
-        "liquidity": "145432.87496"
+        "volume": "4542888.7333745165",
+        "liquidity": "145190.46124"
       }
     ]
   }

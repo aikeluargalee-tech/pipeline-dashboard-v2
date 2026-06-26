@@ -7,38 +7,38 @@
   "composite_score": 27.8,
   "cycle_phase": "medium",
   "distribution": {
-    "timestamp": "2026-06-26 04:46 UTC",
+    "timestamp": "2026-06-26 06:10 UTC",
     "source": "blockchair.com",
-    "total_addresses": 59302044,
-    "total_btc": 20048227.29497096,
+    "total_addresses": 59302724,
+    "total_btc": 20048252.29497096,
     "tiers": [
       {
         "range": "100+ BTC",
-        "addresses": "2,075,571",
-        "btc": "12,329,659",
+        "addresses": "2,075,595",
+        "btc": "12,329,675",
         "pct": "61.50%",
         "pctNum": 61.5,
         "color": "#f59e0b"
       },
       {
         "range": "1 \u2013 100 BTC",
-        "addresses": "948,832",
-        "btc": "6,315,191",
+        "addresses": "948,843",
+        "btc": "6,315,199",
         "pct": "31.50%",
         "pctNum": 31.5,
         "color": "#3b82f6"
       },
       {
         "range": "0.001 \u2013 1 BTC",
-        "addresses": "24,313,838",
-        "btc": "1,403,375",
+        "addresses": "24,314,116",
+        "btc": "1,403,377",
         "pct": "7.00%",
         "pctNum": 7.0,
         "color": "#6366f1"
       },
       {
         "range": "<0.001 BTC",
-        "addresses": "31,963,801",
+        "addresses": "31,964,168",
         "btc": "6,014",
         "pct": "0.03%",
         "pctNum": 0.03,
@@ -47,16 +47,16 @@
     ]
   },
   "options_skew": {
-    "timestamp": "2026-06-26 04:46 UTC",
-    "spot": 59814.02,
-    "skew_25d": -11.7,
-    "put_25d_iv": 52.3,
-    "call_25d_iv": 40.6,
+    "timestamp": "2026-06-26 06:10 UTC",
+    "spot": 59698.31,
+    "skew_25d": -11.8,
+    "put_25d_iv": 52.1,
+    "call_25d_iv": 40.4,
     "put_name": "BTC-10JUL26-56000-P",
     "call_name": "BTC-10JUL26-63000-C",
     "label": "Extreme fear \u2014 historically near local bottoms",
     "emoji": "\ud83d\udd34",
-    "display": "\ud83d\udd34 Options skew (25\u0394): -11.7% \u2014 extreme fear \u2014 historically near local bottoms"
+    "display": "\ud83d\udd34 Options skew (25\u0394): -11.8% \u2014 extreme fear \u2014 historically near local bottoms"
   },
-  "_collected": "2026-06-26 05:16 UTC"
+  "_collected": "2026-06-26 06:16 UTC"
 }
