@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-26T15:15:53.607091+00:00",
-  "current_btc": 59925.6,
+  "timestamp": "2026-06-26T16:15:49.857167+00:00",
+  "current_btc": 59799.0,
   "total_events": 5,
   "active_events": 4,
   "tracked_signals": [
@@ -8,31 +8,31 @@
       "event_id": "EVENT_001",
       "title": "Triple Witching June 18 2026",
       "date": "2026-06-18",
-      "btc_at_event": 59925.6,
+      "btc_at_event": 59799.0,
       "btc_at_event_source": "fallback_current",
-      "current_btc": 59925.6,
+      "current_btc": 59799.0,
       "evolution": "MONITORING",
-      "reasoning": "BTC $59926 at event level $59926 \u2014 no clear deviation"
+      "reasoning": "BTC $59799 at event level $59799 \u2014 no clear deviation"
     },
     {
       "event_id": "EVENT_003",
       "title": "FOMC June 2026 Hold",
       "date": "2026-06-10 to 2026-06-11 (meeting)",
-      "btc_at_event": 59925.6,
+      "btc_at_event": 59799.0,
       "btc_at_event_source": "fallback_current",
-      "current_btc": 59925.6,
+      "current_btc": 59799.0,
       "evolution": "STRENGTHENED",
-      "reasoning": "BTC $59926 holding above event level $59926 \u2014 bullish thesis intact"
+      "reasoning": "BTC $59799 holding above event level $59799 \u2014 bullish thesis intact"
     },
     {
       "event_id": "EVENT_004",
       "title": "US-Iran MOU (Nuclear / Hormuz)",
       "date": "2026-06-17 (MOU signed)",
-      "btc_at_event": 59925.6,
+      "btc_at_event": 59799.0,
       "btc_at_event_source": "fallback_current",
-      "current_btc": 59925.6,
+      "current_btc": 59799.0,
       "evolution": "STRENGTHENED",
-      "reasoning": "BTC $59926 holding above event level $59926 \u2014 bullish thesis intact"
+      "reasoning": "BTC $59799 holding above event level $59799 \u2014 bullish thesis intact"
     },
     {
       "event_id": "EVENT_005",
@@ -40,9 +40,9 @@
       "date": "2026-06-18",
       "btc_at_event": 64000.0,
       "btc_at_event_source": "extracted",
-      "current_btc": 59925.6,
+      "current_btc": 59799.0,
       "evolution": "STRENGTHENED",
-      "reasoning": "BTC $59926 below event level $64000 \u2014 bearish thesis confirmed"
+      "reasoning": "BTC $59799 below event level $64000 \u2014 bearish thesis confirmed"
     }
   ],
   "summary": {

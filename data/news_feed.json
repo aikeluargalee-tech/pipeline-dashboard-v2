@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T15:15:47.308490+00:00",
+  "timestamp": "2026-06-26T16:15:45.079442+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -48,22 +48,22 @@
         {
           "id": "en_bitcoin_4",
           "source": "en_bitcoin",
-          "source_name": "Fortune",
-          "rank": 5,
-          "title": "Current price of Bitcoin for June 26, 2026 - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40cEdGVXp2SC1HZlk4UGFhaXJIVWdzcTY4NU5ES3pBQlNyMnVaOEJQRTNwS05jTnpZOVFLZ1d4c1lLSHdaVWFTY1hMbHlvSmRQdW0tRHJReGk0emE5NFpfRGRmMUwxMmM?oc=5",
-          "content": "",
-          "publish_time": "Fri, 26 Jun 2026 13:15:00 GMT"
-        },
-        {
-          "id": "en_bitcoin_5",
-          "source": "en_bitcoin",
           "source_name": "TradingView",
-          "rank": 6,
+          "rank": 5,
           "title": "BTC/USD: Bitcoin Slides Back to Key Support at $60,000. Can Saylor Stay Afloat? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUl9hZTEwbEFMNlBYWmE0QV9ab1NMUll1aTFZbFVHU1NoeDFybnZZa1dmU1JyNzNLMGFManh2NTBHRXdlVDdLeDdudDViU0tweTNrSVB4ZjFxbkJCMVpFN2R1eXBaMjA2eWFxNXE5OUs5clM0djRZbXNOalh4enJaaWg0WHF5YlJQZ2psUkpHVE80TEJsX28yalotX1hiT1ZuZ1FEU2M0RGNQTklSN1ltZ0JKRnhTRHdGQlA5TkJiNGRnMkk3RE1DclU2d2tOdFMyRWs0?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 08:38:36 GMT"
+        },
+        {
+          "id": "en_bitcoin_5",
+          "source": "en_bitcoin",
+          "source_name": "Fortune",
+          "rank": 6,
+          "title": "Current price of Bitcoin for June 26, 2026 - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40cEdGVXp2SC1HZlk4UGFhaXJIVWdzcTY4NU5ES3pBQlNyMnVaOEJQRTNwS05jTnpZOVFLZ1d4c1lLSHdaVWFTY1hMbHlvSmRQdW0tRHJReGk0emE5NFpfRGRmMUwxMmM?oc=5",
+          "content": "",
+          "publish_time": "Fri, 26 Jun 2026 13:15:00 GMT"
         },
         {
           "id": "en_bitcoin_6",
@@ -104,12 +104,12 @@
         {
           "id": "en_crypto_1",
           "source": "en_crypto",
-          "source_name": "CoinDesk",
+          "source_name": "Bloomberg.com",
           "rank": 2,
-          "title": "Live markets: Bitcoin falls below $60,000. Kospi, Nikkei sink - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbUNhVXg0WklocmV5djlsNmdiM3oyUkp0QXc2ZkRFenNrNTJMeFhGcXJHS25melZHVnl0WndXSzQwV1cydG1ncVpNUEFXdlhKald0NUhNSVotY0R2U21tU1hSQUhtS2J1MzVrZGQyeVhCejJiZjdvWHZQbVY0TVZibk5PTW8xNXQyVTVseE5iQ25NODhHSnRlTTMtWm1hX0V2cjBKMm9laF9ocW9T?oc=5",
+          "title": "Bitcoin’s Retreating Retail Army Exposes Fresh Market Fragility - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMnFmTVljZklrd0tfUWZhZVlwbVZaNnBmZnZqRng2ZlRtR1RyMG9weVZKUmhETl9ienRmeF9zODVLT19JNHo3ek8ybV9LTVJKeHpQanNCbGpqSjZDLXptMTVEZEFaY3c1cDBPd0xSWGpzcVdoSFBLbzViRkFJTkpYLTlyS2ZCWndEekFXTjBXeGZEc2VJb3VwU0NwWFc1alJ0ajZUYW9EYTZBcFhUcld5ZU16OW0?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 10:44:31 GMT"
+          "publish_time": "Wed, 24 Jun 2026 20:40:16 GMT"
         },
         {
           "id": "en_crypto_2",
@@ -134,22 +134,22 @@
         {
           "id": "en_crypto_4",
           "source": "en_crypto",
-          "source_name": "Fortune",
+          "source_name": "PYMNTS.com",
           "rank": 5,
-          "title": "Current price of Bitcoin for June 26, 2026 - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40cEdGVXp2SC1HZlk4UGFhaXJIVWdzcTY4NU5ES3pBQlNyMnVaOEJQRTNwS05jTnpZOVFLZ1d4c1lLSHdaVWFTY1hMbHlvSmRQdW0tRHJReGk0emE5NFpfRGRmMUwxMmM?oc=5",
+          "title": "Swiss Watchdog FINMA Builds Generative AI to Police Crypto Markets - PYMNTS.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNk1xS1lVYlh1aldhSGdHV2VRbjVJcFZxdUtlRjBqUEJURVFYTlBYMmx6YmF5MTEyYXZEXzZSWnBkb2JWLVdnUFZmX2R6YVl2SkJTZmtHWmVkSEFCLW1wcTFqR19wLURHdUNDM3ZnaU83RHJHNE81cGpCcW9DTG9mdXVKX1NsdXNkRXREQ0lrR3dsOWMtcGNsVlVWekFEeFNWY3ptUzJWNEY4UG1XR2c?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 13:15:00 GMT"
+          "publish_time": "Fri, 26 Jun 2026 15:19:48 GMT"
         },
         {
           "id": "en_crypto_5",
           "source": "en_crypto",
-          "source_name": "The Motley Fool",
+          "source_name": "Fortune",
           "rank": 6,
-          "title": "This Trend Shows Why Solana Could Be a Smart Crypto Bear Market Buy - The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ1phSFFZbDkydDczSzFseVZwMXd3ZEJKWDFlemtFUGVhLUIyRklaMUZIOVEzaW85dHd2cS02RVVfRVYyUzBTRU95LVgwczFObUxlQnFGZFJjdE5oQVdDZFNWTG05V3ZBZE4wMnlwbUxid1NmN2lYZ2E0MTNQQU5nSFpkUmxzV25JbERWb3Uwclg2VUJmUFRVRg?oc=5",
+          "title": "Current price of Bitcoin for June 26, 2026 - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40cEdGVXp2SC1HZlk4UGFhaXJIVWdzcTY4NU5ES3pBQlNyMnVaOEJQRTNwS05jTnpZOVFLZ1d4c1lLSHdaVWFTY1hMbHlvSmRQdW0tRHJReGk0emE5NFpfRGRmMUwxMmM?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 11:13:14 GMT"
+          "publish_time": "Fri, 26 Jun 2026 13:15:00 GMT"
         },
         {
           "id": "en_crypto_6",
@@ -180,88 +180,88 @@
         {
           "id": "en_fed_0",
           "source": "en_fed",
-          "source_name": "CBS News",
+          "source_name": "ABC News - Breaking News, Latest News and Videos",
           "rank": 1,
+          "title": "The Fed may raise interest rates within months. Here's what it means for you. - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNenUzMm5kWTJOUHEtcHhxdmdwbDBYb1dFME1RZ185dkxEcWRIanY3ZmRvUGs5WjZKbVJHLWxHdlNtUVV3Rm1lUE5EOVpjaGV5bVJHeUZhYm9HT29JY0JtSGdWdTkzeGxWMzJBeTBDYThUajFoaURnSG05ZnVpdnhxUHNkbi1uZGtsVFVXcEdB0gGTAUFVX3lxTE5RUERWVjBaZ1pSbEM1MEhPVzZWaWFEX3JOSGJlbmtDbnNwRzJuZ2hkckZ1dlJtbkJ6YjljeGhzdWVvZjhWMFp3TzhLSGM5Um9aSko2QV84cEVMNmtLa2hPNWR3Qnp2aUhHS0hhLWJqZG1HMi16aUc4cEtIdzV6emp3bFlQZ0UySmFpZVUyQWNYOGUwdw?oc=5",
+          "content": "",
+          "publish_time": "Wed, 24 Jun 2026 20:48:37 GMT"
+        },
+        {
+          "id": "en_fed_1",
+          "source": "en_fed",
+          "source_name": "Reuters",
+          "rank": 2,
+          "title": "US bond market expects rate hikes the Fed may never deliver - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb2xYMVNxREhIRmpJUjdXV3BXWTE1SmJER1YwOXhJVGozUkdScTdnWWRXLUxmOHhwWnAyOTY0MU9VVm5tZWNzd1ZmRUJCZGpNQ1I5Y0RTODJQZGFTNG9LYVpvT3hLa29uSkRjVjNXNFFoQmtCdG9CMHpRbktQY2pXR3p3ZFg4YXpWd1NCQ3NsellISWpQbHNtVnl4WVM2cVlvV1cyWDBwMlZpV3Zs?oc=5",
+          "content": "",
+          "publish_time": "Thu, 25 Jun 2026 10:09:07 GMT"
+        },
+        {
+          "id": "en_fed_2",
+          "source": "en_fed",
+          "source_name": "CBS News",
+          "rank": 3,
           "title": "Why the Federal Reserve may raise interest rates this year - CBS News",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVVpXcVM2UGZ5c2lsOG9qa05VNm1nemR2Z3hTNlNJc0dDM1RVZDNRbGhMeUZzRFExaHdpNXd3cjFRV3lQODJmaXFOSHFjbGhrWTBBRDNtdWRtQlhDaXUxOXdwOW9KajExQzRaMzhMenJyWWx5bUptZEdlaDV0aVphNm5wOVJDeUdVS3hrZHpn?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 23:28:00 GMT"
         },
         {
-          "id": "en_fed_1",
+          "id": "en_fed_3",
           "source": "en_fed",
           "source_name": "24/7 Wall St.",
-          "rank": 2,
+          "rank": 4,
           "title": "Oil Crashes Below $70. Are Federal Reserve Interest Rate Hikes Behind Us? - 24/7 Wall St.",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMzlvZ0ROdlJDSktndEwwOGw0UWZLaS1xcjR1R3Zab2VBbWVwN0ZqRG5hZTF5T2p2RER3a3R4SjhYTHJaOGlvMkJqVWNsd29EUjFyeWtSXzNHbTB2NzY2R25OMEdLVmxmUjdUSVQwY2NXdkM3ZThqSllXNHJzVU93TlV0VGQyZHZ3akxNXzY4VnQ4NG1jV2dQZ3Z6ZEtybUExYXdzLWxPdi1TbDNleFRlQUFrZk8?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 12:59:21 GMT"
         },
         {
-          "id": "en_fed_2",
-          "source": "en_fed",
-          "source_name": "CNN",
-          "rank": 3,
-          "title": "Fed leaves interest rates unchanged but signals higher rates are ahead - CNN",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWpDeGRNaWtwaklDUHV2aDJnY3lvaXpJMU1VSlZRWkVibnBHajd1MHptRlZkVU1iejJTY2hqSVBSMmJXX2lvYUtYMGtNTGQycllYRWMxYlVBNy0wRlNBX3VsMEI2X0RULWZmZTllazFMY0pCQ2NEZUk4dG5VSWh5VEREQ0JkWnI1M1VIOF96YldEU1VPU3c?oc=5",
-          "content": "",
-          "publish_time": "Wed, 17 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "id": "en_fed_3",
-          "source": "en_fed",
-          "source_name": "CNBC",
-          "rank": 4,
-          "title": "Fed Governor Michelle Bowman warns against hiking interest rates because of inflation spike - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSU1FUWtLRzNfdWhmdVJvYVBMeFpYaVowRGhjUFN4NXZmbzdVNUx1OFAzdE42YktoU2tfOHNfeE5uNzdFNDdreXBZX0lBMDM3a0otZkhJbFgxaGlPSm9Kam44SW92bmkwX0lBeTZidmlDdEVVaGdxOFNmQUY3Q0d1UFJ4RmRMT0JGVUFLWlJad3VRVHk2YTRYRmRxVzZjUk9SWHdnRUw5MTNCemvSAbABQVVfeXFMTVVRMVlKLXIzTUdra0lSZm44VWxLWWozUF9vY0RTRHZPbExxcDRQQmVhb1pZU01rZGVLUEtyTDcyT2k4LUMwNU9PX2t5dFhPci1YTTJtbXU5blQzQnFkMEM4cy1BVjJTTE43NWtBZWpGTXJRSlZQWnI3YnJQS2ROOXdXVVFPX0MtVjdkck1GbUhNU0tFaUlaVU8yVUFMcDVTR05ScktyLXk1YkFvNDExd1o?oc=5",
-          "content": "",
-          "publish_time": "Fri, 29 May 2026 07:00:00 GMT"
-        },
-        {
           "id": "en_fed_4",
           "source": "en_fed",
-          "source_name": "Council on Foreign Relations",
+          "source_name": "thestreet.com",
           "rank": 5,
-          "title": "What to Expect From Kevin Warsh’s Fed in the First 100 Days - Council on Foreign Relations",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcjJ2ZXd6MzJPNHBWU3g5TW9MUlBnYnBRVldreHFjczBpOU00cE1ldHJDQWtZMUFNNjNHTm54bzQxVkRGWUhLWWFoU0tUbmpDdXpGRHZDQXBuUnZZZ3hPWXlJZldUOXQtdXgxMU5paURrVDNzU2JNNUFqd2J3RmExVDBUcnphdkhhYzNPTG5WX04?oc=5",
+          "title": "BofA flips the script with bombshell Fed interest-rate outlook - thestreet.com",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdldKVHRRRjloNFRFOW1ManZoWFdxZGtYMDg4RDB0QlVmZXpwei10REhIMmVkeWkyMDBVQ2M2UXoxY2RBZzIxeVo3b3EtTlJIWXFOWVo4N0VSZ1cyOU9uM2JiWkRHdkFJcDQ0TzZxSFlRUVdVcE8tUUpUSHpIRkRfSU9peXZNRTBv?oc=5",
           "content": "",
-          "publish_time": "Tue, 26 May 2026 07:00:00 GMT"
+          "publish_time": "Wed, 24 Jun 2026 11:07:00 GMT"
         },
         {
           "id": "en_fed_5",
           "source": "en_fed",
           "source_name": "Reuters",
           "rank": 6,
-          "title": "More Fed policymakers eye possible rate hike as inflation risks rise - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONHZGRC1lZE9FMWRpVnlkVVFaZWFLWkowZWZjaW8teHlXenZhdVJ3OWw3WW1pejA2YUhHNTRpTExYSGE1bDFKQ1JWdVo5YnNSeDEwMGFsanJreTc2SDR6MlFIRnl5UEMwV3VDXzNGcERrX3ZlRS16c2xscjlNeXZoM2pGM25oNjNCcGJiN2tFbjAydWdyOUZYal9fallKcUo3VWZjd1htTnI?oc=5",
+          "title": "Fed expected to hold rates steady in July, hike in September - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVk00RzlFdHFJVkhBbGVLVDZHOWtmc2xabW1KaTBadTJJWEVtbHFUaFhHMFVIa2dpSng4NzYxUDc4MXZTNVZSeTBiUVRZRDlTY01DaV9wUElHakRyRGJIOW94VUt3Yl91ZHVVZVAyQjRQS0hQMW45dG9JaDdJMWJvazBOcnVRU0FyVEU0Y3cxYUtDcmE0RmZJ?oc=5",
           "content": "",
-          "publish_time": "Fri, 29 May 2026 07:00:00 GMT"
+          "publish_time": "Thu, 25 Jun 2026 13:47:55 GMT"
         },
         {
           "id": "en_fed_6",
           "source": "en_fed",
-          "source_name": "The Guardian",
+          "source_name": "CNN",
           "rank": 7,
-          "title": "Federal Reserve holds rates steady but signals possible hike before year’s end - The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTE11MEpRbHhFLWt6b29MMFRENU45ZlhuY2RBNDFnLWxxM25xbHRXdG0zRVhPX19TTlVDMFZQVVY3ZUNGa3MxRXJMRUhwMUkyQ01iZGFySUFEWDFjZm5Qb1JxbktNVkhpakczdUdHMVBVOF85SlpueTY3R1NzZkF5MFhLMVo0dw?oc=5",
+          "title": "Fed leaves interest rates unchanged but signals higher rates are ahead - CNN",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWpDeGRNaWtwaklDUHV2aDJnY3lvaXpJMU1VSlZRWkVibnBHajd1MHptRlZkVU1iejJTY2hqSVBSMmJXX2lvYUtYMGtNTGQycllYRWMxYlVBNy0wRlNBX3VsMEI2X0RULWZmZTllazFMY0pCQ2NEZUk4dG5VSWh5VEREQ0JkWnI1M1VIOF96YldEU1VPU3c?oc=5",
           "content": "",
           "publish_time": "Wed, 17 Jun 2026 07:00:00 GMT"
         },
         {
           "id": "en_fed_7",
           "source": "en_fed",
-          "source_name": "AP News",
+          "source_name": "CNBC",
           "rank": 8,
-          "title": "Federal Reserve policymakers show support for rate hikes as Warsh reins in guidance - AP News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ1NBclF1MkF3bkJBNGNLbGpCaWVYMnNadFNpZk1wQjhnenhtMG0ya3FHbkhkdzJDTHB3MEtybmN6YzZlN29SUmpDekMxeUlPZzhJamYyaXVkVmJGV2dweGdJZ2NDdl9EdmhlWHlYaG43SFg4X3o1NXVfc2dMR05hMTI3N3F2b1ZTMlpBOGZ5TjhZVGNJSTNHVWpHaDFNc3A1NWw4Sg?oc=5",
+          "title": "Fed Governor Michelle Bowman warns against hiking interest rates because of inflation spike - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSU1FUWtLRzNfdWhmdVJvYVBMeFpYaVowRGhjUFN4NXZmbzdVNUx1OFAzdE42YktoU2tfOHNfeE5uNzdFNDdreXBZX0lBMDM3a0otZkhJbFgxaGlPSm9Kam44SW92bmkwX0lBeTZidmlDdEVVaGdxOFNmQUY3Q0d1UFJ4RmRMT0JGVUFLWlJad3VRVHk2YTRYRmRxVzZjUk9SWHdnRUw5MTNCemvSAbABQVVfeXFMTVVRMVlKLXIzTUdra0lSZm44VWxLWWozUF9vY0RTRHZPbExxcDRQQmVhb1pZU01rZGVLUEtyTDcyT2k4LUMwNU9PX2t5dFhPci1YTTJtbXU5blQzQnFkMEM4cy1BVjJTTE43NWtBZWpGTXJRSlZQWnI3YnJQS2ROOXdXVVFPX0MtVjdkck1GbUhNU0tFaUlaVU8yVUFMcDVTR05ScktyLXk1YkFvNDExd1o?oc=5",
           "content": "",
-          "publish_time": "Wed, 17 Jun 2026 07:00:00 GMT"
+          "publish_time": "Fri, 29 May 2026 07:00:00 GMT"
         }
       ]
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-26T23:15:44.777742",
+    "timestamp": "2026-06-27T00:15:42.594411",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4544372.689833516",
-        "liquidity": "144718.08317"
+        "volume": "4544804.525475517",
+        "liquidity": "170370.56172"
       }
     ]
   }

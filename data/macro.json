@@ -1,29 +1,35 @@
 {
-  "dxy": 101.13,
-  "us_10y_yield": 4.38,
-  "m2_supply": 23052.3,
-  "regime": "mild-risk-off",
+  "dxy": 101.28,
+  "us_10y_yield": 4.37,
+  "m2_supply": 21200.0,
+  "regime": "mixed",
   "risk_assets": {
     "SPY": {
-      "price": 732.39,
-      "change_pct": -2.05
+      "price": 735.32,
+      "change_pct": -1.66
     },
     "QQQ": {
-      "price": 710.43,
-      "change_pct": -4.26
+      "price": 712.64,
+      "change_pct": -3.96
     },
     "GLD": {
-      "price": 374.9,
-      "change_pct": -2.43
+      "price": 375.42,
+      "change_pct": -2.3
     }
   },
-  "vix": 19.2,
+  "vix": 18.77,
   "etf_flow": {
-    "daily_net": -691.7,
-    "weekly_net": -1433.5,
-    "trend": "strong_outflow"
+    "daily_net": 0.0,
+    "weekly_net": -1342.8,
+    "trend": "flat"
   },
   "news": [
+    {
+      "title": "Bitcoin makes first sub-$60K close since Q3 2024 as tech stocks enter \u2018deep bear market\u2019",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-sees-first-close-below-60k-since-q3-2024-with-tech-stocks-in-deep-bear-market-zone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 15:55:56 +0000"
+    },
     {
       "title": "Here\u2019s what happened in crypto today",
       "source": "CoinTelegraph",
@@ -47,13 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/australia-asic-extends-crypto-licensing-relief-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "Fri, 26 Jun 2026 12:14:31 +0000"
-    },
-    {
-      "title": "AscendEX withdrawal complaints mount as ZachXBT questions reserves",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/ascendex-exchange-reportedly-faces-liquidity-issues-claims-zachxbt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 26 Jun 2026 11:47:02 +0000"
     }
   ],
-  "_collected": "2026-06-26 15:15 UTC"
+  "_collected": "2026-06-26 16:15 UTC"
 }

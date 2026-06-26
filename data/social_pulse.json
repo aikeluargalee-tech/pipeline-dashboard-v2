@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T15:15:53.479435+00:00",
+  "timestamp": "2026-06-26T16:15:49.789868+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -9,7 +9,7 @@
         "id": "1ufer4g",
         "title": "Bitcoin is down so bad Bloomberg removed it from their homepage",
         "author": "thomas_unise",
-        "score": 511,
+        "score": 524,
         "num_comments": 109,
         "url": "https://i.redd.it/bck11gcofg9h1.jpeg",
         "selftext": "",
@@ -19,8 +19,8 @@
         "id": "1ufkz8u",
         "title": "Honest question about bitcoin",
         "author": "Unreal_fist",
-        "score": 38,
-        "num_comments": 94,
+        "score": 35,
+        "num_comments": 97,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufkz8u/honest_question_about_bitcoin/",
         "selftext": "If bitcoin was originally intended to be a decentralized digital currency, why are people treating it like an investment? Isn’t the point of currency to be used as an instrument for money or a medium ",
         "created_utc": 1782417965.0
@@ -29,8 +29,8 @@
         "id": "1ug6kvg",
         "title": "New dynamic Bitcoin Rainbow Chart with R²=94,3%",
         "author": "blockchaincenter_de",
-        "score": 33,
-        "num_comments": 38,
+        "score": 45,
+        "num_comments": 48,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ug6kvg/new_dynamic_bitcoin_rainbow_chart_with_r²943/",
         "selftext": "So, I am the author of the original Bitcoin Rainbow Chart. As you may now, it fell > 10% below the lowest band (that was also added later).\n\nI don't want to let it die.\n\nInstead of blindly adding new ",
         "created_utc": 1782479782.0
@@ -40,7 +40,7 @@
         "title": "Comment for free Bitcoin! [Lightning tip]",
         "author": "KaleidoscopePlusPlus",
         "score": 0,
-        "num_comments": 38,
+        "num_comments": 39,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uff0pc/comment_for_free_bitcoin_lightning_tip/",
         "selftext": "Hey guys, I just launched a VPN that pays you bits of Lightning everyday. Non-custodial, no kyc, withdraw whenever you want.\n\nWould love to hear feedback, questions, memes :) \n\nTips are made over the ",
         "created_utc": 1782405072.0
@@ -49,7 +49,7 @@
         "id": "1ufh8vc",
         "title": "Bitcoin Mining Pool DMND Mines First Known Stratum V2 Block",
         "author": "TheresNoSecondBest",
-        "score": 72,
+        "score": 75,
         "num_comments": 22,
         "url": "https://bitcoinmagazine.com/bitcoin-mining/bitcoin-mining-pool-dmnd-mines",
         "selftext": "Bitcoin mining pool DMND has mined the first known Bitcoin block produced using the Stratum V2 protocol, a technical milestone that shifts control over block construction from pools to individual mine",
@@ -60,7 +60,7 @@
         "title": "Bitcoin needs to invest in marketing...",
         "author": "Throwdotaway1",
         "score": 0,
-        "num_comments": 28,
+        "num_comments": 31,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ug8lvy/bitcoin_needs_to_invest_in_marketing/",
         "selftext": "The wealthy holders NEED to start looking into marketing budget. Bitcoin is very dependent on hype and that hype has moved on. There are a lot of us stuck holding the bag, but with some marketing and ",
         "created_utc": 1782484577.0
@@ -69,21 +69,21 @@
         "id": "1ufhwgb",
         "title": "Finally Wholecoiner 💎",
         "author": "vium99",
-        "score": 1310,
-        "num_comments": 108,
+        "score": 1369,
+        "num_comments": 110,
         "url": "https://i.redd.it/48uoy7znzg9h1.png",
         "selftext": "Finally made it to 1 BTC 💎",
         "created_utc": 1782411238.0
       },
       {
-        "id": "1ufdmq1",
-        "title": "Thoughts about Bitcoin’s long-term security budget",
-        "author": "Embarrassed-Rest2760",
-        "score": 1,
-        "num_comments": 6,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ufdmq1/thoughts_about_bitcoins_longterm_security_budget/",
-        "selftext": "I’ve been wondering about Bitcoin’s long-term security budget.\n\nIs the expectation simply that fees and Bitcoin’s price eventually become large enough to sustain mining, or is the assumption that mini",
-        "created_utc": 1782402082.0
+        "id": "1ufwjq6",
+        "title": "Debunking The Anti-Bitcoin Views of a Socialist",
+        "author": "bitcoinphilosophy",
+        "score": 0,
+        "num_comments": 3,
+        "url": "https://youtu.be/A-x66uaof_k",
+        "selftext": "",
+        "created_utc": 1782448111.0
       }
     ]
   },
