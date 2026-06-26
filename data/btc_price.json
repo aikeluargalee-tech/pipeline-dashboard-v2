@@ -1,9 +1,9 @@
 {
-  "price": 59954.02,
-  "change_pct": 0.979,
+  "price": 59830.0,
+  "change_pct": 1.602,
   "high": 60759.99,
   "low": 58337.0,
-  "volume": 33024.10249,
-  "timestamp": "2026-06-26 14:15 UTC",
-  "_collected": "2026-06-26 14:15 UTC"
+  "volume": 30284.64966,
+  "timestamp": "2026-06-26 15:15 UTC",
+  "_collected": "2026-06-26 15:15 UTC"
 }

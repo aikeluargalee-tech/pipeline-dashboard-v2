@@ -1,29 +1,41 @@
 {
-  "dxy": 101.1,
-  "us_10y_yield": 4.4,
+  "dxy": 101.13,
+  "us_10y_yield": 4.38,
   "m2_supply": 23052.3,
   "regime": "mild-risk-off",
   "risk_assets": {
     "SPY": {
-      "price": 728.47,
-      "change_pct": -2.57
+      "price": 732.39,
+      "change_pct": -2.05
     },
     "QQQ": {
-      "price": 705.35,
-      "change_pct": -4.94
+      "price": 710.43,
+      "change_pct": -4.26
     },
     "GLD": {
-      "price": 372.56,
-      "change_pct": -3.04
+      "price": 374.9,
+      "change_pct": -2.43
     }
   },
-  "vix": 20.24,
+  "vix": 19.2,
   "etf_flow": {
     "daily_net": -691.7,
     "weekly_net": -1433.5,
     "trend": "strong_outflow"
   },
   "news": [
+    {
+      "title": "Here\u2019s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 14:06:06 +0000"
+    },
+    {
+      "title": "Framework Ventures raises $400M to invest beyond crypto: Report",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/framework-ventures-raise-400-million-push-beyond-crypto-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 13:58:28 +0000"
+    },
     {
       "title": "Hyperliquid added to Singapore's Investor Alert List",
       "source": "CoinTelegraph",
@@ -41,19 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/ascendex-exchange-reportedly-faces-liquidity-issues-claims-zachxbt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "Fri, 26 Jun 2026 11:47:02 +0000"
-    },
-    {
-      "title": "Bitcoin ETFs post June's biggest daily outflows as BTC falls below $60K",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-etfs-biggest-outflows-june-btc-below-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 26 Jun 2026 09:36:34 +0000"
-    },
-    {
-      "title": "Polymarket hit by $2.9M theft, users to be refunded",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/polymarket-vendor-compromise-drains-29m-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 26 Jun 2026 08:20:37 +0000"
     }
   ],
-  "_collected": "2026-06-26 14:15 UTC"
+  "_collected": "2026-06-26 15:15 UTC"
 }

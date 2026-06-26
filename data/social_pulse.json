@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T14:15:53.314951+00:00",
+  "timestamp": "2026-06-26T15:15:53.479435+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -9,41 +9,31 @@
         "id": "1ufer4g",
         "title": "Bitcoin is down so bad Bloomberg removed it from their homepage",
         "author": "thomas_unise",
-        "score": 500,
-        "num_comments": 107,
+        "score": 511,
+        "num_comments": 109,
         "url": "https://i.redd.it/bck11gcofg9h1.jpeg",
         "selftext": "",
         "created_utc": 1782404495.0
       },
       {
-        "id": "1ufbopa",
-        "title": "Bitcoin is down. And somewhere, someone is smiling, not because they bought the dip.",
-        "author": "MoneyMonsterStudios",
-        "score": 226,
-        "num_comments": 186,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ufbopa/bitcoin_is_down_and_somewhere_someone_is_smiling/",
-        "selftext": "Bitcoin opened deep in the red today, and I already know what's happening somewhere in my circle. There's someone who has never owned Bitcoin, **(one of my best friends**) never wanted to, who gets no",
-        "created_utc": 1782397840.0
-      },
-      {
         "id": "1ufkz8u",
         "title": "Honest question about bitcoin",
         "author": "Unreal_fist",
-        "score": 34,
-        "num_comments": 93,
+        "score": 38,
+        "num_comments": 94,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufkz8u/honest_question_about_bitcoin/",
         "selftext": "If bitcoin was originally intended to be a decentralized digital currency, why are people treating it like an investment? Isn’t the point of currency to be used as an instrument for money or a medium ",
         "created_utc": 1782417965.0
       },
       {
-        "id": "1ufc8uy",
-        "title": "For those who believe bitcoin is going lower...",
-        "author": "Suspicious-Ear-6129",
-        "score": 35,
-        "num_comments": 76,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ufc8uy/for_those_who_believe_bitcoin_is_going_lower/",
-        "selftext": "Thoughts on the bitcoin power law chart? I understand it is just a chart so it only reads data but, its been true so far through bitcoins history. There appears to be a large support at 59k, so how co",
-        "created_utc": 1782399064.0
+        "id": "1ug6kvg",
+        "title": "New dynamic Bitcoin Rainbow Chart with R²=94,3%",
+        "author": "blockchaincenter_de",
+        "score": 33,
+        "num_comments": 38,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ug6kvg/new_dynamic_bitcoin_rainbow_chart_with_r²943/",
+        "selftext": "So, I am the author of the original Bitcoin Rainbow Chart. As you may now, it fell > 10% below the lowest band (that was also added later).\n\nI don't want to let it die.\n\nInstead of blindly adding new ",
+        "created_utc": 1782479782.0
       },
       {
         "id": "1uff0pc",
@@ -59,96 +49,50 @@
         "id": "1ufh8vc",
         "title": "Bitcoin Mining Pool DMND Mines First Known Stratum V2 Block",
         "author": "TheresNoSecondBest",
-        "score": 71,
+        "score": 72,
         "num_comments": 22,
         "url": "https://bitcoinmagazine.com/bitcoin-mining/bitcoin-mining-pool-dmnd-mines",
         "selftext": "Bitcoin mining pool DMND has mined the first known Bitcoin block produced using the Stratum V2 protocol, a technical milestone that shifts control over block construction from pools to individual mine",
         "created_utc": 1782409848.0
       },
       {
-        "id": "1ug6kvg",
-        "title": "New dynamic Bitcoin Rainbow Chart with R²=94,3%",
-        "author": "blockchaincenter_de",
-        "score": 20,
-        "num_comments": 21,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ug6kvg/new_dynamic_bitcoin_rainbow_chart_with_r²943/",
-        "selftext": "So, I am the author of the original Bitcoin Rainbow Chart. As you may now, it fell > 10% below the lowest band (that was also added later).\n\nI don't want to let it die.\n\nInstead of blindly adding new ",
-        "created_utc": 1782479782.0
+        "id": "1ug8lvy",
+        "title": "Bitcoin needs to invest in marketing...",
+        "author": "Throwdotaway1",
+        "score": 0,
+        "num_comments": 28,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ug8lvy/bitcoin_needs_to_invest_in_marketing/",
+        "selftext": "The wealthy holders NEED to start looking into marketing budget. Bitcoin is very dependent on hype and that hype has moved on. There are a lot of us stuck holding the bag, but with some marketing and ",
+        "created_utc": 1782484577.0
       },
       {
-        "id": "1ufaxnn",
-        "title": "That’s all you got?!?",
-        "author": "Craignog",
-        "score": 1078,
-        "num_comments": 132,
-        "url": "https://i.redd.it/xog9e1fuqf9h1.jpeg",
-        "selftext": "",
-        "created_utc": 1782396144.0
+        "id": "1ufhwgb",
+        "title": "Finally Wholecoiner 💎",
+        "author": "vium99",
+        "score": 1310,
+        "num_comments": 108,
+        "url": "https://i.redd.it/48uoy7znzg9h1.png",
+        "selftext": "Finally made it to 1 BTC 💎",
+        "created_utc": 1782411238.0
+      },
+      {
+        "id": "1ufdmq1",
+        "title": "Thoughts about Bitcoin’s long-term security budget",
+        "author": "Embarrassed-Rest2760",
+        "score": 1,
+        "num_comments": 6,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ufdmq1/thoughts_about_bitcoins_longterm_security_budget/",
+        "selftext": "I’ve been wondering about Bitcoin’s long-term security budget.\n\nIs the expectation simply that fees and Bitcoin’s price eventually become large enough to sustain mining, or is the assumption that mini",
+        "created_utc": 1782402082.0
       }
     ]
   },
   "twitter": {
-    "status": "ok",
+    "status": "error",
     "source": "Twitter/X",
-    "count": 8,
-    "items": [
-      {
-        "id": "2070499825238286363",
-        "text": "This Tuesday, I'm releasing a 40-minute conversation with @saylor, Co-Founder and Executive Chairman of @Strategy, recorded in Prague.\n\nSaylor built Strategy on one belief: that Bitcoin is the first e",
-        "user": "CryptoMichNL",
-        "likes": 32,
-        "retweets": 1
-      },
-      {
-        "id": "2070499807152550072",
-        "text": "@AbuJimad Bitcoin cycles repeat the same pattern",
-        "user": "LordOfAlts",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2070499757986910645",
-        "text": "Whilst @Bitcoin struggles and general crypto sentiment is low, only one project continues to develop at an astonishing rate- that is NOSANA @nosana_ai ! With the best team, product, tokenomics, partne",
-        "user": "Bosco_7777",
-        "likes": 1,
-        "retweets": 0
-      },
-      {
-        "id": "2070499664558981210",
-        "text": "Saylor is undeterred by Bitcoin price drop.",
-        "user": "SmindCrypto",
-        "likes": 1,
-        "retweets": 0
-      },
-      {
-        "id": "2070499644090556514",
-        "text": "MSTR vs Bitcoin As Everyone Blames Michael Saylor  https://t.co/HeYW1FKtj5",
-        "user": "cryptoBCLUBB",
-        "likes": 19,
-        "retweets": 13
-      },
-      {
-        "id": "2070499625275171025",
-        "text": "🚨ICYMI: @CryptoTimes_io Highlights – June 25, 2026\n\nCrypto markets faced heavy selling pressure yesterday as Bitcoin broke below $60K, triggering over $1 billion in liquidations. The day also brought ",
-        "user": "DishitaInCrypto",
-        "likes": 1,
-        "retweets": 0
-      },
-      {
-        "id": "2070499621000892913",
-        "text": "Well here we are talking about MSTR. Individual stocks tend to have wider tolerances applied to the cycles. Btc hasn’t been around long but that’s not really relevant since we are talking about cycles",
-        "user": "camelfinance",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2070499567766794430",
-        "text": "@ColinTCrypto @CryptoJelleNL Very wrong. Everything is pointing to the exact opposite. Altcoins are set to massively outperform Bitcoin.",
-        "user": "beka_web3",
-        "likes": 0,
-        "retweets": 0
-      }
-    ]
+    "count": 0,
+    "items": [],
+    "error": "exit=1: WARNING twitter_cli.client: Failed to init ClientTransaction: 'NoneType' object has no attribute 'group'\n"
   },
   "xueqiu": {
     "status": "not_installed",
