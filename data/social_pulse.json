@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T02:16:01.505217+00:00",
+  "timestamp": "2026-06-26T03:16:06.999587+00:00",
   "reddit": {
     "status": "ok",
     "source": "r/Bitcoin",
@@ -9,58 +9,58 @@
         "id": "1ufbopa",
         "title": "Bitcoin is down. And somewhere, someone is smiling, not because they bought the dip.",
         "author": "MoneyMonsterStudios",
-        "score": 155,
-        "num_comments": 158,
+        "score": 161,
+        "num_comments": 161,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufbopa/bitcoin_is_down_and_somewhere_someone_is_smiling/",
         "selftext": "Bitcoin opened deep in the red today, and I already know what's happening somewhere in my circle. There's someone who has never owned Bitcoin, **(one of my best friends**) never wanted to, who gets no",
         "created_utc": 1782397840.0
       },
       {
-        "id": "1uf2n5s",
-        "title": "Bitcoin explained",
-        "author": "inb7_banned",
-        "score": 193,
-        "num_comments": 93,
-        "url": "https://i.redd.it/h53dz9lpmd9h1.png",
-        "selftext": "",
-        "created_utc": 1782370550.0
-      },
-      {
         "id": "1ufer4g",
         "title": "Bitcoin is down so bad Bloomberg removed it from their homepage",
         "author": "thomas_unise",
-        "score": 280,
-        "num_comments": 73,
+        "score": 306,
+        "num_comments": 79,
         "url": "https://i.redd.it/bck11gcofg9h1.jpeg",
         "selftext": "",
         "created_utc": 1782404495.0
       },
       {
-        "id": "1ufc8uy",
-        "title": "For those who believe bitcoin is going lower...",
-        "author": "Suspicious-Ear-6129",
-        "score": 28,
-        "num_comments": 62,
-        "url": "https://www.reddit.com/r/Bitcoin/comments/1ufc8uy/for_those_who_believe_bitcoin_is_going_lower/",
-        "selftext": "Thoughts on the bitcoin power law chart? I understand it is just a chart so it only reads data but, its been true so far through bitcoins history. There appears to be a large support at 59k, so how co",
-        "created_utc": 1782399064.0
+        "id": "1uf2n5s",
+        "title": "Bitcoin explained",
+        "author": "inb7_banned",
+        "score": 189,
+        "num_comments": 95,
+        "url": "https://i.redd.it/h53dz9lpmd9h1.png",
+        "selftext": "",
+        "created_utc": 1782370550.0
       },
       {
         "id": "1ufkz8u",
         "title": "Honest question about bitcoin",
         "author": "Unreal_fist",
-        "score": 14,
-        "num_comments": 63,
+        "score": 15,
+        "num_comments": 69,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1ufkz8u/honest_question_about_bitcoin/",
         "selftext": "If bitcoin was originally intended to be a decentralized digital currency, why are people treating it like an investment? Isn’t the point of currency to be used as an instrument for money or a medium ",
         "created_utc": 1782417965.0
+      },
+      {
+        "id": "1ufc8uy",
+        "title": "For those who believe bitcoin is going lower...",
+        "author": "Suspicious-Ear-6129",
+        "score": 26,
+        "num_comments": 63,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1ufc8uy/for_those_who_believe_bitcoin_is_going_lower/",
+        "selftext": "Thoughts on the bitcoin power law chart? I understand it is just a chart so it only reads data but, its been true so far through bitcoins history. There appears to be a large support at 59k, so how co",
+        "created_utc": 1782399064.0
       },
       {
         "id": "1uff0pc",
         "title": "Comment for free Bitcoin! [Lightning tip]",
         "author": "KaleidoscopePlusPlus",
         "score": 0,
-        "num_comments": 35,
+        "num_comments": 36,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uff0pc/comment_for_free_bitcoin_lightning_tip/",
         "selftext": "Hey guys, I just launched a VPN that pays you bits of Lightning everyday. Non-custodial, no kyc, withdraw whenever you want.\n\nWould love to hear feedback, questions, memes :) \n\nTips are made over the ",
         "created_utc": 1782405072.0
@@ -69,86 +69,30 @@
         "id": "1uf8yys",
         "title": "Greg Maxwell u/nullc just submitted comments opposing the FCC's proposed mandatory telecom KYC, and Bitcoiners should pay attention.",
         "author": "seedor",
-        "score": 32,
+        "score": 35,
         "num_comments": 9,
         "url": "https://www.reddit.com/r/Bitcoin/comments/1uf8yys/greg_maxwell_unullc_just_submitted_comments/",
         "selftext": "His argument isn't really about phones but about a broader trend toward mandatory identification everywhere. Once anonymous access disappears, every data breach becomes a target list, every privacy-co",
         "created_utc": 1782391462.0
       },
       {
-        "id": "1ufh8vc",
-        "title": "Bitcoin Mining Pool DMND Mines First Known Stratum V2 Block",
-        "author": "TheresNoSecondBest",
-        "score": 42,
-        "num_comments": 6,
-        "url": "https://bitcoinmagazine.com/bitcoin-mining/bitcoin-mining-pool-dmnd-mines",
-        "selftext": "Bitcoin mining pool DMND has mined the first known Bitcoin block produced using the Stratum V2 protocol, a technical milestone that shifts control over block construction from pools to individual mine",
-        "created_utc": 1782409848.0
+        "id": "1uez7vo",
+        "title": "Bitcoin",
+        "author": "not_right__",
+        "score": 0,
+        "num_comments": 11,
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1uez7vo/bitcoin/",
+        "selftext": "If you bought BTC in 2021 you're now at breakeven😅",
+        "created_utc": 1782359563.0
       }
     ]
   },
   "twitter": {
-    "status": "ok",
+    "status": "error",
     "source": "Twitter/X",
-    "count": 8,
-    "items": [
-      {
-        "id": "2070330199653187870",
-        "text": "@Savage90623337 i wouldnt own Bitcoin with a ten foot pole.",
-        "user": "MASTERBTCLTC",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2070330196029268013",
-        "text": "Kids’ science fair project on a Bitcoin volcano model actually won a ribbon. 🌻 🍂 🎈",
-        "user": "KayaWxtts",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2070330154333925443",
-        "text": "Muted a bunch of words like trump republican democrat elon crypto bitcoin. Stress levels down 1000000%",
-        "user": "ruskabeats",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2070330128572514606",
-        "text": "Bitcoin is confirming a bear flag pattern. Once it completes, the target is...\" \nEntry: 59300 to59100\n\n1Target: 58000\n2 tp:   57100\n3 tp: 56400\nBitcoin #BTC\nAnalysis: #CryptoTrading #TechnicalAnalysis",
-        "user": "Rahul92634956",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2070330113586266148",
-        "text": "@OffshoreHODL willing is different to actually pay. im willing to pay 20sats/vb but if the free market says i can get a transaction for 1 then i'll take it. is it good for bitcoin - fucked if i know",
-        "user": "BTC_Bender",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2070330107542081627",
-        "text": "🎤 CONNECT WITH STACKSAMILLI TODAY! 🎤\n\nWant to connect directly with StacksAMilli?\n\n📱 Chat by text or voice (where available) and become part of the community.\n\n🎵 Stay up to date with:\n\nNew music relea",
-        "user": "SlotePerron",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2070330081222787109",
-        "text": "@Vladcostea Basically there are “AI slope” and “Bitcoin slope”. What a result of two most promising technologies of yesterday…",
-        "user": "dr_orlovsky",
-        "likes": 0,
-        "retweets": 0
-      },
-      {
-        "id": "2070330064668148219",
-        "text": "BTC $58,798 | ETH $1,529\n\nFear in the market. Smart money watches, waits, strikes.\n\n#Bitcoin #Crypto #NexusLab",
-        "user": "NexusLab101",
-        "likes": 0,
-        "retweets": 0
-      }
-    ]
+    "count": 0,
+    "items": [],
+    "error": "exit=1: WARNING twitter_cli.client: Failed to init ClientTransaction: 'NoneType' object has no attribute 'group'\n"
   },
   "xueqiu": {
     "status": "not_installed",
