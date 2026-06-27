@@ -25,6 +25,12 @@
   },
   "news": [
     {
+      "title": "Securitize expects to raise $400M ahead of public debut",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/securitize-expects-to-raise-400m-ahead-of-public-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 27 Jun 2026 05:35:27 +0000"
+    },
+    {
       "title": "SOL reclaims $72, but onchain data flags weakening momentum",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/markets/sol-reclaims-72-but-onchain-data-flags-weakening-momentum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -47,13 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "Fri, 26 Jun 2026 19:20:33 +0000"
-    },
-    {
-      "title": "SEC, CFTC seek input on unified portfolio margin rules across securities and derivatives",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/sec-cftc-portfolio-margin-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 26 Jun 2026 17:43:33 +0000"
     }
   ],
-  "_collected": "2026-06-27 05:16 UTC"
+  "_collected": "2026-06-27 06:15 UTC"
 }
