@@ -3,7 +3,7 @@
     "value": 15,
     "classification": "extreme_fear"
   },
-  "coinbase_premium": -0.168,
+  "coinbase_premium": -0.166,
   "whale": {
     "ratio": null,
     "trend": "falling",
@@ -21,11 +21,11 @@
     ]
   },
   "stablecoins": {
-    "usdc_price": 1.00117,
-    "usdc_deviation": 0.117,
+    "usdc_price": 1.00119,
+    "usdc_deviation": 0.119,
     "dai_price": null,
     "dai_deviation": null,
     "status": "healthy"
   },
-  "_collected": "2026-06-27 04:16 UTC"
+  "_collected": "2026-06-27 05:17 UTC"
 }

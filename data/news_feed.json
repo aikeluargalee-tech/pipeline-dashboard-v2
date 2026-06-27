@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-27T04:16:18.903669+00:00",
+  "timestamp": "2026-06-27T05:16:51.565220+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -18,12 +18,12 @@
         {
           "id": "en_bitcoin_1",
           "source": "en_bitcoin",
-          "source_name": "Forbes",
+          "source_name": "Bitcoin Magazine",
           "rank": 2,
-          "title": "The ‘Ponzi Scheme’ Is Collapsing—Bitcoin Suddenly Braced For A Massive Price Crash - Forbes",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZFN4YWN5YzZfNk1TUHRkMWczdVdmdmgtaXJNdlB6ZDBPZTVwRDBqaUk0SzRYU2M0YWVCUGpvQXBxU3hiODJRbjdrdldKV3JkaTFhNUxzSTdJRHJNVVk1WFBEcFNJdWN6M2h4U0pHZkFianFqN0w3ZEtDeVpEbDNRWHNtLXd6bDRwcXlIOTZGbDViVjVMdjd5UWw4VHdUS2IxMk5jb2o0aXpnZ2tYeEh1M1RKX1F2dkxESzlyWFVKOU5sbGdP?oc=5",
+          "title": "Bitcoin Price Flash Crashes from $61,000 to $58,000 as Market Waits For Support - Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQblZpT0ZaYlJ1c1FvZVVDb1BNY1Y2U1B1ZUxuMU1sYjZSLXp6UGlHVVFFclN3NkkzdXdPdWVnSUZTWTdBb19qRkdrUEQ2VFRlWWpVQVIxMS1rekRRVEdBY0pSYTVMM2xsWVk2R3h2SjR1VWZuU0Q1LUs1Rko1Tmk4aFNCWQ?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 12:25:00 GMT"
+          "publish_time": "Thu, 25 Jun 2026 14:27:34 GMT"
         },
         {
           "id": "en_bitcoin_2",
@@ -38,52 +38,52 @@
         {
           "id": "en_bitcoin_3",
           "source": "en_bitcoin",
-          "source_name": "24/7 Wall St.",
-          "rank": 4,
-          "title": "How Much Will One Bitcoin Be Worth in 2030? - 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTnlrcHNoVnVNSFpqM2RqX3VmVDNmdXAtMlVXMDZVLW5sRGwyMzhEVTB4R0xlRXBMbjZqcGRoaEhwWmVUc1FtT1Joa1VaMHpxRVplel9zbU5WZ1NiLTl4RDdiTkJyNjNyX0R5QWNBWmNvT1U3aXFOSHlEcnRzdFpreDJTek92bjVzSnZxajV5ZnE0amJ2RVpxU2hhei1ONWp5SVhJ?oc=5",
-          "content": "",
-          "publish_time": "Thu, 25 Jun 2026 17:14:36 GMT"
-        },
-        {
-          "id": "en_bitcoin_4",
-          "source": "en_bitcoin",
           "source_name": "FOREX.com",
-          "rank": 5,
+          "rank": 4,
           "title": "Bitcoin Price Forecast: BTC/USD 30% Selloff Tests Major Support—Bottoming Risk Builds 6 25 2026 - FOREX.com",
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRE8xRUE1V2FqbGtvZ0ZHM01WSFpqZHNJa1hpeXpWemNsWnhUMW90RXhaLUMzbFhTY1JSekd4Q3U5QjNqWEdlZFlnSW9MUTc1ZEtCTHZLdkxyVFVoUmhLcHhHRGYzYnNDMDlhRlhPVlVJNnkwMjlyeEVfYUdibldkVUF0bGpwQ3RycmxTdUlib1dpYVVlQmhXc2t3M3VxNkhFeTA5UVNxSVdrZ19nTlFBNmVZU05wWDBibklpOFA2c1BSbDViN0t2alMxX21mdndUaE1VejhWMA?oc=5",
           "content": "",
           "publish_time": "Thu, 25 Jun 2026 18:36:53 GMT"
         },
         {
-          "id": "en_bitcoin_5",
+          "id": "en_bitcoin_4",
           "source": "en_bitcoin",
-          "source_name": "The Block",
-          "rank": 6,
-          "title": "21Shares says bitcoin's post-halving price action 'still looks familiar,' but sees recovery toward $100,000 by year-end - The Block",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb242R0NsOE85OVlqMnZ0dTNoX1lIUXQ3cnQxQ0dXcXZpOGt4STVfLVBnRjN2M0VJZDhiUWt0WUdoa0FrVkxPYW1JSEY0Ry1uUnhCMzNjbFFHZko0S3RUZUtrTGpVUjk0eDJBTUNUWEViN3dvRE5laUR4T2tPUkxMWGp6b290SG1ZS2pUYkpPcnRydi1nNnZKdG90YXEwaXh3QURDcTNOdUpuN3dkMFBuNUh3NGdzMDh2WEwyUDZMb3gxYTdReWs2dExiWXVfRkJZTFhpVHlRU2FmOXJsYWJfcF9pTQ?oc=5",
+          "source_name": "24/7 Wall St.",
+          "rank": 5,
+          "title": "How Much Will One Bitcoin Be Worth in 2030? - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTnlrcHNoVnVNSFpqM2RqX3VmVDNmdXAtMlVXMDZVLW5sRGwyMzhEVTB4R0xlRXBMbjZqcGRoaEhwWmVUc1FtT1Joa1VaMHpxRVplel9zbU5WZ1NiLTl4RDdiTkJyNjNyX0R5QWNBWmNvT1U3aXFOSHlEcnRzdFpreDJTek92bjVzSnZxajV5ZnE0amJ2RVpxU2hhei1ONWp5SVhJ?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 11:38:27 GMT"
+          "publish_time": "Thu, 25 Jun 2026 17:14:36 GMT"
         },
         {
-          "id": "en_bitcoin_6",
+          "id": "en_bitcoin_5",
           "source": "en_bitcoin",
           "source_name": "Fortune",
-          "rank": 7,
+          "rank": 6,
           "title": "Current price of Bitcoin for June 24, 2026 - Fortune",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OWVJvbXNrVm9GRlFjS1ZKbEVDSDNFQnB0dFVhZ3RuNkJtSUcwdXNINGh1Q3d5RFF2TmVHTGRTVzR1R1lJWTAyTHREMjlaOXZPQXJrZzJEcVJrM2xKYW9rU0JiNFh3YUE?oc=5",
           "content": "",
           "publish_time": "Wed, 24 Jun 2026 13:03:00 GMT"
         },
         {
-          "id": "en_bitcoin_7",
+          "id": "en_bitcoin_6",
           "source": "en_bitcoin",
           "source_name": "TradingView",
-          "rank": 8,
+          "rank": 7,
           "title": "Bitcoin bottom hunters fear fresh pain after $1.3 trillion rout - TradingView",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMlQ1UXA5SDBmVjhGVGp4ajdHLTlGQXhnY0trNEZrSnlUMnlrT2d0d2xIV3VCOTQyWEtZbm1yUVdIY3VDNVNucE94SGtuZGhUekdaQmpDa0dXU2dxMGFYcjNNQlczWnZuR2pVWk1FNkl4UV9GMFhfVU5DbGtVYmVEVnNTQ1J6dXVfalpCTEs0ekllWl9zREsxVFJrb1l4QUVSTHc2Y09zcjd1QnNiRVpmeGFmckFXYXpaN3NBSjVVenNyZjg?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 13:02:19 GMT"
+        },
+        {
+          "id": "en_bitcoin_7",
+          "source": "en_bitcoin",
+          "source_name": "The Block",
+          "rank": 8,
+          "title": "21Shares says bitcoin's post-halving price action 'still looks familiar,' but sees recovery toward $100,000 by year-end - The Block",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb242R0NsOE85OVlqMnZ0dTNoX1lIUXQ3cnQxQ0dXcXZpOGt4STVfLVBnRjN2M0VJZDhiUWt0WUdoa0FrVkxPYW1JSEY0Ry1uUnhCMzNjbFFHZko0S3RUZUtrTGpVUjk0eDJBTUNUWEViN3dvRE5laUR4T2tPUkxMWGp6b290SG1ZS2pUYkpPcnRydi1nNnZKdG90YXEwaXh3QURDcTNOdUpuN3dkMFBuNUh3NGdzMDh2WEwyUDZMb3gxYTdReWs2dExiWXVfRkJZTFhpVHlRU2FmOXJsYWJfcF9pTQ?oc=5",
+          "content": "",
+          "publish_time": "Wed, 24 Jun 2026 11:38:27 GMT"
         }
       ]
     },
@@ -114,62 +114,62 @@
         {
           "id": "en_crypto_2",
           "source": "en_crypto",
-          "source_name": "Financial Times",
-          "rank": 3,
-          "title": "Bitcoin hits 20-month low as market sentiment sours - Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGVlQXFBa18zRUoxNDBXYllIN2FCV2hNSWZJWXkyYVc1UnJSdVJteWtIdmhZcmVaOXlzWlp6cnFpZlBKUF8wVWxJTUdNelFkNUVwNkRnMXg1M01GWWZ1QVlCMnY0R3phSXVzN05MdlNjM21XUHN5Szg1aXROZXo0V240bTM?oc=5",
-          "content": "",
-          "publish_time": "Wed, 24 Jun 2026 19:37:41 GMT"
-        },
-        {
-          "id": "en_crypto_3",
-          "source": "en_crypto",
-          "source_name": "CNBC",
-          "rank": 4,
-          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTMwY2NncWRoaGVwYy1YdWQyZER4ZE16Q2JrWE5sb2U4UnF3TkxzRnBaMnhDUkJkX0NGZnNDN2ZBY2hLcm11NWZIVWk1V2hnY0NxQzR2YmljWGVpWW5UTHFET2tPYmJxUnRZRmtzR2FRRlByX2ZmSXYtcUczMWlkRFJkeFNVS25Xb2JmSFFXTnB3MHZGaU5iTldnVUduMkxBQUxWTzlyNEwtZ0hkQ0ZKQtIBtgFBVV95cUxPVlc2Sm5HdEtHUzVIR25nUkxMUjF2OVhMbU1YdFV4WjctRGt5cEhWUk8wWC0yXzE5RWF5THFJTVZfa3hXX3RsY2NMZFRoZUVJN0d4Ymg2TEZjcWE2S1NUNkRkU3VFTEZ4ejlxMTk4V043UFQ3NjkxS0lnS21JOVhhbkFpM1Z0eEFBdVo3TTU1S3daMmhnQzQ4SFh6NkdhVEJ1ZUtIUTJXZElmWERheDBkV3ZjVHNPZw?oc=5",
-          "content": "",
-          "publish_time": "Wed, 24 Jun 2026 18:58:27 GMT"
-        },
-        {
-          "id": "en_crypto_4",
-          "source": "en_crypto",
-          "source_name": "Fortune",
-          "rank": 5,
-          "title": "Bitcoin down 20% since May as Strategy fallout spooks investors - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPXzBJQXVaajhkaFFvTXY3MlM3MHk4VkxmM3JHak1ZSC04Ty1XVF9GSmZCak1uQnpVVU9xdHpIbDl5N1RjRFZrYWJpU0xsSUtYcWF4VGNNTFBIUk9GQ3g3SmhHUWdmemtFRWR6QzhRUm1ueUVRcktseWtybU9jM2tWQ0pBR3c5U0M5MXV0ag?oc=5",
-          "content": "",
-          "publish_time": "Fri, 26 Jun 2026 18:23:00 GMT"
-        },
-        {
-          "id": "en_crypto_5",
-          "source": "en_crypto",
           "source_name": "Bloomberg.com",
-          "rank": 6,
+          "rank": 3,
           "title": "Bitcoin’s Biggest Corporate Buyer Reels as Funding Edge Vanishes - Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXBvR1VvNEVHU0ZLMDZvQU1QR2pUR19kenFBT2I3emV5VmVaV3ZOVURHNGdlTUVzcG5UM1d4d1diRWdkU2ZXUmt3dmFORXJCNmlzTThZcWhJTTB0bGdKT2hxR3d0c3ZOQVQ1N0hyRWpqVU9BT1NILUt6UVBzTnRWb0VRQUJPRTRmT1pjWTZ5TFVSMXZ2MU5XQy11U09DNENhbXF5bDRpMjVPWDN1N2ZIMDh5MmFKdw?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 20:30:17 GMT"
         },
         {
-          "id": "en_crypto_6",
+          "id": "en_crypto_3",
+          "source": "en_crypto",
+          "source_name": "Financial Times",
+          "rank": 4,
+          "title": "Bitcoin hits 20-month low as market sentiment sours - Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGVlQXFBa18zRUoxNDBXYllIN2FCV2hNSWZJWXkyYVc1UnJSdVJteWtIdmhZcmVaOXlzWlp6cnFpZlBKUF8wVWxJTUdNelFkNUVwNkRnMXg1M01GWWZ1QVlCMnY0R3phSXVzN05MdlNjM21XUHN5Szg1aXROZXo0V240bTM?oc=5",
+          "content": "",
+          "publish_time": "Wed, 24 Jun 2026 19:37:41 GMT"
+        },
+        {
+          "id": "en_crypto_4",
           "source": "en_crypto",
           "source_name": "Yahoo Finance",
-          "rank": 7,
+          "rank": 5,
           "title": "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Barometer Hits 3-Year High: Analyst Weighs If July Will Bring Relief To BTC Investors - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnN5UnRTNzVtWHNTWHNXdVR2ekhWdmk4T3JsOWg5S2VSbUhTUE44RU1XRVBadV9wSTVMcjctdVlaVkM5OElmYWhxZHNjano1OG9EdVVqcmVHMUFSYklkcEVCcnhhVHRuR0hXLTZ5SXNTcTFlTlJXekhFZUl6OE11RlF5X1ZMeUJyUEduYmRzZjZyTmdzWWllUFR4YnBfMjdRa1E?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 02:15:00 GMT"
         },
         {
-          "id": "en_crypto_7",
+          "id": "en_crypto_5",
           "source": "en_crypto",
           "source_name": "Reuters",
-          "rank": 8,
+          "rank": 6,
           "title": "Spain markets watchdog rules out extension for EU crypto licence deadline - Reuters",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPamdvRVFFU1dZX0VMb2NXMFZrMFE3cWhZX3pJcnNjb25oaGg1UFZTbHdFaHJaeHc4ZlVzekc0bFFrazMwTndnYldCWER6MHFRYTFjZGVBdUxpU0N1NzBiUTdNVXNFb0t2RHR2RDBQRDVLdzg4eW5BdllkR0UzalpzREJkMHVIV1RaR0NjWlBUTzd0TWxmT25wbWVQNndtMTNIZ1BvUlNlR01Mc0tFcUpqU2ZNWGlnZE5wNVNfc19iRQ?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 12:13:25 GMT"
+        },
+        {
+          "id": "en_crypto_6",
+          "source": "en_crypto",
+          "source_name": "The Motley Fool",
+          "rank": 7,
+          "title": "Could the Cryptocurrency XRP Turn $1,000 Into $10,000? - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSXMtMVA1T25aempScS1sc1hVZ29xamtvSDN0MmlKOEM4WXhVLUY1YnFYMjRjaDVTdTB6LVJodEhhdGtsaEM4RHRSUWM3alpWOUY3akQtdDlqUGhTbl9vVkFOUnU4YU1Ec2l6RFZqbWplYVpvSTY3cWp0LWg2UEJxTXFRTk5QaG84UGF6QkVqZHhSenFudjMzUw?oc=5",
+          "content": "",
+          "publish_time": "Fri, 26 Jun 2026 15:45:00 GMT"
+        },
+        {
+          "id": "en_crypto_7",
+          "source": "en_crypto",
+          "source_name": "Morningstar",
+          "rank": 8,
+          "title": "Coinbase: Reducing Fair Value Estimate as Cryptocurrency Prices Collapse - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX18wSlpyMTBWZnE0Y1VYWDFKLWd5OUhtR19nQWlHVmlBYVBkM0ZXTHBPb3FINmxZclR4a0dKN3VwdW5UZThTaktUaWhpMVZZNzNCeXdrM0xPcVVYc0pGd0hIY3dDNVBfRFU1TVhaRVp4R1JkcVNNRFB4dnhaRUhwVTkyaEFfX0h0elRyeV9tRkRCZFRwOFM2M2FPS1U2RFhLMFZiT1ln?oc=5",
+          "content": "",
+          "publish_time": "Fri, 26 Jun 2026 16:20:40 GMT"
         }
       ]
     },
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-27T12:16:16.699824",
+    "timestamp": "2026-06-27T13:16:50.568555",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4545471.244817516",
-        "liquidity": "160860.59276"
+        "volume": "4545480.674817516",
+        "liquidity": "165001.70043"
       }
     ]
   }

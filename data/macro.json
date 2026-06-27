@@ -1,5 +1,5 @@
 {
-  "dxy": 101.37,
+  "dxy": 101.36,
   "us_10y_yield": 4.37,
   "m2_supply": 21200.0,
   "regime": "mixed",
@@ -55,5 +55,5 @@
       "published": "Fri, 26 Jun 2026 17:43:33 +0000"
     }
   ],
-  "_collected": "2026-06-27 04:16 UTC"
+  "_collected": "2026-06-27 05:16 UTC"
 }
