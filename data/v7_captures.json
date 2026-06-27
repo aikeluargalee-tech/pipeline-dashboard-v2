@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-27 06:15 UTC",
+  "timestamp": "2026-06-27 07:15 UTC",
   "long": {
     "file": "../assets/v7_long.png",
-    "size_kb": 372.8
+    "size_kb": 371.6
   },
   "short": {
     "file": "../assets/v7_short.png",
-    "size_kb": 372.7
+    "size_kb": 371.5
   },
-  "_collected": "2026-06-27 06:15 UTC"
+  "_collected": "2026-06-27 07:15 UTC"
 }

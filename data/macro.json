@@ -1,7 +1,7 @@
 {
   "dxy": 101.36,
   "us_10y_yield": 4.37,
-  "m2_supply": 21200.0,
+  "m2_supply": 23052.3,
   "regime": "mixed",
   "risk_assets": {
     "SPY": {
@@ -31,6 +31,12 @@
       "published": "Sat, 27 Jun 2026 05:35:27 +0000"
     },
     {
+      "title": "Here\u2019s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 27 Jun 2026 05:30:00 +0000"
+    },
+    {
       "title": "SOL reclaims $72, but onchain data flags weakening momentum",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/markets/sol-reclaims-72-but-onchain-data-flags-weakening-momentum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -47,13 +53,7 @@
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/markets/old-ether-wallets-move-37806-eth-as-whale-conviction-faces-key-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "Fri, 26 Jun 2026 22:18:07 +0000"
-    },
-    {
-      "title": "Spain regulator rules out extension for non-MiCA compliant crypto companies",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 26 Jun 2026 19:20:33 +0000"
     }
   ],
-  "_collected": "2026-06-27 06:15 UTC"
+  "_collected": "2026-06-27 07:15 UTC"
 }
