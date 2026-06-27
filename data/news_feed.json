@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-27T07:15:46.687965+00:00",
+  "timestamp": "2026-06-27T08:15:33.633665+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -38,12 +38,12 @@
         {
           "id": "en_bitcoin_3",
           "source": "en_bitcoin",
-          "source_name": "CoinDesk",
+          "source_name": "FOREX.com",
           "rank": 4,
-          "title": "Bitcoin price analysis: BTC could fall as low as $48,000 in final capitulation - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWERldldtbWhpcWRMVWx5N3ZUQjlUUkItTVRFLVp3bHJNM0w4b0Vma1lodE5UanhtOGpJbjFXSVFDYnJlR0NnNldsUkVrVDFBZWlOYjI1UnBsaUZlUndMWk43NFRsaFU1eUdvWDJMZDQ1RlQ1S3kzQmc3bzd1Ym95dS15TDYyclQ0d2pNTHdWZV9BT1YxZFlydXBUN3ZXS1RBeG95UVBreTkxY0N2RnMxUGJJWm5kbndXUUlFaC1Od1JPWlF0THdzaVdR?oc=5",
+          "title": "Bitcoin Price Forecast: BTC/USD 30% Selloff Tests Major Support—Bottoming Risk Builds 6 25 2026 - FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRE8xRUE1V2FqbGtvZ0ZHM01WSFpqZHNJa1hpeXpWemNsWnhUMW90RXhaLUMzbFhTY1JSekd4Q3U5QjNqWEdlZFlnSW9MUTc1ZEtCTHZLdkxyVFVoUmhLcHhHRGYzYnNDMDlhRlhPVlVJNnkwMjlyeEVfYUdibldkVUF0bGpwQ3RycmxTdUlib1dpYVVlQmhXc2t3M3VxNkhFeTA5UVNxSVdrZ19nTlFBNmVZU05wWDBibklpOFA2c1BSbDViN0t2alMxX21mdndUaE1VejhWMA?oc=5",
           "content": "",
-          "publish_time": "Thu, 25 Jun 2026 15:26:01 GMT"
+          "publish_time": "Thu, 25 Jun 2026 18:36:53 GMT"
         },
         {
           "id": "en_bitcoin_4",
@@ -58,32 +58,32 @@
         {
           "id": "en_bitcoin_5",
           "source": "en_bitcoin",
-          "source_name": "FOREX.com",
-          "rank": 6,
-          "title": "Bitcoin Price Forecast: BTC/USD 30% Selloff Tests Major Support—Bottoming Risk Builds 6 25 2026 - FOREX.com",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRE8xRUE1V2FqbGtvZ0ZHM01WSFpqZHNJa1hpeXpWemNsWnhUMW90RXhaLUMzbFhTY1JSekd4Q3U5QjNqWEdlZFlnSW9MUTc1ZEtCTHZLdkxyVFVoUmhLcHhHRGYzYnNDMDlhRlhPVlVJNnkwMjlyeEVfYUdibldkVUF0bGpwQ3RycmxTdUlib1dpYVVlQmhXc2t3M3VxNkhFeTA5UVNxSVdrZ19nTlFBNmVZU05wWDBibklpOFA2c1BSbDViN0t2alMxX21mdndUaE1VejhWMA?oc=5",
-          "content": "",
-          "publish_time": "Thu, 25 Jun 2026 18:36:53 GMT"
-        },
-        {
-          "id": "en_bitcoin_6",
-          "source": "en_bitcoin",
           "source_name": "Fortune",
-          "rank": 7,
+          "rank": 6,
           "title": "Current price of Bitcoin for June 24, 2026 - Fortune",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OWVJvbXNrVm9GRlFjS1ZKbEVDSDNFQnB0dFVhZ3RuNkJtSUcwdXNINGh1Q3d5RFF2TmVHTGRTVzR1R1lJWTAyTHREMjlaOXZPQXJrZzJEcVJrM2xKYW9rU0JiNFh3YUE?oc=5",
           "content": "",
           "publish_time": "Wed, 24 Jun 2026 13:03:00 GMT"
         },
         {
-          "id": "en_bitcoin_7",
+          "id": "en_bitcoin_6",
           "source": "en_bitcoin",
           "source_name": "TradingView",
-          "rank": 8,
+          "rank": 7,
           "title": "Bitcoin bottom hunters fear fresh pain after $1.3 trillion rout - TradingView",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMlQ1UXA5SDBmVjhGVGp4ajdHLTlGQXhnY0trNEZrSnlUMnlrT2d0d2xIV3VCOTQyWEtZbm1yUVdIY3VDNVNucE94SGtuZGhUekdaQmpDa0dXU2dxMGFYcjNNQlczWnZuR2pVWk1FNkl4UV9GMFhfVU5DbGtVYmVEVnNTQ1J6dXVfalpCTEs0ekllWl9zREsxVFJrb1l4QUVSTHc2Y09zcjd1QnNiRVpmeGFmckFXYXpaN3NBSjVVenNyZjg?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 13:02:19 GMT"
+        },
+        {
+          "id": "en_bitcoin_7",
+          "source": "en_bitcoin",
+          "source_name": "The Block",
+          "rank": 8,
+          "title": "21Shares says bitcoin's post-halving price action 'still looks familiar,' but sees recovery toward $100,000 by year-end - The Block",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb242R0NsOE85OVlqMnZ0dTNoX1lIUXQ3cnQxQ0dXcXZpOGt4STVfLVBnRjN2M0VJZDhiUWt0WUdoa0FrVkxPYW1JSEY0Ry1uUnhCMzNjbFFHZko0S3RUZUtrTGpVUjk0eDJBTUNUWEViN3dvRE5laUR4T2tPUkxMWGp6b290SG1ZS2pUYkpPcnRydi1nNnZKdG90YXEwaXh3QURDcTNOdUpuN3dkMFBuNUh3NGdzMDh2WEwyUDZMb3gxYTdReWs2dExiWXVfRkJZTFhpVHlRU2FmOXJsYWJfcF9pTQ?oc=5",
+          "content": "",
+          "publish_time": "Wed, 24 Jun 2026 11:38:27 GMT"
         }
       ]
     },
@@ -114,62 +114,62 @@
         {
           "id": "en_crypto_2",
           "source": "en_crypto",
-          "source_name": "Financial Times",
+          "source_name": "The Block",
           "rank": 3,
-          "title": "Bitcoin hits 20-month low as market sentiment sours - Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGVlQXFBa18zRUoxNDBXYllIN2FCV2hNSWZJWXkyYVc1UnJSdVJteWtIdmhZcmVaOXlzWlp6cnFpZlBKUF8wVWxJTUdNelFkNUVwNkRnMXg1M01GWWZ1QVlCMnY0R3phSXVzN05MdlNjM21XUHN5Szg1aXROZXo0V240bTM?oc=5",
+          "title": "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWUydXdlaHAyaHZOZVVkMkhjd2JaMy1kX2hMTW5rQW1BbmI5OHcyZGhKczVZNTZKOTVpc2duN2VJNlAzS2ZoVXkybU4tU3NFMXR2STdHVFlFMnJFMVVlbUdvMTRuTlhoeVVwTjBwQ05vaTEydGloa181YjNaeGowaHBvZzE1V2JxYkMzRFNXc09mcnFyQS03dU5jNnB3S3o5R040SE5OQzN3eWo1Y1RKbjNUYlM3dlJaWVlWdnloSi1XSEFaLVE?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 19:37:41 GMT"
+          "publish_time": "Fri, 26 Jun 2026 20:44:55 GMT"
         },
         {
           "id": "en_crypto_3",
           "source": "en_crypto",
-          "source_name": "Yahoo Finance",
+          "source_name": "CNBC",
           "rank": 4,
+          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTMwY2NncWRoaGVwYy1YdWQyZER4ZE16Q2JrWE5sb2U4UnF3TkxzRnBaMnhDUkJkX0NGZnNDN2ZBY2hLcm11NWZIVWk1V2hnY0NxQzR2YmljWGVpWW5UTHFET2tPYmJxUnRZRmtzR2FRRlByX2ZmSXYtcUczMWlkRFJkeFNVS25Xb2JmSFFXTnB3MHZGaU5iTldnVUduMkxBQUxWTzlyNEwtZ0hkQ0ZKQtIBtgFBVV95cUxPVlc2Sm5HdEtHUzVIR25nUkxMUjF2OVhMbU1YdFV4WjctRGt5cEhWUk8wWC0yXzE5RWF5THFJTVZfa3hXX3RsY2NMZFRoZUVJN0d4Ymg2TEZjcWE2S1NUNkRkU3VFTEZ4ejlxMTk4V043UFQ3NjkxS0lnS21JOVhhbkFpM1Z0eEFBdVo3TTU1S3daMmhnQzQ4SFh6NkdhVEJ1ZUtIUTJXZElmWERheDBkV3ZjVHNPZw?oc=5",
+          "content": "",
+          "publish_time": "Wed, 24 Jun 2026 18:58:27 GMT"
+        },
+        {
+          "id": "en_crypto_4",
+          "source": "en_crypto",
+          "source_name": "Yahoo Finance",
+          "rank": 5,
           "title": "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Barometer Hits 3-Year High: Analyst Weighs If July Will Bring Relief To BTC Investors - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnN5UnRTNzVtWHNTWHNXdVR2ekhWdmk4T3JsOWg5S2VSbUhTUE44RU1XRVBadV9wSTVMcjctdVlaVkM5OElmYWhxZHNjano1OG9EdVVqcmVHMUFSYklkcEVCcnhhVHRuR0hXLTZ5SXNTcTFlTlJXekhFZUl6OE11RlF5X1ZMeUJyUEduYmRzZjZyTmdzWWllUFR4YnBfMjdRa1E?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 02:15:00 GMT"
         },
         {
-          "id": "en_crypto_4",
+          "id": "en_crypto_5",
           "source": "en_crypto",
           "source_name": "Reuters",
-          "rank": 5,
+          "rank": 6,
           "title": "Spain markets watchdog rules out extension for EU crypto licence deadline - Reuters",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPamdvRVFFU1dZX0VMb2NXMFZrMFE3cWhZX3pJcnNjb25oaGg1UFZTbHdFaHJaeHc4ZlVzekc0bFFrazMwTndnYldCWER6MHFRYTFjZGVBdUxpU0N1NzBiUTdNVXNFb0t2RHR2RDBQRDVLdzg4eW5BdllkR0UzalpzREJkMHVIV1RaR0NjWlBUTzd0TWxmT25wbWVQNndtMTNIZ1BvUlNlR01Mc0tFcUpqU2ZNWGlnZE5wNVNfc19iRQ?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 12:13:25 GMT"
         },
         {
-          "id": "en_crypto_5",
+          "id": "en_crypto_6",
           "source": "en_crypto",
           "source_name": "The Motley Fool",
-          "rank": 6,
+          "rank": 7,
           "title": "Could the Cryptocurrency XRP Turn $1,000 Into $10,000? - The Motley Fool",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSXMtMVA1T25aempScS1sc1hVZ29xamtvSDN0MmlKOEM4WXhVLUY1YnFYMjRjaDVTdTB6LVJodEhhdGtsaEM4RHRSUWM3alpWOUY3akQtdDlqUGhTbl9vVkFOUnU4YU1Ec2l6RFZqbWplYVpvSTY3cWp0LWg2UEJxTXFRTk5QaG84UGF6QkVqZHhSenFudjMzUw?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 15:45:00 GMT"
         },
         {
-          "id": "en_crypto_6",
+          "id": "en_crypto_7",
           "source": "en_crypto",
           "source_name": "Morningstar",
-          "rank": 7,
+          "rank": 8,
           "title": "Coinbase: Reducing Fair Value Estimate as Cryptocurrency Prices Collapse - Morningstar",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX18wSlpyMTBWZnE0Y1VYWDFKLWd5OUhtR19nQWlHVmlBYVBkM0ZXTHBPb3FINmxZclR4a0dKN3VwdW5UZThTaktUaWhpMVZZNzNCeXdrM0xPcVVYc0pGd0hIY3dDNVBfRFU1TVhaRVp4R1JkcVNNRFB4dnhaRUhwVTkyaEFfX0h0elRyeV9tRkRCZFRwOFM2M2FPS1U2RFhLMFZiT1ln?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 16:20:40 GMT"
-        },
-        {
-          "id": "en_crypto_7",
-          "source": "en_crypto",
-          "source_name": "BeInCrypto",
-          "rank": 8,
-          "title": "Michael Saylor Reaffirms Bitcoin Bet Amid Strategy Legal Pressure - BeInCrypto",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81TjJ6V1JkZ0c4WEw5SGJEc2FaVWJHQWJLci1LaTc0WjZZdkRkclNIT1AzVDNaNU5DR0preXVGVm9QNjV0RmhWUVNkXzE2QUY3ZHV1cldBMXRGcDlOWk9wZnlmSlk2eWhKLTNpZy12V0I?oc=5",
-          "content": "",
-          "publish_time": "Fri, 26 Jun 2026 13:20:00 GMT"
         }
       ]
     },
@@ -182,10 +182,10 @@
           "source": "en_fed",
           "source_name": "Reuters",
           "rank": 1,
-          "title": "Fed expected to hold rates steady in July, hike in September - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVk00RzlFdHFJVkhBbGVLVDZHOWtmc2xabW1KaTBadTJJWEVtbHFUaFhHMFVIa2dpSng4NzYxUDc4MXZTNVZSeTBiUVRZRDlTY01DaV9wUElHakRyRGJIOW94VUt3Yl91ZHVVZVAyQjRQS0hQMW45dG9JaDdJMWJvazBOcnVRU0FyVEU0Y3cxYUtDcmE0RmZJ?oc=5",
+          "title": "Fed to hold rates this year, economists say, defying market bets for hikes: Reuters poll - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOVhzTEt6NzhPRmxuMExGNVZSS29KX09XY1RxTUpBeVNlcWhkTS1rbGtZY2xPTzJqdVprb3FkY0xYSW5udG54T2RNX3JpVm5HTGN5ZDhvU1JOLXB2MEJmUGtFY1k0TmttMGdaTVNhcnlreDcyZlZsa2NyeUtRNzFrZHBvVEpIX0pqQkxGQjBURUNrUDQ0bzhWZGFfakJxclpyWFVqUWVWTXQyWUVXS2gw?oc=5",
           "content": "",
-          "publish_time": "Thu, 25 Jun 2026 13:47:55 GMT"
+          "publish_time": "Fri, 26 Jun 2026 11:28:21 GMT"
         },
         {
           "id": "en_fed_1",
@@ -222,10 +222,10 @@
           "source": "en_fed",
           "source_name": "Reuters",
           "rank": 5,
-          "title": "Fed to hold rates this year, economists say, defying market bets for hikes: Reuters poll - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOVhzTEt6NzhPRmxuMExGNVZSS29KX09XY1RxTUpBeVNlcWhkTS1rbGtZY2xPTzJqdVprb3FkY0xYSW5udG54T2RNX3JpVm5HTGN5ZDhvU1JOLXB2MEJmUGtFY1k0TmttMGdaTVNhcnlreDcyZlZsa2NyeUtRNzFrZHBvVEpIX0pqQkxGQjBURUNrUDQ0bzhWZGFfakJxclpyWFVqUWVWTXQyWUVXS2gw?oc=5",
+          "title": "Fed expected to hold rates steady in July, hike in September - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVk00RzlFdHFJVkhBbGVLVDZHOWtmc2xabW1KaTBadTJJWEVtbHFUaFhHMFVIa2dpSng4NzYxUDc4MXZTNVZSeTBiUVRZRDlTY01DaV9wUElHakRyRGJIOW94VUt3Yl91ZHVVZVAyQjRQS0hQMW45dG9JaDdJMWJvazBOcnVRU0FyVEU0Y3cxYUtDcmE0RmZJ?oc=5",
           "content": "",
-          "publish_time": "Fri, 26 Jun 2026 11:28:21 GMT"
+          "publish_time": "Thu, 25 Jun 2026 13:47:55 GMT"
         },
         {
           "id": "en_fed_5",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-27T15:15:43.689613",
+    "timestamp": "2026-06-27T16:15:30.709128",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -272,7 +272,7 @@
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
         "volume": "4545484.754817516",
-        "liquidity": "164184.76701"
+        "liquidity": "163756.52064"
       }
     ]
   }

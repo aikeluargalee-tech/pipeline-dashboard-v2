@@ -26,12 +26,12 @@
     },
     "session": {
       "state": "PROCEED",
-      "name": "ASIA",
+      "name": "LONDON",
       "ny_open": "13:30 UTC",
       "golden_window": "9:30 PM \u2013 1:00 AM",
       "is_weekend": false
     }
   },
-  "timestamp": "2026-06-27 07:15 UTC",
-  "_collected": "2026-06-27 07:15 UTC"
+  "timestamp": "2026-06-27 08:15 UTC",
+  "_collected": "2026-06-27 08:15 UTC"
 }
