@@ -52,7 +52,13 @@
           "max_price": 64472.99,
           "direction_correct": true
         },
-        "7d": null,
+        "7d": {
+          "price_then": 60305.73,
+          "price_change_pct": -5.0,
+          "min_price": 58115.01,
+          "max_price": 65622.83,
+          "direction_correct": false
+        },
         "30d": null
       },
       "resolved": false
@@ -109,7 +115,13 @@
           "max_price": 64472.99,
           "direction_correct": true
         },
-        "7d": null,
+        "7d": {
+          "price_then": 60421.45,
+          "price_change_pct": -4.75,
+          "min_price": 58115.01,
+          "max_price": 65622.83,
+          "direction_correct": false
+        },
         "30d": null
       },
       "resolved": false
@@ -210,7 +222,13 @@
           "max_price": 64588.0,
           "direction_correct": true
         },
-        "7d": null,
+        "7d": {
+          "price_then": 60421.45,
+          "price_change_pct": -4.73,
+          "min_price": 58115.01,
+          "max_price": 65622.83,
+          "direction_correct": false
+        },
         "30d": null
       },
       "resolved": false

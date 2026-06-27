@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T03:34:37.092823+00:00",
+  "last_updated": "2026-06-27T04:16:36.062233+00:00",
   "signals": {
     "all_time": {
       "total": 4,
@@ -23,8 +23,8 @@
         "sample_size": 8
       },
       "7d": {
-        "hit_rate": null,
-        "sample_size": 0
+        "hit_rate": 0.0,
+        "sample_size": 3
       },
       "30d": {
         "hit_rate": null,

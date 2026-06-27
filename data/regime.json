@@ -19,19 +19,19 @@
   "derivatives": {
     "verdict": "NEUTRAL",
     "emoji": "\ud83d\udfe1",
-    "detail": "FR 0.0048% neutral, L/S 2.10, CVD -2738"
+    "detail": "FR 0.0049% neutral, L/S 2.09, CVD -1770"
   },
   "cycle": {
-    "verdict": "MID",
-    "emoji": "\ud83d\udfe1",
-    "detail": ""
+    "verdict": "UNDERVALUED",
+    "emoji": "\ud83d\udfe2",
+    "detail": "MVRV-Z 0.23 undervalued, netflow +746 BTC"
   },
   "synthesis": {
     "verdict": "CAUTIOUS NEUTRAL",
-    "detail": "Tightened rules active. 0 bullish / 0 bearish signals. | TA: Price 13.7% below MA50 \u2014 medium-term structure bearish",
-    "bull_count": 0.0,
+    "detail": "Tightened rules active. 1 bullish / 0 bearish signals. | TA: Price 13.6% below MA50 \u2014 medium-term structure bearish",
+    "bull_count": 0.5,
     "bear_count": 0.0,
-    "ta_warning": "Price 13.7% below MA50 \u2014 medium-term structure bearish"
+    "ta_warning": "Price 13.6% below MA50 \u2014 medium-term structure bearish"
   },
-  "_collected": "2026-06-27 03:34 UTC"
+  "_collected": "2026-06-27 04:16 UTC"
 }

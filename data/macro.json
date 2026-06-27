@@ -1,25 +1,59 @@
 {
-  "etf_flow": {
-    "daily_net": 0.0,
-    "weekly_net": -1342.8,
-    "trend": "heavy_outflow"
-  },
-  "regime": "mild-risk-off",
+  "dxy": 101.37,
+  "us_10y_yield": 4.37,
+  "m2_supply": 21200.0,
+  "regime": "mixed",
   "risk_assets": {
     "SPY": {
       "price": 728.99,
-      "change_pct": -0.72
+      "change_pct": -2.5
     },
     "QQQ": {
       "price": 706.52,
-      "change_pct": -1.38
+      "change_pct": -4.78
     },
     "GLD": {
       "price": 373.63,
-      "change_pct": 1.13
+      "change_pct": -2.76
     }
   },
   "vix": 18.41,
-  "dxy": 101.366,
-  "_collected": "2026-06-27 03:34 UTC"
+  "etf_flow": {
+    "daily_net": 0.0,
+    "weekly_net": -1342.8,
+    "trend": "flat"
+  },
+  "news": [
+    {
+      "title": "SOL reclaims $72, but onchain data flags weakening momentum",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/sol-reclaims-72-but-onchain-data-flags-weakening-momentum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 27 Jun 2026 02:47:59 +0000"
+    },
+    {
+      "title": "US senators urge CFTC probe Polymarket over \u2018deceptive marketing\u2019",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/us-senators-urge-cftc-probe-polymarket-over-report-deceptive-marketing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 27 Jun 2026 02:16:06 +0000"
+    },
+    {
+      "title": "Old Ether wallets move 37,806 ETH as whale conviction faces key test at $1.5K",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/old-ether-wallets-move-37806-eth-as-whale-conviction-faces-key-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 22:18:07 +0000"
+    },
+    {
+      "title": "Spain regulator rules out extension for non-MiCA compliant crypto companies",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 19:20:33 +0000"
+    },
+    {
+      "title": "SEC, CFTC seek input on unified portfolio margin rules across securities and derivatives",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/sec-cftc-portfolio-margin-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 26 Jun 2026 17:43:33 +0000"
+    }
+  ],
+  "_collected": "2026-06-27 04:16 UTC"
 }
