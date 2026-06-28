@@ -1,31 +1,3 @@
 {
-  "cot": {
-    "as_of": "06/23/26",
-    "open_interest": 20554,
-    "leveraged_funds": {
-      "long": null,
-      "short": null,
-      "net": null
-    },
-    "commercials": {
-      "long": null,
-      "short": null,
-      "net": null
-    },
-    "weekly_change": "06/16/26",
-    "signal": "NEUTRAL \u2014 No extreme positioning"
-  },
-  "options": {
-    "total_oi": 341098.0,
-    "call_oi": 215313.0,
-    "put_oi": 125785.0,
-    "volume_24h": null,
-    "call_volume": 17492.4,
-    "put_volume": 21169.8,
-    "pcr_oi": 0.58,
-    "pcr_volume": 1.21,
-    "notional_value": 20573417717.18,
-    "signal": "NEUTRAL \u2014 Balanced call/put positioning"
-  },
-  "_collected": "2026-06-27 08:15 UTC"
+  "_collected": "2026-06-28 04:16 UTC"
 }

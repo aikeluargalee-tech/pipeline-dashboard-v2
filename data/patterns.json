@@ -17,10 +17,10 @@
     "description": ""
   },
   "rsi_reversal": {
-    "signal": "neutral",
-    "rsi": 34.9,
-    "action": "No reversal signal",
-    "price": 60480.0
+    "signal": "oversold",
+    "rsi": 26.6,
+    "action": "Watch for reversal up",
+    "price": 60223.99
   },
-  "_collected": "2026-06-27 08:15 UTC"
+  "_collected": "2026-06-28 04:16 UTC"
 }

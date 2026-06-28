@@ -1,31 +1,10 @@
 {
-  "fear_greed": {
-    "value": 15,
-    "classification": "extreme_fear"
-  },
-  "coinbase_premium": -0.1621,
-  "whale": {
-    "ratio": null,
-    "trend": "falling",
-    "signal": "retail_dominant",
-    "direction": null
-  },
-  "session": {
-    "current": "LONDON",
-    "ny_open": "9:30 PM",
-    "golden_window": "9:30 PM \u2013 1:00 AM",
-    "trap_zone": "7:30 PM \u2013 9:30 PM",
-    "mode": "SUMMER (Daylight Savings)",
-    "warnings": [
-      "\u26a0\ufe0f WEEKEND \u2014 markets thin, no institutional flow. Skip."
-    ]
-  },
   "stablecoins": {
-    "usdc_price": 1.00118,
-    "usdc_deviation": 0.118,
+    "usdc_price": 1.0011,
+    "usdc_deviation": 0.11,
     "dai_price": null,
     "dai_deviation": null,
     "status": "healthy"
   },
-  "_collected": "2026-06-27 08:15 UTC"
+  "_collected": "2026-06-28 04:16 UTC"
 }

@@ -13,8 +13,8 @@
     },
     "vix_spx": {
       "state": "PROCEED",
-      "vix": 18.41,
-      "spx_change": -2.5,
+      "vix": null,
+      "spx_change": -0.72,
       "vix_weekly_chg": 6.5
     },
     "ai3_wave": {
@@ -26,12 +26,12 @@
     },
     "session": {
       "state": "PROCEED",
-      "name": "LONDON",
+      "name": "Unknown",
       "ny_open": "13:30 UTC",
-      "golden_window": "9:30 PM \u2013 1:00 AM",
+      "golden_window": null,
       "is_weekend": false
     }
   },
-  "timestamp": "2026-06-27 08:15 UTC",
-  "_collected": "2026-06-27 08:15 UTC"
+  "timestamp": "2026-06-28 04:15 UTC",
+  "_collected": "2026-06-28 04:15 UTC"
 }

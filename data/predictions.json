@@ -348,7 +348,13 @@
           "max_price": 64823.52,
           "direction_correct": false
         },
-        "7d": null,
+        "7d": {
+          "price_then": 60227.99,
+          "price_change_pct": -6.5,
+          "min_price": 58115.01,
+          "max_price": 65622.83,
+          "direction_correct": false
+        },
         "30d": null
       },
       "resolved": false
