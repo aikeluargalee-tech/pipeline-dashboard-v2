@@ -18,9 +18,9 @@
   },
   "rsi_reversal": {
     "signal": "oversold",
-    "rsi": 26.6,
+    "rsi": 25.3,
     "action": "Watch for reversal up",
-    "price": 60223.99
+    "price": 60015.17
   },
-  "_collected": "2026-06-28 04:16 UTC"
+  "_collected": "2026-06-28 05:16 UTC"
 }
