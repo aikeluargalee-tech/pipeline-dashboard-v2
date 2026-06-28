@@ -1,25 +1,59 @@
 {
-  "etf_flow": {
-    "daily_net": -444.5,
-    "weekly_net": -1787.3,
-    "trend": "heavy_outflow"
-  },
+  "dxy": 101.366,
+  "us_10y_yield": 4.37,
+  "m2_supply": 23052.3,
   "regime": "mild-risk-off",
   "risk_assets": {
     "SPY": {
       "price": 728.99,
-      "change_pct": -0.72
+      "change_pct": -2.5
     },
     "QQQ": {
       "price": 706.52,
-      "change_pct": -1.38
+      "change_pct": -4.78
     },
     "GLD": {
       "price": 373.63,
-      "change_pct": 1.13
+      "change_pct": -2.76
     }
   },
   "vix": 18.41,
-  "dxy": 101.366,
-  "_collected": "2026-06-28 05:16 UTC"
+  "etf_flow": {
+    "daily_net": -444.5,
+    "weekly_net": -1787.3,
+    "trend": "strong_outflow"
+  },
+  "news": [
+    {
+      "title": "Base post-mortem reveals sequencer bug behind back-to-back outages",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/base-post-mortem-reveals-sequencer-bug-behind-back-to-back-outages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 28 Jun 2026 05:14:05 +0000"
+    },
+    {
+      "title": "Bitcoin unspent transaction outputs signal capitulation underway: analyst",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-unspent-transaction-outputs-signal-capitulation-underway-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 28 Jun 2026 02:51:04 +0000"
+    },
+    {
+      "title": "Fidelity rebuts claims Bitcoin becomes less secure after halvings",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/fidelity-bitcoin-long-term-security-halvings-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 27 Jun 2026 20:53:02 +0000"
+    },
+    {
+      "title": "Here\u2019s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 27 Jun 2026 19:34:45 +0000"
+    },
+    {
+      "title": "Bitcoin faces fresh capitulation risk as 50K BTC moved at a loss",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 27 Jun 2026 19:27:44 +0000"
+    }
+  ],
+  "_collected": "2026-06-28 06:16 UTC"
 }

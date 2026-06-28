@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-28T05:16:03.718036+00:00",
+  "timestamp": "2026-06-28T06:15:56.294633+00:00",
   "en_news": {
     "bitcoin": {
       "name": "🇬🇧 Bitcoin News",
@@ -104,22 +104,22 @@
         {
           "id": "en_crypto_1",
           "source": "en_crypto",
-          "source_name": "The Motley Fool",
-          "rank": 2,
-          "title": "Should You Buy Bitcoin While It's Under $70,000? The Answer Might Surprise You. - The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQW1QLUU0SDVTaFhfb2xFa1RfaEZscmF5YmFBTTVlZ3FacC1fZEhuOHcxLXBlWjNxWkw0R251WnBacURURnlDeFoxT053ZWxSZzRGYUZTUlRLZFJ0ZmY4Z1oxbjZzUVBpOGZqS2xCTDdhSTNTU01FcnNDelYzemdKRGdlbzBlYUJjbXUw?oc=5",
-          "content": "",
-          "publish_time": "Sun, 28 Jun 2026 00:41:00 GMT"
-        },
-        {
-          "id": "en_crypto_2",
-          "source": "en_crypto",
           "source_name": "Reuters",
-          "rank": 3,
+          "rank": 2,
           "title": "Spain markets watchdog rules out extension for EU crypto licence deadline - Reuters",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPamdvRVFFU1dZX0VMb2NXMFZrMFE3cWhZX3pJcnNjb25oaGg1UFZTbHdFaHJaeHc4ZlVzekc0bFFrazMwTndnYldCWER6MHFRYTFjZGVBdUxpU0N1NzBiUTdNVXNFb0t2RHR2RDBQRDVLdzg4eW5BdllkR0UzalpzREJkMHVIV1RaR0NjWlBUTzd0TWxmT25wbWVQNndtMTNIZ1BvUlNlR01Mc0tFcUpqU2ZNWGlnZE5wNVNfc19iRQ?oc=5",
           "content": "",
           "publish_time": "Fri, 26 Jun 2026 12:13:25 GMT"
+        },
+        {
+          "id": "en_crypto_2",
+          "source": "en_crypto",
+          "source_name": "The Motley Fool",
+          "rank": 3,
+          "title": "Should You Buy Bitcoin While It's Under $70,000? The Answer Might Surprise You. - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQW1QLUU0SDVTaFhfb2xFa1RfaEZscmF5YmFBTTVlZ3FacC1fZEhuOHcxLXBlWjNxWkw0R251WnBacURURnlDeFoxT053ZWxSZzRGYUZTUlRLZFJ0ZmY4Z1oxbjZzUVBpOGZqS2xCTDdhSTNTU01FcnNDelYzemdKRGdlbzBlYUJjbXUw?oc=5",
+          "content": "",
+          "publish_time": "Sun, 28 Jun 2026 00:41:00 GMT"
         },
         {
           "id": "en_crypto_3",
@@ -134,22 +134,22 @@
         {
           "id": "en_crypto_4",
           "source": "en_crypto",
-          "source_name": "CNBC",
+          "source_name": "CoinDesk",
           "rank": 5,
-          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTMwY2NncWRoaGVwYy1YdWQyZER4ZE16Q2JrWE5sb2U4UnF3TkxzRnBaMnhDUkJkX0NGZnNDN2ZBY2hLcm11NWZIVWk1V2hnY0NxQzR2YmljWGVpWW5UTHFET2tPYmJxUnRZRmtzR2FRRlByX2ZmSXYtcUczMWlkRFJkeFNVS25Xb2JmSFFXTnB3MHZGaU5iTldnVUduMkxBQUxWTzlyNEwtZ0hkQ0ZKQtIBtgFBVV95cUxPVlc2Sm5HdEtHUzVIR25nUkxMUjF2OVhMbU1YdFV4WjctRGt5cEhWUk8wWC0yXzE5RWF5THFJTVZfa3hXX3RsY2NMZFRoZUVJN0d4Ymg2TEZjcWE2S1NUNkRkU3VFTEZ4ejlxMTk4V043UFQ3NjkxS0lnS21JOVhhbkFpM1Z0eEFBdVo3TTU1S3daMmhnQzQ4SFh6NkdhVEJ1ZUtIUTJXZElmWERheDBkV3ZjVHNPZw?oc=5",
+          "title": "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSG56SmkzUEZwQ29pTDFHRGY5RUtwTktVRkZxODZPc0UwYUgzekxpWko5Zm04ZHFvZWx5NVVYSy1LWjlDVWRCOXNHLVBROEdHUndWTFNsS196a2pBNHlKbmVCNVliZHR2blNDQ0NrMnRVLXBfTURzZTVfMThYUVQwdHdZQ05ZdktJdVF0MGEycnpMNmJwcXhFMVBtdzR2a1V3ZWVmcXBJTXdVU19vX3hqN3pta2JOZnZqampVWk1xaw?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 18:58:27 GMT"
+          "publish_time": "Sat, 27 Jun 2026 08:01:04 GMT"
         },
         {
           "id": "en_crypto_5",
           "source": "en_crypto",
-          "source_name": "CoinDesk",
+          "source_name": "CNBC",
           "rank": 6,
-          "title": "Live markets: Bitcoin claws back some of the losses after Micron beats earnings - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOHZvVlBMcmJLZzNubnNkWmd0N09BWWhVNUpwOFFMbUlmWGZUTEFPcjlpc3JkMzdiUTBHdHRaQ3U5cVlFNDlDZHpldkVoNlp4cXB3WlVWNlRHLWJNS292NU9HNUpfbi04LV9GQzVsd3puR2xkbHZKYmNhclZFSlU5VG9TYV9yUGRaTXRNdE1oX1ZFbW5QenhZaWs5RUVfa1FoZi1YSnNsQ3VVaTNxemtqbFg4NDFfOE9qMEFyRmluV3hvcVlo?oc=5",
+          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTMwY2NncWRoaGVwYy1YdWQyZER4ZE16Q2JrWE5sb2U4UnF3TkxzRnBaMnhDUkJkX0NGZnNDN2ZBY2hLcm11NWZIVWk1V2hnY0NxQzR2YmljWGVpWW5UTHFET2tPYmJxUnRZRmtzR2FRRlByX2ZmSXYtcUczMWlkRFJkeFNVS25Xb2JmSFFXTnB3MHZGaU5iTldnVUduMkxBQUxWTzlyNEwtZ0hkQ0ZKQtIBtgFBVV95cUxPVlc2Sm5HdEtHUzVIR25nUkxMUjF2OVhMbU1YdFV4WjctRGt5cEhWUk8wWC0yXzE5RWF5THFJTVZfa3hXX3RsY2NMZFRoZUVJN0d4Ymg2TEZjcWE2S1NUNkRkU3VFTEZ4ejlxMTk4V043UFQ3NjkxS0lnS21JOVhhbkFpM1Z0eEFBdVo3TTU1S3daMmhnQzQ4SFh6NkdhVEJ1ZUtIUTJXZElmWERheDBkV3ZjVHNPZw?oc=5",
           "content": "",
-          "publish_time": "Wed, 24 Jun 2026 21:34:18 GMT"
+          "publish_time": "Wed, 24 Jun 2026 18:58:27 GMT"
         },
         {
           "id": "en_crypto_6",
@@ -261,7 +261,7 @@
     }
   },
   "polymarket": {
-    "timestamp": "2026-06-28T13:16:01.278243",
+    "timestamp": "2026-06-28T14:15:55.101634",
     "total_active": 30,
     "crypto_relevant": 1,
     "markets": [
@@ -271,8 +271,8 @@
         "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
         "outcomes": "[\"Yes\", \"No\"]",
         "outcomePrices": "[\"0.4955\", \"0.5045\"]",
-        "volume": "4549327.197229517",
-        "liquidity": "161756.37943"
+        "volume": "4549364.345742517",
+        "liquidity": "161683.59056"
       }
     ]
   }
