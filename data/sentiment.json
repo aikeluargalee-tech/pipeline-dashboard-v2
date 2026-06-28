@@ -3,7 +3,7 @@
     "value": 18,
     "classification": "extreme_fear"
   },
-  "coinbase_premium": -0.1425,
+  "coinbase_premium": -0.1469,
   "whale": {
     "ratio": null,
     "trend": "rising",
@@ -11,7 +11,7 @@
     "direction": null
   },
   "session": {
-    "current": "ASIA",
+    "current": "LONDON",
     "ny_open": "9:30 PM",
     "golden_window": "9:30 PM \u2013 1:00 AM",
     "trap_zone": "7:30 PM \u2013 9:30 PM",
@@ -21,11 +21,11 @@
     ]
   },
   "stablecoins": {
-    "usdc_price": 1.00111,
-    "usdc_deviation": 0.111,
+    "usdc_price": 1.00108,
+    "usdc_deviation": 0.108,
     "dai_price": null,
     "dai_deviation": null,
     "status": "healthy"
   },
-  "_collected": "2026-06-28 07:16 UTC"
+  "_collected": "2026-06-28 08:16 UTC"
 }

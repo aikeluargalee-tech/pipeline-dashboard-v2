@@ -16,16 +16,16 @@
     "signal": "NEUTRAL \u2014 No extreme positioning"
   },
   "options": {
-    "total_oi": 336567.0,
-    "call_oi": 213422.0,
-    "put_oi": 123145.0,
+    "total_oi": 337358.0,
+    "call_oi": 214133.0,
+    "put_oi": 123225.0,
     "volume_24h": null,
-    "call_volume": 2736.9,
-    "put_volume": 4371.7,
+    "call_volume": 3579.0,
+    "put_volume": 4129.1,
     "pcr_oi": 0.58,
-    "pcr_volume": 1.6,
-    "notional_value": 20143527092.0,
+    "pcr_volume": 1.15,
+    "notional_value": 20293905433.2,
     "signal": "NEUTRAL \u2014 Balanced call/put positioning"
   },
-  "_collected": "2026-06-28 07:16 UTC"
+  "_collected": "2026-06-28 08:16 UTC"
 }
